@@ -8,7 +8,6 @@
 
 
 ## Intent
-
 This test case addresses the **export** of the required IFC entities for the exchange of data related to **two railway track alignments without cant**.
 
 <details><summary>Main IFC concept templates involved in this test</summary> 
@@ -23,10 +22,17 @@ This test case addresses the **export** of the required IFC entities for the exc
 
 
 
+## Prerequisites
+All validation criteria (and usages) of prerequisites' tests shall be **verified for this test too** (regression test principle). Prerequisites for the present test case are listed below.
+
+| Test code | Test title                     | Comments |
+|-----------|--------------------------------|----------|
+| PJ01      | Project Setup                  | none     |
+| GL01      | Global Positioning RFI dataset | none     |
 
 
-## Test dataset
 
+## Test dataset (input)
 This test case utilises the dataset collected in the Dataset folder and summarised in the table below. **For more details on each item see [Dataset description](Dataset/README.md).**
 
 | Filename              | Type (format) | Description                                                        |
@@ -39,31 +45,8 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 
 
-
-## Prerequisites
-
-All validation criteria (and usages) of prerequisites' tests shall be **verified for this test too** (regression test principle). Prerequisites for the present test case are listed below.
-
-| Test code | Test title                     | Comments |
-|-----------|--------------------------------|----------|
-| PJ01      | Project Setup                  | none     |
-| GL01      | Global Positioning RFI dataset | none     |
-
-
-
-
-## Expected results
-
-For the test validation the only source will be:
-
-- n. 1 IFC file containing the information as requested. The file shall be named using the following syntax: `TestCode`_`SoftwareVendor`.`ifc` (Example: *AL22_AmazingSoft.ifc*)
-- any other evidence of fulfillment of the informal validation criteria referenced below
-
-
-
-
 ## Validation criteria
-:zap: For this test case to be considered passed, **all criteria listed in this section**, and **the ones of prerequisites tests** shall be verified, with no exception. :zap:
+:zap: For this test case to be considered passed, **all criteria listed in this section**, and **the ones of prerequisites tests** shall be verified. :zap:
 
 ### Formal rules
 
@@ -219,3 +202,61 @@ Precision for angles and slope (ANGL_002) applies to the values of the following
 ### Informal criteria
 
 ...
+
+
+### Expected geometry
+
+<img src="./Dataset/LineLayout.svg" width="500"/>
+
+
+### Control parameters
+
+The parameters contained in the following sections are meant to support the validation of the correct creation of the alignment, based on the dataset provided in this test.
+
+**IMPORTANT**: These parameters can be used also to support the **validation of import** into a receiving application. To do so,  `IfcReferent` entities shall be above have to be defined.
+
+<details><summary> Alignment 1_Primary route </summary>
+
+| ID      | CRITERIA                                                            | VALUE        |
+|---------|---------------------------------------------------------------------|--------------|
+| ALIG_10 | Horizontal Starting point Mileage (pk)                              | 0+000        |
+| ALIG_11 | Horizontal Starting point DistAlong                                 | 0.0000       |
+| ALIG_12 | Horizontal Starting point X                                         | 452413.9199  |
+| ALIG_13 | Horizontal Starting point Y                                         | 4539456.4011 |
+| ALIG_14 | Vertical Starting point Mileage                                     | 0+000        |
+| ALIG_15 | Vertical Starting point Z                                           | 5.0000       |
+| ALIG_16 | Horizontal Ending point Mileage (pk)                                | 0+876.3682   |
+| ALIG_17 | Horizontal Ending point DistAlong                                   | 876.3682     |
+| ALIG_18 | Horizontal Ending point X                                           | 453202.5241  |
+| ALIG_19 | Horizontal Ending point Y                                           | 4539831.9287 |
+| ALIG_20 | Vertical Ending point Mileage                                       | 0+876.3682   |
+| ALIG_21 | Vertical Ending point Z                                             | 2.0000       |
+| ALIG_22 | Total 2D length of alignment (horizontal projection)                | 876.3682     |
+| ALIG_23 | Total 3D length of alignment                                        | 876.3819     |
+| ALIG_24 | Height difference between start and end point of alignment 3D curve | -3.0000      |
+
+</details>
+
+
+<details><summary> Alignment 2_Diverted route </summary>
+
+| ID      | CRITERIA                                                            | VALUE        |
+|---------|---------------------------------------------------------------------|--------------|
+| ALIG_10 | Horizontal Starting point Mileage (pk)                              | 0+000        |
+| ALIG_11 | Horizontal Starting point DistAlong                                 | 0.0000       |
+| ALIG_12 | Horizontal Starting point X                                         | 452460.8898  |
+| ALIG_13 | Horizontal Starting point Y                                         | 4539473.5425 |
+| ALIG_14 | Vertical Starting point Mileage                                     | 0+000        |
+| ALIG_15 | Vertical Starting point Z                                           | 5.0000       |
+| ALIG_16 | Horizontal Ending point Mileage (pk)                                | 0+828.0965   |
+| ALIG_17 | Horizontal Ending point DistAlong                                   | 828.0965     |
+| ALIG_18 | Horizontal Ending point X                                           | 453208.8311  |
+| ALIG_19 | Horizontal Ending point Y                                           | 4539818.3191 |
+| ALIG_20 | Vertical Ending point Mileage                                       | 0+828.0965   |
+| ALIG_21 | Vertical Ending point Z                                             | 2.0000       |
+| ALIG_22 | Total 2D length of alignment (horizontal projection)                | 828.0965     |
+| ALIG_23 | Total 3D length of alignment                                        | 828.1099     |
+| ALIG_24 | Height difference between start and end point of alignment 3D curve | -3.0000      |
+
+</details>
+
