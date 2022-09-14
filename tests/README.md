@@ -15,7 +15,7 @@ Each test is structured as follows:
    - **Control parameters**, meant to support the validation of the correct creation of the model, based on the provided dataset. These parameters can be used also to support the **validation of import** into a receiving application.
 
 **Output of the test**
-The files that must be provided by the subject taking the test. These files will be the base to validate the test:
+The files that must be provided by the subject taking the test, which will be the base to validate the test are always:
    - n. 1 IFC file, named using the syntax: `TestCode`_`SoftwareVendor`.`ifc` (Example: *AL22_AmazingSoft.ifc*)
    - (optionally) any other evidence of fulfillment of the informal validation criteria referenced below
 
