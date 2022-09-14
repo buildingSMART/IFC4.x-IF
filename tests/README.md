@@ -48,4 +48,4 @@ The files that must be provided by the subject taking the test, which will be th
 | [SSH05](./SSH05)            | SectionedSolidHorizontal-5                |              |
 | [SSH06](./SSH06)            | SectionedSolidHorizontal-6                |              |
 | [DDRSAS01](./DDRSAS01)      | DirectrixDerivedReferenceSweptAreaSolid-1 |              |
-| [DDRSAS01](./DDRSAS01)      | DirectrixDerivedReferenceSweptAreaSolid-2 |              |
+| [DDRSAS02](./DDRSAS02)      | DirectrixDerivedReferenceSweptAreaSolid-2 |              |
