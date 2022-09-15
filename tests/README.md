@@ -41,6 +41,7 @@ The files that must be provided by the subject taking the test, which will be th
 | ALRW4                       | Alignment Railway Curves - Helmert        | none         |
 | ALRW5                       | Alignment Railway Curves - Sine           | none         |
 | ALRW6                       | Alignment Railway Curves - Viennese Bend  | none         |
+| [FRSAS01](./FRSAS01)        | FixedReferenceSweptAreaSolid-1            |              |
 | [SSH01](./SSH01)            | SectionedSolidHorizontal-1                |              |
 | [SSH02](./SSH02)            | SectionedSolidHorizontal-2                |              |
 | [SSH03](./SSH03)            | SectionedSolidHorizontal-3                |              |
