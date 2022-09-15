@@ -18,6 +18,8 @@ A Test case is created following a provided template. It includes: test instruct
 
 ➡ [Go to the list of available tests](./tests/)
 
+➡ [Go to the list of rules](https://github.com/buildingSMART/ValidationService) :construction:
+
 **Validation**
 Validation depends on the type of test, and can be more or less automated. When done against an IFC file, the validation shall ensure that the file is syntactically, structurally, and semantically, correct. It can be done also against other test evidence - produced to demonstrate the fulfillment of validation criteria.
 
