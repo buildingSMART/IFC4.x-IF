@@ -23,7 +23,7 @@ The table below captures the structure of the header.
 | originating_system   | name of the application (including built number)                 | MyApplicationName Version 22                  |
 | authorization        | user defined field to capture the authorizer of the IFC file     | none                                          |
 | **FILE_SCHEMA**      |                                                                  |                                               |
-| schema_identifiers   | name of the IFC schema                                           | IFC4X3_TC2                                    |
+| schema_identifiers   | name of the IFC schema                                           | IFC4X3_ADD1                                    |
 
 ## Header example
 The code snippet below is an example of file header, **extracted from the file [Header example.ifc](./Header%20example.ifc)**
@@ -32,7 +32,7 @@ The code snippet below is an example of file header, **extracted from the file [
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [Alignment-basedReferenceView]'),'2;1');
 FILE_NAME('Header example.ifc', '2022-09-16T10:35:07', ('Evandro Alfieri'), ('buildingSMART Int.'), 'MyToolboxName Version 1.0', 'MyApplicationName Version 22', 'none');
-FILE_SCHEMA(('IFC4X3_TC2'));
+FILE_SCHEMA(('IFC4X3_ADD1'));
 ENDSEC;`
 ```
 
