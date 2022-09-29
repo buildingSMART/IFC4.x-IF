@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (('ViewDefinition [Alignment-basedReferenceView]'), '2;1');
 FILE_NAME ('SectionedSolidHorizontal-1.ifc', '2021-05-31T10:35:59', (), (), 'ACCA_IFC.dll Version 500', $, $);
-FILE_SCHEMA (('IFC4X3_TC2'));
+FILE_SCHEMA (('IFC4X3_ADD1'));
 ENDSEC;
 
 /* This file has been manually udated by GP (CSTB) */
