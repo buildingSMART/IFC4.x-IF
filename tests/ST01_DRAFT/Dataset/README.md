@@ -7,7 +7,7 @@
 
 ## Overview
 
-<img src="./LineLayout_.svg#gh-light-mode-only" width="500" />
+<img src="./LineLayout.svg#gh-light-mode-only" width="500" />
 <img src="./LineLayout_white.svg#gh-dark-mode-only" width="500" />
 
 | Info                         |                                           |
