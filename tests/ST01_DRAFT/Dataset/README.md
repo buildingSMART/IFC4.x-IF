@@ -7,7 +7,8 @@
 
 ## Overview
 
-<img src="./LineLayout.svg" width="500"/>
+<img src="./LineLayout_.svg#gh-light-mode-only" width="500" />
+<img src="./LineLayout_white.svg#gh-dark-mode-only" width="500" />
 
 | Info                         |                                           |
 |------------------------------|-------------------------------------------|
@@ -84,8 +85,16 @@ NOTE: units in the table below are in meters (m)
 
 All parameters of the segments, for both alignments, are detailed below in:
 
-- [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)
-- [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)
+- [Test dataset](#test-dataset)
+  - [Overview](#overview)
+  - [Model Dataset](#model-dataset)
+  - [Line layout](#line-layout)
+  - [Alignment parameters for horizontal segments](#alignment-parameters-for-horizontal-segments)
+      - [Alignment 1\_Primary route](#alignment-1_primary-route)
+      - [Alignment 2\_Diverted route](#alignment-2_diverted-route)
+  - [Alignment parameters for vertical segments](#alignment-parameters-for-vertical-segments)
+      - [Alignment 1\_Primary route](#alignment-1_primary-route-1)
+      - [Alignment 2\_Diverted route](#alignment-2_diverted-route-1)
 
 
 
