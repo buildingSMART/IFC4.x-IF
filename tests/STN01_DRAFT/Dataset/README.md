@@ -1,5 +1,4 @@
-(test dataset template)
-# Test dataset
+# BC002 Stationing on alignment dataset
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
@@ -7,18 +6,17 @@
 
 ## Overview
 
-<img src="./LineLayout.svg#gh-light-mode-only" width="500" />
-<img src="./LineLayout_white.svg#gh-dark-mode-only" width="500" />
+<img src="./LineLayout.svg" width="500" />
 
 | Info                         |                                           |
 |------------------------------|-------------------------------------------|
-| Number of alignment(s)       | 2                                         |
+| Number of alignment(s)       | 1                                         |
 | Vertical Measurement         | Lower Rail                                |
 | Properties of segments       | no                                        |
 | Horizontal layout            | Straight Line, Circular Arc, Clothoid     |
 | Vertical layout              | Straight Line, Circular Arc               |
-| Cant layout                  | not present                               |
-| IFC reference file available | no                                        |
+| Cant layout                  | Constant Cant, Linear Transition          |
+| IFC reference file available | no (or export from landxml with Bonsma program?)|
 
 
 ## Model Dataset
@@ -28,19 +26,19 @@ This test case utilises the following dataset.
 | Filename                                             | Description                                                                                                         |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [LineLayout](./LineLayout.svg)                       | Schematic [line layout](#Line-layout) of the test case                                                              |
-| [Alignment1_horizontal](./Alignment1_horizontal.csv) | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments) of the Primary Route  |
-| [Alignment2_horizontal](./Alignment2_horizontal.csv) | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments) of the Diverted Route |
-| [Alignment1_vertical](./Alignment1_vertical.csv)     | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments) of the Primary Route      |
-| [Alignment2_vertical](./Alignment2_vertical.csv)     | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments) of the Diverted Route     |
-
-
+| [Alignment_horizontal](./Alignment_horizontal.csv)   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)                       |
+| [Alignment_vertical](./Alignment_vertical.csv)       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)                           |
+| [Alignment cant](./Alignment_cant.csv)               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)
+| [Alignment](./Alignment.xml)                         | [Alignment description in xml](#Alignment-model-in-xml)
+| [Alignment_2D](./Alignment_2D.dxf)                   | [2D model of the alignment with mileage referents](#2D-model-of-the-alignment-with-mileage-referents)
+| [Alignment_and_Signals_3D](./Alignment_and_Signals_3D.dxf)       | [3D model of the alignment with 2 signals]()
+| [Signals positions](./Signal_position.csv)           | [Positions parameters for signals](#Position-parameters-for-signals)
 
 
 ## Line layout
 
-The line for the test is made of two alignments (*IfcAlignment*):
+The line for the test is made of one alignment (*IfcAlignment*):
 1. Alignment 1_Primary route (red in the figure below)
-2. Alignment 2_Diverted route (blue dashed in the figure below)
 
 Snippet:
 <img src="./LineLayout.svg" height="600"/>
@@ -85,7 +83,7 @@ NOTE: units in the table below are in meters (m)
 
 All parameters of the segments, for both alignments, are detailed below in:
 
-- [Test dataset](#test-dataset)
+- [BC002 Stationing on alignment dataset](#bc002-stationing-on-alignment-dataset)
   - [Overview](#overview)
   - [Model Dataset](#model-dataset)
   - [Line layout](#line-layout)
