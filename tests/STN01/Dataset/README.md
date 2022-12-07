@@ -2,7 +2,7 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| ST01      | Ciro Vendrame   | RFI                 | Export         |
+| STN01     | Ciro Vendrame   | RFI                 | Export         |
 
 ## Overview
 
@@ -16,12 +16,13 @@
 | Horizontal layout            | Straight Line, Circular Arc, Clothoid     |
 | Vertical layout              | Straight Line, Circular Arc               |
 | Cant layout                  | Constant Cant, Linear Transition          |
-| IFC reference file available | no (or export from landxml with Bonsma program?)|
+| IFC reference file available | # to check export from landxml             |
 
 
 ## Model Dataset
 
-This test case utilises the following dataset.
+This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
+It represents one alignment with cant on which two signals are placed.
 
 | Filename                                             | Description                                                                                                         |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -29,16 +30,19 @@ This test case utilises the following dataset.
 | [Alignment_horizontal](./Alignment_horizontal.csv)   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)                       |
 | [Alignment_vertical](./Alignment_vertical.csv)       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)                           |
 | [Alignment cant](./Alignment_cant.csv)               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)
-| [Alignment](./Alignment.xml)                         | [Alignment description in xml](#Alignment-model-in-xml)
-| [Alignment_2D](./Alignment_2D.dxf)                   | [2D model of the alignment with mileage referents](#2D-model-of-the-alignment-with-mileage-referents)
-| [Alignment_and_Signals_3D](./Alignment_and_Signals_3D.dxf)       | [3D model of the alignment with 2 signals]()
+| [Alignment_exchange](./Alignment_exchange.xml)       |  Alignment description in xml
+| [Alignment_with_stationing_values](./Alignment_with_stationing_values.dxf) | 2D model of the alignment with mileage referents
+| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)       | 3D model of the alignment with 2 signals
 | [Signals positions](./Signal_position.csv)           | [Positions parameters for signals](#Position-parameters-for-signals)
+| [Signals_stationing_values](./Signals_positions.csv) | [Stationing values of the Signals](#Stationing-values-of-the-Signals) along the alignment
+| [Alignment_stationing_values_by_pace](./Alignment_stationing_values_by_pace.csv) | Alignment_stationing_values_by_pace
+| [Alignment_stationing_values_by_segment_type](./Alignment_stationing_values_by_segment_type.csv) | Alignment_stationing_values_by_segment_type
 
 
 ## Line layout
 
 The line for the test is made of one alignment (*IfcAlignment*):
-1. Alignment 1_Primary route (red in the figure below)
+
 
 Snippet:
 <img src="./LineLayout.svg" height="600"/>
