@@ -24,11 +24,11 @@
 This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
 It represents one alignment with cant on which two signals are placed.
 
-| Filename                                             | Description                                                                                                         |
-|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| [LineLayout](./LineLayout.svg)                       | Schematic [line layout](#Line-layout) of the test case                                                              |
-| [Alignment_horizontal](./Alignment_horizontal.csv)   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)                       |
-| [Alignment_vertical](./Alignment_vertical.csv)       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)                           |
+| Filename                                             | Description                                                                                       |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [LineLayout](./LineLayout.svg)                       | Schematic [line layout](#Line-layout) of the test case                                            |
+| [Alignment_horizontal](./Alignment_horizontal.csv)   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
+| [Alignment_vertical](./Alignment_vertical.csv)       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
 | [Alignment cant](./Alignment_cant.csv)               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)
 | [Alignment_exchange](./Alignment_exchange.xml)       |  Alignment description in xml
 | [Alignment_with_stationing_values](./Alignment_with_stationing_values.dxf) | 2D model of the alignment with mileage referents
