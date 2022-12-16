@@ -8,6 +8,7 @@ This folder contains IFC example files, **using the latest IFC4.3 version**, and
 | Filename                                  | Type of CS                      | CS encoded using | Coordinate operation   | Notes                                                        |
 |-------------------------------------------|---------------------------------|------------------|------------------------|--------------------------------------------------------------|
 | Georeferencing_COMPDCS(WKT)-MC.ifc        | Compound*                       | OGC WKT          | IfcMapConversion       | This is in Italy. The WKT literal contains the epoch         |
+| Georeferencing_COMPDCS(WKT)-RO.ifc        | Compound*                       | OGC WKT          | IfcMapConversion       | RigidOperation is all set to 0                               |
 | Georeferencing_COMPDCS(EPSG)-MC.ifc       | Compound*                       | EPSG             | IfcMapConversion       | This is in Norway                                            |
 | :construction:                            | Compound*                       | tbc              | IfcMapConversionScaled | to be created                                                |
 | :construction:                            | Compound*                       | tbc              | IfcRigidOperation      | to be created                                                |
