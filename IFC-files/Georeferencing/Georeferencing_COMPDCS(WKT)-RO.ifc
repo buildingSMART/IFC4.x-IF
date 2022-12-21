@@ -908,7 +908,6 @@ DATA;
 #901 = IFCAXIS2PLACEMENT3D(#15, #899, #900);
 #902 = IFCRELAGGREGATES('0C4VOIgJL68wvcZOfCQvwe', #1, 'Spatial Structure Element Container', 'Spatial Structure Element to Facilities', #18, (#897));
 #903 = IFCRELAGGREGATES('3Noebs8BP2SQ0gRQYUa$sD', #1, 'Project Container', 'Project to Spatial Element', #7, (#18));
-#904 = IFCMAPCONVERSION(#13, #905, 0., 0., 0., 1., 0., 1.);
 #904 = IFCRIGIDOPERATION(#13, #905, IFCLENGTHMEASURE(0.), IFCLENGTHMEASURE(0.), 0.);
 #905 = IFCPROJECTEDCRS('IGM95 / UTM zone 33N + Genoa 1942 height', 'Istituto Geografico Militare 1995 (IGM95)', 'EPSG:6670', 'EPSG:5214', 'UTM', '33N', $);
 #906 = IFCWELLKNOWNTEXT('COMPD_CS["IGM95 / UTM zone 33N + Genoa 1942 height",PROJCS["IGM95 / UTM zone 33N",GEOGCS["IGM95",DATUM["Istituto_Geografico_Militaire_1995",SPHEROID["GRS 1980",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4670"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3065"]],VERT_CS["Genoa 1942 height",VERT_DATUM["Genoa 1942",2005,AUTHORITY["EPSG","1051"]],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Gravity-related height",UP],AUTHORITY["EPSG","5214"]]],EPOCH[1995.22]',#905);
