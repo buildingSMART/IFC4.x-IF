@@ -14,14 +14,14 @@ A clear and concise description of what the problem is. Make at least one exampl
 A clear and concise description of what you want to happen.
 
 **Does your solution require schema changes?**
-[ ] yes
-[ ] no
-[ ] don't know
+- [ ] yes
+- [ ] no
+- [ ] don't know
 
 **Does your solution require documentation changes?**
-[ ] yes
-[ ] no
-[ ] don't know
+- [ ] yes
+- [ ] no
+- [ ] don't know
 
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions you've considered.
