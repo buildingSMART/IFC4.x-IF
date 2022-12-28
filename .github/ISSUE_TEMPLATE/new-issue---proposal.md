@@ -16,20 +16,20 @@ A clear and concise description of what the problem is. Make at least one exampl
 A clear and concise description of what you want to happen. 
 
 **Require schema changes?**
-- [ ] yes
-- [ ] no
-- [ ] don't know
+- ` ` yes
+- `✓` no
+- ` ` don't know
 
 **Require documentation changes?**
-- [ ] yes
-- [ ] no
-- [ ] don't know
+- ` ` yes
+- `✓` no
+- ` ` don't know
 
 **Rule required**
 *Need for a formal rule? Describe it*
-- [ ] normative check: every IFC file must pass this check
-- [ ] good practice check: just triggers a warning, but the IFC file is still valid
-- [ ] don't know
+- ` ` normative check: every IFC file must pass this check
+- ` ` good practice check: just triggers a warning, but the IFC file is still valid
+- ` ` don't know
 
 A clear and concise description of the rule 
 
