@@ -7,24 +7,31 @@ assignees: ''
 
 ---
 
-**Is your request related to a problem? Please describe.**
+**Problem**
+*Is your request related to a problem? Please describe.*
 A clear and concise description of what the problem is. Make at least one example to help understanding the issue.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Solution(s)**
+*Describe the solution you'd like. If you have multiple options, list all of them.*
+A clear and concise description of what you want to happen. 
 
-**Does your solution require schema changes?**
+**Require schema changes?**
 - [ ] yes
 - [ ] no
 - [ ] don't know
 
-**Does your solution require documentation changes?**
+**Require documentation changes?**
 - [ ] yes
 - [ ] no
 - [ ] don't know
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions you've considered.
+**Rule required**
+*Need for a formal rule? Describe it*
+- [ ] normative check: every IFC file must pass this check
+- [ ] good practice check: just triggers a warning, but the IFC file is still valid
+- [ ] don't know
+
+A clear and concise description of the rule 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
