@@ -1,4 +1,4 @@
-# BC002 Stationing on alignment dataset
+# BC002 Stationing on alignment dataset "A"
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
@@ -13,14 +13,13 @@
 | Number of alignment(s)       | 1                                         |
 | Vertical Measurement         | Lower Rail                                |
 | Properties of segments       | no                                        |
-| Horizontal layout            | Straight Line, Circular Arc, Clothoid     |
-| Vertical layout              | Straight Line, Circular Arc               |
+| Horizontal layout            | Line, Circular Arc, Clothoid              |
+| Vertical layout              | Constant Gradient, Circular Arc           |
 | Cant layout                  | Constant Cant, Linear Transition          |
-| IFC reference file available | # to check export from landxml             |
-
+| Broken chainage              | No                                        |
+| IFC reference file available | # to check                                |
 
 ## Model Dataset
-
 This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
 It represents one alignment with cant on which two signals are placed.
 
@@ -31,12 +30,32 @@ It represents one alignment with cant on which two signals are placed.
 | [Alignment_vertical](./Alignment_vertical.csv)       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
 | [Alignment cant](./Alignment_cant.csv)               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)
 | [Alignment_exchange](./Alignment_exchange.xml)       |  Alignment description in xml
-| [Alignment_with_stationing_values](./Alignment_with_stationing_values.dxf) | 2D model of the alignment with mileage referents
+| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf) | 2D model of the alignment with mileage referents
 | [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)       | 3D model of the alignment with 2 signals
-| [Signals positions](./Signal_position.csv)           | [Positions parameters for signals](#Position-parameters-for-signals)
-| [Signals_stationing_values](./Signals_positions.csv) | [Stationing values of the Signals](#Stationing-values-of-the-Signals) along the alignment
-| [Alignment_stationing_values_by_pace](./Alignment_stationing_values_by_pace.csv) | Alignment_stationing_values_by_pace
-| [Alignment_stationing_values_by_segment_type](./Alignment_stationing_values_by_segment_type.csv) | Alignment_stationing_values_by_segment_type
+| [Alignment_stationing_values_by_pace](./Alignment_stationing_values_by_pace.csv) | Alignment stationing values by pace
+| [Alignment_stationing_values_by_segment_type](./Alignment_stationing_values_by_segment_type.csv) | Alignment stationing values by segment type
+| [Signals_positions](./Signal_position.csv)           | [Signals positions parameters](#Position-parameters-for-signals)
+| [Signals_stationing_values](./Signals_positions.csv) | [Signals stationing values](#Stationing-values-of-the-Signals) along the alignment
+| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf) | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)
+
+## Content
+
+- [BC002 Stationing on alignment dataset "A"](#bc002-stationing-on-alignment-dataset-a)
+  - [Overview](#overview)
+  - [Model Dataset](#model-dataset)
+  - [Content](#content)
+  - [Line layout](#line-layout)
+  - [Alignment parameters for horizontal segments](#alignment-parameters-for-horizontal-segments)
+  - [Alignment parameters for vertical segments](#alignment-parameters-for-vertical-segments)
+  - [Alignment parameters for cant segments](#alignment-parameters-for-cant-segments)
+  - [Signals](#signals)
+    - [Signals shape](#signals-shape)
+    - [Signals position parameters](#signals-position-parameters)
+  - [Stationing](#stationing)
+    - [Stationing values according to national conventions](#stationing-values-according-to-national-conventions)
+    - [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)
+    - [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)
+    - [Stationing values of signals](#stationing-values-of-signals)
 
 
 ## Line layout
@@ -44,97 +63,30 @@ It represents one alignment with cant on which two signals are placed.
 The line for the test is made of one alignment (*IfcAlignment*):
 
 
-Snippet:
 <img src="./LineLayout.svg" height="600"/>
 
-The **Primary route** (*IfcAlignment* named *Alignment 1_Primary route*) is made of the following **9 horizontal segments**:
-
-NOTE: units in the table below are in meters (m)
-<div align="center">
-
-| # | Type of segment | From (pk) | To (pk)  | Segment length |
-|---|-----------------|-----------|----------|----------------|
-| 1 | LINE            | 0.0000    | 234.7194 | 234.7194       |
-| 2 | CLOTHOID        | 234.7194  | 274.7194 | 40.0000        |
-| 3 | CIRCULARARC     | 274.7194  | 468.1839 | 193.4645       |
-| 4 | CLOTHOID        | 468.1839  | 508.1839 | 40.0000        |
-| 5 | LINE            | 508.1839  | 547.1654 | 38.9815        |
-| 6 | CLOTHOID        | 547.1654  | 587.1654 | 40.0000        |
-| 7 | CIRCULARARC     | 587.1654  | 696.5971 | 109.4317       |
-| 8 | CLOTHOID        | 696.5971  | 736.5971 | 40.0000        |
-| 9 | LINE            | 736.5971  | 876.3682 | 139.7711       |
-</div>
-
-The **Diverted route** (*IfcAlignment* named *Alignment 2_Diverted route*) is made of the following **11 horizontal segments**:
-
-NOTE: units in the table below are in meters (m)
-<div align="center">
-
-| #  | Type of segment | From (pk) | To (pk)  | Segment length |
-|----|-----------------|-----------|----------|----------------|
-| 1  | CIRCULARARC     | 0.0000    | 22.9021  | 22.9021        |
-| 2  | LINE            | 22.9021   | 30.8376  | 7.9355         |
-| 3  | LINE            | 30.8376   | 99.1345  | 68.2969        |
-| 4  | CLOTHOID        | 99.1345   | 139.1345 | 40.0000        |
-| 5  | CIRCULARARC     | 139.1345  | 424.3769 | 285.2424       |
-| 6  | CLOTHOID        | 424.3769  | 464.3769 | 40.0000        |
-| 7  | LINE            | 464.3769  | 501.2857 | 36.9088        |
-| 8  | CLOTHOID        | 501.2857  | 540.9846 | 39.6989        |
-| 9  | CIRCULARARC     | 540.9846  | 648.4760 | 107.4914       |
-| 10 | CLOTHOID        | 648.4760  | 688.1749 | 39.6989        |
-| 11 | LINE            | 688.1749  | 828.0965 | 139.9216       |
-</div>
+The **Alignment** is described through its **horizontal**, **vertical** and **cant** profiles.
 
 All parameters of the segments, for both alignments, are detailed below in:
-
-- [BC002 Stationing on alignment dataset](#bc002-stationing-on-alignment-dataset)
-  - [Overview](#overview)
-  - [Model Dataset](#model-dataset)
-  - [Line layout](#line-layout)
-  - [Alignment parameters for horizontal segments](#alignment-parameters-for-horizontal-segments)
-      - [Alignment 1\_Primary route](#alignment-1_primary-route)
-      - [Alignment 2\_Diverted route](#alignment-2_diverted-route)
-  - [Alignment parameters for vertical segments](#alignment-parameters-for-vertical-segments)
-      - [Alignment 1\_Primary route](#alignment-1_primary-route-1)
-      - [Alignment 2\_Diverted route](#alignment-2_diverted-route-1)
-
-
 
 
 ## Alignment parameters for horizontal segments
 
-The horizontal layout of the alignment (both for Alignment 1 and Alignment 2) is described using a CSV file. The column headers match the IFC attributes for `IfcAlignmentHorizontalSegment`. Refers to the standard's documentation for their description.
+The horizontal profile is described using a CSV file and is made of the following 9 horizontal segments.
+The column headers match the IFC attributes for `IfcAlignmentHorizontalSegment`. Refers to the standard's documentation for their description.
 
-#### Alignment 1_Primary route
+| Entity                        | PredefinedType | Name | Start Point X | Start Point Y | Start Direction | Start Radius of Curvature | End Radius of Curvature | Segment Length |
+|-------------------------------|----------------|------|---------------|---------------|-----------------|---------------------------|-------------------------|----------------|
+| IfcAlignmentHorizontalSegment | LINE           | H1   | 452270,1883   | 4539403,9474  | 0,349924146     | 0                         | 0                       | 387,7233       |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H2   | 452634,415    | 4539536,8692  | 0,349924146     | 0                         | 1000                    | 40             |
+| IfcAlignmentHorizontalSegment | CIRCULARARC    | H3   | 452671,898    | 4539550,8322  | 0,369924153     | 1000                      | 1000                    | 193,4645       |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H4   | 452844,4075   | 4539637,7367  | 0,563388612     | 1000                      | 0                       | 40             |
+| IfcAlignmentHorizontalSegment | LINE           | H5   | 452877,9371   | 4539659,5475  | 0,583388619     | 0                         | 0                       | 38,9815        |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H6   | 452910,4711   | 4539681,0207  | 0,583388619     | 0                         | -1000                   | 40             |
+| IfcAlignmentHorizontalSegment | CIRCULARARC    | H7   | 452944,0007   | 4539702,8314  | 0,563388612     | -1000                     | -1000                   | 109,4317       |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H8   | 453039,5298   | 4539756,1001  | 0,453956871     | -1000                     | 0                       | 40             |
+| IfcAlignmentHorizontalSegment | LINE           | H9   | 453075,7086   | 4539773,1600  | 0,433956864     | 0                         | 0                       | 139,7711       |
 
-| Entity                        | PredefinedType | Name | Start Point X | Start Point Y | Start Direction | Start Radius Of Curvature | End Radius Of Curvature | Segment Length | Gravity Center Line Height |
-|-------------------------------|----------------|------|---------------|---------------|-----------------|---------------------------|-------------------------|----------------|----------------------------|
-| IfcAlignmentHorizontalSegment | LINE           | H1   | 452413.9199   | 4539456.401   | 0.349924146     | 0                         | 0                       | 234.719412     |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H2   | 452634.415    | 4539536.869   | 0.349924146     | 0                         | -1000                   | 40             |                            |
-| IfcAlignmentHorizontalSegment | CIRCULARARC    | H3   | 452671.898    | 4539550.832   | 0.369924153     | -1000                     | -1000                   | 193.464471     |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H4   | 452844.4075   | 4539637.737   | 0.563388612     | -1000                     | 0                       | 40             |                            |
-| IfcAlignmentHorizontalSegment | LINE           | H5   | 452877.9371   | 4539659.548   | 0.583388619     | 0                         | 0                       | 38.981516      |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H6   | 452910.4711   | 4539681.021   | 0.583388619     | 0                         | 1000                    | 40             |                            |
-| IfcAlignmentHorizontalSegment | CIRCULARARC    | H7   | 452944.0007   | 4539702.831   | 0.563388612     | 1000                      | 1000                    | 109.43175      |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H8   | 453039.5298   | 4539756.1     | 0.453956871     | 1000                      | 0                       | 40             |                            |
-| IfcAlignmentHorizontalSegment | LINE           | H9   | 453075.7086   | 4539773.16    | 0.433956864     | 0                         | 0                       | 139.771059     |                            |
-
-
-#### Alignment 2_Diverted route
-
-| Entity                        | PredefinedType | Name | Start Point X | Start Point Y | Start Direction | Start Radius Of Curvature | End Radius Of Curvature | Segment Length | Gravity Center Line Height |
-|-------------------------------|----------------|------|---------------|---------------|-----------------|---------------------------|-------------------------|----------------|----------------------------|
-| IfcAlignmentHorizontalSegment | CIRCULARARC    | H1   | 452460.8898   | 4539473.543   | 0.198563718     | 249.538                   | 249.538                 | 22.902068      |                            |
-| IfcAlignmentHorizontalSegment | LINE           | H2   | 452482.7338   | 4539480.396   | 0.096588301     | 0                         | 0                       | 7.9355         |                            |
-| IfcAlignmentHorizontalSegment | LINE           | H3   | 452490.4064   | 4539482.422   | 0.096588301     | 0                         | 0                       | 68.296941      |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H4   | 452556.4403   | 4539499.858   | 0.096588301     | 0                         | -1000                   | 40             |                            |
-| IfcAlignmentHorizontalSegment | CIRCULARARC    | H5   | 452595.0453   | 4539510.327   | 0.118810514     | -1000                     | -1000                   | 285.242348     |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H6   | 452854.5258   | 4539626.442   | 0.435746458     | -1000                     | 0                       | 40             |                            |
-| IfcAlignmentHorizontalSegment | LINE           | H7   | 452888.0554   | 4539648.253   | 0.457968688     | 0                         | 0                       | 36.908858      |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H8   | 452918.8596   | 4539668.585   | 0.457968688     | 0                         | 985                     | 39.698871      |                            |
-| IfcAlignmentHorizontalSegment | CIRCULARARC    | H9   | 452952.1378   | 4539690.23    | 0.435577894     | 985                       | 985                     | 107.491403     |                            |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H10  | 453045.9733   | 4539742.554   | 0.314324199     | 985                       | 0                       | 39.698871      |                            |
-| IfcAlignmentHorizontalSegment | LINE           | H11  | 453081.8789   | 4539759.487   | 0.291933405     | 0                         | 0                       | 139.921625     |                            |
 
 **NOTE**:
 - All distances are in meters
@@ -153,22 +105,12 @@ This implies a right-hand cartesian coordinate systems; and angles are measured 
 
 
 
-
 ## Alignment parameters for vertical segments
 
 The vertical layout of the alignment (both for Alignment 1 and Alignment 2) is described using a CSV file. The column headers match the IFC attributes for `IfcAlignmentVerticalSegment`. Refers to the standard's documentation for their description.
 
-#### Alignment 1_Primary route
 
-| Entity                      | PredefinedType   | Name | Start Dist Along | Horizontal Length | Start Height | Start Gradient | End Gradient | RadiusOfCurvature |
-|-----------------------------|------------------|------|------------------|-------------------|--------------|----------------|--------------|-------------------|
-| IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V1   | 0                | 0                 | 5            | 0              | 0            |                   |
-| IfcAlignmentVerticalSegment | CIRCULARARC      | V2   | 325.0006         | 49.9975           | 5            | 0              | -0.01        | 5000              |
-| IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V3   | 374.9981         | 250.0038          | 4.75         | -0.01          | -0.01        |                   |
-| IfcAlignmentVerticalSegment | CIRCULARARC      | V4   | 625.0019         | 49.9975           | 2.25         | -0.01          | 0            | -5000             |
-| IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V5   | 674.9994         | 201.3688          | 2            | 0              | 0            |                   |
-
-#### Alignment 2_Diverted route
+Alignment 2_Diverted route
 
 | Entity                      | PredefinedType   | Name | Start Dist Along | Horizontal Length | Start Height | Start Gradient | End Gradient | RadiusOfCurvature |
 |-----------------------------|------------------|------|------------------|-------------------|--------------|----------------|--------------|-------------------|
@@ -182,3 +124,22 @@ The vertical layout of the alignment (both for Alignment 1 and Alignment 2) is d
 - All distances are in meters
 - All angles are in gradian
 - The radius (*RadiusOfCurvature*) is considered positive when the curve is a *crest*, and negative when it is a *sag* (opposite to IFC).
+
+
+## Alignment parameters for cant segments
+
+## Signals
+
+### Signals shape
+
+### Signals position parameters
+
+## Stationing
+
+### Stationing values according to national conventions
+
+### Stationing values of the horizontal segments
+
+### Stationing values of the vertical segments
+
+### Stationing values of signals
