@@ -2,7 +2,7 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| STN01     | **TBD**             | RFI                 | Export         |
+| STN01     | Ciro Vendrame   | RFI                 | Export         |
 
 >**After completing the test description delete all the instructions (in Italic, marked with :information_source:). Including this one.**
 
