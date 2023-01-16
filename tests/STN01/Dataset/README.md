@@ -162,10 +162,10 @@ The origin of the coordinates system of the signal is placed at the center of th
 
 ### Signals position parameters
 
-| # | Type of element | Distance Along | Offset Horizontal | Offset Vertical | Rotation | Name               |
-|---|-----------------|----------------|-------------------|-----------------|----------|--------------------|
-| 1 | SIGNAL          | 353,1000       | -3,0000           | 2,5000          | 0        | Route Indicator_01 |
-| 2 | SIGNAL          | 853,1000       | 3,0000            | 2,5000          | 200      | Route Indicator_02 |
+| # | Type of element | Distance Along | Offset Horizontal | Offset Vertical | Rotation         | Name               |
+|---|-----------------|----------------|-------------------|-----------------|------------------|--------------------|
+| 1 | SIGNAL          | 353,1000       | -3,0000           | 2,5000          | 0                | Route Indicator_01 |
+| 2 | SIGNAL          | 853,1000       | 3,0000            | 2,5000          | 3,14159265358979 | Route Indicator_02 |
 
 **NOTE**:
 - All distances are in meters, all angles are in radian.
