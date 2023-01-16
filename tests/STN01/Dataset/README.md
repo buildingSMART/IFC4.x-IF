@@ -172,19 +172,13 @@ The origin of the coordinates system of the signal is placed at the center of th
 - The vertical offset represents the distance between the signal origin and its vertical projection on the rail level (without cant). 
 - The rotation is based on the line perpendicular to the alignment, is always positive and follows a CCW direction.
 
-<!--<p align="center"> <img src="Route_indicator_placement.png" height="350"/> </p> <p align="center"> <img src="Route_indicator_placement_3D.png" height="350"/> </p> -->
+ <p align="center">
+    <img src="Route_indicator_placement.png" height="500"/>
+</p> 
 
-<div style="display:flex">
-     <div style="flex:1;padding-right:10px;">
-          <img src="Route_indicator_placement.png" width="360"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="Route_indicator_placement_3D.png" width="500"/>
-     </div>
-</div>
-  
-
-
+ <p align="center">
+    <img src="Route_indicator_placement_3D.png" height="500"/>
+</p> 
 
 ## Stationing
 
