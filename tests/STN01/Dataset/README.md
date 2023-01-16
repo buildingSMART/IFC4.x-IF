@@ -156,8 +156,7 @@ Two signals are placed along the alignment. They have the same shape. They are p
 The origin of the coordinates system of the signal is placed at the center of the red light (which is the lowest one) on the surface of the light panel.
 
 <p align="center">
-    <img src="Signal_shape.jpg" height="500
-    "/>
+    <img src="Signal_shape.jpg" height="500"/>
 </p>
 
 ### Signals position parameters
