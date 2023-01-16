@@ -175,17 +175,14 @@ The origin of the coordinates system of the signal is placed at the center of th
 <!--<p align="center"> <img src="Route_indicator_placement.png" height="350"/> </p> <p align="center"> <img src="Route_indicator_placement_3D.png" height="350"/> </p> -->
 
 <div style="display:flex">
-     <div style="flex:1;padding-right:10 px;">
-          <img src="Route_indicator_placement.png" width="355"/>
+     <div style="flex:1;padding-right:10px;">
+          <img src="Route_indicator_placement.png" width="360"/>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="Route_indicator_placement_3D.png" width="500"/>
      </div>
 </div>
   
- 01                        |       02                      
-:-------------------------:|:-------------------------:
-![](Route_indicator_placement.png)  |  ![](Route_indicator_placement_3D.png)
 
 
 
