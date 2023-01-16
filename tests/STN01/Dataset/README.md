@@ -281,7 +281,7 @@ The values are the following. In the table the type of segment and the segment l
 |-------------------|---------------------------------------|
 | Name              | EPSG:6670                             |
 | Description       | Istituto Geografico Militare 1995     |
-| Source            | EPSG V6.12 operation EPSG:1098 [EPSG] |
+| Source            | EPSG V6.12 operation EPSG:1098        |
 | Conversion Method | Three Parameter Transformation        |
 | Delta X           | 0.0000                                |
 | Delta Y           | 0.0000                                |
@@ -294,7 +294,7 @@ The values are the following. In the table the type of segment and the segment l
 | Equatorial Radius | 6378137.0000                          |
 | Polar Radius      | 6356752.3142                          |
 | Eccentricity      | 0.0818                                |
-| Source            | EPSG Version 6 [EPSG]                 |
+| Source            | EPSG Version 6                        |
 
 | Vertical Datum    |                                       |
 |-------------------|---------------------------------------|
