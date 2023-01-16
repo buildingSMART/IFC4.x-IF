@@ -1,4 +1,4 @@
-# BC002 Stationing on alignment dataset "A"
+# BC002 Stationing on alignment dataset 01
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
@@ -6,7 +6,7 @@
 
 ## Content
 
-- [BC002 Stationing on alignment dataset "A"](#bc002-stationing-on-alignment-dataset-a)
+- [BC002 Stationing on alignment dataset 01](#bc002-stationing-on-alignment-dataset-01)
   - [Content](#content)
   - [Overview](#overview)
   - [Model Dataset](#model-dataset)
@@ -39,6 +39,7 @@
 | Vertical layout              | Constant Gradient, Circular Arc           |
 | Cant layout                  | Constant Cant, Linear Transition          |
 | Broken chainage              | No                                        |
+| Signals                      | 2                                         |
 | IFC reference file available | # to check                                |
 
 ## Model Dataset
