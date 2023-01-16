@@ -182,6 +182,12 @@ The origin of the coordinates system of the signal is placed at the center of th
           <img src="Route_indicator_placement_3D.png" width="500"/>
      </div>
 </div>
+  
+<!--image 01    -->        |         <!--image 02   --> 
+:-------------------------:|:-------------------------:
+![](Route_indicator_placement.png)  |  ![](Route_indicator_placement_3D.png)
+
+
 
 ## Stationing
 
