@@ -1,4 +1,4 @@
-# Stationing on one alignment-1
+# Stationing on alignment without broken chainage
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
@@ -7,7 +7,7 @@
 
 
 ## Intent
-This test case addresses the **export** of the required IFC entities for the exchange of data related to **Stationing on one alignment-1**.
+This test case addresses the **export** of the required IFC entities for the exchange of data related to **Stationing on alignment without broken chainage**.
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
@@ -25,8 +25,6 @@ This test case addresses the **export** of the required IFC entities for the exc
 
 
 ## Prerequisites
->:information_source: *list the tests that must be passed before performing this test. If not applicable, delete the whole "Prerequisites" section.*
-
 All validation criteria (and usages) of prerequisites' tests shall be **verified for this test too** (regression test principle). Prerequisites for the present test case are listed below.
 
 | Test code | Test title                         | Comments |
@@ -36,7 +34,6 @@ All validation criteria (and usages) of prerequisites' tests shall be **verified
 
 
 ## Test dataset (input)
->:information_source: *list the input for the test. May include a reference IFC file. If dataset requires further description use the `README.md` in the Dataset folder of this test*
 
 This test case utilises the dataset collected in the Dataset folder and summarised in the table below. **For more details on each item see [Dataset description](Dataset/README.md).**
 
@@ -56,21 +53,15 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 | Signals_positions.csv                                | Signals positions parameters                                       |
 | Stationing_values_signals.csv                        | Stationing values of the signals                                   |
 | Geographic_Coordinate_System.pdf                     | Geographic Coordinate System properties                            |
-| Ifc file  **wIP**                                    | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals for this test |
+| Ifc file  **WIP**                                    | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals|
 
 
 ## Validation criteria
->:information_source: *list the validation criteria to define the success of the test. These may include:*
->- ***Formal rules**, reference to bSI Validation Service rules (or to an IDS file)*
->- ***Informal criteria**, mainly aimed to verify “Required SW features” (see Step 3)*
->- ***Expected geometry**, to provide a visual idea of the expected result*
->- ***Control parameters**, to check the content of the model against the given dataset*
-+
+
 :zap: For this test case to be considered passed, **all criteria listed in this section**, and **the ones of prerequisites tests** shall be verified. :zap:
 
 ### Formal rules
 >:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
-
 
 <details><summary>General</summary>
 
@@ -83,43 +74,49 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 | **Element**            | **Attribute**   | **Value**                                               | **Notes** |
 |------------------------|-----------------|---------------------------------------------------------|-----------|
-
-
-</details>
-
-<details><summary>Stationing </summary>
-
-> **Acceptance criteria**: For the **Railway alignment ** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
-
-| **RULE ID** | **CRITERIA**                                                      | **VALUE [examples]**  |
-|-------------|-------------------------------------------------------------------|-----------------------|
-| RI-6        | Alignment layout in IFC                                           |**WIP**                |
-| RI-8        | Alignment horizontal common in IFC                                |**WIP**                |
-| RI-11       | Alignment vertical common in IFC                                  |**WIP**                |
-| RI-13       | Alignment cant common in IFC                                      |**WIP**                |
-| RI-15       | Start station in IFC                                              |**WIP**                |
+| IfcAlignment           | ObjectType      | Railway track alignment                                 |           |
+|                        | PredefinedType  | USERDEFINED                                             |           |
+| IfcAlignmentHorizontal | Name            | H1                                                      |           |
+| IfcAlignmentVertical   | Name            | V1                                                      |           |
+| IfcAlignmentCant       | Name            | C1                                                      |           |
+| IfcSignal              | Name            | Route Indicator_01                                      |           |
 
 </details>
 
+<details><summary>Railway alignment with cant</summary>
+
+> **Acceptance criteria**: For the **Railway alignment with cant** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
+
+| **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**                       | VALUE [examples] |
+|-----------------|---------------------|---------------|------------------------------------|------------------|
+| WIP             | RI-6                | Gherkin       | Alignment layout in IFC            | WIP              |
+| WIP             | RI-8                | Gherkin       | Alignment horizontal common in IFC | WIP              |
+| WIP             | RI-8                | IDS           | Alignment horizontal common in IFC | WIP              |
+| WIP             | RI-11               | Gherkin       | Alignment vertical common in IFC   | WIP              |
+| WIP             | RI-13               | Gherkin       | Alignment cant common in IFC       | WIP              |
+| WIP             | RI-15               | Gherkin       | Start station in IFC               | WIP              |
+</details>
+
+<details><summary>Stationing</summary>
+
+> **Acceptance criteria**: For the **Stationing** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
+
+| **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**                       | VALUE [examples] |
+|-----------------|---------------------|---------------|------------------------------------|------------------|
+| WIP             | RI-15               | Gherkin       | Start station in IFC               | WIP              |
+>
+> </details>
 
 </details>
 
 ### Informal criteria
->:information_source: *list informal criteria, or refer to external documentation*
-
-...
-
-### Expected geometry
->:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
-
-[Alignment_3D_with_signals](./Dataset/Alignment_3D_with_signals.dxf)   
-3D CAD model of the alignment with 2 signals (dxf file)
-
-
 <p align="center">
     <img src="./Dataset/Signals_on_alignment.svg" height="500"/>
 </p>
 
+
+### Expected geometry
+TBD<!--Insert screenshot s of IFC file prodiced by Pter -->
 
 ### Control parameters
 >:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
