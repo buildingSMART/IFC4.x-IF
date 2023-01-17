@@ -41,7 +41,8 @@ The files that must be provided by the subject taking the test, which will be th
 | ALRW4                       | Alignment Railway Curves - Helmert        | none         |
 | ALRW5                       | Alignment Railway Curves - Sine           | none         |
 | ALRW6                       | Alignment Railway Curves - Viennese Bend  | none         |
-| [STN01](./STN01)            | Stationing test case 01                   |              |
+| [STN01](./STN01)            | Stationing on one alignment-1             | GL01         |
+| [STN02]                     | Stationing on one alignment-2             | GL01         |
 | [FRSAS01](./FRSAS01)        | FixedReferenceSweptAreaSolid-1            |              |
 | [SSH01](./SSH01)            | SectionedSolidHorizontal-1                |              |
 | [SSH02](./SSH02)            | SectionedSolidHorizontal-2                |              |
