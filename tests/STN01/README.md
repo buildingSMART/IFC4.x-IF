@@ -93,7 +93,6 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 | WIP             | RI-8                | IDS           | Alignment horizontal common in IFC | WIP              |
 | WIP             | RI-11               | Gherkin       | Alignment vertical common in IFC   | WIP              |
 | WIP             | RI-13               | Gherkin       | Alignment cant common in IFC       | WIP              |
-| WIP             | RI-15               | Gherkin       | Start station in IFC               | WIP              |
 </details>
 
 <details><summary>Stationing</summary>
