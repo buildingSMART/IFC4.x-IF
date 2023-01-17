@@ -1,9 +1,9 @@
 # Bridge example by ACCA for MINnD
 
-This folder contains one IFC file produced by **ACCA software** for the **MINnDr** ...
+This is a Bridge model created for the **MINnD** project by **ACCA software**.
 
-## License
-(optional) This work is licensed under the Creative Commons Attribution 4.0 International License. More info and a link to the full license text is available on http://creativecommons.org/licenses/by/4.0/
+It uses the new IFC4X3 standard features (i.e. new spatial structure, alignments, linear placements, sweeps along the alignment, referents, etc.) in order to create a generic two-way bridge model with the use of the new standard.
 
-## Scope
-...
+The level of detail is fit for maintenance purposes, and the bridge is generic enough to represent 80% of the existing common bridges (also known as "horse bridges").
+
+[Click here](https://service.usbim.com/link/63c66cf641de6bcf7f5bd47a) to navigate the model in your browser.
