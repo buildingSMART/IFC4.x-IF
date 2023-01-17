@@ -1,4 +1,4 @@
-# Sample files by ACCA for RFI & Italferr Storyline
+# Railway example by ACCA for RFI & Italferr Storyline
 
 This folder contains IFC files exported by **ACCA software** for the **RFI & Italferr** Storyline 06 (Acquisition and Upgrade of an Existing Railway Line), during the Railway Room project *IFC Rail Phase 2*.
 
