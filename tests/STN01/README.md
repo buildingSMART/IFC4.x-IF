@@ -1,8 +1,8 @@
 # Stationing on alignment without broken chainage
 
-| Test code | Test author     | Test dataset source | Test direction |
-|-----------|-----------------|---------------------|----------------|
-| STN01     | WP4             | RFI                 | Export         |
+| Test code | Test author | Test dataset source | Test direction |
+| --------- | ----------- | ------------------- | -------------- |
+| STN01     | WP4         | RFI                 | Export         |
 
 
 
@@ -27,33 +27,33 @@ This test case addresses the **export** of the required IFC entities for the exc
 ## Prerequisites
 All validation criteria (and usages) of prerequisites' tests shall be **verified for this test too** (regression test principle). Prerequisites for the present test case are listed below.
 
-| Test code | Test title                         | Comments |
-|-----------|------------------------------------|----------|
-| PJ01      | Project Setup                      | none     |
-| GL01      | Global Positioning RFI dataset     | none     |
+| Test code | Test title                     | Comments |
+| --------- | ------------------------------ | -------- |
+| PJ01      | Project Setup                  | none     |
+| GL01      | Global Positioning RFI dataset | none     |
 
 
 ## Test dataset (input)
 
 This test case utilises the dataset collected in the Dataset folder and summarised in the table below. **For more details on each item see [Dataset description](Dataset/README.md).**
 
-| Filename (format)                                    | Description                                                        |
-|------------------------------------------------------|--------------------------------------------------------------------|
-| LineLayout.svg                                       | Schematic line layout of the test case                             |
-| Alignment_horizontal.csv                             | Alignment parameters for horizontal segments                       |
-| Alignment_vertical.csv                               | Alignment parameters for vertical segments                         |
-| Alignment_cant.csv                                   | Alignment parameters for cant segments                             |
-| Alignment_exchange.xml                               | Alignment description in LandXML file format                       |
-| Alignment_2D_with_stationing_values.dxf              | 2D CAD model of the alignment with mileage referents (dxf file)    |
-| Alignment_3D_with_signals.dxf                        | 3D CAD model of the alignment with 2 signals (dxf file)            |
-| Stationing_values.csv                                | Stationing values according to national conventions                |
-| Stationing_values_horizontal_segments.csv            | Stationing values of the horizontal segments                       |
-| Stationing_values_vertical_segments.csv              | Stationing values of the vertical segments                         |
-| Signal_3D.dxf                                        | 3D CAD model of the signal (dxf file)                              | 
-| Signals_positions.csv                                | Signals positions parameters                                       |
-| Stationing_values_signals.csv                        | Stationing values of the signals                                   |
-| Geographic_Coordinate_System.pdf                     | Geographic Coordinate System properties                            |
-| Ifc file  **WIP**                                    | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals|
+| Filename (format)                         | Description                                                                        |
+| ----------------------------------------- | ---------------------------------------------------------------------------------- |
+| LineLayout.svg                            | Schematic line layout of the test case                                             |
+| Alignment_horizontal.csv                  | Alignment parameters for horizontal segments                                       |
+| Alignment_vertical.csv                    | Alignment parameters for vertical segments                                         |
+| Alignment_cant.csv                        | Alignment parameters for cant segments                                             |
+| Alignment_exchange.xml                    | Alignment description in LandXML file format                                       |
+| Alignment_2D_with_stationing_values.dxf   | 2D CAD model of the alignment with mileage referents (dxf file)                    |
+| Alignment_3D_with_signals.dxf             | 3D CAD model of the alignment with 2 signals (dxf file)                            |
+| Stationing_values.csv                     | Stationing values according to national conventions                                |
+| Stationing_values_horizontal_segments.csv | Stationing values of the horizontal segments                                       |
+| Stationing_values_vertical_segments.csv   | Stationing values of the vertical segments                                         |
+| Signal_3D.dxf                             | 3D CAD model of the signal (dxf file)                                              |
+| Signals_positions.csv                     | Signals positions parameters                                                       |
+| Stationing_values_signals.csv             | Stationing values of the signals                                                   |
+| Geographic_Coordinate_System.pdf          | Geographic Coordinate System properties                                            |
+| Ifc file  **WIP**                         | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals |
 
 
 ## Validation criteria
@@ -61,25 +61,24 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 :zap: For this test case to be considered passed, **all criteria listed in this section**, and **the ones of prerequisites tests** shall be verified. :zap:
 
 ### Formal rules
->:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
 
 <details><summary>General</summary>
 
 | **RULE ID** | **CRITERIA**                                                      | **VALUE [examples]**  |
-|-------------|-------------------------------------------------------------------|-----------------------|
+| ----------- | ----------------------------------------------------------------- | --------------------- |
 | GENE_00     | All validation criteria of precondition's tests shall be verified |                       |
 | GENE_01     | All requested entities (and attributes) exist in file             | As per Entities Table |
 
 #### Entities Table
 
-| **Element**            | **Attribute**   | **Value**                                               | **Notes** |
-|------------------------|-----------------|---------------------------------------------------------|-----------|
-| IfcAlignment           | ObjectType      | Railway track alignment                                 |           |
-|                        | PredefinedType  | USERDEFINED                                             |           |
-| IfcAlignmentHorizontal | Name            | H1                                                      |           |
-| IfcAlignmentVertical   | Name            | V1                                                      |           |
-| IfcAlignmentCant       | Name            | C1                                                      |           |
-| IfcSignal              | Name            | Route Indicator_01                                      |           |
+| **Element**            | **Attribute**  | **Value**               | **Notes** |
+| ---------------------- | -------------- | ----------------------- | --------- |
+| IfcAlignment           | ObjectType     | Railway track alignment |           |
+|                        | PredefinedType | USERDEFINED             |           |
+| IfcAlignmentHorizontal | Name           | H1                      |           |
+| IfcAlignmentVertical   | Name           | V1                      |           |
+| IfcAlignmentCant       | Name           | C1                      |           |
+| IfcSignal              | Name           | Route Indicator_01      |           |
 
 </details>
 
@@ -88,7 +87,7 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 > **Acceptance criteria**: For the **Railway alignment with cant** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
 
 | **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**                       | VALUE [examples] |
-|-----------------|---------------------|---------------|------------------------------------|------------------|
+| --------------- | ------------------- | ------------- | ---------------------------------- | ---------------- |
 | WIP             | RI-6                | Gherkin       | Alignment layout in IFC            | WIP              |
 | WIP             | RI-8                | Gherkin       | Alignment horizontal common in IFC | WIP              |
 | WIP             | RI-8                | IDS           | Alignment horizontal common in IFC | WIP              |
@@ -101,22 +100,37 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 > **Acceptance criteria**: For the **Stationing** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
 
-| **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**                       | VALUE [examples] |
-|-----------------|---------------------|---------------|------------------------------------|------------------|
-| WIP             | RI-15               | Gherkin       | Start station in IFC               | WIP              |
+| **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**         | VALUE [examples] |
+| --------------- | ------------------- | ------------- | -------------------- | ---------------- |
+| WIP             | RI-15               | Gherkin       | Start station in IFC | WIP              |
 >
 > </details>
 
 </details>
 
 ### Informal criteria
+
+Signals positions relative to the alignment: offset, rotation, height.
+
 <p align="center">
     <img src="./Dataset/Signals_on_alignment.svg" height="500"/>
 </p>
 
+ Route Indicator_01 top view
+
+<p align="center">
+    <img src="./Dataset/Route_indicator_01_top.jpg" height="335"/>
+</p>
+
+ Route Indicator_02 top view
+
+
+  <p align="center">
+    <img src="./Dataset/Route_indicator_02_top.jpg" height="335"/>
+</p>
 
 ### Expected geometry
-TBD<!--Insert screenshot s of IFC file prodiced by Pter -->
+ToBeDone: insert some screenshots of the IFC file produced by Peter.
 
 ### Control parameters
 >:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
