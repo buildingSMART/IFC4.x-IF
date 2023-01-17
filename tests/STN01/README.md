@@ -2,15 +2,12 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| STN01     | Ciro Vendrame   | RFI                 | Export         |
+| STN01     | WP4             | RFI                 | Export         |
 
->**After completing the test description delete all the instructions (in Italic, marked with :information_source:). Including this one.**
+
 
 ## Intent
 This test case addresses the **export** of the required IFC entities for the exchange of data related to **Stationing on one railway track alignment with 2 signals (no broken chainage)**.
->:information_source: *describe the intention of the test, and (optionally) list the main IFC concepts covered.*
-
-...
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
@@ -19,8 +16,11 @@ This test case addresses the **export** of the required IFC entities for the exc
 - Spatial Decomposition
 - Spatial Containment
 - Alignment Geometry
-- Alignment Geometry Gradient (?)
-- Linear placement
+- Alignment Geometry Gradient
+- Alignment Geometry Cant
+- Product Linear Placement
+- Product Local Placement
+- Product Shape 
 - **TBD**  
 </details>
 
@@ -31,12 +31,15 @@ This test case addresses the **export** of the required IFC entities for the exc
 
 All validation criteria (and usages) of prerequisites' tests shall be **verified for this test too** (regression test principle). Prerequisites for the present test case are listed below.
 
-| Test code | Test title                     | Comments |
-|-----------|--------------------------------|----------|
-| PJ01      | Project Setup                  | none     |
-| GL01      | Global Positioning RFI dataset | none     |
-| **TBD**  |
-
+| Test code | Test title                         | Comments |
+|-----------|------------------------------------|----------|
+| PJ01      | Project Setup                      | none     |
+| GL01      | Global Positioning RFI dataset     | none     |
+| RI-6      | Alignment layout in IFC            |**WIP**   |
+| RI-8      | Alignment horizontal common in IFC |**WIP**   |
+| RI-11     | Alignment vertical common in IFC   |**WIP**   |
+| RI-13     | Alignment cant common in IFC       |**WIP**   |
+| RI-15     | Start station in IFC               |**WIP**   |
 
 
 ## Test dataset (input)
@@ -48,17 +51,17 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 |-------------------------------------------------|--------------------------------------------------------------------|
 | LineLayout.svg                                  | Schematic line layout of the test case                             |
 | Alignment_horizontal.csv                        | Alignment parameters for horizontal segments                       |
-| Alignment_vertical.csv                          | Alignment parameters for horizontal segments                       |
-| Alignment_cant.csv                              | Alignment parameters for horizontal segments                       |
-| Alignment_exchange.xml                          |  Alignment description in xml                                      |
+| Alignment_vertical.csv                          | Alignment parameters for vertical segments                         |
+| Alignment_cant.csv                              | Alignment parameters for cant segments                             |
+| Alignment_exchange.xml                          | Alignment description in xml                                       |
 | Alignment_2D_with_stationing_values.dxf         | 2D model of the alignment with mileage referents                   |
 | Alignment_3D_with_signals.dxf                   | 3D model of the alignment with 2 signals                           |
 | Alignment_stationing_values_by_pace.csv         | Alignment stationing values by pace                                |
 | Alignment_stationing_values_by_segment_type.csv | Alignment stationing values by segment type                        |
-| Signal_position.csv                             | Position-parameters-for-signals                                    |
+| Signals_position.csv                             | Signals positions parameters                                       |
 | Signals_positions.csv                           | Stationing-values-of-the-Signals along the alignment               |
 | Geographic_Coordinate_System.pdf                | Geographic Coordinate System properties                            |
-| Ifc file  **TBD**                               | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals for this test |
+| Ifc file  **wIP**                               | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals for this test |
 
 
 ## Validation criteria

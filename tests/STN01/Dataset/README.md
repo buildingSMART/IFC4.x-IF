@@ -23,7 +23,7 @@
     - [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)
     - [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)
     - [Stationing values of signals](#stationing-values-of-signals)
-    - [Georeferencing](#georeferencing)
+  - [Geographic Coordinate System properties](#geographic-coordinate-system-properties)
 
 
 ## Overview
@@ -46,20 +46,21 @@
 This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
 It represents one alignment with cant on which two signals are placed.
 
-| Filename                                             | Description                                                                                       |
-|------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [LineLayout](./LineLayout.svg)                       | Schematic [line layout](#Line-layout) of the test case                                            |
-| [Alignment_horizontal](./Alignment_horizontal.csv)   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
-| [Alignment_vertical](./Alignment_vertical.csv)       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
-| [Alignment cant](./Alignment_cant.csv)               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)
-| [Alignment_exchange](./Alignment_exchange.xml)       |  Alignment description in xml
-| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf) | 2D model of the alignment with mileage referents
-| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)       | 3D model of the alignment with 2 signals
-| [Alignment_stationing_values_by_pace](./Alignment_stationing_values_by_pace.csv) | Alignment stationing values by pace
-| [Alignment_stationing_values_by_segment_type](./Alignment_stationing_values_by_segment_type.csv) | Alignment stationing values by segment type
-| [Signals_positions](./Signal_position.csv)           | [Signals positions parameters](#Position-parameters-for-signals)
-| [Signals_stationing_values](./Signals_positions.csv) | [Signals stationing values](#Stationing-values-of-the-Signals) along the alignment
-| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf) | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)
+| Filename                                                                                                         | Description                                                                       |
+|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [LineLayout](./LineLayout.svg)                                                                                   | Schematic [line layout](#Line-layout) of the test case                                            |
+| [Alignment_horizontal](./Alignment_horizontal.csv)                                                               | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
+| [Alignment_vertical](./Alignment_vertical.csv)                                                                   | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
+| [Alignment cant](./Alignment_cant.csv)                                                                           | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                 |
+| [Alignment_exchange](./Alignment_exchange.xml)                                                                   | Alignment description in xml                                                                      |
+| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf)                                 | 2D model of the alignment with mileage referents                                                  |
+| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)                                                     | 3D model of the alignment with 2 signals                                                          |
+| [Stationing values according to national conventions](./Stationing_values_according_to_national_conventions.csv) | [Stationing values according to national conventions](#stationing-values-according-to-national-conventions) |
+| [Stationing values of the horizontal segments](./Stationing_values_of_the_horizontal_segments.csv) | [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)                                                      |
+| [Stationing values of the vertical segments](./Stationing_values_of_the_vertical_segments.csv)         |  [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)
+| [Signals_positions](./Signals_positions.csv)                                                     | [Signals positions parameters](#Position-parameters-for-signals)                                  |
+| [Stationing values of signals](Stationing_values_of_signals.csv)                                    | [Stationing values of signals](#stationing-values-of-signals)              |
+| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                               | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
 
 ## Line layout
 
@@ -253,7 +254,7 @@ The values are the following. In the table the type of segment and the segment l
 **NOTE**:
 - All distances are in meters
 
-### Georeferencing
+## Geographic Coordinate System properties
 
 | Coordinate System |                                       |
 |-------------------|---------------------------------------|
