@@ -2,7 +2,7 @@
 
 | Test code | Test author | Test dataset source | Test direction |
 | --------- | ----------- | ------------------- | -------------- |
-| STN01     | WP4         | RFI                 | Export         |
+| STN01     | WG4         | RFI                 | Export         |
 
 
 
@@ -101,7 +101,7 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 | **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**         | VALUE [examples] |
 | --------------- | ------------------- | ------------- | -------------------- | ---------------- |
-| WIP             | RI-15               | Gherkin       | Start station in IFC | WIP              |
+correct| WIP             | RI-15               | Gherkin       | Start station in IFC | WIP              |
 >
 > </details>
 
@@ -109,27 +109,40 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 ### Informal criteria
 
-Signals positions relative to the alignment: offset, rotation, height.
+Check  if the signals are facing opposite direction.
+
+Check  if the signals are placed on the correct side of the railway.
+
 
 <p align="center">
     <img src="./Dataset/Signals_on_alignment.svg" height="500"/>
 </p>
 
- Route Indicator_01 top view
+ <p align="center">
+ Overall view of Route Indicator_01 and Route Indicator_02
+ </p>
+<br/>
 
 <p align="center">
     <img src="./Dataset/Route_indicator_01_top.jpg" height="335"/>
 </p>
 
- Route Indicator_02 top view
-
+ <p align="center">
+ Route Indicator_01 top view
+ </p>
+<br/>
 
   <p align="center">
     <img src="./Dataset/Route_indicator_02_top.jpg" height="335"/>
 </p>
 
+ <p align="center">
+ Route Indicator_02 top view
+ </p>
+ <br/>
+
 ### Expected geometry
-ToBeDone: insert some screenshots of the IFC file produced by Peter.
+ToBeDone: insert some screenshots of the IFC file produced by Peter? 
 
 ### Control parameters
 >:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
