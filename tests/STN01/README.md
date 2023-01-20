@@ -101,7 +101,7 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 | **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**         | VALUE [examples] |
 | --------------- | ------------------- | ------------- | -------------------- | ---------------- |
-correct| WIP             | RI-15               | Gherkin       | Start station in IFC | WIP              |
+| WIP             | RI-15               | Gherkin       | Start station in IFC | WIP              |
 >
 > </details>
 
