@@ -70,7 +70,7 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 ...
 
 ### Control parameters
->:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
+>:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total lenght of one alignment, coordinates for end point of the alignment.*
 
 ...
 
