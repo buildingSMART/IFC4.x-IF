@@ -142,7 +142,10 @@ Check  if the signals are placed on the correct side of the railway.
  <br/>
 
 ### Expected geometry
-ToBeDone: insert some screenshots of the IFC file produced by Peter? 
+>:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
+
+...
+
 
 ### Control parameters
 >:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
