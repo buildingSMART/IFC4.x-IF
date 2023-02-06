@@ -57,7 +57,31 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 ### Formal rules
 >:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
 
-...
+#### IFC standard (schema and specification)
+When validated using the bSI Validation Service, the IFC must pass:
+- Syntax & Schema check
+- All following rules:
+  - ALB002 - Alignment layout
+  - ALB003 - Alignment directions
+  - TBD000 - Alignment shape representation
+  - TBD000 - Stationing along alignment
+
+>:information_source: *above is just an example of how to reference rules form the bSI Validation Service. Use a placeholder when a rule is not yet defined*
+
+#### Test case-specific checks
+>:information_source: *list or copy-paste the requirements in plain language, and **point to the IDS that formalises them - where applicable***
+
+Link to IDS file: [ABCD123.ids]() :construction:
+
+- There must be 1 instance(s) of IfcAlignment and must be named `Track alignment`,its PredefinedType must be `USERDEFINED` and its ObjectType must be `Railway track alignment`
+- There must be 1 instance(s) of IfcAlignmentHorizontal and must be named `H1`
+- There must be 1 instance(s) of IfcAlignmentVertical and must be named `V1`
+- There must be 1 instance(s) of IfcAlignmentCant and must be named `C1`
+- There must be 2 instance(s) of IfcSignal and must be named `Route Indicator_01`, `Route Indicator_02`
+- The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
+   - (or one step closer to IFC) The PredefinedType of IfcAlignmentHorizontalSegment must be `LINE` or `CIRCULARARC` or `CLOTHOID`
+
+>:information_source: *above is just an example of plain language requirements. Note how the last one can be either listed as IFC-agnostic requirement, or can be specified in an IFC-fashioned way. It's up to the test case owner to decide.*
 
 ### Informal criteria
 >:information_source: *list informal criteria, or refer to external documentation*
