@@ -1,4 +1,4 @@
-# This is the title of the test
+# Model Federation 1
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
