@@ -9,7 +9,8 @@
 ## Intent
 >:information_source: *describe the intention of the test, and (optionally) list the main IFC concepts covered.*
 
-...
+The intention of this Business Case is to test how model federation works in the context of IFC4.3. 
+In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a signal) and in relation to fixed coordinates (for example existing buildings)
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
