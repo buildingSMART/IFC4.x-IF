@@ -61,7 +61,7 @@ The following steps should be performed in order to corroborate that the softwar
 - The drainage model will contain both fixed and "guided" objects in terms of its location. Georefencing will be both fixed and guided, depending on the type of element.
 - The test will consist a correction of the alignment model and the consecuent correction of the guided models.
 - We expect an export in ifc4.3 of all models before ans after the correction.
-- 
+
 
 **Expected geometry**, to provide a visual idea of the expected result*
 
@@ -70,7 +70,7 @@ The following steps should be performed in order to corroborate that the softwar
 
 
 
-## Link to requirements
+### Link to requirements
 >:information_source: *list requirements covered by this test, or refer to external documentation*
 
 ...
