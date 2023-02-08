@@ -39,16 +39,17 @@ All the required files are collected in the Dataset folder and summarised in the
 ## Validation criteria
 ⚡ For this test case to be considered passed, all criteria listed in this section, and the ones of prerequisites tests shall be verified. ⚡
 
-***Formal rules**, Formal Rules are those contained in the Gerkin documentation provided within the bSI validation system. In particular, the following list of rules will apply
+**Formal rules**, 
+Formal Rules are those contained in the Gerkin documentation provided within the bSI validation system. In particular, the following list of rules will apply
 
 |Rule Number                | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
 | RI-###                    | Rule to check..                                                    |
 
 
-***Informal criteria**,
->The following steps should be performed in order to corroborate that the software is working as expected:
->
+**Informal criteria**,
+The following steps should be performed in order to corroborate that the software is working as expected:
+
 - Each file mades up a specialist model. Each model is to be loaded within one IfCFacilityPart.
 - All of the models should be first converted into ifc4.3.
 - When loaded together, all the models shold be able to be federated into one. An export of the federated model is not required.
@@ -60,10 +61,10 @@ All the required files are collected in the Dataset folder and summarised in the
 - We expect an export in ifc4.3 of all models before ans after the correction.
 - 
 
-***Expected geometry**, to provide a visual idea of the expected result*
+**Expected geometry**, to provide a visual idea of the expected result*
 
 
-***Control parameters**, to check the content of the model against the given dataset*
+**Control parameters**, to check the content of the model against the given dataset*
 
 
 
