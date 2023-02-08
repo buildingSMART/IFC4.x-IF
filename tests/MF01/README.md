@@ -63,7 +63,7 @@ The following steps should be performed in order to corroborate that the softwar
 - We expect an export in ifc4.3 of all models before ans after the correction.
 
 
-### Exoected geometry
+### Expected geometry
 The following figure displays the federetad model before the correction
 
 
