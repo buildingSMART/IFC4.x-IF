@@ -63,10 +63,8 @@ The following steps should be performed in order to corroborate that the softwar
 - We expect an export in ifc4.3 of all models before ans after the correction.
 
 
-**Expected geometry**, to provide a visual idea of the expected result*
-
-
-**Control parameters**, to check the content of the model against the given dataset*
+### Exoected geometry
+The following figure displays the federetad model before the correction
 
 
 
