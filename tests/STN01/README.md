@@ -1,8 +1,8 @@
 # Stationing on alignment without broken chainage
 
-| Test code | Test author | Test dataset source | Test direction |
-| --------- | ----------- | ------------------- | -------------- |
-| STN01     | WG4         | RFI                 | Export         |
+| Test code | Test author   | Test dataset source | Test direction |
+| --------- | ------------- | ------------------- | -------------- |
+| STN01     | Ciro Vendrame | RFI                 | Export         |
 
 
 
@@ -62,56 +62,39 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 ### Formal rules
 
-<details><summary>General</summary>
+#### IFC standard (schema and specification)
 
-| **RULE ID** | **CRITERIA**                                                      | **VALUE [examples]**  |
-| ----------- | ----------------------------------------------------------------- | --------------------- |
-| GENE_00     | All validation criteria of precondition's tests shall be verified |                       |
-| GENE_01     | All requested entities (and attributes) exist in file             | As per Entities Table |
+When validated using the bSI Validation Service, the IFC must pass:
+- Syntax & Schema check
+- All following rules:
+  - ALB002 - Alignment layout (RI-6)
+  - ALB003 - Alignment directions
+  - TBD000 - Alignment shape representation (RI-5, RI-9, RI-10, RI-12, RI-14)
+  - TBD000 - Stationing along alignment (RI-7)
 
-#### Entities Table
+#### Test case-specific checks
 
-| **Element**            | **Attribute**  | **Value**               | **Notes** |
-| ---------------------- | -------------- | ----------------------- | --------- |
-| IfcAlignment           | ObjectType     | Railway track alignment |           |
-|                        | PredefinedType | USERDEFINED             |           |
-| IfcAlignmentHorizontal | Name           | H1                      |           |
-| IfcAlignmentVertical   | Name           | V1                      |           |
-| IfcAlignmentCant       | Name           | C1                      |           |
-| IfcSignal              | Name           | Route Indicator_01      |           |
+Link to IDS file: [STN01.ids]() :construction:
 
-</details>
-
-<details><summary>Railway alignment with cant</summary>
-
-> **Acceptance criteria**: For the **Railway alignment with cant** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
-
-| **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**                       | VALUE [examples] |
-| --------------- | ------------------- | ------------- | ---------------------------------- | ---------------- |
-| WIP             | RI-6                | Gherkin       | Alignment layout in IFC            | WIP              |
-| WIP             | RI-8                | Gherkin       | Alignment horizontal common in IFC | WIP              |
-| WIP             | RI-8                | IDS           | Alignment horizontal common in IFC | WIP              |
-| WIP             | RI-11               | Gherkin       | Alignment vertical common in IFC   | WIP              |
-| WIP             | RI-13               | Gherkin       | Alignment cant common in IFC       | WIP              |
-</details>
-
-<details><summary>Stationing</summary>
-
-> **Acceptance criteria**: For the **Stationing** capability, the validation procedure must verify that **all** the following validation criteria are satisfied.
-
-| **bSI RULE ID** | **Project RULE ID** | **Rule Type** | **CRITERIA**         | VALUE [examples] |
-| --------------- | ------------------- | ------------- | -------------------- | ---------------- |
-| WIP             | RI-15               | Gherkin       | Start station in IFC | WIP              |
->
-> </details>
-
-</details>
-
+- (RI-18) Each IfcProduct (and subtypes) must have the attribute `Name` not null and not empty
+- (RI-4) An IfcProject must have the attribute `Description` not null and not empty
+- There must be 1 instance(s) of IfcAlignment and must be named `Track alignment`,its PredefinedType must be `USERDEFINED` and its ObjectType must be `Railway track alignment`
+- There must be 1 instance(s) of IfcAlignmentHorizontal and must be named `H1`
+- There must be 1 instance(s) of IfcAlignmentVertical and must be named `V1`
+- There must be 1 instance(s) of IfcAlignmentCant and must be named `C1`
+- There must be 2 instance(s) of IfcSignal and must be named `Route Indicator_01`, `Route Indicator_02`
+- (RI-8) The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
+  - (or one step closer to IFC) The PredefinedType of IfcAlignmentHorizontalSegment must be `LINE` or `CIRCULARARC` or `CLOTHOID`
+- (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
+- (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
+- (RI-19) An IfcSignal shall have 'Body' geometry.
+  
 ### Informal criteria
 
-Check  if the signals are facing opposite direction.
-
-Check  if the signals are placed on the correct side of the railway.
+1. Check if the signals are facing opposite direction.
+2. Check if the signals are placed on the correct side of the railway.
+3. (RI-15) The start station of the alignment is *-153.1 m*
+5. (RI-16) Check that the distance between one reference marker and the next one is 50 m, except for the first one
 
 
 <p align="center">
@@ -144,18 +127,21 @@ Check  if the signals are placed on the correct side of the railway.
 ### Expected geometry
 >:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
 
-...
+<p align="center">
+    <img src="./Dataset/Expected_geometry.jpg" height="450"/>
+</p>
 
 
 ### Control parameters
->:information_source: *add link to bSI Validation Service rules or to IDS file/bSDD domain*
+>:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
 
-...
+1. The total 2D length of the track alignment (horizontal projection) is 1029.3721 meters
+2. The total 3D length of the track alignment is 1029.3861 meters
+3. The ending point of the track alignment has coordinate (x, y, z) 453202.5241, 4539831.9287, 2.0000
+4. The ending point of the track alignment has mileage (pk)	0+876.2721
+5. The vertical height difference between starting and ending points of the track alignment 3D curve is -3.0000 meters
 
 ## Link to requirements
 >:information_source: *list requirements covered by this test, or refer to external documentation*
 
-...
-
-
-
+TODO
