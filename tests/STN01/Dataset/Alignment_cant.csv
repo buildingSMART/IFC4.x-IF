@@ -1,0 +1,10 @@
+﻿Entity,PredefinedType,Name,Start Dist Along,Horizontal Length,Start Cant left,End Cant left,Start Cant right,End Cant right
+IfcAlignmentCantSegment,CONSTANTCANT,C1,0,387.7233,0,0,0,0
+IfcAlignmentCantSegment,LINEARTRANSITION,C2,387.7233,40,0,0,0,0.06
+IfcAlignmentCantSegment,CONSTANTCANT,C3,427.7233,193.4645,0,0,0.06,0.06
+IfcAlignmentCantSegment,LINEARTRANSITION,C4,621.1878,40,0,0,0.06,0
+IfcAlignmentCantSegment,CONSTANTCANT,C5,661.1878,38.9815,0,0,0,0
+IfcAlignmentCantSegment,LINEARTRANSITION,C6,700.1693,40,0,0.06,0,0
+IfcAlignmentCantSegment,CONSTANTCANT,C7,740.1693,109.4317,0.06,0.06,0,0
+IfcAlignmentCantSegment,LINEARTRANSITION,C8,849.601,40,0.06,0,0,0
+IfcAlignmentCantSegment,CONSTANTCANT,C9,889.601,139.7711,0,0,0,0
