@@ -10,15 +10,20 @@ Each test is structured as follows:
 3. **Test dataset (input)**, a list of files supporting the test. May include a **Reference IFC file**
 4. **Validation criteria**, all the criteria that are used to validate the success of the test. It includes:
    - **Formal rules**
+     - **IFC standard (schema and specification)**
+     - **Test case-specific checks**
    - **Informal criteria**
    - **Expected geometry**
-   - **Control parameters**, meant to support the validation of the correct creation of the model, based on the provided dataset. These parameters can be used also to support the **validation of import** into a receiving application.
+   - **Control parameters**
 
-**Output of the test**
-The files that must be provided by the subject taking the test, which will be the base to validate the test are always:
-   - n. 1 IFC file, named using the syntax: `TestCode`_`SoftwareVendor`.`ifc` (Example: *AL22_AmazingSoft.ifc*)
-   - (optionally) any other evidence of fulfillment of the informal validation criteria referenced below
+🔍 See the [Test template](./Test%20template.md) for details.
 
+### Output of the test
+Every test has a subfolder named **test-output**. Through a pull request, the party executing the test will upload in such subfolder:
+   - n. 1 IFC file, named using this convention: `TestCode`_`SoftwareVendor`.`ifc` (Example: *STN01_AmazingSoft.ifc*)
+   - where applicable, any other evidence of fulfillment of the informal validation criteria (e.g., screenshots)
+
+❗ These output will be the base for the validation and verification of the results of the test case.
 
 ## List of tests
 
