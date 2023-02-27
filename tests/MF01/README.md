@@ -2,22 +2,39 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| MF01      | WG4             | SBB                 | Export         |
+| MF01      | Mercedes Santos, Chi Zhang             | SBB                 | Export, Import         |
 
 
 
 ## Intent
 
 The intention of this Business Case is to test how model federation works in the context of IFC4.3. 
-In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a turnout within an alignment) and in relation to fixed coordinates (for example existing buildings)
+In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a turnout within an alignment) and in relation to fixed coordinates (for example existing buildings) with georeferencing information set as the global context.
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
-- Project Global Positioning - Georeferencing
-- Model referencing
+- Project Global Positioning ([Concept Template](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html) | Requirements)
 - Alignment Layout
-- Spatial Decomposition - IfcFacilityPart implementation
+- Spatial Structure
+- Alignment Geometry
+- Product Linear Placement
+- Product Local Placement
+- Revision Control
+- Software Identity
+- Element Decomposition
+- Body Tessellation Geometry
+- Body Advanced Swept Solid Geometry
+- Body SweptSolid PolyCurve Geometry
+- Clearance Geometry
+
+</details>
+
+<details><summary>Main software features involved in this test</summary> 
+
+- Model referencing
+- Element merging and update
 - Model integration and display
+- Model filter and hide
 </details>
 
 
