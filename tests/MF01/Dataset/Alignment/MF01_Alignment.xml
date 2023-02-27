@@ -1,0 +1,2078 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" version="1.2" date="2022-07-13" time="11:10:02" readOnly="false" language="english">
+    <Units>
+        <Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="HPA"/>
+    </Units>
+    <Project name="MSZW A2" desc=""/>
+    <Application name="ProVI" manufacturer="ProVI GmbH" version="6.3" manufacturerURL="www.provi-cad.de"/>
+    <Alignments name="MSZW A2">
+        <Alignment name="A50034A" length="14028.833820" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="cw" chord="30.517839" crvType="arc" dirEnd="5.6190198220" dirStart="5.6720112330" radius="575.969000" length="30.521410" staStart="0.000000">
+                    <Start>1251466.93025 2683026.06027</Start>
+                    <Center>1251136.422309 2683497.764404</Center>
+                    <End>1251491.450881 2683044.228295</End>
+                </Curve>
+                <Spiral length="25.999790" radiusEnd="2000.000000" radiusStart="575.980000" rot="cw" spiType="clothoid" constant="145.025902" dirEnd="5.5899490118" dirStart="5.6190190052" theta="0.0290699933" totalY="0.308251" totalX="-25.997028" staStart="30.521410" tanLong="15.396262" tanShort="10.605247">
+                    <Start>1251491.45088 2683044.2283</Start>
+                    <PI>1251499.80178 2683050.765405</PI>
+                    <End>1251511.64431 2683060.60407</End>
+                </Spiral>
+                <Curve rot="cw" chord="46.416068" crvType="arc" dirEnd="5.5667398796" dirStart="5.5899484346" radius="2000.000000" length="46.417110" staStart="56.521200">
+                    <Start>1251511.64431 2683060.60407</Start>
+                    <Center>1250233.583773 2684598.967247</Center>
+                    <End>1251547.000101 2683090.677637</End>
+                </Curve>
+                <Spiral length="21.999850" radiusEnd="670.000000" radiusStart="2000.000000" rot="cw" spiType="clothoid" constant="148.880027" dirEnd="5.5448223150" dirStart="5.5667400760" theta="0.0219177610" totalY="0.281112" totalX="-21.997606" staStart="102.938310" tanLong="12.826811" tanShort="9.173876">
+                    <Start>1251547.0001 2683090.67764</Start>
+                    <PI>1251556.673375 2683099.10111</PI>
+                    <End>1251563.45811 2683105.27584</End>
+                </Spiral>
+                <Curve rot="cw" chord="102.461303" crvType="arc" dirEnd="5.3917472801" dirStart="5.5448240115" radius="670.000000" length="102.561410" staStart="124.938160">
+                    <Start>1251563.45811 2683105.27584</Start>
+                    <Center>1251112.496604 2683600.789432</Center>
+                    <End>1251633.740561 2683179.832501</End>
+                </Curve>
+                <Spiral length="31.999840" radiusEnd="INF" radiusStart="670.000000" rot="cw" spiType="clothoid" constant="146.423676" dirEnd="5.3678658190" dirStart="5.3917462966" theta="0.0238804776" totalY="0.254713" totalX="-31.998015" staStart="227.499570" tanLong="21.333864" tanShort="10.667193">
+                    <Start>1251633.74056 2683179.8325</Start>
+                    <PI>1251640.442684 2683188.131327</PI>
+                    <End>1251653.44647 2683205.0439</End>
+                </Spiral>
+                <Line dir="5.3678686216" length="98.951180" staStart="259.499410">
+                    <Start>1251653.44647 2683205.0439</Start>
+                    <End>1251713.761128 2683283.488008</End>
+                </Line>
+                <Spiral length="34.868350" radiusEnd="595.500000" radiusStart="INF" rot="cw" spiType="clothoid" constant="144.097545" dirEnd="5.3385928747" dirStart="5.3678694070" theta="0.0292765323" totalY="0.340254" totalX="34.865361" staStart="358.450590" tanLong="23.246610" tanShort="11.623732">
+                    <Start>1251713.76112 2683283.48801</Start>
+                    <PI>1251727.930863 2683301.916881</PI>
+                    <End>1251734.74321 2683311.33511</End>
+                </Spiral>
+                <Curve rot="cw" chord="65.289425" crvType="arc" dirEnd="5.2289025948" dirStart="5.3385955754" radius="595.500000" length="65.322170" staStart="393.318940">
+                    <Start>1251734.74321 2683311.33511</Start>
+                    <Center>1251252.235432 2683660.342981</Center>
+                    <End>1251770.050205 2683366.25437</End>
+                </Curve>
+                <Spiral length="34.958230" radiusEnd="INF" radiusStart="595.500000" rot="cw" spiType="clothoid" constant="144.283145" dirEnd="5.1995507855" dirStart="5.2289027839" theta="0.0293519983" totalY="0.342010" totalX="-34.955218" staStart="458.641110" tanLong="23.306539" tanShort="11.653699">
+                    <Start>1251770.05021 2683366.25437</Start>
+                    <PI>1251775.80541 2683376.387799</PI>
+                    <End>1251786.71566 2683396.98297</End>
+                </Spiral>
+                <Line dir="5.1995538682" length="105.946130" staStart="493.599340">
+                    <Start>1251786.71566 2683396.98297</Start>
+                    <End>1251836.311426 2683490.603707</End>
+                </Line>
+                <Spiral length="94.866680" radiusEnd="303.800000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="169.766008" dirEnd="5.3556912383" dirStart="5.1995577952" theta="0.1561334431" totalY="4.928697" totalX="94.635678" staStart="599.545470" tanLong="63.325401" tanShort="31.695828">
+                    <Start>1251836.31143 2683490.60371</Start>
+                    <PI>1251865.955694 2683546.561944</PI>
+                    <End>1251884.96815 2683571.92239</End>
+                </Spiral>
+                <Curve rot="ccw" chord="88.296120" crvType="arc" dirEnd="5.6473667078" dirStart="5.3556949501" radius="303.800000" length="88.609880" staStart="694.412150">
+                    <Start>1251884.96815 2683571.92239</Start>
+                    <Center>1252128.043715 2683389.68982</Center>
+                    <End>1251947.636233 2683634.123002</End>
+                </Curve>
+                <Spiral length="62.389980" radiusEnd="INF" radiusStart="303.800000" rot="ccw" spiType="clothoid" constant="137.673803" dirEnd="5.7500529611" dirStart="5.6473703081" theta="0.1026826531" totalY="2.133849" totalX="-62.324230" staStart="783.022030" tanLong="41.616315" tanShort="20.817566">
+                    <Start>1251947.63623 2683634.12301</Start>
+                    <PI>1251964.385794 2683646.485177</PI>
+                    <End>1252000.22657 2683667.63598</End>
+                </Spiral>
+                <Line dir="5.7500417971" length="99.459330" staStart="845.412010">
+                    <Start>1252000.22657 2683667.63598</Start>
+                    <End>1252085.882304 2683718.185496</End>
+                </Line>
+                <Curve rot="cw" chord="0.588120" crvType="arc" dirEnd="5.7500281307" dirStart="5.7500507507" radius="26000.000000" length="0.588120" staStart="944.871340">
+                    <Start>1252085.88276 2683718.18473</Start>
+                    <Center>1238871.763121 2706109.858231</Center>
+                    <End>1252086.389256 2683718.483639</End>
+                </Curve>
+                <Line dir="5.7500281312" length="404.899740" staStart="945.459460">
+                    <Start>1252086.38925 2683718.48364</Start>
+                    <End>1252435.091625 2683924.275897</End>
+                </Line>
+                <Line dir="5.7500281312" length="207.445790" staStart="1350.359200">
+                    <Start>1252435.09163 2683924.27589</Start>
+                    <End>1252613.745337 2684029.711219</End>
+                </Line>
+                <Spiral length="49.999990" radiusEnd="1496.200000" radiusStart="INF" rot="cw" spiType="clothoid" constant="273.514140" dirEnd="5.7333191384" dirStart="5.7500281312" theta="0.0167089928" totalY="0.278478" totalX="49.998594" staStart="1557.804990" tanLong="33.333814" tanShort="16.667107">
+                    <Start>1252613.74534 2684029.71122</Start>
+                    <PI>1252642.452644 2684046.653293</PI>
+                    <End>1252656.66293 2684055.36308</End>
+                </Spiral>
+                <Curve rot="cw" chord="80.068753" crvType="arc" dirEnd="5.6797979726" dirStart="5.7333190994" radius="1496.200000" length="80.078310" staStart="1607.804980">
+                    <Start>1252656.66293 2684055.36308</Start>
+                    <Center>1251874.788963 2685331.01489</Center>
+                    <End>1252723.785086 2684099.016503</End>
+                </Curve>
+                <Spiral length="79.999990" radiusEnd="INF" radiusStart="1496.200000" rot="cw" spiType="clothoid" constant="345.971075" dirEnd="5.6530635941" dirStart="5.6797979845" theta="0.0267343905" totalY="0.712881" totalX="-79.994272" staStart="1687.883290" tanLong="53.335324" tanShort="26.668479">
+                    <Start>1252723.78509 2684099.0165</Start>
+                    <PI>1252745.744402 2684114.149126</PI>
+                    <End>1252788.836986 2684145.576597</End>
+                </Spiral>
+                <Spiral length="80.000000" radiusEnd="1503.800000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="346.848670" dirEnd="5.6796628759" dirStart="5.6530635941" theta="0.0265992818" totalY="0.709278" totalX="79.994340" staStart="1767.883280" tanLong="53.335310" tanShort="26.668463">
+                    <Start>1252788.836986 2684145.576597</Start>
+                    <PI>1252831.929559 2684177.004061</PI>
+                    <End>1252853.88682 2684192.13965</End>
+                </Spiral>
+                <Curve rot="ccw" chord="63.197648" crvType="arc" dirEnd="5.7216912908" dirStart="5.6796628960" radius="1503.800000" length="63.202300" staStart="1847.883280">
+                    <Start>1252853.88682 2684192.13965</Start>
+                    <Center>1253707.362699 2682953.998558</Center>
+                    <End>1252906.662257 2684226.905955</End>
+                </Curve>
+                <Spiral length="50.062750" radiusEnd="INF" radiusStart="1503.800000" rot="ccw" spiType="clothoid" constant="274.379962" dirEnd="5.7383376371" dirStart="5.7216922221" theta="0.0166454149" totalY="0.277766" totalX="-50.061363" staStart="1911.085580" tanLong="33.375651" tanShort="16.688024">
+                    <Start>1252906.66226 2684226.90596</Start>
+                    <PI>1252920.788022 2684235.791509</PI>
+                    <End>1252949.33109 2684253.08969</End>
+                </Spiral>
+                <Line dir="5.7383337096" length="373.908490" staStart="1961.148330">
+                    <Start>1252949.33109 2684253.08969</Start>
+                    <End>1253269.099207 2684446.883163</End>
+                </Line>
+                <Spiral length="30.009420" radiusEnd="5003.800000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="387.506304" dirEnd="5.7413215342" dirStart="5.7383228711" theta="0.0029986630" totalY="0.029996" totalX="30.009393" staStart="2335.056820" tanLong="20.006290" tanShort="10.003148">
+                    <Start>1253269.09921 2684446.88316</Start>
+                    <PI>1253286.208561 2684457.252429</PI>
+                    <End>1253294.77875 2684462.41139</End>
+                </Spiral>
+                <Curve rot="ccw" chord="215.271295" crvType="arc" dirEnd="5.7843464024" dirStart="5.7413215213" radius="5003.800000" length="215.287900" staStart="2365.066240">
+                    <Start>1253294.77875 2684462.41139</Start>
+                    <Center>1255875.406953 2680175.41098</Center>
+                    <End>1253481.557716 2684569.441051</End>
+                </Curve>
+                <Spiral length="20.051880" radiusEnd="INF" radiusStart="5003.800000" rot="ccw" spiType="clothoid" constant="316.757947" dirEnd="5.7863497692" dirStart="5.7843461040" theta="0.0020036652" totalY="0.013392" totalX="-20.051872" staStart="2580.354140" tanLong="13.367923" tanShort="6.683962">
+                    <Start>1253481.55771 2684569.44107</Start>
+                    <PI>1253487.427154 2684572.638721</PI>
+                    <End>1253499.178833 2684579.010489</End>
+                </Spiral>
+                <Spiral length="49.944610" radiusEnd="1996.200000" radiusStart="INF" rot="cw" spiType="clothoid" constant="315.752166" dirEnd="5.7738398478" dirStart="5.7863497692" theta="0.0125099214" totalY="0.208265" totalX="49.943828" staStart="2600.406020" tanLong="33.296679" tanShort="16.648452">
+                    <Start>1253499.178833 2684579.010489</Start>
+                    <PI>1253528.449787 2684594.88122</PI>
+                    <End>1253542.98496 2684602.99908</End>
+                </Spiral>
+                <Curve rot="cw" chord="85.021012" crvType="arc" dirEnd="5.7312439263" dirStart="5.7738385761" radius="1996.200000" length="85.027440" staStart="2650.350630">
+                    <Start>1253542.98496 2684602.99908</Start>
+                    <Center>1252569.623855 2686345.807905</Center>
+                    <End>1253616.313993 2684646.027273</End>
+                </Curve>
+                <Spiral length="29.617820" radiusEnd="INF" radiusStart="1996.200000" rot="cw" spiType="clothoid" constant="243.152405" dirEnd="5.7238236423" dirStart="5.7312421925" theta="0.0074185502" totalY="0.073240" totalX="-29.617657" staStart="2735.378070" tanLong="19.745271" tanShort="9.872658">
+                    <Start>1253616.31399 2684646.02728</Start>
+                    <PI>1253624.72063 2684651.203937</PI>
+                    <End>1253641.456603 2684661.681671</End>
+                </Spiral>
+                <Spiral length="100.387940" radiusEnd="539.800000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="232.786189" dirEnd="5.8168098779" dirStart="5.7238236423" theta="0.0929862356" totalY="3.109644" totalX="100.301175" staStart="2764.995890" tanLong="66.955630" tanShort="33.490227">
+                    <Start>1253641.456603 2684661.681671</Start>
+                    <PI>1253698.207794 2684697.211359</PI>
+                    <End>1253728.12122 2684712.27059</End>
+                </Spiral>
+                <Curve rot="ccw" chord="144.416050" crvType="arc" dirEnd="6.0851297633" dirStart="5.8167891742" radius="539.800000" length="144.850250" staStart="2865.383830">
+                    <Start>1253728.12122 2684712.27059</Start>
+                    <Center>1253970.853225 2684230.124125</Center>
+                    <End>1253864.640417 2684759.37159</End>
+                </Curve>
+                <Spiral length="100.358340" radiusEnd="INF" radiusStart="539.800000" rot="ccw" spiType="clothoid" constant="232.751868" dirEnd="6.1780717350" dirStart="6.0851129169" theta="0.0929588181" totalY="3.107812" totalX="-100.271652" staStart="3010.234080" tanLong="66.935869" tanShort="33.480336">
+                    <Start>1253864.64042 2684759.37158</Start>
+                    <PI>1253897.466139 2684765.959833</PI>
+                    <End>1253964.03256 2684772.98276</End>
+                </Spiral>
+                <Line dir="6.1780726435" length="77.051030" staStart="3110.592420">
+                    <Start>1253964.03256 2684772.98276</Start>
+                    <End>1254040.658326 2684781.066893</End>
+                </Line>
+                <Line dir="6.1780726435" length="133.540370" staStart="3187.643450">
+                    <Start>1254040.65832 2684781.06689</Start>
+                    <End>1254173.461647 2684795.07784</End>
+                </Line>
+                <Spiral length="100.354270" radiusEnd="543.800000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="233.607902" dirEnd="6.2703485026" dirStart="6.1780771988" theta="0.0922713038" totalY="3.084730" totalX="100.268862" staStart="3321.183820" tanLong="66.932708" tanShort="33.478571">
+                    <Start>1254173.46165 2684795.07784</Start>
+                    <PI>1254240.024971 2684802.100064</PI>
+                    <End>1254273.50078 2684802.52981</End>
+                </Spiral>
+                <Curve rot="ccw" chord="307.711423" crvType="arc" dirEnd="0.5608584715" dirStart="6.2703548857" radius="543.800000" length="311.972020" staStart="3421.538090">
+                    <Start>1254273.50078 2684802.52981</Start>
+                    <Center>1254280.477772 2684258.774569</Center>
+                    <End>1254569.73225 2684719.263752</End>
+                </Curve>
+                <Spiral length="100.435810" radiusEnd="INF" radiusStart="543.800000" rot="ccw" spiType="clothoid" constant="233.702789" dirEnd="0.6532239233" dirStart="0.5608776471" theta="0.0923462762" totalY="3.089742" totalX="-100.350194" staStart="3733.510110" tanLong="66.987141" tanShort="33.505818">
+                    <Start>1254569.73225 2684719.26375</Start>
+                    <PI>1254598.104594 2684701.441014</PI>
+                    <End>1254651.300998 2684660.729595</End>
+                </Spiral>
+                <Spiral length="100.207230" radiusEnd="546.200000" radiusStart="INF" rot="cw" spiType="clothoid" constant="233.951254" dirEnd="0.5614926618" dirStart="0.6532239233" theta="0.0917312614" totalY="3.062204" totalX="100.122942" staStart="3833.945920" tanLong="66.834289" tanShort="33.429202">
+                    <Start>1254651.300998 2684660.729595</Start>
+                    <PI>1254704.376017 2684620.111071</PI>
+                    <End>1254732.67274 2684602.31197</End>
+                </Spiral>
+                <Curve rot="cw" chord="264.050787" crvType="arc" dirEnd="0.0732264208" dirStart="0.5614946559" radius="546.200000" length="266.692110" staStart="3934.153150">
+                    <Start>1254732.67274 2684602.31197</Start>
+                    <Center>1255023.498 2685064.648545</Center>
+                    <End>1254983.537463 2684519.912282</End>
+                </Curve>
+                <Spiral length="99.654690" radiusEnd="INF" radiusStart="546.200000" rot="cw" spiType="clothoid" constant="233.305361" dirEnd="6.2651910025" dirStart="0.0732311531" theta="0.0912254577" totalY="3.028547" totalX="-99.571788" staStart="4200.845260" tanLong="66.465444" tanShort="33.244581">
+                    <Start>1254983.53746 2684519.91226</Start>
+                    <PI>1255016.692939 2684517.479896</PI>
+                    <End>1255083.14762 2684518.67583</End>
+                </Spiral>
+                <Line dir="6.2651913640" length="255.580820" staStart="4300.499950">
+                    <Start>1255083.14762 2684518.67583</Start>
+                    <End>1255338.687065 2684523.274489</End>
+                </Line>
+                <Line dir="6.2651913640" length="239.071670" staStart="4556.080770">
+                    <Start>1255338.68706 2684523.27449</Start>
+                    <End>1255577.720027 2684527.5761</End>
+                </Line>
+                <Spiral length="70.000020" radiusEnd="1000.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="264.575169" dirEnd="6.2301886837" dirStart="6.2651886937" theta="0.0350000100" totalY="0.816596" totalX="69.991445" staStart="4795.152440" tanLong="46.669675" tanShort="23.336063">
+                    <Start>1255577.72003 2684527.57609</Start>
+                    <PI>1255624.382147 2684528.415941</PI>
+                    <End>1255647.68545 2684529.6521</End>
+                </Spiral>
+                <Curve rot="cw" chord="53.165007" crvType="arc" dirEnd="6.1770148979" dirStart="6.2301861679" radius="1000.000000" length="53.171270" staStart="4865.152460">
+                    <Start>1255647.68545 2684529.6521</Start>
+                    <Center>1255594.711119 2685528.247974</Center>
+                    <End>1255700.682179 2684533.87876</End>
+                </Curve>
+                <Spiral length="42.628060" radiusEnd="642.500000" radiusStart="1000.000000" rot="cw" spiType="clothoid" constant="276.787407" dirEnd="6.1225272517" dirStart="6.1770148693" theta="0.0544876175" totalY="1.245281" totalX="-42.604575" staStart="4918.323730" tanLong="22.865705" tanShort="19.772804">
+                    <Start>1255700.68218 2684533.87876</Start>
+                    <PI>1255723.419134 2684536.301864</PI>
+                    <End>1255742.9373 2684539.4649</End>
+                </Spiral>
+                <Curve rot="cw" chord="201.349553" crvType="arc" dirEnd="5.8078461086" dirStart="6.1225274005" radius="642.500000" length="202.182730" staStart="4960.951790">
+                    <Start>1255742.9373 2684539.4649</Start>
+                    <Center>1255640.158068 2685173.690948</Center>
+                    <End>1255934.191812 2684602.420077</End>
+                </Curve>
+                <Spiral length="20.000010" radiusEnd="534.274000" radiusStart="642.500000" rot="cw" spiType="clothoid" constant="251.865039" dirEnd="5.7735647950" dirStart="5.8078460024" theta="0.0342812074" totalY="0.353286" totalX="-19.995909" staStart="5163.134520" tanLong="10.307550" tanShort="9.694415">
+                    <Start>1255934.19181 2684602.42009</Start>
+                    <PI>1255943.356639 2684607.137239</PI>
+                    <End>1255951.81918 2684611.86662</End>
+                </Spiral>
+                <Curve rot="cw" chord="266.043584" crvType="arc" dirEnd="5.2703176509" dirStart="5.7735647863" radius="534.274000" length="268.871860" staStart="5183.134530">
+                    <Start>1255951.81918 2684611.86662</Start>
+                    <Center>1255691.175734 2685078.250261</Center>
+                    <End>1256144.428981 2684795.389516</End>
+                </Curve>
+                <Spiral length="48.400000" radiusEnd="601.400000" radiusStart="534.274000" rot="cw" spiType="clothoid" constant="481.327892" dirEnd="5.1847830624" dirStart="5.2703176144" theta="0.0855345521" totalY="2.027936" totalX="-48.342727" staStart="5452.006390" tanLong="24.691607" tanShort="23.737902">
+                    <Start>1256144.42898 2684795.38952</Start>
+                    <PI>1256156.99654 2684815.527654</PI>
+                    <End>1256168.23171 2684837.51507</End>
+                </Spiral>
+                <Curve rot="cw" chord="134.925235" crvType="arc" dirEnd="4.9599579340" dirStart="5.1847830420" radius="601.400000" length="135.209820" staStart="5500.406390">
+                    <Start>1256168.23171 2684837.51507</Start>
+                    <Center>1255632.696138 2685111.16377</Center>
+                    <End>1256215.760059 2684963.792048</End>
+                </Curve>
+                <Curve rot="cw" chord="29.532068" crvType="arc" dirEnd="4.9107328650" dirStart="4.9599579483" radius="600.000000" length="29.535050" staStart="5635.616210">
+                    <Start>1256215.76006 2684963.79205</Start>
+                    <Center>1255634.053457 2685110.820714</Center>
+                    <End>1256222.290009 2684992.593141</End>
+                </Curve>
+                <Spiral length="30.000000" radiusEnd="646.000000" radiusStart="600.000000" rot="cw" spiType="clothoid" constant="502.774909" dirEnd="4.8625131471" dirStart="4.9107329613" theta="0.0482198142" totalY="0.714259" totalX="-29.988589" staStart="5665.151260" tanLong="15.187504" tanShort="14.818309">
+                    <Start>1256222.29001 2684992.59314</Start>
+                    <PI>1256225.209899 2685007.120924</PI>
+                    <End>1256227.48136 2685022.13761</End>
+                </Spiral>
+                <Curve rot="cw" chord="72.313062" crvType="arc" dirEnd="4.7505148762" dirStart="4.8625131269" radius="646.000000" length="72.350870" staStart="5695.151260">
+                    <Start>1256227.48136 2685022.13761</Start>
+                    <Center>1255588.747233 2685118.753941</Center>
+                    <End>1256234.277783 2685094.130579</End>
+                </Curve>
+                <Curve rot="cw" chord="322.960777" crvType="arc" dirEnd="4.2452261864" dirStart="4.7505239882" radius="646.000000" length="326.422380" staStart="5767.502130">
+                    <Start>1256234.27778 2685094.13058</Start>
+                    <Center>1255588.747455 2685118.759824</Center>
+                    <End>1256165.528316 2685409.689092</End>
+                </Curve>
+                <Spiral length="231.876990" radiusEnd="INF" radiusStart="646.000000" rot="cw" spiType="clothoid" constant="387.030406" dirEnd="4.0657565151" dirStart="4.2452278696" theta="0.1794713545" totalY="13.839877" totalX="-231.131228" staStart="6093.924510" tanLong="154.846280" tanShort="77.530223">
+                    <Start>1256165.52836 2685409.68911</Start>
+                    <PI>1256130.612361 2685478.911999</PI>
+                    <End>1256037.317145 2685602.497489</End>
+                </Spiral>
+                <Spiral length="74.634820" radiusEnd="2004.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="386.740455" dirEnd="4.0843779772" dirStart="4.0657565151" theta="0.0186214621" totalY="0.463258" totalX="74.632232" staStart="6325.801500" tanLong="49.757450" tanShort="24.879095">
+                    <Start>1256037.317145 2685602.497489</Start>
+                    <PI>1256007.338175 2685642.20977</PI>
+                    <End>1255992.72078 2685662.34186</End>
+                </Spiral>
+                <Curve rot="ccw" chord="1150.016968" crvType="arc" dirEnd="4.6664206682" dirStart="4.0843787970" radius="2004.000000" length="1166.411910" staStart="6400.436320">
+                    <Start>1255992.72078 2685662.34186</Start>
+                    <Center>1257614.353969 2686839.763535</Center>
+                    <End>1255612.470908 2686747.675477</End>
+                </Curve>
+                <Spiral length="74.696420" radiusEnd="INF" radiusStart="2004.000000" rot="ccw" spiType="clothoid" constant="386.900020" dirEnd="4.6850581851" dirStart="4.6664213538" theta="0.0186368313" totalY="0.464023" totalX="-74.693826" staStart="7566.848230" tanLong="49.798520" tanShort="24.899630">
+                    <Start>1255612.47081 2686747.67547</Start>
+                    <PI>1255611.326636 2686772.548798</PI>
+                    <End>1255609.96577 2686822.32872</End>
+                </Spiral>
+                <Line dir="4.6850605801" length="654.814720" staStart="7641.544650">
+                    <Start>1255609.96577 2686822.32872</Start>
+                    <End>1255592.072959 2687476.898934</End>
+                </Line>
+                <Line dir="4.6850605801" length="130.692610" staStart="8296.359370">
+                    <Start>1255592.07296 2687476.89886</Start>
+                    <End>1255588.501785 2687607.54267</End>
+                </Line>
+                <Spiral length="118.000000" radiusEnd="705.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="288.426767" dirEnd="4.6013726368" dirStart="4.6850605801" theta="0.0836879433" totalY="3.290079" totalX="117.917383" staStart="8427.051980" tanLong="78.695546" tanShort="39.359588">
+                    <Start>1255588.50178 2687607.54267</Start>
+                    <PI>1255586.351424 2687686.208831</PI>
+                    <End>1255581.99084 2687725.32612</End>
+                </Spiral>
+                <Curve rot="cw" chord="108.340918" crvType="arc" dirEnd="4.4475459550" dirStart="4.6013726358" radius="705.000000" length="108.447810" staStart="8545.051980">
+                    <Start>1255581.99084 2687725.32612</Start>
+                    <Center>1254881.330812 2687647.220266</Center>
+                    <End>1255561.750001 2687831.759493</End>
+                </Curve>
+                <Spiral length="118.000000" radiusEnd="INF" radiusStart="705.000000" rot="cw" spiType="clothoid" constant="288.426767" dirEnd="4.3638580220" dirStart="4.4475459653" theta="0.0836879433" totalY="3.290079" totalX="-117.917383" staStart="8653.499790" tanLong="78.695546" tanShort="39.359588">
+                    <Start>1255561.75 2687831.75949</Start>
+                    <PI>1255551.447322 2687869.746751</PI>
+                    <End>1255524.57142 2687943.71076</End>
+                </Spiral>
+                <Line dir="4.3638580210" length="291.726620" staStart="8771.499790">
+                    <Start>1255524.57142 2687943.71076</Start>
+                    <End>1255424.941685 2688217.897442</End>
+                </Line>
+                <Line dir="4.3638459259" length="123.151940" staStart="9063.226410">
+                    <Start>1255424.94167 2688217.89744</Start>
+                    <End>1255382.881732 2688333.644414</End>
+                </Line>
+                <Spiral length="29.399770" radiusEnd="3000.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="296.983686" dirEnd="4.3589373249" dirStart="4.3638372865" theta="0.0048999617" totalY="0.048019" totalX="29.399699" staStart="9186.378350" tanLong="19.599871" tanShort="9.799946">
+                    <Start>1255382.88174 2688333.64442</Start>
+                    <PI>1255376.18766 2688352.065718</PI>
+                    <End>1255372.79552 2688361.25986</End>
+                </Spiral>
+                <Curve rot="cw" chord="50.587771" crvType="arc" dirEnd="4.3420750257" dirStart="4.3589378157" radius="3000.000000" length="50.588370" staStart="9215.778120">
+                    <Start>1255372.79552 2688361.25986</Start>
+                    <Center>1252558.244347 2687322.846793</Center>
+                    <End>1255354.885654 2688408.571161</End>
+                </Curve>
+                <Spiral length="30.900440" radiusEnd="INF" radiusStart="3000.000000" rot="cw" spiType="clothoid" constant="304.468915" dirEnd="4.3369247726" dirStart="4.3420748459" theta="0.0051500733" totalY="0.053046" totalX="-30.900358" staStart="9266.366490" tanLong="20.600322" tanShort="10.300173">
+                    <Start>1255354.88566 2688408.57116</Start>
+                    <PI>1255351.157942 2688418.173122</PI>
+                    <End>1255343.60371 2688437.33837</End>
+                </Spiral>
+                <Line dir="4.3369187070" length="220.745290" staStart="9297.266930">
+                    <Start>1255343.60371 2688437.33837</Start>
+                    <End>1255262.654187 2688642.705499</End>
+                </Line>
+                <Spiral length="68.998550" radiusEnd="1285.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="297.763558" dirEnd="4.3100721217" dirStart="4.3369198065" theta="0.0268476848" totalY="0.617452" totalX="68.993577" staStart="9518.012220" tanLong="46.000770" tanShort="23.001096">
+                    <Start>1255262.6542 2688642.7055</Start>
+                    <PI>1255245.785301 2688685.501658</PI>
+                    <End>1255236.77918 2688706.66625</End>
+                </Spiral>
+                <Curve rot="cw" chord="244.586492" crvType="arc" dirEnd="4.1194386995" dirStart="4.3100668862" radius="1285.000000" length="244.957220" staStart="9587.010770">
+                    <Start>1255236.77918 2688706.66625</Start>
+                    <Center>1254054.380975 2688203.516686</Center>
+                    <End>1255120.025877 2688921.587673</End>
+                </Curve>
+                <Spiral length="67.998270" radiusEnd="INF" radiusStart="1285.000000" rot="cw" spiType="clothoid" constant="295.597322" dirEnd="4.0929746882" dirStart="4.1194331591" theta="0.0264584708" totalY="0.599680" totalX="-67.993510" staStart="9831.967990" tanLong="45.333842" tanShort="22.667601">
+                    <Start>1255120.02587 2688921.58767</Start>
+                    <PI>1255107.358881 2688940.385743</PI>
+                    <End>1255081.03994 2688977.297402</End>
+                </Spiral>
+                <Spiral length="95.997380" radiusEnd="900.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="293.934758" dirEnd="4.1463065660" dirStart="4.0929746882" theta="0.0533318778" totalY="1.706227" totalX="95.970079" staStart="9899.966260" tanLong="64.007791" tanShort="32.007797">
+                    <Start>1255081.03994 2688977.297402</Start>
+                    <PI>1255043.879681 2689029.413738</PI>
+                    <End>1255026.71284 2689056.42851</End>
+                </Spiral>
+                <Curve rot="ccw" chord="253.820909" crvType="arc" dirEnd="4.4292784879" dirStart="4.1463121546" radius="900.000000" length="254.669700" staStart="9995.963640">
+                    <Start>1255026.71284 2689056.42851</Start>
+                    <Center>1255786.323245 2689539.120992</Center>
+                    <End>1254922.151176 2689287.711696</End>
+                </Curve>
+                <Spiral length="79.999490" radiusEnd="9000.000000" radiusStart="900.000000" rot="ccw" spiType="clothoid" constant="282.841811" dirEnd="4.4781743493" dirStart="4.4292857721" theta="0.0488885772" totalY="1.421960" totalX="-79.978528" staStart="10250.633340" tanLong="50.915978" tanShort="29.097316">
+                    <Start>1254922.15109 2689287.71167</Start>
+                    <PI>1254914.023143 2689315.650715</PI>
+                    <End>1254902.20662 2689365.17653</End>
+                </Spiral>
+                <Curve rot="ccw" chord="122.741749" crvType="arc" dirEnd="4.4918150427" dirStart="4.4781769649" radius="9000.000000" length="122.742700" staStart="10330.632830">
+                    <Start>1254902.20662 2689365.17653</Start>
+                    <Center>1263656.484264 2691453.865814</Center>
+                    <End>1254874.535919 2689484.75859</End>
+                </Curve>
+                <Curve rot="ccw" chord="246.493382" crvType="arc" dirEnd="4.5411242576" dirStart="4.4918205876" radius="5000.000000" length="246.518350" staStart="10453.375530">
+                    <Start>1254874.53591 2689484.75859</Start>
+                    <Center>1259753.402168 2690578.679994</Center>
+                    <End>1254826.552118 2689726.53647</End>
+                </Curve>
+                <Spiral length="20.000010" radiusEnd="INF" radiusStart="5000.000000" rot="ccw" spiType="clothoid" constant="316.227845" dirEnd="4.5431242725" dirStart="4.5411242715" theta="0.0020000010" totalY="0.013333" totalX="-20.000002" staStart="10699.893880" tanLong="13.333343" tanShort="6.666672">
+                    <Start>1254826.55212 2689726.53647</Start>
+                    <PI>1254825.415928 2689733.105609</PI>
+                    <End>1254823.169825 2689746.248404</End>
+                </Spiral>
+                <Spiral length="20.000000" radiusEnd="5000.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="316.227766" dirEnd="4.5411242725" dirStart="4.5431242725" theta="0.0020000000" totalY="0.013333" totalX="19.999992" staStart="10719.893890" tanLong="13.333337" tanShort="6.666669">
+                    <Start>1254823.169825 2689746.248404</Start>
+                    <PI>1254820.923723 2689759.391192</PI>
+                    <End>1254819.78753 2689765.96032</End>
+                </Spiral>
+                <Curve rot="cw" chord="102.838467" crvType="arc" dirEnd="4.5205562155" dirStart="4.5411242715" radius="5000.000000" length="102.840280" staStart="10739.893890">
+                    <Start>1254819.78753 2689765.96032</Start>
+                    <Center>1249892.937468 2688913.816864</Center>
+                    <End>1254801.219729 2689867.108662</End>
+                </Curve>
+                <Spiral length="20.000000" radiusEnd="INF" radiusStart="5000.000000" rot="cw" spiType="clothoid" constant="316.227766" dirEnd="4.5185562644" dirStart="4.5205562644" theta="0.0020000000" totalY="0.013333" totalX="-19.999992" staStart="10842.734170" tanLong="13.333336" tanShort="6.666669">
+                    <Start>1254801.21973 2689867.10866</Start>
+                    <PI>1254799.948674 2689873.653039</PI>
+                    <End>1254797.38039 2689886.73668</End>
+                </Spiral>
+                <Line dir="4.5185561694" length="436.351810" staStart="10862.734170">
+                    <Start>1254797.38039 2689886.73668</Start>
+                    <End>1254713.329722 2690314.917001</End>
+                </Line>
+                <Spiral length="119.998820" radiusEnd="700.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="289.826110" dirEnd="4.4328427266" dirStart="4.5185561694" theta="0.0857134429" totalY="3.426705" totalX="119.910689" staStart="11299.085980" tanLong="80.030021" tanShort="40.027615">
+                    <Start>1254713.32977 2690314.91701</Start>
+                    <PI>1254697.91428 2690393.448322</PI>
+                    <End>1254686.86987 2690431.92209</End>
+                </Spiral>
+                <Curve rot="cw" chord="498.771579" crvType="arc" dirEnd="3.7042982153" dirStart="4.4328342010" radius="700.000000" length="509.975190" staStart="11419.084800">
+                    <Start>1254686.86987 2690431.92209</Start>
+                    <Center>1254014.045002 2690238.772672</Center>
+                    <End>1254387.478589 2690830.843071</End>
+                </Curve>
+                <Spiral length="123.607570" radiusEnd="INF" radiusStart="700.000000" rot="cw" spiType="clothoid" constant="294.151830" dirEnd="3.6159967477" dirStart="3.7042878691" theta="0.0882911214" totalY="3.635792" totalX="-123.511249" staStart="11929.059990" tanLong="82.438720" tanShort="41.233137">
+                    <Start>1254387.47858 2690830.84306</Start>
+                    <PI>1254352.602752 2690852.839611</PI>
+                    <End>1254279.26816 2690890.49835</End>
+                </Spiral>
+                <Line dir="3.6159965491" length="141.864270" staStart="12052.667560">
+                    <Start>1254279.26816 2690890.49835</Start>
+                    <End>1254153.070644 2690955.30312</End>
+                </Line>
+                <Line dir="3.6159965491" length="89.327320" staStart="12194.531830">
+                    <Start>1254153.07064 2690955.30312</Start>
+                    <End>1254073.608166 2690996.108577</End>
+                </Line>
+                <Spiral length="24.999510" radiusEnd="10000.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="499.995100" dirEnd="3.6147465736" dirStart="3.6159965491" theta="0.0012499755" totalY="0.010416" totalX="24.999506" staStart="12283.859150" tanLong="16.666342" tanShort="8.333171">
+                    <Start>1254073.60817 2690996.10858</Start>
+                    <PI>1254058.782373 2691003.721902</PI>
+                    <End>1254051.36472 2691007.51929</End>
+                </Spiral>
+                <Curve rot="cw" chord="81.758842" crvType="arc" dirEnd="3.6065706024" dirStart="3.6147465094" radius="10000.000000" length="81.759070" staStart="12308.858660">
+                    <Start>1254051.36472 2691007.51929</Start>
+                    <Center>1249494.405658 2682106.164106</Center>
+                    <End>1253978.436573 2691044.478643</End>
+                </Curve>
+                <Spiral length="25.000000" radiusEnd="INF" radiusStart="10000.000000" rot="cw" spiType="clothoid" constant="500.000000" dirEnd="3.6053206716" dirStart="3.6065706716" theta="0.0012500000" totalY="0.010417" totalX="-24.999996" staStart="12390.617730" tanLong="16.666667" tanShort="8.333335">
+                    <Start>1253978.43658 2691044.47865</Start>
+                    <PI>1253970.987983 2691048.215344</PI>
+                    <End>1253956.081462 2691055.670103</End>
+                </Spiral>
+                <Spiral length="120.000000" radiusEnd="684.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="286.496073" dirEnd="3.6930399699" dirStart="3.6053206716" theta="0.0877192982" totalY="3.506844" totalX="119.907697" staStart="12415.617730" tanLong="80.032268" tanShort="40.029336">
+                    <Start>1253956.081462 2691055.670103</Start>
+                    <PI>1253884.501304 2691091.467377</PI>
+                    <End>1253850.40563 2691112.43957</End>
+                </Spiral>
+                <Curve rot="ccw" chord="337.022860" crvType="arc" dirEnd="4.1908890015" dirStart="3.6930400249" radius="684.000000" length="340.528700" staStart="12535.617730">
+                    <Start>1253850.40563 2691112.43957</Start>
+                    <Center>1254208.767321 2691695.048271</Center>
+                    <End>1253615.689461 2691354.29227</End>
+                </Curve>
+                <Spiral length="119.999990" radiusEnd="INF" radiusStart="684.000000" rot="ccw" spiType="clothoid" constant="286.496061" dirEnd="4.2786082891" dirStart="4.1908889981" theta="0.0877192909" totalY="3.506843" totalX="-119.907687" staStart="12876.146430" tanLong="80.032261" tanShort="40.029333">
+                    <Start>1253615.68944 2691354.29226</Start>
+                    <PI>1253595.747575 2691389.00061</PI>
+                    <End>1253562.109669 2691461.620539</End>
+                </Spiral>
+                <Spiral length="50.000000" radiusEnd="1510.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="274.772633" dirEnd="4.2620519977" dirStart="4.2786082891" theta="0.0165562914" totalY="0.275933" totalX="49.998629" staStart="12996.146420" tanLong="33.333812" tanShort="16.667102">
+                    <Start>1253562.109669 2691461.620539</Start>
+                    <PI>1253548.099323 2691491.86708</PI>
+                    <End>1253540.84464 2691506.87248</End>
+                </Spiral>
+                <Curve rot="cw" chord="43.130574" crvType="arc" dirEnd="4.2334877758" dirStart="4.2620520407" radius="1510.000000" length="43.132040" staStart="13046.146420">
+                    <Start>1253540.84464 2691506.87248</Start>
+                    <Center>1252181.390894 2690849.616432</Center>
+                    <End>1253521.518594 2691545.430882</End>
+                </Curve>
+                <Spiral length="50.000010" radiusEnd="INF" radiusStart="1510.000000" rot="cw" spiType="clothoid" constant="274.772661" dirEnd="4.2169314432" dirStart="4.2334877379" theta="0.0165562947" totalY="0.275933" totalX="-49.998639" staStart="13089.278460" tanLong="33.333819" tanShort="16.667105">
+                    <Start>1253521.51859 2691545.43088</Start>
+                    <PI>1253513.838316 2691560.222965</PI>
+                    <End>1253497.99028 2691589.54843</End>
+                </Spiral>
+                <Line dir="4.2169313875" length="157.389290" staStart="13139.278470">
+                    <Start>1253497.99028 2691589.54843</Start>
+                    <End>1253423.162018 2691728.011854</End>
+                </Line>
+                <Line dir="4.2169320158" length="352.382940" staStart="13296.667760">
+                    <Start>1253423.1618 2691728.01174</Start>
+                    <End>1253255.627069 2692038.021176</End>
+                </Line>
+                <Spiral length="127.998530" radiusEnd="740.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="307.764378" dirEnd="4.3034308608" dirStart="4.2169453676" theta="0.0864854932" totalY="3.688034" totalX="127.902824" staStart="13649.050700" tanLong="85.365810" tanShort="42.696594">
+                    <Start>1253255.62707 2692038.02118</Start>
+                    <PI>1253215.042288 2692113.122425</PI>
+                    <End>1253198.06383 2692152.29807</End>
+                </Spiral>
+                <Curve rot="ccw" chord="66.250015" crvType="arc" dirEnd="4.3929896009" dirStart="4.3034326279" radius="740.000000" length="66.272160" staStart="13777.049230">
+                    <Start>1253198.06383 2692152.29807</Start>
+                    <Center>1253877.040715 2692446.560521</Center>
+                    <End>1253174.46682 2692214.203204</End>
+                </Curve>
+                <Spiral length="103.023610" radiusEnd="2600.000000" radiusStart="740.000000" rot="ccw" spiType="clothoid" constant="326.448324" dirEnd="4.4824134180" dirStart="4.3929906380" theta="0.0894227800" totalY="3.749043" totalX="-102.920318" staStart="13843.321390" tanLong="61.107204" tanShort="41.980851">
+                    <Start>1253174.46683 2692214.20321</Start>
+                    <PI>1253161.285036 2692254.060858</PI>
+                    <End>1253147.355411 2692313.559244</End>
+                </Spiral>
+                <Spiral length="82.488820" radiusEnd="2600.000000" radiusStart="2600.000000" rot="ccw" spiType="clothoid" constant="0.000000" dirEnd="4.5141308569" dirStart="4.4824043877" theta="0.0317264692" totalY="1.308430" totalX="-82.474982" staStart="13946.345000" tanLong="41.247870" tanShort="41.247870">
+                    <Start>1253147.355411 2692313.559244</Start>
+                    <PI>1253137.952443 2692353.721054</PI>
+                    <End>1253130.2287 2692394.24366</End>
+                </Spiral>
+            </CoordGeom>
+            <Cant name="A50034A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="79.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="15.622620" appliedCant="79.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="30.521410" appliedCant="69.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="56.521200" appliedCant="18.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="102.938310" appliedCant="18.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="124.938160" appliedCant="62.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="223.260390" appliedCant="62.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="245.521090" appliedCant="18.100000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="259.499400" speed="80.000000"/>
+                <CantStation station="259.499410" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="358.450580" speed="80.000000"/>
+                <CantStation station="358.450590" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="393.318930" speed="80.000000"/>
+                <CantStation station="393.318940" appliedCant="70.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="458.641100" speed="80.000000"/>
+                <CantStation station="458.641110" appliedCant="70.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="493.599330" speed="80.000000"/>
+                <CantStation station="493.599340" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="599.545460" speed="75.000000"/>
+                <CantStation station="599.545470" appliedCant="0.000000" speed="75.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="694.412140" speed="75.000000"/>
+                <CantStation station="694.412150" appliedCant="100.000000" speed="75.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="783.022030" appliedCant="100.000000" speed="75.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="845.412010" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="1343.509230" speed="105.000000"/>
+                <CantStation station="1557.804990" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1607.804980" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1687.883290" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1767.883280" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1847.883280" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="1911.085580" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="1961.148330" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2335.056820" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2365.066240" appliedCant="16.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="2580.354140" appliedCant="16.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="2600.406020" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2650.350630" appliedCant="40.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2735.378070" appliedCant="40.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2764.995890" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2865.383830" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="3010.234080" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="3110.592420" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="3321.183820" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="3421.538090" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="3733.510110" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="3833.945920" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="3934.153150" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4200.845260" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4300.499950" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="4556.080770" speed="80.000000"/>
+                <CantStation station="4795.152440" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4865.152460" appliedCant="40.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5163.134520" appliedCant="40.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5183.134530" appliedCant="50.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5596.911680" appliedCant="50.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5631.497670" appliedCant="98.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5646.469950" appliedCant="110.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5695.151260" appliedCant="110.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5723.151270" appliedCant="82.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5823.975060" appliedCant="82.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5853.569230" appliedCant="100.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5901.112070" appliedCant="100.000000" speed="100.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5951.112050" appliedCant="150.000000" speed="110.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6093.924510" appliedCant="150.000000" speed="110.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6325.801500" appliedCant="0.000000" speed="120.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6400.436320" appliedCant="50.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="7566.848230" appliedCant="50.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="7641.544650" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="8427.051980" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="8545.051980" appliedCant="144.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="8653.499780" speed="130.000000"/>
+                <CantStation station="8653.499790" appliedCant="144.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="8771.499780" speed="130.000000"/>
+                <CantStation station="8771.499790" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="9186.378350" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9215.778110" speed="130.000000"/>
+                <CantStation station="9215.778120" appliedCant="34.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9266.366480" speed="130.000000"/>
+                <CantStation station="9266.366490" appliedCant="34.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9297.266920" speed="130.000000"/>
+                <CantStation station="9297.266930" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9518.012200" speed="130.000000"/>
+                <CantStation station="9518.012220" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9587.010750" speed="130.000000"/>
+                <CantStation station="9587.010770" appliedCant="80.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9831.967970" speed="130.000000"/>
+                <CantStation station="9831.967990" appliedCant="80.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9899.966230" speed="130.000000"/>
+                <CantStation station="9899.966260" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="9995.963610" speed="130.000000"/>
+                <CantStation station="9995.963640" appliedCant="114.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="10033.102090" appliedCant="114.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="10045.101880" appliedCant="120.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="10172.649120" appliedCant="120.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="10181.471980" appliedCant="112.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="10250.633310" speed="130.000000"/>
+                <CantStation station="10250.633340" appliedCant="112.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="10330.632800" speed="130.000000"/>
+                <CantStation station="10330.632830" appliedCant="10.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="10448.375710" appliedCant="10.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="10458.375030" appliedCant="20.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="10699.893850" speed="130.000000"/>
+                <CantStation station="10699.893880" appliedCant="20.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="10719.893850" speed="130.000000"/>
+                <CantStation station="10719.893890" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="10739.893850" speed="130.000000"/>
+                <CantStation station="10739.893890" appliedCant="20.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10842.749130" appliedCant="20.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="10862.734120" speed="130.000000"/>
+                <CantStation station="10862.734170" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="11299.085930" speed="130.000000"/>
+                <CantStation station="11299.085980" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="11419.084750" speed="130.000000"/>
+                <CantStation station="11419.084800" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="11929.059940" speed="130.000000"/>
+                <CantStation station="11929.059990" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="12052.667510" speed="130.000000"/>
+                <CantStation station="12052.667560" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="12283.859110" speed="130.000000"/>
+                <CantStation station="12283.859150" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="12308.858620" speed="130.000000"/>
+                <CantStation station="12308.858660" appliedCant="10.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="12390.617680" speed="130.000000"/>
+                <CantStation station="12390.617730" appliedCant="10.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="12415.617680" speed="130.000000"/>
+                <CantStation station="12415.617730" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="12535.617680" speed="130.000000"/>
+                <CantStation station="12535.617730" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="12876.146390" speed="130.000000"/>
+                <CantStation station="12876.146430" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="12996.146380" speed="130.000000"/>
+                <CantStation station="12996.146420" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="13046.146380" speed="130.000000"/>
+                <CantStation station="13046.146420" appliedCant="66.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="13089.278420" speed="130.000000"/>
+                <CantStation station="13089.278460" appliedCant="66.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="13139.278430" speed="130.000000"/>
+                <CantStation station="13139.278470" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="13649.050660" speed="130.000000"/>
+                <CantStation station="13649.050700" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="13777.049190" speed="130.000000"/>
+                <CantStation station="13777.049230" appliedCant="138.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="13843.321350" speed="130.000000"/>
+                <CantStation station="13843.321390" appliedCant="138.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="13933.915320" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="13946.345000" speed="0.000000"/>
+                <CantStation station="14028.833820" appliedCant="0.000000" speed="0.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50034A">
+                <ProfAlign name="T50034A" desc="">
+                    <PVI>0.0 441.9842</PVI>
+                    <CircCurve length="63.034917" radius="5000.000000">31.517703 442.261784</CircCurve>
+                    <CircCurve length="0.527670" radius="400.000000">92.557489 442.029826</CircCurve>
+                    <CircCurve length="43.965900" radius="7000.000000">203.429761 441.754761</CircCurve>
+                    <CircCurve length="32.677507" radius="5000.000000">263.793027 441.984139</CircCurve>
+                    <CircCurve length="27.354149" radius="10000.000000">342.074444 441.769994</CircCurve>
+                    <CircCurve length="0.749640" radius="500.000000">426.5579 441.769981</CircCurve>
+                    <CircCurve length="0.749603" radius="500.000000">493.22433 441.670019</CircCurve>
+                    <CircCurve length="25.799039" radius="3000.000000">651.746978 441.669983</CircCurve>
+                    <CircCurve length="22.792663" radius="5000.000000">701.580401 442.098539</CircCurve>
+                    <CircCurve length="60.717477" radius="3000.000000">776.267488 442.400346</CircCurve>
+                    <CircCurve length="45.991543" radius="4000.000000">894.465014 440.485503</CircCurve>
+                    <CircCurve length="0.549786" radius="500.000000">944.950874 440.248199</CircCurve>
+                    <CircCurve length="0.449560" radius="500.000000">1005.35347 440.030701</CircCurve>
+                    <CircCurve length="22.499438" radius="5000.000000">1125.513318 439.489988</CircCurve>
+                    <CircCurve length="0.499990" radius="1000.000000">1195.553315 439.489987</CircCurve>
+                    <CircCurve length="62.996827" radius="6000.000000">1281.30542 439.532861</CircCurve>
+                    <CircCurve length="0.654054" radius="600.000000">1399.399378 438.351922</CircCurve>
+                    <CircCurve length="99.140211" radius="15000.000000">1625.533887 436.337118</CircCurve>
+                    <CircCurve length="75.366992" radius="7500.000000">2399.301857 434.557402</CircCurve>
+                    <CircCurve length="71.192270" radius="8000.000000">3134.504279 425.477702</CircCurve>
+                    <CircCurve length="94.167815" radius="5100.000000">3566.168294 423.988471</CircCurve>
+                    <CircCurve length="19.516563" radius="8100.000000">3760.341217 419.732298</CircCurve>
+                    <CircCurve length="22.669589" radius="8100.000000">3801.416706 418.732895</CircCurve>
+                    <CircCurve length="102.515101" radius="5800.000000">4000.564266 414.445256</CircCurve>
+                    <CircCurve length="20.339072" radius="11000.000000">4503.142617 412.510338</CircCurve>
+                    <CircCurve length="20.338229" radius="11000.000000">4543.711313 412.429162</CircCurve>
+                    <CircCurve length="51.248928" radius="5000.000000">4771.518947 411.552124</CircCurve>
+                    <CircCurve length="0.600344" radius="1000.000000">4948.718801 412.68621</CircCurve>
+                    <CircCurve length="45.656380" radius="5500.000000">4994.196195 413.004571</CircCurve>
+                    <CircCurve length="23.114065" radius="14000.000000">5062.533 412.915671</CircCurve>
+                    <CircCurve length="0.599906" radius="3000.000000">5174.09946 412.95473</CircCurve>
+                    <CircCurve length="0.598436" radius="4000.000000">5325.61712 412.977477</CircCurve>
+                    <CircCurve length="0.599703" radius="2000.000000">5351.366385 412.985195</CircCurve>
+                    <CircCurve length="42.702394" radius="6000.000000">5560.290925 412.985171</CircCurve>
+                    <CircCurve length="33.132233" radius="5000.000000">5598.207748 413.25503</CircCurve>
+                    <CircCurve length="22.469823" radius="5000.000000">5626.009455 413.637156</CircCurve>
+                    <CircCurve length="0.525810" radius="700.000000">5725.005451 414.552852</CircCurve>
+                    <CircCurve length="0.481929" radius="2000.000000">5748.635575 414.789179</CircCurve>
+                    <CircCurve length="0.619881" radius="500.000000">5830.605002 415.589208</CircCurve>
+                    <CircCurve length="0.619948" radius="500.000000">5873.966978 416.066192</CircCurve>
+                    <CircCurve length="25.130755" radius="15000.000000">5922.843946 416.543229</CircCurve>
+                    <CircCurve length="23.442685" radius="10000.000000">5947.132912 416.73959</CircCurve>
+                    <CircCurve length="0.509088" radius="600.000000">6094.650466 418.278042</CircCurve>
+                    <CircCurve length="0.506229" radius="17000.000000">6325.77327 420.884546</CircCurve>
+                    <CircCurve length="0.550895" radius="600.000000">6401.156059 421.736926</CircCurve>
+                    <CircCurve length="0.537822" radius="600.000000">7566.908709 433.847971</CircCurve>
+                    <CircCurve length="0.544416" radius="600.000000">7641.778611 434.558676</CircCurve>
+                    <CircCurve length="19.997417" radius="10000.000000">8551.245274 444.017154</CircCurve>
+                    <CircCurve length="20.330054" radius="6200.000000">8606.395854 444.70103</CircCurve>
+                    <CircCurve length="20.005045" radius="6100.000000">8626.562785 445.017251</CircCurve>
+                    <CircCurve length="0.587707" radius="420.000000">8715.460608 446.119556</CircCurve>
+                    <CircCurve length="0.599004" radius="420.000000">8759.635677 446.605486</CircCurve>
+                    <CircCurve length="62.830978" radius="7000.000000">8915.281526 448.539633</CircCurve>
+                    <CircCurve length="0.530929" radius="500.000000">9131.224135 449.284591</CircCurve>
+                    <CircCurve length="77.616938" radius="10000.000000">9796.321524 450.872793</CircCurve>
+                    <CircCurve length="37.815812" radius="10000.000000">10001.98975 452.960353</CircCurve>
+                    <CircCurve length="20.904255" radius="19000.000000">10076.1553 453.432651</CircCurve>
+                    <CircCurve length="20.343775" radius="8500.000000">10184.761464 454.243772</CircCurve>
+                    <CircCurve length="20.305917" radius="11000.000000">10205.087641 454.346926</CircCurve>
+                    <CircCurve length="48.446133" radius="7000.000000">10270.55423 454.800022</CircCurve>
+                    <CircCurve length="30.328650" radius="10000.000000">10987.165485 454.800011</CircCurve>
+                    <CircCurve length="38.667530" radius="10000.000000">11055.847769 455.008315</CircCurve>
+                    <CircCurve length="0.667218" radius="800.000000">11125.76472 454.950011</CircCurve>
+                    <CircCurve length="72.294742" radius="6000.000000">11201.268607 454.95002</CircCurve>
+                    <CircCurve length="43.239405" radius="7000.000000">11318.587047 456.363721</CircCurve>
+                    <CircCurve length="43.588697" radius="7000.000000">11398.22775 456.831394</CircCurve>
+                    <CircCurve length="0.603381" radius="2000.000000">11555.277891 458.731705</CircCurve>
+                    <CircCurve length="0.643035" radius="1600.000000">11592.874009 459.197964</CircCurve>
+                    <CircCurve length="0.600472" radius="500.000000">11782.498517 461.47342</CircCurve>
+                    <CircCurve length="0.606161" radius="550.000000">11836.168268 462.181916</CircCurve>
+                    <CircCurve length="0.603821" radius="550.000000">11871.482113 462.609166</CircCurve>
+                    <CircCurve length="30.988442" radius="10000.000000">11931.376146 463.268035</CircCurve>
+                    <CircCurve length="29.991015" radius="10000.000000">12071.474217 465.24344</CircCurve>
+                    <CircCurve length="0.596714" radius="460.000000">12270.126163 467.448544</CircCurve>
+                    <CircCurve length="0.636418" radius="500.000000">12357.778897 468.307797</CircCurve>
+                    <CircCurve length="32.731997" radius="7400.000000">12409.504131 468.880704</CircCurve>
+                    <CircCurve length="34.774328" radius="7400.000000">12558.958153 471.1973</CircCurve>
+                    <CircCurve length="31.192135" radius="12000.000000">12660.651062 472.295576</CircCurve>
+                    <CircCurve length="35.990792" radius="12000.000000">12769.054262 473.184507</CircCurve>
+                    <CircCurve length="48.355529" radius="6500.000000">12886.688477 474.501997</CircCurve>
+                    <CircCurve length="42.602177" radius="15000.000000">12932.169477 474.673001</CircCurve>
+                    <CircCurve length="49.592316" radius="8000.000000">13068.095685 475.570136</CircCurve>
+                    <CircCurve length="41.994193" radius="15000.000000">13141.52531 476.510043</CircCurve>
+                    <CircCurve length="23.996091" radius="12000.000000">13271.507127 477.809854</CircCurve>
+                    <CircCurve length="0.599068" radius="12000.000000">13691.12047 482.845207</CircCurve>
+                    <CircCurve length="0.600491" radius="3000.000000">13893.34247 485.26177</CircCurve>
+                    <CircCurve length="0.613246" radius="1700.000000">13932.303374 485.735155</CircCurve>
+                    <PVI>13946.345 485.900698</PVI>
+                    <CircCurve length="2.971258" radius="3310.000000">14007.205658 486.618422</CircCurve>
+                    <PVI>14028.83382 486.8929</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50068A" length="17765.138320" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Line dir="5.9448092319" length="690.196790" staStart="0.000000">
+                    <Start>1250224.42364 2682547.70042</Start>
+                    <End>1250875.482807 2682776.815172</End>
+                </Line>
+                <Spiral length="24.000000" radiusEnd="1000.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="154.919334" dirEnd="5.9328092319" dirStart="5.9448092319" theta="0.0120000000" totalY="0.095999" totalX="23.999654" staStart="690.196790" tanLong="16.000121" tanShort="8.000110">
+                    <Start>1250875.48281 2682776.81517</Start>
+                    <PI>1250890.575643 2682782.126501</PI>
+                    <End>1250898.0897 2682784.87254</End>
+                </Spiral>
+                <Curve rot="cw" chord="77.741949" crvType="arc" dirEnd="5.8550477505" dirStart="5.9328092905" radius="1000.000000" length="77.761540" staStart="714.196790">
+                    <Start>1250898.0897 2682784.87254</Start>
+                    <Center>1250554.838697 2683724.116251</Center>
+                    <End>1250970.01588 2682814.37568</End>
+                </Curve>
+                <Spiral length="24.000000" radiusEnd="INF" radiusStart="1000.000000" rot="cw" spiType="clothoid" constant="154.919334" dirEnd="5.8430476466" dirStart="5.8550476466" theta="0.0120000000" totalY="0.095999" totalX="-23.999654" staStart="791.958330" tanLong="16.000121" tanShort="8.000110">
+                    <Start>1250970.01588 2682814.37569</Start>
+                    <PI>1250977.293904 2682817.697154</PI>
+                    <End>1250991.769102 2682824.514229</End>
+                </Spiral>
+                <Spiral length="67.000000" radiusEnd="494.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="181.928557" dirEnd="5.9108614118" dirStart="5.8430476466" theta="0.0678137652" totalY="1.514010" totalX="66.969195" staStart="815.958330" tanLong="44.677431" tanShort="22.343119">
+                    <Start>1250991.769102 2682824.514229</Start>
+                    <PI>1251032.188461 2682843.549675</PI>
+                    <End>1251053.00073 2682851.67767</End>
+                </Spiral>
+                <Curve rot="ccw" chord="25.290617" crvType="arc" dirEnd="5.9620626700" dirStart="5.9108614959" radius="494.000000" length="25.293380" staStart="882.958330">
+                    <Start>1251053.00073 2682851.67767</Start>
+                    <Center>1251232.708547 2682391.524326</Center>
+                    <End>1251076.786335 2682860.271873</End>
+                </Curve>
+                <Spiral length="42.000000" radiusEnd="INF" radiusStart="494.000000" rot="ccw" spiType="clothoid" constant="144.041661" dirEnd="6.0045726661" dirStart="5.9620625446" theta="0.0425101215" totalY="0.595065" totalX="-41.992411" staStart="908.251710" tanLong="28.002651" tanShort="14.002410">
+                    <Start>1251076.78633 2682860.27188</Start>
+                    <PI>1251090.07296 2682864.69149</PI>
+                    <End>1251116.99577 2682872.392837</End>
+                </Spiral>
+                <Spiral length="22.000000" radiusEnd="1800.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="198.997487" dirEnd="5.9984615550" dirStart="6.0045726661" theta="0.0061111111" totalY="0.044815" totalX="21.999918" staStart="950.251710" tanLong="14.666695" tanShort="7.333360">
+                    <Start>1251116.99577 2682872.392837</Start>
+                    <PI>1251131.096887 2682876.426502</PI>
+                    <End>1251138.135 2682878.48638</End>
+                </Spiral>
+                <Curve rot="cw" chord="43.987605" crvType="arc" dirEnd="5.9740234988" dirStart="5.9984616654" radius="1800.000000" length="43.988700" staStart="972.251710">
+                    <Start>1251138.135 2682878.48638</Start>
+                    <Center>1250632.528986 2684606.017149</Center>
+                    <End>1251180.19751 2682891.35707</End>
+                </Curve>
+                <Spiral length="22.000000" radiusEnd="INF" radiusStart="1800.000000" rot="cw" spiType="clothoid" constant="198.997487" dirEnd="5.9679124192" dirStart="5.9740235303" theta="0.0061111111" totalY="0.044815" totalX="-21.999918" staStart="1016.240410" tanLong="14.666695" tanShort="7.333359">
+                    <Start>1251180.19751 2682891.35707</Start>
+                    <PI>1251187.183187 2682893.58832</PI>
+                    <End>1251201.12699 2682898.13611</End>
+                </Spiral>
+                <Line dir="5.9679123472" length="1.899310" staStart="1038.240410">
+                    <Start>1251201.12699 2682898.13611</Start>
+                    <End>1251202.932686 2682898.72504</End>
+                </Line>
+                <Line dir="5.9679123472" length="39.002310" staStart="1040.139720">
+                    <Start>1251202.93269 2682898.72504</Start>
+                    <End>1251240.012645 2682910.81872</End>
+                </Line>
+                <Spiral length="26.999930" radiusEnd="800.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="146.969194" dirEnd="5.9510372339" dirStart="5.9679121901" theta="0.0168749562" totalY="0.151871" totalX="26.999161" staStart="1079.142030" tanLong="18.000222" tanShort="9.000221">
+                    <Start>1251240.01265 2682910.81872</Start>
+                    <PI>1251257.125672 2682916.400159</PI>
+                    <End>1251265.63398 2682919.3349</End>
+                </Spiral>
+                <Curve rot="cw" chord="38.714311" crvType="arc" dirEnd="5.9026395127" dirStart="5.9510371252" radius="800.000000" length="38.718090" staStart="1106.141960">
+                    <Start>1251265.63398 2682919.3349</Start>
+                    <Center>1251004.77434 2683675.610146</Center>
+                    <End>1251301.916159 2682932.840506</End>
+                </Curve>
+                <Curve rot="cw" chord="72.326226" crvType="arc" dirEnd="5.8303006183" dirStart="5.9026426183" radius="1000.000000" length="72.342000" staStart="1144.860050">
+                    <Start>1251301.91616 2682932.8405</Start>
+                    <Center>1250930.491769 2683861.303704</Center>
+                    <End>1251368.053 2682962.115087</End>
+                </Curve>
+                <Spiral length="20.000160" radiusEnd="675.000000" radiusStart="1000.000000" rot="cw" spiType="clothoid" constant="203.810681" dirEnd="5.8054872504" dirStart="5.8303022638" theta="0.0248150133" totalY="0.264187" totalX="-19.997901" staStart="1217.202050" tanLong="10.647367" tanShort="9.353812">
+                    <Start>1251368.05299 2682962.11511</Start>
+                    <PI>1251377.626989 2682966.773969</PI>
+                    <End>1251385.9337 2682971.07425</End>
+                </Spiral>
+                <Curve rot="cw" chord="135.264178" crvType="arc" dirEnd="5.6047600445" dirStart="5.8054882371" radius="675.000000" length="135.491530" staStart="1237.202210">
+                    <Start>1251385.9337 2682971.07425</Start>
+                    <Center>1251075.612396 2683570.51206</Center>
+                    <End>1251499.220642 2683044.982752</End>
+                </Curve>
+                <Spiral length="35.001930" radiusEnd="INF" radiusStart="674.950000" rot="cw" spiType="clothoid" constant="153.702806" dirEnd="5.5788297257" dirStart="5.6047590020" theta="0.0259292762" totalY="0.302510" totalX="-34.999577" staStart="1372.693740" tanLong="23.335442" tanShort="11.668057">
+                    <Start>1251499.22064 2683044.98275</Start>
+                    <PI>1251508.304938 2683052.305256</PI>
+                    <End>1251526.08722 2683067.41595</End>
+                </Spiral>
+                <Line dir="5.5788297099" length="21.999850" staStart="1407.695670">
+                    <Start>1251526.08722 2683067.41595</Start>
+                    <End>1251542.851743 2683081.661797</End>
+                </Line>
+                <Spiral length="34.999770" radiusEnd="600.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="144.913291" dirEnd="5.5496635491" dirStart="5.5788300241" theta="0.0291664750" totalY="0.340253" totalX="34.996793" staStart="1429.695520" tanLong="23.334220" tanShort="11.667535">
+                    <Start>1251542.85175 2683081.66179</Start>
+                    <PI>1251560.633107 2683096.771693</PI>
+                    <End>1251569.29999 2683104.583</End>
+                </Spiral>
+                <Curve rot="cw" chord="91.490142" crvType="arc" dirEnd="5.3970335224" dirStart="5.5496652057" radius="600.000000" length="91.579010" staStart="1464.695290">
+                    <Start>1251569.29999 2683104.583</Start>
+                    <Center>1251167.606838 2683550.276405</Center>
+                    <End>1251632.39317 2683170.837786</End>
+                </Curve>
+                <Spiral length="34.999840" radiusEnd="INF" radiusStart="600.000000" rot="cw" spiType="clothoid" constant="144.913436" dirEnd="5.3678659641" dirStart="5.3970324975" theta="0.0291665333" totalY="0.340254" totalX="-34.996863" staStart="1556.274300" tanLong="23.334266" tanShort="11.667559">
+                    <Start>1251632.39316 2683170.83779</Start>
+                    <PI>1251639.771688 2683179.876001</PI>
+                    <End>1251653.99479 2683198.37441</End>
+                </Spiral>
+                <Line dir="5.3678681504" length="68.213110" staStart="1591.274140">
+                    <Start>1251653.99479 2683198.37441</Start>
+                    <End>1251695.573353 2683252.450759</End>
+                </Line>
+                <Spiral length="106.277520" radiusEnd="599.300000" radiusStart="INF" rot="cw" spiType="clothoid" constant="252.372973" dirEnd="5.2792021464" dirStart="5.3678701924" theta="0.0886680461" totalY="3.139376" totalX="106.193995" staStart="1659.487250" tanLong="70.880880" tanShort="35.452387">
+                    <Start>1251695.57335 2683252.45076</Start>
+                    <PI>1251738.778138 2683308.641911</PI>
+                    <End>1251757.81416 2683338.55013</End>
+                </Spiral>
+                <Curve rot="cw" chord="30.198084" crvType="arc" dirEnd="5.2288096634" dirStart="5.2792039234" radius="599.300000" length="30.201280" staStart="1765.764770">
+                    <Start>1251757.81416 2683338.55013</Start>
+                    <Center>1251252.235414 2683660.342955</Center>
+                    <End>1251773.381965 2683364.426137</End>
+                </Curve>
+                <Spiral length="35.070000" radiusEnd="INF" radiusStart="599.300000" rot="cw" spiType="clothoid" constant="144.973967" dirEnd="5.1995508141" dirStart="5.2288099498" theta="0.0292591357" totalY="0.342018" totalX="-35.066998" staStart="1795.966050" tanLong="23.381049" tanShort="11.690953">
+                    <Start>1251773.38197 2683364.42614</Start>
+                    <PI>1251779.154624 2683374.592499</PI>
+                    <End>1251790.09976 2683395.25351</End>
+                </Spiral>
+                <Line dir="5.1995538682" length="106.187720" staStart="1831.036050">
+                    <Start>1251790.09976 2683395.25351</Start>
+                    <End>1251839.80862 2683489.087732</End>
+                </Line>
+                <Spiral length="94.272140" radiusEnd="300.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="168.171466" dirEnd="5.3566780285" dirStart="5.1995577952" theta="0.1571202333" totalY="4.928654" totalX="94.039678" staStart="1937.223770" tanLong="62.929556" tanShort="31.498117">
+                    <Start>1251839.80862 2683489.08773</Start>
+                    <PI>1251869.267579 2683544.696171</PI>
+                    <End>1251888.18629 2683569.87977</End>
+                </Spiral>
+                <Curve rot="ccw" chord="86.705689" crvType="arc" dirEnd="5.6467160339" dirStart="5.3566815673" radius="300.000000" length="87.010340" staStart="2031.495910">
+                    <Start>1251888.18629 2683569.87977</Start>
+                    <Center>1252128.043749 2683389.689872</Center>
+                    <End>1251949.735826 2683630.949658</End>
+                </Curve>
+                <Spiral length="61.999780" radiusEnd="INF" radiusStart="300.000000" rot="ccw" spiType="clothoid" constant="136.381575" dirEnd="5.7500526509" dirStart="5.6467196842" theta="0.1033329667" totalY="2.133912" totalX="-61.933611" staStart="2118.506250" tanLong="41.356328" tanShort="20.687633">
+                    <Start>1251949.73584 2683630.94964</Start>
+                    <PI>1251966.372864 2683643.245475</PI>
+                    <End>1252001.98972 2683664.26416</End>
+                </Spiral>
+                <Line dir="5.7500477662" length="111.974200" staStart="2180.506030">
+                    <Start>1252001.98972 2683664.26416</Start>
+                    <End>1252098.42377 2683721.173697</End>
+                </Line>
+                <Curve rot="cw" chord="0.612530" crvType="arc" dirEnd="5.7500281339" dirStart="5.7500485516" radius="30000.000000" length="0.612530" staStart="2292.480230">
+                    <Start>1252098.42382 2683721.17362</Start>
+                    <Center>1236851.30588 2709557.686437</Center>
+                    <End>1252098.951338 2683721.484936</End>
+                </Curve>
+                <Line dir="5.7500281312" length="347.555690" staStart="2293.092760">
+                    <Start>1252098.95133 2683721.48494</Start>
+                    <End>1252398.268624 2683898.131805</End>
+                </Line>
+                <Line dir="5.7500281312" length="252.444490" staStart="2640.648450">
+                    <Start>1252398.26862 2683898.13181</Start>
+                    <End>1252615.67551 2684026.437947</End>
+                </Line>
+                <Spiral length="50.000000" radiusEnd="1500.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="273.861279" dirEnd="5.7333614645" dirStart="5.7500281312" theta="0.0166666667" totalY="0.277772" totalX="49.998611" staStart="2893.092940" tanLong="33.333818" tanShort="16.667108">
+                    <Start>1252615.67551 2684026.43794</Start>
+                    <PI>1252644.382818 2684043.380015</PI>
+                    <End>1252658.59347 2684052.0892</End>
+                </Spiral>
+                <Curve rot="cw" chord="80.437769" crvType="arc" dirEnd="5.6797299043" dirStart="5.7333615109" radius="1500.000000" length="80.447410" staStart="2943.092940">
+                    <Start>1252658.59347 2684052.0892</Start>
+                    <Center>1251874.787966 2685331.014112</Center>
+                    <End>1252726.024412 2684095.944676</End>
+                </Curve>
+                <Spiral length="80.000010" radiusEnd="INF" radiusStart="1500.000000" rot="cw" spiType="clothoid" constant="346.410183" dirEnd="5.6530631420" dirStart="5.6797298120" theta="0.0266666700" totalY="0.711075" totalX="-79.994321" staStart="3023.540350" tanLong="53.335326" tanShort="26.668476">
+                    <Start>1252726.02441 2684095.94468</Start>
+                    <PI>1252747.982689 2684111.078801</PI>
+                    <End>1252791.075261 2684142.506294</End>
+                </Spiral>
+                <Spiral length="79.999990" radiusEnd="1500.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="346.410140" dirEnd="5.6797298053" dirStart="5.6530631420" theta="0.0266666633" totalY="0.711075" totalX="79.994301" staStart="3103.540360" tanLong="53.335313" tanShort="26.668469">
+                    <Start>1252791.075261 2684142.506294</Start>
+                    <PI>1252834.167822 2684173.933779</PI>
+                    <End>1252856.1261 2684189.06789</End>
+                </Spiral>
+                <Curve rot="ccw" chord="62.905919" crvType="arc" dirEnd="5.7216701653" dirStart="5.6797298120" radius="1500.000000" length="62.910530" staStart="3183.540350">
+                    <Start>1252856.1261 2684189.06789</Start>
+                    <Center>1253707.36266 2682953.998532</Center>
+                    <End>1252908.658711 2684223.672507</End>
+                </Curve>
+                <Spiral length="49.999700" radiusEnd="INF" radiusStart="1500.000000" rot="ccw" spiType="clothoid" constant="273.860457" dirEnd="5.7383377401" dirStart="5.7216711734" theta="0.0166665667" totalY="0.277769" totalX="-49.998311" staStart="3246.450880" tanLong="33.333618" tanShort="16.667007">
+                    <Start>1252908.65871 2684223.67251</Start>
+                    <PI>1252922.766496 2684232.547166</PI>
+                    <End>1252951.27362 2684249.82357</End>
+                </Spiral>
+                <Line dir="5.7383337096" length="373.945240" staStart="3296.450580">
+                    <Start>1252951.27362 2684249.82357</Start>
+                    <End>1253271.073166 2684443.63609</End>
+                </Line>
+                <Spiral length="29.999060" radiusEnd="5000.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="387.292267" dirEnd="5.7413227771" dirStart="5.7383228711" theta="0.0029999060" totalY="0.029998" totalX="29.999033" staStart="3670.395820" tanLong="19.999382" tanShort="9.999696">
+                    <Start>1253271.07317 2684443.63608</Start>
+                    <PI>1253288.176613 2684454.001769</PI>
+                    <End>1253296.74385 2684459.15894</End>
+                </Spiral>
+                <Curve rot="ccw" chord="215.119945" crvType="arc" dirEnd="5.7843500860" dirStart="5.7413227780" radius="5000.000000" length="215.136540" staStart="3700.394880">
+                    <Start>1253296.74385 2684459.15894</Start>
+                    <Center>1255875.406882 2680175.410935</Center>
+                    <End>1253483.391762 2684566.112891</End>
+                </Curve>
+                <Spiral length="19.999290" radiusEnd="INF" radiusStart="5000.000000" rot="ccw" spiType="clothoid" constant="316.222153" dirEnd="5.7863496458" dirStart="5.7843497168" theta="0.0019999290" totalY="0.013332" totalX="-19.999282" staStart="3915.531420" tanLong="13.332864" tanShort="6.666432">
+                    <Start>1253483.39175 2684566.11292</Start>
+                    <PI>1253489.245812 2684569.302163</PI>
+                    <End>1253500.966669 2684575.657222</End>
+                </Spiral>
+                <Spiral length="49.995470" radiusEnd="2000.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="316.213441" dirEnd="5.7738507783" dirStart="5.7863496458" theta="0.0124988675" totalY="0.208293" totalX="49.994689" staStart="3935.530710" tanLong="33.330586" tanShort="16.665404">
+                    <Start>1253500.966669 2684575.657222</Start>
+                    <PI>1253530.267428 2684591.544118</PI>
+                    <End>1253544.8175 2684599.67007</End>
+                </Spiral>
+                <Curve rot="cw" chord="85.043262" crvType="arc" dirEnd="5.7313253650" dirStart="5.7738502000" radius="2000.000000" length="85.049670" staStart="3985.526180">
+                    <Start>1253544.8175 2684599.67007</Start>
+                    <Center>1252569.623785 2686345.80787</Center>
+                    <End>1253618.167726 2684642.706111</End>
+                </Curve>
+                <Spiral length="30.000250" radiusEnd="INF" radiusStart="2000.000000" rot="cw" spiType="clothoid" constant="244.949995" dirEnd="5.7238234973" dirStart="5.7313235598" theta="0.0075000625" totalY="0.075001" totalX="-30.000081" staStart="4070.575850" tanLong="20.000226" tanShort="10.000136">
+                    <Start>1253618.16773 2684642.70611</Start>
+                    <PI>1253626.683345 2684647.948917</PI>
+                    <End>1253643.635416 2684658.561944</End>
+                </Spiral>
+                <Spiral length="100.005500" radiusEnd="536.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="231.523105" dirEnd="5.8171122100" dirStart="5.7238234973" theta="0.0932887127" totalY="3.107862" totalX="99.918502" staStart="4100.576100" tanLong="66.700751" tanShort="33.362821">
+                    <Start>1253643.635416 2684658.561944</Start>
+                    <PI>1253700.170568 2684693.95639</PI>
+                    <End>1253729.97474 2684708.94932</End>
+                </Spiral>
+                <Curve rot="ccw" chord="143.064051" crvType="arc" dirEnd="6.0848009633" dirStart="5.8170917096" radius="536.000000" length="143.492160" staStart="4200.581600">
+                    <Start>1253729.97474 2684708.94932</Start>
+                    <Center>1253970.853148 2684230.124099</Center>
+                    <End>1253865.215254 2684755.611145</End>
+                </Curve>
+                <Spiral length="100.004570" radiusEnd="INF" radiusStart="536.000000" rot="ccw" spiType="clothoid" constant="231.522028" dirEnd="6.1780716802" dirStart="6.0847838351" theta="0.0932878451" totalY="3.107804" totalX="-99.917575" staStart="4344.073760" tanLong="66.700130" tanShort="33.362510">
+                    <Start>1253865.21526 2684755.61114</Start>
+                    <PI>1253897.923294 2684762.186971</PI>
+                    <End>1253964.25528 2684769.18517</End>
+                </Spiral>
+                <Line dir="6.1780726435" length="210.943990" staStart="4444.078330">
+                    <Start>1253964.25528 2684769.18517</Start>
+                    <End>1254174.035017 2684791.317247</End>
+                </Line>
+                <Spiral length="100.003050" radiusEnd="540.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="232.382545" dirEnd="6.2706726155" dirStart="6.1780771988" theta="0.0925954167" totalY="3.084718" totalX="99.917342" staStart="4655.022320" tanLong="66.698666" tanShort="33.361594">
+                    <Start>1254174.03502 2684791.31724</Start>
+                    <PI>1254240.365591 2684798.314909</PI>
+                    <End>1254273.72457 2684798.73234</End>
+                </Spiral>
+                <Curve rot="ccw" chord="305.265959" crvType="arc" dirEnd="0.5606128739" dirStart="6.2706792551" radius="540.000000" length="309.484220" staStart="4755.025370">
+                    <Start>1254273.72457 2684798.73234</Start>
+                    <Center>1254280.477662 2684258.774568</Center>
+                    <End>1254567.598556 2684716.116445</End>
+                </Curve>
+                <Spiral length="99.999120" radiusEnd="INF" radiusStart="540.000000" rot="ccw" spiType="clothoid" constant="232.377978" dirEnd="0.6532235952" dirStart="0.5606318174" theta="0.0925917778" totalY="3.084476" totalX="-99.913422" staStart="5064.509590" tanLong="66.696043" tanShort="33.360280">
+                    <Start>1254567.59856 2684716.11646</Start>
+                    <PI>1254595.852026 2684698.378085</PI>
+                    <End>1254648.817274 2684657.843598</End>
+                </Spiral>
+                <Spiral length="100.643970" radiusEnd="550.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="235.274698" dirEnd="0.5617290770" dirStart="0.6532235952" theta="0.0914945182" totalY="3.067622" totalX="100.559751" staStart="5164.508710" tanLong="67.125425" tanShort="33.574760">
+                    <Start>1254648.817274 2684657.843598</Start>
+                    <PI>1254702.123506 2684617.048154</PI>
+                    <End>1254730.53918 2684599.16477</End>
+                </Spiral>
+                <Curve rot="cw" chord="266.182835" crvType="arc" dirEnd="0.0729105138" dirStart="0.5617315319" radius="550.000000" length="268.851560" staStart="5265.152680">
+                    <Start>1254730.53918 2684599.16477</Start>
+                    <Center>1255023.498028 2685064.648512</Center>
+                    <End>1254983.432764 2684516.109748</End>
+                </Curve>
+                <Spiral length="100.000430" radiusEnd="INF" radiusStart="550.000000" rot="cw" spiType="clothoid" constant="234.521292" dirEnd="6.2651909342" dirStart="0.0729151089" theta="0.0909094818" totalY="3.028541" totalX="-99.917816" staStart="5534.004240" tanLong="66.695837" tanShort="33.359736">
+                    <Start>1254983.43276 2684516.10975</Start>
+                    <PI>1255016.703855 2684513.679476</PI>
+                    <End>1255083.38889 2684514.87956</End>
+                </Spiral>
+                <Line dir="6.2651912069" length="318.455810" staStart="5634.004670">
+                    <Start>1255083.38889 2684514.87956</Start>
+                    <End>1255401.793145 2684520.609577</End>
+                </Line>
+                <Line dir="6.2651912069" length="204.416270" staStart="5952.460480">
+                    <Start>1255401.79315 2684520.60958</Start>
+                    <End>1255606.176327 2684524.287668</End>
+                </Line>
+                <Spiral length="89.999860" radiusEnd="650.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="241.867544" dirEnd="6.1959567755" dirStart="6.2651874370" theta="0.0692306615" totalY="2.076206" totalX="89.956734" staStart="6156.876750" tanLong="60.014977" tanShort="30.013654">
+                    <Start>1255606.17633 2684524.28765</Start>
+                    <PI>1255666.181587 2684525.367733</PI>
+                    <End>1255696.08113 2684527.98246</End>
+                </Spiral>
+                <Curve rot="cw" chord="248.029555" crvType="arc" dirEnd="5.8120140230" dirStart="6.1959517615" radius="650.000000" length="249.559530" staStart="6246.876610">
+                    <Start>1255696.08113 2684527.98246</Start>
+                    <Center>1255639.451212 2685175.510878</Center>
+                    <End>1255934.505877 2684596.336686</End>
+                </Curve>
+                <Spiral length="22.100000" radiusEnd="540.000000" radiusStart="650.000000" rot="cw" spiType="clothoid" constant="265.554309" dirEnd="5.7745511475" dirStart="5.8120141105" theta="0.0374629630" totalY="0.426670" totalX="-22.094588" staStart="6496.436140" tanLong="11.391774" tanShort="10.710806">
+                    <Start>1255934.50588 2684596.33669</Start>
+                    <PI>1255944.656376 2684601.50776</PI>
+                    <End>1255954.01131 2684606.72376</End>
+                </Spiral>
+                <Curve rot="cw" chord="284.680179" crvType="arc" dirEnd="5.2410614967" dirStart="5.7745510893" radius="540.000000" length="288.084380" staStart="6518.536140">
+                    <Start>1255954.01131 2684606.72376</Start>
+                    <Center>1255691.039511 2685078.365396</Center>
+                    <End>1256157.317305 2684805.996128</End>
+                </Curve>
+                <Curve rot="cw" chord="68.285839" crvType="arc" dirEnd="5.1147560800" dirStart="5.2410615328" radius="541.000000" length="68.331250" staStart="6806.620520">
+                    <Start>1256157.31731 2684805.99613</Start>
+                    <Center>1255690.176048 2685078.869803</Center>
+                    <End>1256187.969961 2684867.015559</End>
+                </Curve>
+                <Spiral length="30.000000" radiusEnd="650.000000" radiusStart="541.000000" rot="cw" spiType="clothoid" constant="311.101918" dirEnd="5.0639526437" dirStart="5.1147559993" theta="0.0508033556" totalY="0.738648" totalX="-29.987676" staStart="6874.951770" tanLong="15.460840" tanShort="14.545603">
+                    <Start>1256187.96996 2684867.01556</Start>
+                    <PI>1256193.665981 2684880.399503</PI>
+                    <End>1256198.99017 2684894.91469</End>
+                </Spiral>
+                <Curve rot="cw" chord="192.518002" crvType="arc" dirEnd="4.7666777223" dirStart="5.0639526762" radius="650.000000" length="193.228720" staStart="6904.951770">
+                    <Start>1256198.99017 2684894.91469</Start>
+                    <Center>1255588.747175 2685118.752773</Center>
+                    <End>1256237.789548 2685083.482421</End>
+                </Curve>
+                <Curve rot="cw" chord="335.730961" crvType="arc" dirEnd="4.2442583018" dirStart="4.7666884249" radius="650.000000" length="339.579580" staStart="7098.180490">
+                    <Start>1256237.78955 2685083.48242</Start>
+                    <Center>1255588.747554 2685118.759718</Center>
+                    <End>1256168.816212 2685412.051981</End>
+                </Curve>
+                <Spiral length="231.897910" radiusEnd="INF" radiusStart="650.000000" rot="cw" spiType="clothoid" constant="388.244306" dirEnd="4.0658772514" dirStart="4.2442602591" theta="0.1783830077" totalY="13.757573" totalX="-231.161086" staStart="7437.760070" tanLong="154.857077" tanShort="77.534331">
+                    <Start>1256168.81622 2685412.05199</Start>
+                    <PI>1256133.831402 2685481.244728</PI>
+                    <End>1256040.544605 2685604.8501</End>
+                </Spiral>
+                <Spiral length="75.251140" radiusEnd="2000.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="387.946233" dirEnd="4.0846900364" dirStart="4.0658772514" theta="0.0188127850" totalY="0.471883" totalX="75.248477" staStart="7669.657980" tanLong="50.168357" tanShort="25.084559">
+                    <Start>1256040.544605 2685604.8501</Start>
+                    <PI>1256010.322897 2685644.893981</PI>
+                    <End>1255995.59111 2685665.19692</End>
+                </Spiral>
+                <Curve rot="ccw" chord="1147.089604" crvType="arc" dirEnd="4.6664028071" dirStart="4.0846907571" radius="2000.000000" length="1163.424100" staStart="7744.909120">
+                    <Start>1255995.59111 2685665.19692</Start>
+                    <Center>1257614.354003 2686839.76352</Center>
+                    <End>1255616.468358 2686747.823586</End>
+                </Curve>
+                <Spiral length="74.618810" radiusEnd="INF" radiusStart="2000.000000" rot="ccw" spiType="clothoid" constant="386.312852" dirEnd="4.6850581492" dirStart="4.6664034467" theta="0.0186547025" totalY="0.463986" totalX="-74.616213" staStart="8908.333220" tanLong="49.746780" tanShort="24.873761">
+                    <Start>1255616.46822 2686747.82358</Start>
+                    <PI>1255615.32479 2686772.671046</PI>
+                    <End>1255613.96534 2686822.39925</End>
+                </Spiral>
+                <Line dir="4.6850604230" length="654.853390" staStart="8982.952030">
+                    <Start>1255613.96534 2686822.39925</Start>
+                    <End>1255596.071369 2687477.008117</End>
+                </Line>
+                <Line dir="4.6850604230" length="123.716090" staStart="9637.805420">
+                    <Start>1255596.07137 2687477.00804</Start>
+                    <End>1255592.690809 2687600.677934</End>
+                </Line>
+                <Spiral length="131.999990" radiusEnd="708.800000" radiusStart="INF" rot="cw" spiType="clothoid" constant="305.878396" dirEnd="4.5919453059" dirStart="4.6850604230" theta="0.0931151171" totalY="4.094528" totalX="131.885586" staStart="9761.521510" tanLong="88.039993" tanShort="44.036362">
+                    <Start>1255592.69081 2687600.67793</Start>
+                    <PI>1255590.285103 2687688.685049</PI>
+                    <End>1255584.99401 2687732.40239</End>
+                </Spiral>
+                <Curve rot="cw" chord="102.578091" crvType="arc" dirEnd="4.4470979687" dirStart="4.5919453446" radius="708.800000" length="102.667820" staStart="9893.521500">
+                    <Start>1255584.99401 2687732.40239</Start>
+                    <Center>1254881.328962 2687647.238198</Center>
+                    <End>1255565.332473 2687833.078548</End>
+                </Curve>
+                <Spiral length="117.999990" radiusEnd="INF" radiusStart="708.800000" rot="cw" spiType="clothoid" constant="289.203031" dirEnd="4.3638587036" dirStart="4.4470979742" theta="0.0832392706" totalY="3.272458" totalX="-117.918257" staStart="9996.189320" tanLong="78.695230" tanShort="39.359304">
+                    <Start>1255565.33247 2687833.07855</Start>
+                    <PI>1255555.01285 2687871.060918</PI>
+                    <End>1255528.1371 2687945.02465</End>
+                </Spiral>
+                <Line dir="4.3638586494" length="272.828650" staStart="10114.189310">
+                    <Start>1255528.1371 2687945.02465</Start>
+                    <End>1255434.961513 2688201.449653</End>
+                </Line>
+                <Line dir="4.3638462401" length="142.026680" staStart="10387.017960">
+                    <Start>1255434.9615 2688201.44965</Start>
+                    <End>1255386.455336 2688334.936465</End>
+                </Line>
+                <Spiral length="29.408410" radiusEnd="3003.800000" radiusStart="INF" rot="cw" spiType="clothoid" constant="297.215380" dirEnd="4.3589420855" dirStart="4.3638372865" theta="0.0048952011" totalY="0.047987" totalX="29.408340" staStart="10529.044640" tanLong="19.605631" tanShort="9.802826">
+                    <Start>1255386.45534 2688334.93647</Start>
+                    <PI>1255379.759293 2688353.363182</PI>
+                    <End>1255376.3662 2688362.56005</End>
+                </Spiral>
+                <Curve rot="cw" chord="50.676529" crvType="arc" dirEnd="4.3420719926" dirStart="4.3589429993" radius="3003.800000" length="50.677130" staStart="10558.453050">
+                    <Start>1255376.3662 2688362.56005</Start>
+                    <Center>1252558.24454 2687322.846268</Center>
+                    <End>1255358.424961 2688409.95438</End>
+                </Curve>
+                <Spiral length="30.922580" radiusEnd="INF" radiusStart="3003.800000" rot="cw" spiType="clothoid" constant="304.770809" dirEnd="4.3369247750" dirStart="4.3420720185" theta="0.0051472435" totalY="0.053055" totalX="-30.922498" staStart="10609.130180" tanLong="20.615083" tanShort="10.307552">
+                    <Start>1255358.42497 2688409.95438</Start>
+                    <PI>1255354.694554 2688419.563211</PI>
+                    <End>1255347.13491 2688438.74219</End>
+                </Spiral>
+                <Line dir="4.3369187070" length="220.682960" staStart="10640.052760">
+                    <Start>1255347.13491 2688438.74219</Start>
+                    <End>1255266.208244 2688644.051331</End>
+                </Line>
+                <Spiral length="69.100880" radiusEnd="1288.800000" radiusStart="INF" rot="cw" spiType="clothoid" constant="298.424554" dirEnd="4.3101115818" dirStart="4.3369198065" theta="0.0268082247" totalY="0.617459" totalX="69.095914" staStart="10860.735720" tanLong="46.068988" tanShort="23.035203">
+                    <Start>1255266.20826 2688644.05134</Start>
+                    <PI>1255249.314345 2688686.910963</PI>
+                    <End>1255240.29571 2688708.1073</End>
+                </Spiral>
+                <Curve rot="cw" chord="244.476233" crvType="arc" dirEnd="4.1201278294" dirStart="4.3101063132" radius="1288.800000" length="244.844270" staStart="10929.836600">
+                    <Start>1255240.29571 2688708.1073</Start>
+                    <Center>1254054.381023 2688203.51658</Center>
+                    <End>1255123.673302 2688922.974334</End>
+                </Curve>
+                <Spiral length="68.169120" radiusEnd="INF" radiusStart="1288.800000" rot="cw" spiType="clothoid" constant="296.405739" dirEnd="4.0936756833" dirStart="4.1201224245" theta="0.0264467412" totalY="0.600920" totalX="-68.164352" staStart="11174.680870" tanLong="45.447745" tanShort="22.724554">
+                    <Start>1255123.67331 2688922.97434</Start>
+                    <PI>1255110.987488 2688941.828391</PI>
+                    <End>1255084.628365 2688978.851279</End>
+                </Spiral>
+                <Spiral length="95.841360" radiusEnd="900.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="293.695802" dirEnd="4.1469208833" dirStart="4.0936756833" theta="0.0532452000" totalY="1.700686" totalX="95.814192" staStart="11242.849990" tanLong="63.903731" tanShort="31.955748">
+                    <Start>1255084.628365 2688978.851279</Start>
+                    <PI>1255047.565003 2689030.908882</PI>
+                    <End>1255030.44265 2689057.89026</End>
+                </Spiral>
+                <Curve rot="ccw" chord="49.767867" crvType="arc" dirEnd="4.2022269296" dirStart="4.1469222519" radius="900.000000" length="49.774210" staStart="11338.691350">
+                    <Start>1255030.44265 2689057.89026</Start>
+                    <Center>1255790.347403 2689540.119216</Center>
+                    <End>1255004.948555 2689100.632414</End>
+                </Curve>
+                <Curve rot="ccw" chord="224.403946" crvType="arc" dirEnd="4.4617888733" dirStart="4.2022328180" radius="867.000000" length="225.035100" staStart="11388.465560">
+                    <Start>1255004.94856 2689100.63242</Start>
+                    <Center>1255761.551943 2689524.000251</Center>
+                    <End>1254921.633747 2689308.996939</End>
+                </Curve>
+                <Spiral length="89.999990" radiusEnd="INF" radiusStart="867.000000" rot="ccw" spiType="clothoid" constant="279.338489" dirEnd="4.5136974530" dirStart="4.4617943446" theta="0.0519031084" totalY="1.556793" totalX="-89.975748" staStart="11613.500660" tanLong="60.008462" tanShort="30.007696">
+                    <Start>1254921.63375 2689308.99694</Start>
+                    <PI>1254914.19244 2689338.06735</PI>
+                    <End>1254902.34756 2689396.89519</End>
+                </Spiral>
+                <Line dir="4.5136975393" length="940.770560" staStart="11703.500650">
+                    <Start>1254902.34756 2689396.89519</Start>
+                    <End>1254716.651977 2690319.156756</End>
+                </Line>
+                <Spiral length="119.789470" radiusEnd="703.800000" radiusStart="INF" rot="cw" spiType="clothoid" constant="290.358105" dirEnd="4.4285956140" dirStart="4.5136975393" theta="0.0851019253" totalY="3.396347" totalX="119.702744" staStart="12644.271210" tanLong="79.889963" tanShort="39.957385">
+                    <Start>1254716.65191 2690319.15674</Start>
+                    <PI>1254700.882695 2690397.474925</PI>
+                    <End>1254689.69465 2690435.83402</End>
+                </Spiral>
+                <Curve rot="cw" chord="498.827539" crvType="arc" dirEnd="3.7040902360" dirStart="4.4285955642" radius="703.800000" length="509.906850" staStart="12764.060680">
+                    <Start>1254689.69465 2690435.83402</Start>
+                    <Center>1254014.046513 2690238.770488</Center>
+                    <End>1254389.383496 2690834.133058</End>
+                </Curve>
+                <Spiral length="124.000000" radiusEnd="INF" radiusStart="703.800000" rot="cw" spiType="clothoid" constant="295.416993" dirEnd="3.6159970546" dirStart="3.7040902629" theta="0.0880932083" totalY="3.639168" totalX="-123.903805" staStart="13273.967530" tanLong="82.700296" tanShort="41.363907">
+                    <Start>1254389.38349 2690834.13305</Start>
+                    <PI>1254354.392695 2690856.192448</PI>
+                    <End>1254280.82541 2690893.97066</End>
+                </Spiral>
+                <Line dir="3.6159970204" length="363.480970" staStart="13397.967530">
+                    <Start>1254280.82541 2690893.97066</Start>
+                    <End>1253957.485472 2691060.01192</End>
+                </Line>
+                <Spiral length="124.997850" radiusEnd="696.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="294.955087" dirEnd="3.7057973109" dirStart="3.6160000049" theta="0.0897973060" totalY="3.739336" totalX="124.897095" staStart="13761.448500" tanLong="83.367125" tanShort="41.697974">
+                    <Start>1253957.48548 2691060.01193</Start>
+                    <PI>1253883.32512 2691098.094977</PI>
+                    <End>1253848.08977 2691120.39276</End>
+                </Spiral>
+                <Curve rot="ccw" chord="333.318818" crvType="arc" dirEnd="4.1894164285" dirStart="3.7058112274" radius="696.000000" length="336.589220" staStart="13886.446350">
+                    <Start>1253848.08977 2691120.39276</Start>
+                    <Center>1254220.279716 2691708.517444</Center>
+                    <End>1253617.308227 2691360.894971</End>
+                </Curve>
+                <Spiral length="118.999000" radiusEnd="INF" radiusStart="696.000000" rot="ccw" spiType="clothoid" constant="287.790382" dirEnd="4.2749157878" dirStart="4.1894280005" theta="0.0854877874" totalY="3.389217" totalX="-118.912063" staStart="14223.035570" tanLong="79.363057" tanShort="39.693963">
+                    <Start>1253617.3082 2691360.89496</Start>
+                    <PI>1253597.483148 2691395.283591</PI>
+                    <End>1253563.860832 2691467.172636</End>
+                </Spiral>
+                <Spiral length="50.999620" radiusEnd="1518.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="278.239866" dirEnd="4.2581174940" dirStart="4.2749157878" theta="0.0167982938" totalY="0.285563" totalX="50.998181" staStart="14342.034570" tanLong="34.000249" tanShort="17.000330">
+                    <Start>1253563.860832 2691467.172636</Start>
+                    <PI>1253549.456559 2691497.970913</PI>
+                    <End>1253541.99671 2691513.2471</End>
+                </Spiral>
+                <Curve rot="cw" chord="36.533578" crvType="arc" dirEnd="4.2340526838" dirStart="4.2581201805" radius="1518.000000" length="36.534460" staStart="14393.034190">
+                    <Start>1253541.99671 2691513.2471</Start>
+                    <Center>1252177.949047 2690847.140521</Center>
+                    <End>1253525.5717 2691545.880233</End>
+                </Curve>
+                <Spiral length="51.999650" radiusEnd="INF" radiusStart="1518.000000" rot="cw" spiType="clothoid" constant="280.954567" dirEnd="4.2169252259" dirStart="4.2340529104" theta="0.0171276845" totalY="0.296872" totalX="-51.998125" staStart="14429.568650" tanLong="34.666966" tanShort="17.333701">
+                    <Start>1253525.57171 2691545.88024</Start>
+                    <PI>1253517.592962 2691561.268442</PI>
+                    <End>1253501.11092 2691591.76665</End>
+                </Spiral>
+                <Line dir="4.2169288742" length="350.342010" staStart="14481.568300">
+                    <Start>1253501.11092 2691591.76665</Start>
+                    <End>1253334.545548 2691899.980051</End>
+                </Line>
+                <Line dir="4.2169370424" length="159.126880" staStart="14831.910310">
+                    <Start>1253334.54552 2691899.98004</Start>
+                    <End>1253258.89194 2692039.972539</End>
+                </Line>
+                <Spiral length="127.669530" radiusEnd="736.200000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="306.578388" dirEnd="4.3036538232" dirStart="4.2169453676" theta="0.0867084556" totalY="3.688028" totalX="127.573577" staStart="14991.037190" tanLong="85.146563" tanShort="42.587006">
+                    <Start>1253258.89194 2692039.97254</Start>
+                    <PI>1253218.411393 2692114.880901</PI>
+                    <End>1253201.48522 2692153.95977</End>
+                </Spiral>
+                <Curve rot="ccw" chord="66.175681" crvType="arc" dirEnd="4.3935741543" dirStart="4.3036556810" radius="736.200000" length="66.197980" staStart="15118.706720">
+                    <Start>1253201.48522 2692153.95977</Start>
+                    <Center>1253877.040749 2692446.560466</Center>
+                    <End>1253177.939658 2692215.804958</End>
+                </Curve>
+                <Spiral length="89.276310" radiusEnd="1720.000000" radiusStart="736.200000" rot="ccw" spiType="clothoid" constant="338.982155" dirEnd="4.4801605807" dirStart="4.3935749743" theta="0.0865856064" totalY="3.347086" totalX="-89.185341" staStart="15184.904700" tanLong="50.625612" tanShort="38.704724">
+                    <Start>1253177.93966 2692215.80496</Start>
+                    <PI>1253165.80803 2692252.559269</PI>
+                    <End>1253154.15672 2692301.82589</End>
+                </Spiral>
+                <Curve rot="ccw" chord="53.997622" crvType="arc" dirEnd="4.5115501674" dirStart="4.4801549116" radius="1720.000000" length="53.999840" staStart="15274.181010">
+                    <Start>1253154.15672 2692301.82589</Start>
+                    <Center>1254827.982715 2692697.687658</Center>
+                    <End>1253142.555426 2692354.56253</End>
+                </Curve>
+                <Spiral length="43.000040" radiusEnd="INF" radiusStart="1720.000000" rot="ccw" spiType="clothoid" constant="271.956005" dirEnd="4.5240457170" dirStart="4.5115457054" theta="0.0125000116" totalY="0.179165" totalX="-42.999368" staStart="15328.180850" tanLong="28.666928" tanShort="14.333560">
+                    <Start>1253142.55542 2692354.56253</Start>
+                    <PI>1253139.695936 2692368.607967</PI>
+                    <End>1253134.32858 2692396.76794</End>
+                </Spiral>
+                <Line dir="4.5240358924" length="242.062690" staStart="15371.180890">
+                    <Start>1253134.32858 2692396.76794</Start>
+                    <End>1253089.004432 2692634.549494</End>
+                </Line>
+                <Curve rot="ccw" chord="0.887510" crvType="arc" dirEnd="4.5241980006" dirStart="4.5240204986" radius="5000.000000" length="0.887510" staStart="15613.243580">
+                    <Start>1253089.00444 2692634.5495</Start>
+                    <Center>1258000.559714 2693570.831933</Center>
+                    <End>1253088.838325 2692635.421326</End>
+                </Curve>
+                <Line dir="4.5241983127" length="107.364290" staStart="15614.131090">
+                    <Start>1253088.83832 2692635.42132</Start>
+                    <End>1253068.752414 2692740.890022</End>
+                </Line>
+                <Line dir="4.5241920296" length="176.602100" staStart="15721.495380">
+                    <Start>1253068.75242 2692740.89002</Start>
+                    <End>1253035.712289 2692914.373885</End>
+                </Line>
+                <Line dir="4.5241876313" length="352.074280" staStart="15898.097480">
+                    <Start>1253035.71229 2692914.37389</Start>
+                    <End>1252969.841901 2693260.231361</End>
+                </Line>
+                <Spiral length="85.999850" radiusEnd="744.000000" radiusStart="INF" rot="ccw" spiType="clothoid" constant="252.950367" dirEnd="4.5819838578" dirStart="4.5241882596" theta="0.0577955981" totalY="1.656409" totalX="85.971128" staStart="16250.171760" tanLong="57.343268" tanShort="28.675740">
+                    <Start>1252969.84196 2693260.23137</Start>
+                    <PI>1252959.113511 2693316.562097</PI>
+                    <End>1252955.38464 2693344.99436</End>
+                </Spiral>
+                <Curve rot="ccw" chord="225.355184" crvType="arc" dirEnd="4.8860501285" dirStart="4.5819833543" radius="744.000000" length="226.225680" staStart="16336.171610">
+                    <Start>1252955.38464 2693344.99436</Start>
+                    <Center>1253693.067506 2693441.741393</Center>
+                    <End>1252960.258188 2693570.29684</End>
+                </Curve>
+                <Spiral length="20.000040" radiusEnd="728.000000" radiusStart="744.000000" rot="ccw" spiType="clothoid" constant="822.825227" dirEnd="4.9132277457" dirStart="4.8860505674" theta="0.0271771783" totalY="0.272740" totalX="-19.997565" staStart="16562.397290" tanLong="10.036868" tanShort="9.964403">
+                    <Start>1252960.25815 2693570.29685</Start>
+                    <PI>1252961.992421 2693580.18275</PI>
+                    <End>1252963.98024 2693589.94686</End>
+                </Spiral>
+                <Curve rot="ccw" chord="65.467720" crvType="arc" dirEnd="5.0031863736" dirStart="4.9132278571" radius="728.000000" length="65.489800" staStart="16582.397330">
+                    <Start>1252963.98024 2693589.94686</Start>
+                    <Center>1253677.34713 2693444.717109</Center>
+                    <End>1252979.911806 2693653.446526</End>
+                </Curve>
+                <Spiral length="20.000010" radiusEnd="744.000000" radiusStart="728.000000" rot="ccw" spiType="clothoid" constant="822.824610" dirEnd="5.0303583742" dirStart="5.0031812367" theta="0.0271771375" totalY="0.270770" totalX="-19.997561" staStart="16647.887130" tanLong="10.036853" tanShort="9.964388">
+                    <Start>1252979.91177 2693653.44654</Start>
+                    <PI>1252982.768673 2693662.992594</PI>
+                    <End>1252985.90657 2693672.52632</End>
+                </Spiral>
+                <Curve rot="ccw" chord="29.939110" crvType="arc" dirEnd="5.0706018236" dirStart="5.0303583693" radius="744.000000" length="29.941130" staStart="16667.887140">
+                    <Start>1252985.90657 2693672.52632</Start>
+                    <Center>1253692.611504 2693439.923361</Center>
+                    <End>1252995.83698 2693700.770563</End>
+                </Curve>
+                <Curve rot="ccw" chord="436.784860" crvType="arc" dirEnd="5.6664457050" dirStart="5.0705936889" radius="744.000000" length="443.313900" staStart="16697.828270">
+                    <Start>1252995.83698 2693700.77056</Start>
+                    <Center>1253692.613626 2693439.929027</Center>
+                    <End>1253262.300015 2694046.860815</End>
+                </Curve>
+                <Curve rot="ccw" chord="56.888812" crvType="arc" dirEnd="5.7429279984" dirStart="5.6664459016" radius="744.000000" length="56.902680" staStart="17141.142170">
+                    <Start>1253262.30003 2694046.8608</Start>
+                    <Center>1253692.613522 2693439.928927</Center>
+                    <End>1253309.932159 2694077.965739</End>
+                </Curve>
+                <Curve rot="ccw" chord="56.845388" crvType="arc" dirEnd="5.8242542328" dirStart="5.7429198066" radius="699.102000" length="56.861060" staStart="17198.044850">
+                    <Start>1253309.93214 2694077.96578</Start>
+                    <Center>1253669.524828 2693478.435376</Center>
+                    <End>1253359.829605 2694105.198869</End>
+                </Curve>
+                <Spiral length="20.000180" radiusEnd="845.500000" radiusStart="699.102000" rot="ccw" spiType="clothoid" constant="284.168843" dirEnd="5.8503819203" dirStart="5.8242502997" theta="0.0261316207" totalY="0.253049" totalX="-19.998010" staStart="17254.905910" tanLong="10.316599" tanShort="9.684717">
+                    <Start>1253359.8296 2694105.19887</Start>
+                    <PI>1253368.512189 2694109.489137</PI>
+                    <End>1253377.87753 2694113.8161</End>
+                </Spiral>
+                <Curve rot="ccw" chord="38.234841" crvType="arc" dirEnd="5.8956067107" dirStart="5.8503812820" radius="845.500000" length="38.238100" staStart="17274.906090">
+                    <Start>1253377.87753 2694113.8161</Start>
+                    <Center>1253732.495384 2693346.276897</Center>
+                    <End>1253412.940583 2694129.063573</End>
+                </Curve>
+                <Spiral length="73.803430" radiusEnd="INF" radiusStart="845.500000" rot="ccw" spiType="clothoid" constant="249.801521" dirEnd="5.9392502940" dirStart="5.8956054507" theta="0.0436448433" totalY="1.073567" totalX="-73.789373" staStart="17313.144190" tanLong="49.207197" tanShort="24.605607">
+                    <Start>1253412.94058 2694129.06358</Start>
+                    <PI>1253435.721102 2694138.363242</PI>
+                    <End>1253482.04649 2694154.95562</End>
+                </Spiral>
+                <Line dir="5.9392533253" length="177.964780" staStart="17386.947620">
+                    <Start>1253482.04649 2694154.95562</Start>
+                    <End>1253649.588961 2694214.963813</End>
+                </Line>
+                <Spiral length="32.000430" radiusEnd="1600.000000" radiusStart="INF" rot="cw" spiType="clothoid" constant="226.275690" dirEnd="5.9292623016" dirStart="5.9392624359" theta="0.0100001344" totalY="0.106669" totalX="32.000110" staStart="17564.912400" tanLong="21.333731" tanShort="10.666912">
+                    <Start>1253649.58896 2694214.96382</Start>
+                    <PI>1253669.673371 2694222.157188</PI>
+                    <End>1253679.67915 2694225.85412</End>
+                </Spiral>
+                <Curve rot="cw" chord="31.336129" crvType="arc" dirEnd="5.9096778240" dirStart="5.9292632178" radius="1600.000000" length="31.336630" staStart="17596.912830">
+                    <Start>1253679.67915 2694225.85412</Start>
+                    <Center>1253125.152007 2695726.687105</Center>
+                    <End>1253708.965324 2694237.001899</End>
+                </Curve>
+                <Spiral length="33.272390" radiusEnd="INF" radiusStart="1600.000000" rot="cw" spiType="clothoid" constant="230.728897" dirEnd="5.8992807502" dirStart="5.9096783721" theta="0.0103976219" totalY="0.115317" totalX="-33.272030" staStart="17628.249460" tanLong="22.181719" tanShort="11.090911">
+                    <Start>1253708.96533 2694237.00189</Start>
+                    <PI>1253719.291561 2694241.048773</PI>
+                    <End>1253739.85865 2694249.3568</End>
+                </Spiral>
+                <Line dir="5.8992806429" length="21.048070" staStart="17661.521850">
+                    <Start>1253739.85865 2694249.3568</Start>
+                    <End>1253759.374615 2694257.240223</End>
+                </Line>
+                <Line dir="5.8992833132" length="4.280270" staStart="17682.569920">
+                    <Start>1253759.37464 2694257.240172</Start>
+                    <End>1253763.34335 2694258.84331</End>
+                </Line>
+                <Spiral length="37.028920" radiusEnd="1600.000000" radiusStart="2444.655000" rot="ccw" spiType="clothoid" constant="414.094655" dirEnd="5.9184306921" dirStart="5.8992857097" theta="0.0191449824" totalY="0.379121" totalX="-37.026412" staStart="17686.850190" tanLong="19.803835" tanShort="17.226206">
+                    <Start>1253763.34335 2694258.84331</Start>
+                    <PI>1253781.705686 2694266.26062</PI>
+                    <End>1253797.7986 2694272.40554</End>
+                </Spiral>
+                <Spiral length="41.259210" radiusEnd="2600.000000" radiusStart="1600.000000" rot="ccw" spiType="clothoid" constant="414.292546" dirEnd="5.9392638497" dirStart="5.9184358831" theta="0.0208279666" totalY="0.395558" totalX="-41.256565" staStart="17723.879110" tanLong="22.267624" tanShort="18.993061">
+                    <Start>1253797.7986 2694272.40554</Start>
+                    <PI>1253815.542167 2694279.180654</PI>
+                    <End>1253836.50579 2694286.68889</End>
+                </Spiral>
+            </CoordGeom>
+            <Cant name="A50068A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="0.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="690.196790" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="714.196790" appliedCant="42.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="791.958330" appliedCant="42.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="815.958330" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="882.958330" appliedCant="84.000000" speed="80.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="908.251710" appliedCant="84.000000" speed="80.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="950.251710" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="972.251710" appliedCant="23.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1016.240410" appliedCant="23.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1038.240410" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1079.142030" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1106.141960" appliedCant="32.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1126.137530" appliedCant="32.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1144.860050" appliedCant="15.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1167.091980" appliedCant="15.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1217.202050" appliedCant="42.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1237.202210" appliedCant="64.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1372.693740" appliedCant="64.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1407.695670" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1429.695520" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1464.695290" appliedCant="69.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1556.274300" appliedCant="69.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1591.274140" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1659.487250" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1765.764770" appliedCant="70.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1795.966050" appliedCant="70.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1831.036050" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="1937.223770" appliedCant="0.000000" speed="75.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="2031.495910" appliedCant="100.000000" speed="75.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="2118.506250" appliedCant="100.000000" speed="75.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="2180.506030" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="2631.999120" speed="105.000000"/>
+                <SpeedStation station="2893.092930" speed="105.000000"/>
+                <CantStation station="2893.092940" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="2943.092930" speed="105.000000"/>
+                <CantStation station="2943.092940" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="3023.540340" speed="105.000000"/>
+                <CantStation station="3023.540350" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="3103.540350" speed="105.000000"/>
+                <CantStation station="3103.540360" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="3183.540340" speed="105.000000"/>
+                <CantStation station="3183.540350" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="3246.450870" speed="105.000000"/>
+                <CantStation station="3246.450880" appliedCant="52.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <SpeedStation station="3296.450570" speed="105.000000"/>
+                <CantStation station="3296.450580" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="3670.395810" speed="105.000000"/>
+                <CantStation station="3670.395820" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="3700.394870" speed="105.000000"/>
+                <CantStation station="3700.394880" appliedCant="16.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="3915.531420" appliedCant="16.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="3935.530710" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="3985.526180" appliedCant="40.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4070.575850" appliedCant="40.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4100.576100" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4200.581600" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="4344.073760" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="4444.078330" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4655.022320" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="4755.025370" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="5064.509590" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="5164.508710" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5265.152680" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="5534.004240" appliedCant="150.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="5634.004660" speed="105.000000"/>
+                <CantStation station="5634.004670" appliedCant="0.000000" speed="105.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="5952.460470" speed="80.000000"/>
+                <CantStation station="6156.876750" appliedCant="0.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6246.876610" appliedCant="40.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6496.436140" appliedCant="40.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6518.536140" appliedCant="50.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6874.951770" appliedCant="50.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6904.951770" appliedCant="40.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="6999.689730" appliedCant="40.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7041.698020" appliedCant="82.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7133.659750" appliedCant="82.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7169.659710" appliedCant="100.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7295.736950" appliedCant="100.000000" speed="100.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7345.737280" appliedCant="150.000000" speed="110.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7437.760070" appliedCant="150.000000" speed="110.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7669.657980" appliedCant="0.000000" speed="120.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="7744.909120" appliedCant="50.000000" speed="120.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="8908.333220" appliedCant="50.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="8982.952030" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="9761.521510" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="9893.521500" appliedCant="144.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="9996.189320" appliedCant="144.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10114.189310" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10529.044640" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10558.453050" appliedCant="34.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10609.130180" appliedCant="34.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10640.052760" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10860.735720" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="10929.836600" appliedCant="80.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="11174.680870" appliedCant="80.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="11242.849990" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="11338.691350" appliedCant="114.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="11376.467080" appliedCant="114.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="11388.465560" appliedCant="120.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="11613.500660" appliedCant="120.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="11703.491150" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="12644.271210" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="12764.060680" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="13273.967530" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="13397.960560" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="13761.448500" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="13886.446350" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="14223.035570" appliedCant="150.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="14342.034570" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="14393.034190" appliedCant="66.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="14429.568650" appliedCant="66.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="14481.568300" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="14991.037190" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="15118.706720" appliedCant="138.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="15184.904700" appliedCant="137.800000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="15274.181010" appliedCant="58.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="15328.180850" appliedCant="58.000000" speed="130.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="15371.180890" appliedCant="0.000000" speed="130.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="15405.181050" speed="125.000000"/>
+                <CantStation station="16250.171760" appliedCant="0.000000" speed="125.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="16336.171610" appliedCant="100.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="16562.397290" appliedCant="100.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="16582.397330" appliedCant="108.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="17125.524820" appliedCant="108.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="17133.510010" appliedCant="100.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="17254.905910" appliedCant="100.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="17274.906090" appliedCant="75.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="17313.144190" appliedCant="75.000000" speed="115.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="17386.947620" appliedCant="0.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="17564.912400" appliedCant="0.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="17596.912830" appliedCant="50.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="17628.249460" appliedCant="50.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="17661.521850" appliedCant="0.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="17682.569920" speed="115.000000"/>
+                <CantStation station="17765.138320" appliedCant="0.000000" speed="115.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50068A">
+                <ProfAlign name="T50068A" desc="">
+                    <PVI>0.0 430.6111</PVI>
+                    <CircCurve length="0.747026" radius="5000.000000">79.37759 431.603278</CircCurve>
+                    <CircCurve length="0.809927" radius="600.000000">642.792702 438.561473</CircCurve>
+                    <CircCurve length="59.948838" radius="2500.000000">713.086937 439.334701</CircCurve>
+                    <CircCurve length="194.895804" radius="3000.000000">897.688291 445.795779</CircCurve>
+                    <CircCurve length="60.110864" radius="3000.000000">1040.620404 441.507814</CircCurve>
+                    <CircCurve length="109.146791" radius="3000.000000">1216.289625 439.759895</CircCurve>
+                    <CircCurve length="59.559949" radius="3000.000000">1300.630119 441.990021</CircCurve>
+                    <CircCurve length="55.793324" radius="5000.000000">1358.355269 442.369825</CircCurve>
+                    <CircCurve length="23.049031" radius="3000.000000">1431.840452 442.033312</CircCurve>
+                    <CircCurve length="18.024073" radius="18000.000000">1452.386296 442.097081</CircCurve>
+                    <CircCurve length="31.489461" radius="5000.000000">1477.154273 442.198756</CircCurve>
+                    <CircCurve length="61.926686" radius="10000.000000">1625.428222 441.873616</CircCurve>
+                    <CircCurve length="94.649905" radius="10000.000000">1703.718209 442.186766</CircCurve>
+                    <CircCurve length="54.653890" radius="10000.000000">1798.276331 441.669984</CircCurve>
+                    <CircCurve length="44.155367" radius="4600.000000">1961.208644 441.670023</CircCurve>
+                    <CircCurve length="39.453079" radius="3600.000000">2026.052509 442.292503</CircCurve>
+                    <CircCurve length="54.196692" radius="5000.000000">2106.709431 442.182813</CircCurve>
+                    <CircCurve length="0.659962" radius="550.000000">2197.044898 441.080702</CircCurve>
+                    <CircCurve length="32.497003" radius="5000.000000">2259.168001 440.397346</CircCurve>
+                    <CircCurve length="22.502237" radius="5000.000000">2445.247383 439.559987</CircCurve>
+                    <CircCurve length="0.500511" radius="500.000000">2523.85891 439.560025</CircCurve>
+                    <CircCurve length="22.508908" radius="15000.000000">2572.846463 439.511011</CircCurve>
+                    <CircCurve length="56.577767" radius="6000.000000">2613.386037 439.531283</CircCurve>
+                    <CircCurve length="0.586473" radius="850.000000">2727.399481 438.513151</CircCurve>
+                    <CircCurve length="123.472234" radius="18000.000000">2938.491039 436.482453</CircCurve>
+                    <CircCurve length="50.798150" radius="40000.000000">3312.146151 435.451171</CircCurve>
+                    <CircCurve length="0.591465" radius="650.000000">3407.605205 435.308935</CircCurve>
+                    <CircCurve length="128.700410" radius="13000.000000">3744.099901 434.501357</CircCurve>
+                    <CircCurve length="0.649310" radius="500.000000">4066.225688 430.538911</CircCurve>
+                    <CircCurve length="0.707735" radius="600.000000">4151.147057 429.383991</CircCurve>
+                    <CircCurve length="53.513982" radius="6000.000000">4462.79484 425.51332</CircCurve>
+                    <CircCurve length="0.648115" radius="1200.000000">4729.718975 424.579063</CircCurve>
+                    <CircCurve length="95.334682" radius="4700.000000">4900.72656 424.072884</CircCurve>
+                    <CircCurve length="0.562495" radius="450.000000">5017.082861 421.367574</CircCurve>
+                    <CircCurve length="19.353339" radius="8100.000000">5089.906623 419.765504</CircCurve>
+                    <CircCurve length="23.718095" radius="8100.000000">5132.776417 418.719888</CircCurve>
+                    <CircCurve length="102.168068" radius="5800.000000">5331.854098 414.447674</CircCurve>
+                    <CircCurve length="20.235226" radius="11000.000000">5836.245928 412.51084</CircCurve>
+                    <CircCurve length="20.345503" radius="11000.000000">5877.027813 412.429262</CircCurve>
+                    <CircCurve length="63.897374" radius="6000.000000">6125.989321 411.470769</CircCurve>
+                    <CircCurve length="0.600329" radius="1200.000000">6282.708431 412.536425</CircCurve>
+                    <CircCurve length="36.499046" radius="5000.000000">6337.541282 412.93671</CircCurve>
+                    <CircCurve length="0.600439" radius="500.000000">6447.5115 412.93672</CircCurve>
+                    <CircCurve length="0.602572" radius="430.000000">6468.945 412.962461</CircCurve>
+                    <CircCurve length="0.601388" radius="3000.000000">6526.546 412.95092</CircCurve>
+                    <CircCurve length="0.569210" radius="3800.000000">6585.64627 412.950926</CircCurve>
+                    <CircCurve length="0.598134" radius="4000.000000">6788.76381 412.981372</CircCurve>
+                    <CircCurve length="65.991319" radius="6000.000000">6910.999823 412.981416</CircCurve>
+                    <CircCurve length="0.569940" radius="300.000000">7049.874508 414.508979</CircCurve>
+                    <CircCurve length="25.591128" radius="8000.000000">7085.025784 414.962423</CircCurve>
+                    <CircCurve length="0.532991" radius="400.000000">7133.771697 415.435272</CircCurve>
+                    <CircCurve length="0.799247" radius="600.000000">7210.563782 416.282517</CircCurve>
+                    <CircCurve length="0.945728" radius="500.000000">7243.848665 416.605403</CircCurve>
+                    <CircCurve length="0.613670" radius="500.000000">7294.492363 417.192488</CircCurve>
+                    <CircCurve length="0.505394" radius="600.000000">7437.235519 418.672006</CircCurve>
+                    <CircCurve length="0.532333" radius="600.000000">7744.680226 421.599632</CircCurve>
+                    <CircCurve length="0.532344" radius="600.000000">8908.713086 433.716982</CircCurve>
+                    <CircCurve length="0.538208" radius="600.000000">8983.496149 434.561821</CircCurve>
+                    <CircCurve length="28.561259" radius="10000.000000">9761.487976 442.652956</CircCurve>
+                    <CircCurve length="0.513779" radius="600.000000">9891.667204 444.37871</CircCurve>
+                    <CircCurve length="19.866163" radius="6000.000000">9948.640756 445.085196</CircCurve>
+                    <CircCurve length="41.653559" radius="6600.000000">9979.40228 445.568529</CircCurve>
+                    <CircCurve length="51.211628" radius="16000.000000">10123.778065 446.925602</CircCurve>
+                    <CircCurve length="20.027713" radius="20000.000000">10195.48294 447.829148</CircCurve>
+                    <CircCurve length="58.470815" radius="7000.000000">10264.778704 448.63293</CircCurve>
+                    <CircCurve length="29.334696" radius="12000.000000">10494.060989 449.377079</CircCurve>
+                    <CircCurve length="36.103832" radius="8000.000000">10526.784515 449.40329</CircCurve>
+                    <CircCurve length="7.285830" radius="2500.000000">10558.788055 449.573358</CircCurve>
+                    <CircCurve length="22.490196" radius="10000.000000">10604.314944 449.682606</CircCurve>
+                    <CircCurve length="23.271936" radius="10000.000000">10663.055938 449.691453</CircCurve>
+                    <CircCurve length="28.223601" radius="10000.000000">10854.449427 450.16569</CircCurve>
+                    <CircCurve length="29.502071" radius="10000.000000">10930.156397 450.566955</CircCurve>
+                    <CircCurve length="47.502126" radius="10000.000000">11116.961857 451.005941</CircCurve>
+                    <CircCurve length="0.600574" radius="500.000000">11416.987834 453.13623</CircCurve>
+                    <CircCurve length="0.565533" radius="500.000000">11445.002161 453.30149</CircCurve>
+                    <CircCurve length="49.210135" radius="7000.000000">11658.151866 454.799988</CircCurve>
+                    <CircCurve length="24.999489" radius="10000.000000">12219.80555 454.800026</CircCurve>
+                    <CircCurve length="25.002961" radius="10000.000000">12279.804566 454.950025</CircCurve>
+                    <CircCurve length="0.582706" radius="600.000000">12340.61486 454.950008</CircCurve>
+                    <CircCurve length="0.582538" radius="600.000000">12361.19787 454.969992</CircCurve>
+                    <CircCurve length="0.582548" radius="600.000000">12381.78068 454.969992</CircCurve>
+                    <CircCurve length="0.582629" radius="600.000000">12402.363365 454.950008</CircCurve>
+                    <CircCurve length="72.294369" radius="6000.000000">12542.953247 454.950027</CircCurve>
+                    <CircCurve length="25.003125" radius="10000.000000">12697.923201 456.817426</CircCurve>
+                    <CircCurve length="25.505041" radius="10000.000000">12746.216381 457.278593</CircCurve>
+                    <CircCurve length="0.585075" radius="650.000000">12908.962697 459.247868</CircCurve>
+                    <CircCurve length="0.600253" radius="600.000000">12983.300178 460.2143</CircCurve>
+                    <CircCurve length="0.584712" radius="650.000000">13227.491443 463.144582</CircCurve>
+                    <CircCurve length="0.597902" radius="460.000000">13615.250978 467.448794</CircCurve>
+                    <CircCurve length="0.649986" radius="500.000000">13702.901662 468.307789</CircCurve>
+                    <CircCurve length="22.791233" radius="12000.000000">13872.006915 470.184924</CircCurve>
+                    <CircCurve length="23.993105" radius="12000.000000">13930.365871 470.943595</CircCurve>
+                    <CircCurve length="0.605245" radius="550.000000">14014.720638 471.871516</CircCurve>
+                    <CircCurve length="32.000586" radius="10000.000000">14092.253419 472.639059</CircCurve>
+                    <CircCurve length="26.969619" radius="30000.000000">14121.746123 473.025422</CircCurve>
+                    <CircCurve length="31.011325" radius="10000.000000">14191.145264 473.872167</CircCurve>
+                    <CircCurve length="0.597705" radius="460.000000">14239.453488 474.311744</CircCurve>
+                    <CircCurve length="0.597915" radius="460.000000">14309.455702 474.857756</CircCurve>
+                    <CircCurve length="0.594076" radius="660.000000">14405.727296 475.733816</CircCurve>
+                    <CircCurve length="23.994186" radius="12000.000000">14613.308627 477.809654</CircCurve>
+                    <CircCurve length="0.600240" radius="500.000000">15328.180892 486.38812</CircCurve>
+                    <CircCurve length="0.600576" radius="500.000000">15385.007908 487.13828</CircCurve>
+                    <CircCurve length="0.609849" radius="1300.000000">15454.177794 487.968272</CircCurve>
+                    <CircCurve length="0.553881" radius="1500.000000">15712.685831 490.948899</CircCurve>
+                    <CircCurve length="0.230462" radius="1000.000000">15983.01679 494.165687</CircCurve>
+                    <CircCurve length="0.497853" radius="600.000000">16582.270109 501.434603</CircCurve>
+                    <CircCurve length="0.679902" radius="800.000000">16783.300817 503.706256</CircCurve>
+                    <CircCurve length="0.679539" radius="800.000000">17119.792347 507.794656</CircCurve>
+                    <CircCurve length="0.500439" radius="500.000000">17247.796757 509.458676</CircCurve>
+                    <CircCurve length="125.989609" radius="9000.000000">17338.307269 510.725901</CircCurve>
+                    <CircCurve length="25.591368" radius="8000.000000">17523.556393 510.72602</CircCurve>
+                    <CircCurve length="86.244015" radius="5000.000000">17620.311913 511.035597</CircCurve>
+                    <PVI>17682.56992 510.160833</PVI>
+                    <PVI>17765.13832 509.0007</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50113A" length="132.296630" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="ccw" chord="47.278209" crvType="arc" dirEnd="4.3744424918" dirStart="4.2693314251" radius="450.000000" length="47.299980" staStart="0.000000">
+                    <Start>1254973.19995 2689153.33477</Start>
+                    <Center>1255379.750246 2689346.251479</Center>
+                    <End>1254955.203373 2689197.053784</End>
+                </Curve>
+                <Curve rot="ccw" chord="9.136601" crvType="arc" dirEnd="4.3846001521" dirStart="4.3744483299" radius="900.000000" length="9.136640" staStart="47.299980">
+                    <Start>1254955.20337 2689197.05378</Start>
+                    <Center>1255804.298859 2689495.444213</Center>
+                    <End>1254952.217969 2689205.688874</End>
+                </Curve>
+                <Curve rot="ccw" chord="19.358541" crvType="arc" dirEnd="4.4122784941" dirStart="4.3845667715" radius="698.591000" length="19.359160" staStart="56.436620">
+                    <Start>1254952.21798 2689205.68888</Start>
+                    <Center>1255613.606073 2689430.622593</Center>
+                    <End>1254946.239414 2689224.1011</End>
+                </Curve>
+                <Curve rot="ccw" chord="9.167297" crvType="arc" dirEnd="4.4228024674" dirStart="4.4122288341" radius="867.000000" length="9.167340" staStart="75.795780">
+                    <Start>1254946.239448 2689224.101103</Start>
+                    <Center>1255774.475141 2689480.449764</Center>
+                    <End>1254943.57526 2689232.87273</End>
+                </Curve>
+                <Curve rot="ccw" chord="47.333502" crvType="arc" dirEnd="4.4249214716" dirStart="4.4229196700" radius="23645.455000" length="47.333510" staStart="84.963120">
+                    <Start>1254943.57526 2689232.87273</Start>
+                    <Center>1277605.272749 2695982.317824</Center>
+                    <End>1254930.109624 2689278.250446</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50113A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="120.000000" speed="95.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="132.296630" appliedCant="120.000000" speed="95.000000" transitionType="clothoid" curvature="ccw"/>
+            </Cant>
+            <Profile name="A50113A">
+                <ProfAlign name="T50113A" desc="">
+                    <PVI>0.0 453.661</PVI>
+                    <CircCurve length="47.737478" radius="11240.000000">23.877594 453.839326</CircCurve>
+                    <PVI>56.43662 453.9442</PVI>
+                    <CircCurve length="0.537607" radius="1300.000000">67.5759 453.980054</CircCurve>
+                    <PVI>75.79578 454.003112</PVI>
+                    <CircCurve length="47.317796" radius="11225.000000">108.615966 454.095391</CircCurve>
+                    <PVI>132.29663 454.2618</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50114A" length="1017.009890" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Line dir="4.3525211127" length="56.191820" staStart="0.000000">
+                    <Start>1254944.00201 2689222.11076</Start>
+                    <End>1254924.214029 2689274.703121</End>
+                </Line>
+                <Line dir="4.3526076636" length="8.335710" staStart="56.191820">
+                    <Start>1254924.21401 2689274.70311</Start>
+                    <End>1254921.27926 2689282.505116</End>
+                </Line>
+                <Curve rot="ccw" chord="61.437504" crvType="arc" dirEnd="4.4755607319" dirStart="4.3526082919" radius="500.000000" length="61.476220" staStart="64.527530">
+                    <Start>1254921.27923 2689282.5051</Start>
+                    <Center>1255389.266259 2689458.539586</Center>
+                    <End>1254903.222749 2689341.229289</End>
+                </Curve>
+                <Curve rot="ccw" chord="146.333110" crvType="arc" dirEnd="4.4918144241" dirStart="4.4755633169" radius="9004.600000" length="146.334720" staStart="126.003750">
+                    <Start>1254903.22275 2689341.22929</Start>
+                    <Center>1263656.483004 2691453.871257</Center>
+                    <End>1254870.047326 2689483.752166</End>
+                </Curve>
+                <Curve rot="ccw" chord="246.729366" crvType="arc" dirEnd="4.5411260985" dirStart="4.4918205876" radius="5004.600000" length="246.754360" staStart="272.338470">
+                    <Start>1254870.04735 2689483.75217</Start>
+                    <Center>1259753.402165 2690578.679982</Center>
+                    <End>1254822.017843 2689725.761564</End>
+                </Curve>
+                <Spiral length="20.000000" radiusEnd="INF" radiusStart="5004.600000" rot="ccw" spiType="clothoid" constant="316.373197" dirEnd="4.5431243181" dirStart="4.5411261564" theta="0.0019981617" totalY="0.013321" totalX="-19.999992" staStart="519.092830" tanLong="13.333337" tanShort="6.666669">
+                    <Start>1254822.01784 2689725.76156</Start>
+                    <PI>1254820.881661 2689732.330698</PI>
+                    <End>1254818.635559 2689745.473486</End>
+                </Spiral>
+                <Spiral length="20.000000" radiusEnd="4995.400000" radiusStart="INF" rot="cw" spiType="clothoid" constant="316.082268" dirEnd="4.5411224764" dirStart="4.5431243181" theta="0.0020018417" totalY="0.013346" totalX="19.999992" staStart="539.092830" tanLong="13.333336" tanShort="6.666669">
+                    <Start>1254818.635559 2689745.473486</Start>
+                    <PI>1254816.389458 2689758.616275</PI>
+                    <End>1254815.25325 2689765.18541</End>
+                </Spiral>
+                <Curve rot="cw" chord="102.728770" crvType="arc" dirEnd="4.5205573507" dirStart="4.5411223865" radius="4995.400000" length="102.730580" staStart="559.092830">
+                    <Start>1254815.25325 2689765.18541</Start>
+                    <Center>1249892.937495 2688913.816647</Center>
+                    <End>1254796.705217 2689866.22585</End>
+                </Curve>
+                <Spiral length="20.000010" radiusEnd="INF" radiusStart="4995.400000" rot="cw" spiType="clothoid" constant="316.082347" dirEnd="4.5185555212" dirStart="4.5205573639" theta="0.0020018427" totalY="0.013346" totalX="-20.000002" staStart="661.823410" tanLong="13.333343" tanShort="6.666672">
+                    <Start>1254796.70522 2689866.22585</Start>
+                    <PI>1254795.434171 2689872.770233</PI>
+                    <End>1254792.86588 2689885.85388</End>
+                </Spiral>
+                <Line dir="4.5185555411" length="238.249750" staStart="681.823420">
+                    <Start>1254792.86588 2689885.85388</Start>
+                    <End>1254746.973748 2690119.641937</End>
+                </Line>
+                <Curve rot="ccw" chord="41.558188" crvType="arc" dirEnd="4.6016980602" dirStart="4.5185577402" radius="500.000000" length="41.570160" staStart="920.073170">
+                    <Start>1254746.97375 2690119.64194</Start>
+                    <Center>1255237.610483 2690215.951837</Center>
+                    <End>1254740.670477 2690160.719327</End>
+                </Curve>
+                <Line dir="4.6016993615" length="13.795940" staStart="961.643330">
+                    <Start>1254740.6705 2690160.71933</Start>
+                    <End>1254739.146549 2690174.430841</End>
+                </Line>
+                <Curve rot="cw" chord="41.558648" crvType="arc" dirEnd="4.5185572690" dirStart="4.6016985090" radius="500.000000" length="41.570620" staStart="975.439270">
+                    <Start>1254739.146584 2690174.430848</Start>
+                    <Center>1254242.206553 2690119.198562</Center>
+                    <End>1254732.84324 2690215.50869</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50114A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="112.000000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="64.527530" appliedCant="112.000000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="126.003750" appliedCant="10.000000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="519.092830" appliedCant="10.000000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="539.092830" appliedCant="0.000000" speed="65.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="559.092830" appliedCant="10.000000" speed="65.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="661.823410" appliedCant="10.000000" speed="65.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="681.823420" appliedCant="0.000000" speed="65.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="975.439270" speed="0.000000"/>
+                <CantStation station="1017.009890" appliedCant="0.000000" speed="0.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50114A">
+                <ProfAlign name="T50114A" desc="">
+                    <PVI>0.0 454.2164</PVI>
+                    <CircCurve length="13.317989" radius="28100.000000">6.70383 454.26103</CircCurve>
+                    <CircCurve length="20.402089" radius="5770.000000">23.614404 454.365595</CircCurve>
+                    <CircCurve length="31.473204" radius="12200.000000">49.603842 454.618203</CircCurve>
+                    <CircCurve length="88.175455" radius="4700.000000">109.441567 455.3542</CircCurve>
+                    <CircCurve length="38.770753" radius="6000.000000">195.203572 454.800013</CircCurve>
+                    <CircCurve length="21.509595" radius="5500.000000">927.139496 454.80002</CircCurve>
+                    <CircCurve length="19.560760" radius="5000.000000">965.493318 454.950017</CircCurve>
+                    <PVI>975.43927 454.950004</PVI>
+                    <CircCurve length="32.659037" radius="6000.000000">1000.678481 454.950004</CircCurve>
+                    <PVI>1017.00989 455.0389</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50115A" length="26.556410" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="ccw" chord="20.481686" crvType="arc" dirEnd="1.3586365845" dirStart="1.2888740432" radius="293.651000" length="20.485840" staStart="0.000000">
+                    <Start>1254908.98674 2689319.50149</Start>
+                    <Center>1254626.928368 2689237.807031</Center>
+                    <End>1254913.995247 2689299.641623</End>
+                </Curve>
+                <Curve rot="cw" chord="6.070533" crvType="arc" dirEnd="1.3461237734" dirStart="1.3582649134" radius="500.000000" length="6.070570" staStart="20.485840">
+                    <Start>1254913.99526 2689299.64162</Start>
+                    <Center>1255402.745302 2689405.109135</Center>
+                    <End>1254915.311747 2689293.715556</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50115A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="47.300000" speed="30.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="26.556410" appliedCant="92.200000" speed="30.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50115A">
+                <ProfAlign name="T50115A" desc="">
+                    <PVI>0.0 455.1265</PVI>
+                    <CircCurve length="8.645091" radius="94000.000000">4.354159 455.108304</CircCurve>
+                    <CircCurve length="13.192592" radius="4464.000000">15.30174 455.063561</CircCurve>
+                    <CircCurve length="4.639877" radius="58000.000000">24.22581 455.053462</CircCurve>
+                    <PVI>26.55641 455.051011</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50116A" length="512.883210" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="ccw" chord="19.287126" crvType="arc" dirEnd="4.5003131034" dirStart="4.4394836960" radius="317.118000" length="19.290100" staStart="0.000000">
+                    <Start>1254926.62619 2689290.35914</Start>
+                    <Center>1255232.008255 2689375.832061</Center>
+                    <End>1254921.994944 2689309.081982</End>
+                </Curve>
+                <Spiral length="16.345630" radiusEnd="339.721000" radiusStart="317.118000" rot="ccw" spiType="clothoid" constant="279.119021" dirEnd="4.5501662497" dirStart="4.5003366599" theta="0.0498295898" totalY="0.402494" totalX="-16.338982" staStart="19.290100" tanLong="8.268257" tanShort="8.080755">
+                    <Start>1254921.99495 2689309.08198</Start>
+                    <PI>1254920.29422 2689316.981735</PI>
+                    <End>1254918.9588 2689325.14144</End>
+                </Spiral>
+                <Spiral length="6.396130" radiusEnd="1160.751000" radiusStart="1059.780000" rot="ccw" spiType="clothoid" constant="279.150047" dirEnd="4.5560372588" dirStart="4.5502644211" theta="0.0057728376" totalY="0.018182" totalX="-6.396095" staStart="35.635730" tanLong="3.246548" tanShort="3.149600">
+                    <Start>1254918.9588 2689325.14144</Start>
+                    <PI>1254918.450406 2689328.249738</PI>
+                    <End>1254917.94486 2689331.45668</End>
+                </Spiral>
+                <Curve rot="ccw" chord="8.004067" crvType="arc" dirEnd="4.5643014199" dirStart="4.5559225866" radius="955.275000" length="8.004090" staStart="42.031860">
+                    <Start>1254917.94486 2689331.45668</Start>
+                    <Center>1255861.550303 2689480.315986</Center>
+                    <End>1254916.73073 2689339.368126</End>
+                </Curve>
+                <Line dir="4.5643013713" length="12.628700" staStart="50.035950">
+                    <Start>1254916.73073 2689339.36813</Start>
+                    <End>1254914.867404 2689351.85861</End>
+                </Line>
+                <Curve rot="cw" chord="48.068561" crvType="arc" dirEnd="4.5136974871" dirStart="4.5643013713" radius="950.000000" length="48.073690" staStart="62.664650">
+                    <Start>1254914.86741 2689351.85861</Start>
+                    <Center>1253975.265109 2689211.689014</Center>
+                    <End>1254906.574523 2689399.206414</End>
+                </Curve>
+                <Line dir="4.5136975393" length="402.144870" staStart="110.738340">
+                    <Start>1254906.57452 2689399.20641</Start>
+                    <End>1254827.196477 2689793.439365</End>
+                </Line>
+            </CoordGeom>
+            <Cant name="A50116A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="120.000000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="19.290100" appliedCant="120.000000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="42.031860" appliedCant="90.200000" speed="65.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="110.738340" appliedCant="0.000000" speed="65.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="357.858950" speed="40.000000"/>
+                <CantStation station="512.883210" appliedCant="0.000000" speed="40.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50116A">
+                <ProfAlign name="T50116A" desc="">
+                    <PVI>0.0 454.3504</PVI>
+                    <CircCurve length="20.758610" radius="6430.000000">10.381274 454.4234</CircCurve>
+                    <CircCurve length="17.191222" radius="94000.000000">29.371657 454.495627</CircCurve>
+                    <CircCurve length="3.755719" radius="14160.000000">40.006226 454.534129</CircCurve>
+                    <PVI>42.03186 454.542</PVI>
+                    <CircCurve length="39.051152" radius="10000.000000">108.104106 454.800017</CircCurve>
+                    <CircCurve length="0.689796" radius="300.000000">389.43848 454.799997</CircCurve>
+                    <CircCurve length="0.663706" radius="400.000000">420.3044 454.729024</CircCurve>
+                    <PVI>512.88321 454.669762</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50117A" length="26.531940" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="cw" chord="20.472031" crvType="arc" dirEnd="1.3120961595" dirStart="1.4012356177" radius="229.739000" length="20.478810" staStart="0.000000">
+                    <Start>1254911.62883 2689372.07285</Start>
+                    <Center>1255138.073141 2689410.841163</Center>
+                    <End>1254915.979092 2689352.068369</End>
+                </Curve>
+                <Line dir="1.3122178045" length="6.053130" staStart="20.478810">
+                    <Start>1254915.97909 2689352.06837</Start>
+                    <End>1254917.526915 2689346.21648</End>
+                </Line>
+            </CoordGeom>
+            <Cant name="A50117A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="36.200000" speed="30.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="26.531940" appliedCant="69.800000" speed="30.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50117A">
+                <ProfAlign name="T50117A" desc="">
+                    <PVI>0.0 454.7025</PVI>
+                    <CircCurve length="12.149945" radius="5482.000000">6.098239 454.67865</CircCurve>
+                    <CircCurve length="4.973149" radius="1976.000000">14.679388 454.62607</CircCurve>
+                    <CircCurve length="9.363274" radius="4634.000000">21.847176 454.564109</CircCurve>
+                    <PVI>26.53194 454.514145</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50118A" length="194.647590" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="cw" chord="63.961640" crvType="arc" dirEnd="4.4737246637" dirStart="4.5137033512" radius="1600.000000" length="63.965900" staStart="0.000000">
+                    <Start>1254785.92745 2689975.0948</Start>
+                    <Center>1253217.40448 2689659.285218</Center>
+                    <End>1254772.051846 2690037.533242</End>
+                </Curve>
+                <Line dir="4.4737246998" length="11.780580" staStart="63.965900">
+                    <Start>1254772.05185 2690037.53325</Start>
+                    <End>1254769.266862 2690048.979905</End>
+                </Line>
+                <Line dir="4.4737242285" length="35.391180" staStart="75.746480">
+                    <Start>1254769.26683 2690048.9799</Start>
+                    <End>1254760.900163 2690083.367899</End>
+                </Line>
+                <Curve rot="ccw" chord="7.763442" crvType="arc" dirEnd="4.4785763848" dirStart="4.4737242285" radius="1600.000000" length="7.763450" staStart="111.137660">
+                    <Start>1254760.90016 2690083.3679</Start>
+                    <Center>1256315.547361 2690461.6166</Center>
+                    <End>1254759.083146 2690090.915714</End>
+                </Curve>
+                <Line dir="4.4785779892" length="11.780580" staStart="118.901110">
+                    <Start>1254759.083111 2690090.915704</Start>
+                    <End>1254756.35371 2690102.37574</End>
+                </Line>
+                <Curve rot="ccw" chord="63.961640" crvType="arc" dirEnd="4.5185566406" dirStart="4.4785779531" radius="1600.000000" length="63.965900" staStart="130.681690">
+                    <Start>1254756.35371 2690102.37574</Start>
+                    <Center>1256312.818507 2690473.074185</Center>
+                    <End>1254742.7813 2690164.880789</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50118A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="0.000000" speed="0.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="75.746480" speed="115.000000"/>
+                <SpeedStation station="118.901110" speed="0.000000"/>
+                <CantStation station="194.647590" appliedCant="0.000000" speed="0.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50118A">
+                <ProfAlign name="T50118A" desc="">
+                    <PVI>0.0 454.95</PVI>
+                    <CircCurve length="3.008849" radius="3130.000000">47.467795 454.950081</CircCurve>
+                    <CircCurve length="3.022041" radius="3130.000000">68.171835 454.970019</CircCurve>
+                    <PVI>75.74648 454.97</PVI>
+                    <CircCurve length="8.047143" radius="4240.522000">92.269569 454.969982</CircCurve>
+                    <CircCurve length="22.598210" radius="10000.000000">107.597065 454.999052</CircCurve>
+                    <PVI>118.90111 454.994946</PVI>
+                    <CircCurve length="4.749421" radius="10100.000000">121.28203 454.994084</CircCurve>
+                    <CircCurve length="2.991819" radius="3600.000000">174.219435 454.950025</CircCurve>
+                    <PVI>194.64759 454.95</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50119A" length="70.404100" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="cw" chord="24.934337" crvType="arc" dirEnd="1.2889650720" dirStart="1.3721034720" radius="300.000000" length="24.941520" staStart="0.000000">
+                    <Start>1254839.42757 2689709.38881</Start>
+                    <Center>1255133.525199 2689768.605232</Center>
+                    <End>1254845.360874 2689685.170695</End>
+                </Curve>
+                <Line dir="1.2889635786" length="8.317970" staStart="24.941520">
+                    <Start>1254845.36088 2689685.1707</Start>
+                    <End>1254847.674245 2689677.180896</End>
+                </Line>
+                <Curve rot="cw" chord="7.291510" crvType="arc" dirEnd="1.2614475786" dirStart="1.2889635786" radius="265.000000" length="7.291740" staStart="33.259490">
+                    <Start>1254847.67424 2689677.18089</Start>
+                    <Center>1255102.219284 2689750.881777</Center>
+                    <End>1254849.798294 2689670.205611</End>
+                </Curve>
+                <Line dir="1.2614476252" length="3.328690" staStart="40.551230">
+                    <Start>1254849.7983 2689670.20561</Start>
+                    <End>1254850.811681 2689667.034926</End>
+                </Line>
+                <Line dir="1.2614476252" length="6.053290" staStart="43.879920">
+                    <Start>1254850.811677 2689667.034923</Start>
+                    <End>1254852.65453 2689661.26897</End>
+                </Line>
+                <Curve rot="ccw" chord="20.460448" crvType="arc" dirEnd="1.3721030007" dirStart="1.2614495413" radius="185.000000" length="20.470890" staStart="49.933210">
+                    <Start>1254852.65453 2689661.26897</Start>
+                    <Center>1254676.435992 2689604.948219</Center>
+                    <End>1254857.79618 2689641.465098</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50119A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="0.000000" speed="40.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="70.404100" appliedCant="0.000000" speed="40.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50119A">
+                <ProfAlign name="T50119A" desc="">
+                    <PVI>0.0 454.8</PVI>
+                    <PVI>33.25949 454.8</PVI>
+                    <PVI>43.87992 454.8</PVI>
+                    <PVI>70.4041 454.8</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50120A" length="26.557310" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="cw" chord="20.482166" crvType="arc" dirEnd="4.4488461860" dirStart="4.5186103619" radius="293.651000" length="20.486320" staStart="0.000000">
+                    <Start>1254746.97375 2690119.64194</Start>
+                    <Center>1254458.818839 2690063.094108</Center>
+                    <End>1254742.33099 2690139.590972</End>
+                </Curve>
+                <Curve rot="ccw" chord="6.070953" crvType="arc" dirEnd="4.4611704628" dirStart="4.4490284828" radius="500.000000" length="6.070990" staStart="20.486320">
+                    <Start>1254742.331 2690139.59097</Start>
+                    <Center>1255225.091302 2690269.754293</Center>
+                    <End>1254740.786184 2690145.462087</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50120A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="0.000000" speed="30.000000" transitionType="clothoid" curvature="cw"/>
+                <CantStation station="26.557310" appliedCant="0.000000" speed="30.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50120A">
+                <ProfAlign name="T50120A" desc="">
+                    <PVI>0.0 454.8012</PVI>
+                    <CircCurve length="17.691798" radius="5530.000000">8.852562 454.807179</CircCurve>
+                    <PVI>26.55731 454.875779</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+        <Alignment name="A50121A" length="166.864640" staStart="0.000000" desc="">
+            <CoordGeom>
+                <Curve rot="ccw" chord="0.000000" crvType="arc" dirEnd="1.3413775963" dirStart="1.3413775963" radius="676.176000" length="0.000000" staStart="0.000000">
+                    <Start>1254701.72017 2690389.57907</Start>
+                    <Center>1254043.260829 2690235.808856</Center>
+                    <End>1254701.72017 2690389.57907</End>
+                </Curve>
+                <Spiral length="63.951750" radiusEnd="1388.577000" radiusStart="676.176000" rot="ccw" spiType="clothoid" constant="290.321244" dirEnd="1.4116946756" dirStart="1.3413775963" theta="0.0703170794" totalY="1.989101" totalX="-63.907523" staStart="0.000000" tanLong="35.666572" tanShort="28.310914">
+                    <Start>1254701.72017 2690389.57907</Start>
+                    <PI>1254708.158398 2690362.009938</PI>
+                    <End>1254713.8091 2690326.79383</End>
+                </Spiral>
+                <Spiral length="8.022370" radiusEnd="INF" radiusStart="10508.404000" rot="ccw" spiType="clothoid" constant="290.348592" dirEnd="1.4120912427" dirStart="1.4117095306" theta="0.0003817121" totalY="0.001021" totalX="-8.022370" staStart="63.951750" tanLong="5.348249" tanShort="2.674122">
+                    <Start>1254713.8091 2690326.79383</Start>
+                    <PI>1254714.232725 2690324.153476</PI>
+                    <End>1254715.07796 2690318.87244</End>
+                </Spiral>
+                <Line dir="1.4120863646" length="3.756420" staStart="71.974120">
+                    <Start>1254715.07796 2690318.87244</Start>
+                    <End>1254715.671642 2690315.163231</End>
+                </Line>
+                <Curve rot="ccw" chord="7.770472" crvType="arc" dirEnd="1.4169429146" dirStart="1.4120863646" radius="1600.000000" length="7.770480" staStart="75.730540">
+                    <Start>1254715.67164 2690315.16323</Start>
+                    <Center>1253135.780459 2690062.292008</Center>
+                    <End>1254716.881085 2690307.487458</End>
+                </Curve>
+                <Line dir="1.4169429527" length="7.617140" staStart="83.501020">
+                    <Start>1254716.88109 2690307.48746</Start>
+                    <End>1254718.048395 2690299.960294</End>
+                </Line>
+                <Line dir="1.4169429527" length="11.780580" staStart="91.118160">
+                    <Start>1254718.04839 2690299.960297</Start>
+                    <End>1254719.85373 2690288.31887</End>
+                </Line>
+                <Curve rot="cw" chord="63.961640" crvType="arc" dirEnd="1.3769643012" dirStart="1.4169429887" radius="1600.000000" length="63.965900" staStart="102.898740">
+                    <Start>1254719.85373 2690288.31887</Start>
+                    <Center>1256300.954375 2690533.514203</Center>
+                    <End>1254730.917071 2690225.321299</End>
+                </Curve>
+            </CoordGeom>
+            <Cant name="A50121A" gauge="1.435000" rotationPoint="center">
+                <CantStation station="0.000000" appliedCant="90.100000" speed="90.000000" transitionType="clothoid" curvature="ccw"/>
+                <CantStation station="71.974120" appliedCant="0.000000" speed="90.000000" transitionType="clothoid" curvature="cw"/>
+                <SpeedStation station="91.118160" speed="0.000000"/>
+                <CantStation station="166.864640" appliedCant="0.000000" speed="0.000000" transitionType="clothoid" curvature="cw"/>
+            </Cant>
+            <Profile name="A50121A">
+                <ProfAlign name="T50121A" desc="">
+                    <PVI>0.0 456.9925</PVI>
+                    <CircCurve length="1.465295" radius="94000.000000">1.46071 456.978577</CircCurve>
+                    <CircCurve length="26.807117" radius="9120.000000">16.307166 456.837297</CircCurve>
+                    <CircCurve length="5.143179" radius="94000.000000">32.281491 456.638321</CircCurve>
+                    <CircCurve length="36.188780" radius="24180.000000">53.155597 456.377171</CircCurve>
+                    <CircCurve length="2.679041" radius="2923.000000">72.964539 456.159</CircCurve>
+                    <CircCurve length="0.093254" radius="90000.000000">75.466701 456.129148</CircCurve>
+                    <PVI>75.73054 456.126</PVI>
+                    <PVI>91.11816 455.940775</PVI>
+                    <CircCurve length="29.527056" radius="5994.000000">152.092657 455.20675</CircCurve>
+                    <PVI>166.86464 455.1017</PVI>
+                </ProfAlign>
+            </Profile>
+        </Alignment>
+    </Alignments>
+</LandXML>
