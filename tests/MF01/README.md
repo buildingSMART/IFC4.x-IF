@@ -44,17 +44,20 @@ In particular we want to test the behaviour of objects that are located in relat
 
 ## Test dataset (input)
 
-The dataset is made up of different specialist models of an existing section of a railaway line. The geographic coordinate system is LV95. More infor about this system can be found in https://www.swisstopo.admin.ch/en/home/meta/supply-structure/standard-range.html. Some of the details might have changed but they represent as much as possible an existing rail condition. 
+The dataset is made up of different specialist models of an existing section of a railaway line. The geographic coordinate system is LV95 ([EPSG2056](https://epsg.io/2056)), and the vertical datum is  More infor about this system can be found in https://www.swisstopo.admin.ch/en/home/meta/supply-structure/standard-range.html. Some of the details might have changed but they represent as much as possible an existing rail condition. 
 All the required files are collected in the Dataset folder and summarised in the table below.
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| MF01_Alignment.landxml    | Middle axis of the alignemnt                                       |
-| MF01_buildings.ifc        | Data containing existing Building in ifc 4.0                       |
-| MF01_Fahrbahn.ifc         | Data containing existing rails, sleepers and turnouts in ifc 4.0   |
-| MF01_LRP.ifc              | Data containing existing clearance gauge information in ifc 4.0    |
-| MF01_Entwasserung.ifc     | Data containing existing drainage information in ifc 4.0           |
-
+| MF01_Alignment.xml    |    Data containing track alignments in LandXML format                                   |
+| MF01_Alignment.ifc    |    Data containing track alignments in IFC 4.3                                  |
+| MF01_Building_1.ifc        | Data containing existing Building in IFC 2x3                       |
+| MF01_Building_2.ifc        | Data containing existing Building in IFC 2x3                      |
+| MF01_Track.ifc         | Data containing existing rails, sleepers and turnouts in IFC 2x3   |
+| MF01_LoadingGauge_1.ifc              | Data containing existing clearance gauge information in IFC 2x3   |
+| MF01_LoadingGauge_2.ifc              | Data containing existing clearance gauge information in IFC 2x3    |
+| MF01_Drainage.dwg     | Data containing existing drainage information in dwg format           |
+| MF01_Drainage.dxf     | Data containing existing drainage information in dxf format, same information with the dwg version           |
 
 ## Validation criteria
 ⚡ For this test case to be considered passed, all criteria listed in this section, and the ones of prerequisites tests shall be verified. ⚡
