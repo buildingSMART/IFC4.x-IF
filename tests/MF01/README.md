@@ -13,24 +13,28 @@ In particular we want to test the behaviour of objects that are located in relat
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
-- Project Global Positioning ([Concept Template](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html) | Requirements)
-- Alignment Layout
-- Spatial Structure
-- Alignment Geometry
-- Product Linear Placement
-- Product Local Placement
-- Revision Control
-- Software Identity
-- Element Decomposition
-- Body Tessellation Geometry
-- Body Advanced Swept Solid Geometry
-- Body SweptSolid PolyCurve Geometry
-- Clearance Geometry
+- [Project Global Positioning](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html)
+- [Alignment Layout](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Nesting/Alignment_Layout/content.html)
+- [Spatial Structure](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Connectivity/Spatial_Structure/content.html)
+- [Spatial Decomposition](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Aggregation/Spatial_Decomposition/content.html)
+- [Alignment Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Alignment_Geometry/content.html)
+- [Product Linear Placement](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Placement/Product_Linear_Placement/content.html)
+- [Product Local Placement](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Placement/Product_Local_Placement/content.html)
+- [Revision Control](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Revision_Control/content.html)
+- [Software Identity](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Software_Identity/content.html)
+- [Element Decomposition](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Aggregation/Element_Decomposition/content.html)
+- [Body Tessellation Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Body_Geometry/Body_Tessellation_Geometry/content.html)
+- [Body Advanced Swept Solid Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Body_Geometry/Body_AdvancedSweptSolid_Geometry/content.html)
+- [Clearance Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Clearance_Geometry/content.html)
+- [Object Nesting](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Nesting/Object_Nesting/content.html)
+- [Product Relative Positioning](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Connectivity/Product_Relative_Positioning/content.html)
 
 </details>
 
 <details><summary>Main software features involved in this test</summary> 
 
+- Map coordinate system
+- Ownership and revision control
 - Model referencing
 - Element merging and update
 - Model integration and display
@@ -46,7 +50,6 @@ All the required files are collected in the Dataset folder and summarised in the
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
 | MF01_Alignment.landxml    | Middle axis of the alignemnt                                       |
-| MF01_Alignment.xtr        | Alignment's information in Toporail format (SBB's propietary)      |
 | MF01_buildings.ifc        | Data containing existing Building in ifc 4.0                       |
 | MF01_Fahrbahn.ifc         | Data containing existing rails, sleepers and turnouts in ifc 4.0   |
 | MF01_LRP.ifc              | Data containing existing clearance gauge information in ifc 4.0    |
