@@ -11,28 +11,35 @@
 This Test belongs to a series Test Cases that share a dataset from the same project as a business case. 
 The intention of this Business Case is to test how model federation works in the context of IFC4.3. 
 In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a turnout within an alignment) and in relation to fixed coordinates (for example existing buildings) with georeferencing information set as the global context.
+We would also like to test other essential concepts that are related to model federation like project break down structure (or to say, Spatial Structure) and revision and access control for elements.
 The series of tests that belong to this Business Cases are listed as follows:
 
 | Test code | Test name     | 
 |-----------|-----------------|
 | PS01      | Project setup with georeferencing |
-| AL01      | Multiple alignments with start stationing |
-| LD01      | Loading gauge 1|
+| **AL01**      | **Multiple alignments with start stationing** |
+| LD01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
 | BD01      | Building and terrain as existing condition model |
+| BD02      | Building positioned along alignment |
 | DR01      | Drainage system for railway line |
-| MF01      | Model federation 1 |
+| MF01      | Model federation|
 
 
 With this series of tests, we are attempting to build a step-by-step process to realize a business case.
 The dependency between them are shown in the following diagram:
 
-![alt text](Dateset/Test_case_dependency.PNG)
+![Dependency between tests](Dateset/Test_case_dependency.PNG)
 
-<details><summary>Main IFC concept involved in this test</summary> 
+To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes from prerequisites tests.
+
+<details>
+	<summary>Main IFC concept involved in this test</summary> 
+
+The concept templates that are focused by this series of tests are listed as follows. Specific concept templates that are focused by this test are in Bold.
 
 - [Project Global Positioning](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html)
-- [Alignment Layout](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Nesting/Alignment_Layout/content.html)
+- [**Alignment Layout**](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Nesting/Alignment_Layout/content.html)
 - [Spatial Structure](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Connectivity/Spatial_Structure/content.html)
 - [Spatial Decomposition](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Aggregation/Spatial_Decomposition/content.html)
 - [Alignment Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Alignment_Geometry/content.html)
@@ -48,8 +55,8 @@ The dependency between them are shown in the following diagram:
 - [Product Relative Positioning](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Connectivity/Product_Relative_Positioning/content.html)
 
 </details>
-
-<details><summary>Main software features involved in this test</summary> 
+<details>
+	<summary>Main software features involved in this series of tests</summary> 
 
 - Map coordinate system
 - Ownership and revision control
@@ -93,7 +100,7 @@ Formal Rules are those contained in the Gerkin documentation provided within the
 ### Informal criteria
 The following steps should be performed in order to corroborate that the software is working as expected:
 
-- Each file mades up a specialist model. Each model is to be loaded within one IfCFacilityPart.
+- Each file mades up a specialist model. Each model is to be loaded within one IfcFacilityPart.
 - All of the models should be first converted into ifc4.3.
 - When loaded together, all the models shold be able to be federated into one. An export of the federated model is not required.
 - The existing building model should be independent of the other models and the location of its objects based only on its geocoordinates.
