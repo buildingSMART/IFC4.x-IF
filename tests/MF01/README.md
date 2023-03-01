@@ -8,8 +8,26 @@
 
 ## Intent
 
+This Test belongs to a series Test Cases that share a dataset from the same project as a business case. 
 The intention of this Business Case is to test how model federation works in the context of IFC4.3. 
 In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a turnout within an alignment) and in relation to fixed coordinates (for example existing buildings) with georeferencing information set as the global context.
+The series of tests that belong to this Business Cases are listed as follows:
+
+| Test code | Test name     | 
+|-----------|-----------------|
+| PS01      | Project setup with georeferencing |
+| AL01      | Multiple alignments with start stationing |
+| LD01      | Loading gauge 1|
+| TR01      | Track panels positioned along alignments |
+| BD01      | Building and terrain as existing condition model |
+| DR01      | Drainage system for railway line |
+| MF01      | Model federation 1 |
+
+
+With this series of tests, we are attempting to build a step-by-step process to realize a business case.
+The dependency between them are shown in the following diagram:
+
+![alt text](Dateset/Test_case_dependency.PNG)
 
 <details><summary>Main IFC concept involved in this test</summary> 
 
