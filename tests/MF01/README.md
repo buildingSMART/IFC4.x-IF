@@ -29,7 +29,7 @@ The series of tests that belong to this Business Cases are listed as follows:
 With this series of tests, we are attempting to build a step-by-step process to realize a business case.
 The dependency between them are shown in the following diagram:
 
-![Dependency between tests](Dateset/Test_case_dependency.PNG)
+![Dependency between tests](/Dataset/Test_case_dependency.PNG)
 
 To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes from prerequisites tests.
 
