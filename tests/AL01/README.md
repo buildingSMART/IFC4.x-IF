@@ -72,7 +72,7 @@ The concept templates that are focused by this series of tests are listed as fol
 The dataset is made of a LandXML file that has multiple alignments for a section of railway line. The coordinates are defined based on the LV95 ([EPSG 2056](https://epsg.io/2056)) and the vertical datum is LN02 ([EPSG:5728](https://epsg.io/5728)). It has in total 11 alignments and the railway section is about 18 kilometers long. 
 An IFC 4.3 reference file is also provided.
 
-![Alt text](Dataset/Alignments_visualization.PNG "Visualization of alignments")
+
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
@@ -92,11 +92,32 @@ An IFC 4.3 reference file is also provided.
 ### Formal rules
 Formal Rules are those contained in the Gerkin documentation provided within the bSI validation system. In particular, the following list of rules will apply
 
-|Rule Number                | Description                                                        |
-|---------------------------|--------------------------------------------------------------------|
-| RI-###                    | Rule to check..                                                    |
-| RI-###                    | Rule to check..                                                    | 
-| RI-###                    | Rule to check..                                                    |
+#### IFC standard (schema and specification)
+When validated using the bSI Validation Service, the IFC must pass:
+
+- Syntax & Schema check
+- All following rules:
+- ALB002 - Alignment layout (RI-6)
+- ALB003 - Alignment directions
+- TBD000 - Alignment shape representation (RI-5, RI-9, RI-10, RI-12, RI-14)
+- TBD000 - Stationing along alignment (RI-7)
+
+#### Test case-specific checks
+
+Link to IDS file: STN01.ids 🚧
+
+- (RI-18) Each IfcProduct (and subtypes) must have the attribute Name not null and not empty
+- (RI-4) An IfcProject must have the attribute Description not null and not empty
+- There must be 1 instance(s) of IfcAlignment and must be named Track alignment,its PredefinedType must be USERDEFINED and its ObjectType must be Railway track alignment
+- There must be 1 instance(s) of IfcAlignmentHorizontal and must be named H1
+- There must be 1 instance(s) of IfcAlignmentVertical and must be named V1
+- There must be 1 instance(s) of IfcAlignmentCant and must be named C1
+- There must be 2 instance(s) of IfcSignal and must be named Route Indicator_01, Route Indicator_02
+- (RI-8) The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
+- (or one step closer to IFC) The PredefinedType of IfcAlignmentHorizontalSegment must be LINE or CIRCULARARC or CLOTHOID
+- (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
+- (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
+- (RI-19) An IfcSignal shall have 'Body' geometry.
 
 
 ### Informal criteria
@@ -114,9 +135,18 @@ The following steps should be performed in order to corroborate that the softwar
 
 
 ### Expected geometry
-The following figure displays the federetad model before the correction
+>:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
 
+![Alt text](Dataset/Alignments_visualization.PNG "Visualization of alignments")
 
+### Control parameters
+>:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
+
+- The total 2D length of the track alignment (horizontal projection) is 1029.3721 meters
+- The total 3D length of the track alignment is 1029.3861 meters
+- The ending point of the track alignment has coordinate (x, y, z) 453202.5241, 4539831.9287, 2.0000
+- The ending point of the track alignment has mileage (pk) 0+876.2721
+- The vertical height difference between starting and ending points of the track alignment 3D curve is -3.0000 meters
 
 ### Link to requirements
 >:information_source: *list requirements covered by this test, or refer to external documentation*
