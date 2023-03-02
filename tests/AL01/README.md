@@ -1,4 +1,4 @@
-# BC01 - Model Federation
+# AL01 - Multiple alignments of railway line
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
@@ -8,7 +8,7 @@
 
 ## Intent
 
-This Test belongs to a series Test Cases that share a dataset from the same project as a business case. 
+This Test belongs to a series of Tests that share a dataset from the same project as a business case. 
 The intention of this Business Case is to test how model federation works in the context of IFC4.3. 
 In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a turnout within an alignment) and in relation to fixed coordinates (for example existing buildings) with georeferencing information set as the global context.
 We would also like to test other essential concepts that are related to model federation like project break down structure (or to say, Spatial Structure) and revision and access control for elements.
@@ -17,7 +17,7 @@ The series of tests that belong to this Business Cases are listed as follows:
 | Test code | Test name     | 
 |-----------|-----------------|
 | PS01      | Project setup with georeferencing |
-| **AL01**      | **Multiple alignments with start stationing** |
+| **AL01**      | **Multiple alignments of railway line** |
 | LD01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
 | BD01      | Building and terrain as existing condition model |
@@ -69,8 +69,10 @@ The concept templates that are focused by this series of tests are listed as fol
 
 ## Test dataset (input)
 
-The dataset is made up of different specialist models of an existing section of a railaway line. The geographic coordinate system is LV95 ([EPSG2056](https://epsg.io/2056)), and the vertical datum is  More infor about this system can be found in https://www.swisstopo.admin.ch/en/home/meta/supply-structure/standard-range.html. Some of the details might have changed but they represent as much as possible an existing rail condition. 
-All the required files are collected in the Dataset folder and summarised in the table below.
+The dataset is made of a LandXML file that has multiple alignments for a section of railway line. The coordinates are defined based on the LV95 ([EPSG 2056](https://epsg.io/2056)) and the vertical datum is LN02 ([EPSG:5728](https://epsg.io/5728)). It has in total 11 alignments and the railway section is about 18 kilometers long. 
+An IFC 4.3 reference file is also provided.
+
+![Alt text](Dataset/Alignments_visualization.PNG "Visualization of alignments")
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
