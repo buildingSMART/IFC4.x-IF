@@ -97,10 +97,10 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
 - All following rules:
-- ALB002 - Alignment layout (RI-6)
-- ALB003 - Alignment directions
-- TBD000 - Alignment shape representation (RI-5, RI-9, RI-10, RI-12, RI-14)
-- TBD000 - Stationing along alignment (RI-7)
+  - ALB002 - Alignment layout (RI-6)
+  - ALB003 - Alignment directions
+  - TBD000 - Alignment shape representation (RI-5, RI-9, RI-10, RI-12, RI-14)
+  - TBD000 - Stationing along alignment (RI-7)
 
 #### Test case-specific checks
 
