@@ -76,15 +76,10 @@ An IFC 4.3 reference file is also provided.
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| MF01_Alignment.xml    |    Data containing track alignments in LandXML format                                   |
-| MF01_Alignment.ifc    |    Data containing track alignments in IFC 4.3                                  |
-| MF01_Building_1.ifc        | Data containing existing Building in IFC 2x3                       |
-| MF01_Building_2.ifc        | Data containing existing Building in IFC 2x3                      |
-| MF01_Track.ifc         | Data containing existing rails, sleepers and turnouts in IFC 2x3   |
-| MF01_LoadingGauge_1.ifc              | Data containing existing clearance gauge information in IFC 2x3   |
-| MF01_LoadingGauge_2.ifc              | Data containing existing clearance gauge information in IFC 2x3    |
-| MF01_Drainage.dwg     | Data containing existing drainage information in dwg format           |
-| MF01_Drainage.dxf     | Data containing existing drainage information in dxf format, same information with the dwg version           |
+| BC001_Alignment.xml    |    Data containing track alignments in LandXML format                                   |
+| BC001_Alignment.dwg    |    Data containing track alignments in DWG format                                 |
+| BC001_Alignment(Reference).ifc    |    Data containing track alignments in IFC 4.3                                  |
+
 
 ## Validation criteria
 ⚡ For this test case to be considered passed, all criteria listed in this section, and the ones of prerequisites tests shall be verified. ⚡
