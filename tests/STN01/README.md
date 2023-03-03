@@ -142,6 +142,5 @@ Link to IDS file: [STN01.ids]() :construction:
 5. The vertical height difference between starting and ending points of the track alignment 3D curve is -3.0000 meters
 
 ## Link to requirements
->:information_source: *list requirements covered by this test, or refer to external documentation*
 
-TODO
+[BC-002 Requirements.xlsx](./Dataset/BC-002.xlsx) (to be replaced with HTML page)
