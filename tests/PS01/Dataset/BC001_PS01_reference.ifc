@@ -1,0 +1,110 @@
+ISO-10303-21;
+
+/* ------- This file was produced manually for aIFC4Rail project. ------------------------------ */
+/* ------- Stefan Jaud, stefan@the-hard-code.com, 2023.03.01. ---------------------------------- */
+
+HEADER;
+FILE_DESCRIPTION (('ViewDefinition [Ifc4x3NotAssigned]'), '2;1');
+FILE_NAME ('BC001_PS01_reference.ifc', '2023-03-01T18:00:00', ('Stefan Jaud'), ('based on bSI Infra Extension Deployment project'), 'manual text editing', 'SublimeText 3.0', 'GitHub pull request');
+FILE_SCHEMA (('IFC4X3_ADD1'));
+ENDSEC;
+
+DATA;
+
+/* ------- General definitions ----------------------------------------------------------------- */
+#1 = IFCDIMENSIONALEXPONENTS(0, 0, 0, 0, 0, 0, 0);
+/* ------- Reusable X direction ---------------------------------------------------------------- */
+#2 = IFCDIRECTION((1., 0., 0.));
+/* ------- Reusable Y direction ---------------------------------------------------------------- */
+#3 = IFCDIRECTION((0., 1., 0.));
+/* ------- Reusable Z direction ---------------------------------------------------------------- */
+#4 = IFCDIRECTION((0., 0., 1.));
+/* ------- Reusable origin --------------------------------------------------------------------- */
+#5 = IFCCARTESIANPOINT((0., 0., 0.));
+
+/* ------- IfcProject is the top most element in the project structure ------------------------- */
+#16 = IFCPROJECT('2DAvEupIz0HQr73cMaawtZ', $, 'BC001 PS01', 'Reference example for BC001 PS01 exchange', $, $, $, (#28), #17);
+
+/* ------- IfcUnitAssignment defines the global units for measures and values ------------------ */
+/* ------- when the units are not otherwise defined -------------------------------------------- */
+#17 = IFCUNITASSIGNMENT((#18, #19, #20, #24, #25, #26, #27));
+#18 = IFCSIUNIT(*, .LENGTHUNIT., $, .METRE.);
+#19 = IFCSIUNIT(*, .AREAUNIT., $, .SQUARE_METRE.);
+#20 = IFCSIUNIT(*, .VOLUMEUNIT., $, .CUBIC_METRE.);
+
+/* ------- Example of non-SI unit used for angles: degree instead of radian -------------------- */
+#22 = IFCSIUNIT(*, .PLANEANGLEUNIT., $, .RADIAN.);
+#23 = IFCMEASUREWITHUNIT(IFCPLANEANGLEMEASURE(0.017453292519943295), #22);
+#24 = IFCCONVERSIONBASEDUNIT(#1, .PLANEANGLEUNIT., 'degree', #23);
+
+#25 = IFCSIUNIT(*, .MASSUNIT., .KILO., .GRAM.);
+#26 = IFCSIUNIT(*, .TIMEUNIT., $, .SECOND.);
+#27 = IFCMONETARYUNIT('EUR');
+
+/* ------- IfcGeometricRepresentationContext is the global context of the geometry ------------- */
+#28 = IFCGEOMETRICREPRESENTATIONCONTEXT('3D', 'Model', 3, 1.E-6, #29, #30);
+#29 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
+#30 = IFCDIRECTION((0.,1.));
+
+/* ------- IfcSite is the top most element in the spatial structure ---------------------------- */
+#61 = IFCSITE('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT., $, $, $, $, $);
+/* ------- The IfcSite's placement is the top-most placement ----------------------------------- */
+#62 = IFCLOCALPLACEMENT($, #29);
+/* ------- Project/Spatial structure ----------------------------------------------------------- */
+#63 = IFCRELAGGREGATES('3Hu7f6BmT14B_XS9yS78JZ', $, $, $, #16, (#61));
+
+/* ------- IfcProjectedCRS provides information about the underlying CRS ----------------------- */
+#81 = IFCPROJECTEDCRS('EPSG:2056,EPSG:5728', 'CH1903+ / LV95 + LN02 height', 'EPSG:4150', 'EPSG:5728', 'Hotine Oblique Mercator Azimuth Center', $, #18);
+/* ------- IfcMapConversionScaled provides data about the global-to-local transformation ------- */
+/* #3274754 = IFCCARTESIANPOINT((2689000., 1253000., 450.)); --> used by IfcMapConversionScaled  */
+#82 = IFCMAPCONVERSIONSCALED(#28, #81, 2689000., 1253000., 450., 1., 0., $, 1., 1., 1.);
+/* ------- If interpreted correctly, the base point should be the pyramid's top ---------------- */
+/* ------- of the product with GlobalId='3RhbhoXQ53yRzPOejOTUcp' ------------------------------- */
+
+/* ------- Object with geometry denoting project base point ------------------------------------ */
+#3274450 = IFCBUILDINGELEMENTPROXY('3RhbhoXQ53yRzPOejOTUcp', $, 'Punkte:Referenzpunkt:11547115', $, 'Punkte:Referenzpunkt', #3274968, #3274457, '11547115', $);
+
+/* ------- Object's placement as relative to the IfcSite's placement --------------------------- */
+#3274968 = IFCLOCALPLACEMENT(#62, #3274969);
+#3274969 = IFCAXIS2PLACEMENT3D(#3274970, #4, #2);
+#3274970 = IFCCARTESIANPOINT((700.000970772933, 1570., 0.));
+
+/* ------- Object's geometry defined with a mapped item ---------------------------------------- */
+#3274457 = IFCPRODUCTDEFINITIONSHAPE($, $, (#3274458));
+#3274458 = IFCSHAPEREPRESENTATION(#28, 'Body', 'MappedRepresentation', (#3274459));
+#3274459 = IFCMAPPEDITEM(#3274460, #3274491);
+#3274460 = IFCREPRESENTATIONMAP(#3274461, #3274462);
+#3274461 = IFCAXIS2PLACEMENT3D(#5, $, $);
+#3274462 = IFCSHAPEREPRESENTATION(#28, 'Body', 'Brep', (#3274463));
+#3274463 = IFCFACETEDBREP(#3274464);
+#3274464 = IFCCLOSEDSHELL((#3274465, #3274472, #3274479, #3274482, #3274485, #3274488));
+#3274465 = IFCFACE((#3274466));
+#3274466 = IFCFACEOUTERBOUND(#3274467, .T.);
+#3274467 = IFCPOLYLOOP((#3274468, #3274469, #3274470, #3274471));
+#3274468 = IFCCARTESIANPOINT((-2.5E-1, -2.5E-1, 1.5));
+#3274469 = IFCCARTESIANPOINT((2.50000000000001E-1, -2.5E-1, 1.5));
+#3274470 = IFCCARTESIANPOINT((2.5E-1, 2.5E-1, 1.5));
+#3274471 = IFCCARTESIANPOINT((-2.5E-1, 2.5E-1, 1.5));
+#3274472 = IFCFACE((#3274473));
+#3274473 = IFCFACEOUTERBOUND(#3274474, .T.);
+#3274474 = IFCPOLYLOOP((#3274475, #3274476, #3274477, #3274478));
+#3274475 = IFCCARTESIANPOINT((-5.00000000000001E-4, -4.99999999999999E-4, 0.));
+#3274476 = IFCCARTESIANPOINT((-5.00000000000001E-4, 5.00000000000002E-4, 0.));
+#3274477 = IFCCARTESIANPOINT((4.99999999999999E-4, 5.00000000000001E-4, 0.));
+#3274478 = IFCCARTESIANPOINT((4.99999999999999E-4, -4.99999999999999E-4, 0.));
+#3274479 = IFCFACE((#3274480));
+#3274480 = IFCFACEOUTERBOUND(#3274481, .T.);
+#3274481 = IFCPOLYLOOP((#3274475, #3274478, #3274469, #3274468));
+#3274482 = IFCFACE((#3274483));
+#3274483 = IFCFACEOUTERBOUND(#3274484, .T.);
+#3274484 = IFCPOLYLOOP((#3274478, #3274477, #3274470, #3274469));
+#3274485 = IFCFACE((#3274486));
+#3274486 = IFCFACEOUTERBOUND(#3274487, .T.);
+#3274487 = IFCPOLYLOOP((#3274477, #3274476, #3274471, #3274470));
+#3274488 = IFCFACE((#3274489));
+#3274489 = IFCFACEOUTERBOUND(#3274490, .T.);
+#3274490 = IFCPOLYLOOP((#3274476, #3274475, #3274468, #3274471));
+#3274491 = IFCCARTESIANTRANSFORMATIONOPERATOR3D($, $, #5, 1., $);
+
+ENDSEC;
+END-ISO-10303-21;
