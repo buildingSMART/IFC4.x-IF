@@ -63,11 +63,11 @@ When validated using the bSI Validation Service, the IFC must pass:
 Link to IDS file: `[ABCD123.ids]()` :construction:
 
 - There must be 1 instance of IfcProject and must be named `BC001: Test plan 1`.
-- There must be at least these 2 instances of IfcNamedUnit assigned as default units:
+- There must be at least these 2 instances of `IfcNamedUnit` assigned as default units:
     - one `.LENGTHUNIT.` and
     - one `.PLANEANGLEUNIT.`.
 - Georeferencing of the project shall be assigned as
-    - LV95 ([EPSG 2056](https://epsg.io/2056)) and 
+    - LV95 ([EPSG:2056](https://epsg.io/2056)) and 
     - LN02 ([EPSG:5728](https://epsg.io/5728)).
 
 
@@ -75,28 +75,24 @@ Link to IDS file: `[ABCD123.ids]()` :construction:
 
 > TODO *remains to be determined*
 
-None ?? 
-
 
 ### Expected geometry
 
 There should be one pyramid turned upside down:
 
-- of the product with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'`
-- with its apex at position `(700.000970772933, 1570., 0.)` relative to project base point
-- and base width of 5 decimeters and height of 1.5 meters.
+- of the product with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'`,
+- with its apex at position `(700.000970772933, 1570., 0.)` relative to project base point, and
+- and base width of 5 decimeters and height of 1.5 meters (map measurements).
 
 
 ### Control parameters
 
-> TODO *remains to be determined*
-
 The following steps should be performed in order to corroborate that the software is working as expected.
 
-After importing the reference file (`BC001_PS01_reference.ifc`): :construction:
-- project base point shall have coordinates ??
-- coordinate reference system set to LV95 and LN02 as stated above
+After importing the reference file (`BC001_PS01_reference.ifc`):
 - project units set to meters for length and degrees for angles
+- coordinate reference system set to LV95 and LN02 as stated above
+- the apex of the pyramid shall have global coordinates `(2689700.000970772933, 1254570., 450.)` (up to a certain delta)
 
 
 ## Link to requirements
