@@ -80,7 +80,11 @@ None ??
 
 ### Expected geometry
 
-No expected geometry.
+There should be one pyramid turned upside down:
+
+- of the product with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'`
+- with its apex at position `(700.000970772933, 1570., 0.)` relative to project base point
+- and base width of 5 decimeters and height of 1.5 meters.
 
 
 ### Control parameters
