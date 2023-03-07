@@ -8,6 +8,8 @@
 - [Test dataset](#test-dataset)
   - [Content](#content)
   - [Model Dataset](#model-dataset)
+  - [Geographic Coordinate System properties](#geographic-coordinate-system-properties)
+
 
 ## Model Dataset
 
@@ -50,3 +52,43 @@ There is one `IfcBuildingElementProxy`:
 
 ![Reference point 11547115 up close with the north direction marked.](./referencePointUpClose.png)
 
+
+## Geographic Coordinate System properties
+
+| Coordinate System |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:2056,EPSG:5728                   |
+| Description       | Swiss  H1903+ / LV95 + LN02 height    |
+| EPSG Code         | non existant                          |
+| Source            | EPSG                                  |
+| Projection        | Hotine Oblique Mercator Azimuth Center |
+| Units             | Meter                                 |
+| Origin Latitude   | 46.9524055555556°N                    |
+| Origin Longitude  |  7.4395833333333°N                    |
+| Azimuth           | 90°                                   |
+| Rectified grid angle | 90°                                |
+| Scale Reduction   | 1.0                                   |
+| False Easting     | 2600000.0                             |
+| False Northing    | 1200000.0                             |
+| Quadrant          | Positive X and Y                      |
+| Minimum Longitude |  5.96°E                               |
+| Maximum Longitude | 45.82°E                               |
+| Minimum Latitude  | 10.49°N                               |
+| Maximum Latitude  | 47.81°N                               |
+
+| Geodetic Datum    |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:4150                             |
+| Description       | Swiss CH1903+                         |
+
+| Ellipsoid         |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:7004                             |
+| Description       | Bessel 1841                           |
+| Equatorial Radius | 6377397.155                           |
+| Inverse flattening| 299.1528128                           |
+
+| Vertical Datum    |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:5728                             |
+| Description       | Landesnivellement 1902                |
