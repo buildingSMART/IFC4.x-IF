@@ -72,8 +72,8 @@ There is one `IfcBuildingElementProxy`:
 | False Northing    | 1200000.0                             |
 | Quadrant          | Positive X and Y                      |
 | Minimum Longitude |  5.96°E                               |
-| Maximum Longitude | 45.82°E                               |
-| Minimum Latitude  | 10.49°N                               |
+| Maximum Longitude | 10.49°E                               |
+| Minimum Latitude  | 45.82°N                               |
 | Maximum Latitude  | 47.81°N                               |
 
 | Geodetic Datum    |                                       |
