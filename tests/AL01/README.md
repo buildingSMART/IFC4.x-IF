@@ -9,7 +9,7 @@
 ## Intent
 
 This Test belongs to a series of Tests that share a dataset from the same project as a business case. 
-The intention of this Business Case is to test how model federation works in the context of IFC4.3. 
+The intention of this Business Case is to test how model federation works in the context of IFC 4.3. 
 In particular we want to test the behaviour of objects that are located in relation to an alignemnt (for example a turnout within an alignment) and in relation to fixed coordinates (for example existing buildings) with georeferencing information set as the global context.
 We would also like to test other essential concepts that are related to model federation like project break down structure (or to say, Spatial Structure) and revision and access control for elements.
 The series of tests that belong to this Business Cases are listed as follows:
@@ -18,7 +18,7 @@ The series of tests that belong to this Business Cases are listed as follows:
 |-----------|-----------------|
 | PS01      | Project setup with georeferencing |
 | **AL01**      | **Multiple alignments of railway line** |
-| LD01      | Loading gauge|
+| LG01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
 | BD01      | Building and terrain as existing condition model |
 | BD02      | Building positioned along alignment |
@@ -32,6 +32,8 @@ The dependency between them are shown in the following diagram:
 ![Alt text](Dataset/Test_case_dependency.PNG "Dependency between tests")
 
 To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes from prerequisites tests.
+
+This particular Test aims to test the implementation of alignment in IFC 4.3. It is based on the PS01, which defines the overall context of the project (geometric representation context and projection to a map coordinate system), and TR01, which defines a terrain model as existing environment. This test will test the creation of alignment geometry and its visualization. The alignments created in this Test will be used as the linear positioning based for subsequent Tests. As the shared data required by all the subsequent tests, the alignments created in this Test will also be key for the final model federation (MF01).
 
 <details>
 	<summary>Main IFC concept involved in this test</summary> 
