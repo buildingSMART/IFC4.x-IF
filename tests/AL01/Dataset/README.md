@@ -17,7 +17,7 @@
 
 ## Overview
 
-<img src="./Alignments_visualization.PNG" width="500" />
+<img src="./Alignments_visualization.PNG"/>
 
 | Info                         |                                           |
 |------------------------------|-------------------------------------------|
