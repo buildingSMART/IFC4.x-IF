@@ -80,4 +80,3 @@ The cant profile is defined by "Cant" in LandXML. Unlike in IFC, cant is defined
 https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2cd675a97ab/tests/AL01/Dataset/BC001_Alignment.xml#L513-L514
 
 
-
