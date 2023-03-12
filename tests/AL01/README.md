@@ -66,8 +66,8 @@ An IFC 4.3 reference file is also provided.
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| BC001_Alignment.xml    |    Data containing track alignments in LandXML format                                   |
-| BC001_Alignment.dwg    |    Data containing track alignments in DWG format                                 |
+| [BC001_Alignment.xml](Dateset/BC001_Alignment.xml)    |    Data containing track alignments in LandXML format                                   |
+| [BC001_Alignment.dwg](Dateset/BC001_Alignment.dwg)     |    Data containing track alignments in DWG format                                 |
 | BC001_Alignment(Reference).ifc    |    Data containing track alignments in IFC 4.3                                  |
 
 In addition, the outcome of the Test PS01 and TE01 shall be used as inputs of this Test.
