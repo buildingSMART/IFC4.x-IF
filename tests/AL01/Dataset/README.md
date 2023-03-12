@@ -2,79 +2,55 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| STN01     | Ciro Vendrame   | RFI                 | Export         |
+| AL01     | Chi Zhang   | SBB                 | Export         |
 
 ## Content
 - [Test dataset](#test-dataset)
   - [Content](#content)
   - [Overview](#overview)
   - [Model Dataset](#model-dataset)
-  - [Line layout](#line-layout)
   - [Alignment](#alignment)
     - [Alignment parameters for horizontal segments](#alignment-parameters-for-horizontal-segments)
     - [Alignment parameters for vertical segments](#alignment-parameters-for-vertical-segments)
     - [Alignment parameters for cant segments](#alignment-parameters-for-cant-segments)
-  - [Signals](#signals)
-    - [Signals shape](#signals-shape)
-    - [Signals position parameters](#signals-position-parameters)
   - [Stationing](#stationing)
     - [Stationing values according to national conventions](#stationing-values-according-to-national-conventions)
     - [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)
     - [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)
     - [Stationing values of signals](#stationing-values-of-signals)
-  - [Geographic Coordinate System properties](#geographic-coordinate-system-properties)
 
 
 ## Overview
 
-<img src="./LineLayout.svg" width="500" />
+<img src="./Alignment_visualization" width="500" />
 
 | Info                         |                                           |
 |------------------------------|-------------------------------------------|
-| Number of alignment(s)       | 1                                         |
-| Vertical Measurement         | Lower Rail                                |
+| Number of alignment(s)       | 11                                        |
+| Vertical Measurement         | Track axis (center line)                  |
 | Properties of segments       | no                                        |
 | Horizontal layout            | Line, Circular Arc, Clothoid              |
 | Vertical layout              | Constant Gradient, Circular Arc           |
 | Cant layout                  | Constant Cant, Linear Transition          |
-| Stationing pace              | 50 m                                      |
 | Broken chainage              | No                                        |
-| Number of signals            | 2                                         |
 | IFC reference file available | **WIP**                                   |
 
 ## Model Dataset
-This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
-It represents one alignment with cant on which two signals are placed.
+This dataset has 11 alignments, which in total are around 18 km long.
 
-| Filename                                                                              | Description                                                                                       |
-|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [LineLayout](./LineLayout.svg)                                                        | Schematic [line layout](#Line-layout) of the test case                                            |
-| [Alignment_horizontal](./Alignment_horizontal.csv)                                    | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
-| [Alignment_vertical](./Alignment_vertical.csv)                                        | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
-| [Alignment_cant](./Alignment_cant.csv)                                                | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                 |
-| [Alignment_exchange](./Alignment_exchange.xml)                                        | Alignment description in LandXML file format                                                      |
-| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf)      | 2D CAD model of the alignment with mileage referents (dxf file)                                   |
-| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)                          | 3D CAD model of the alignment with 2 signals (dxf file)                                           |
-| [Stationing_values](./Stationing_values.csv)                                          | [Stationing values according to national conventions](#stationing-values-according-to-national-conventions) |
-| [Stationing_values_horizontal_segments](./Stationing_values_horizontal_segments.csv)  | [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)     |
-| [Stationing_values_vertical_segments](./Stationing_values_vertical_segments.csv)      | [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)         |
-| [Signal_3D](./Signal_3D.dxf)                                                          | 3D CAD model of the signal (dxf file)                                                             | 
-| [Signals_positions](./Signals_positions.csv)                                          | [Signals positions parameters](#signals-position-parameters)                                      |
-| [Stationing_values_signals](Stationing_values_signals.csv)                            | [Stationing values of the signals](#stationing-values-of-signals)                                 |
-| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                    | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
+| Filename (format)         | Description                                                        |
+|---------------------------|--------------------------------------------------------------------|
+| [BC001_Alignment.xml](./BC001_Alignment.xml)    |    Data containing track alignments in LandXML format                                   |
+| [BC001_Alignment.dwg](./BC001_Alignment.dwg)     |    Data containing track alignments in DWG format                                 |
+| BC001_Alignment(Reference).ifc    |    Data containing track alignments in IFC 4.3                                  |
 
-## Line layout
-
-The line for the test is made of one alignment (*IfcAlignment*):
-
-
-<img src="./LineLayout.svg" height="600"/>
 
 ## Alignment
 
-The **Alignment** is described through its **horizontal**, **vertical** and **cant** profiles.
+The **Alignment** is described through its **horizontal**, **vertical** and **cant** layouts. They are all described in the LandXML file.
+In LandXML, each alignment is made as an instance of Alignment. For example:
 
-Each profile is described using a CSV file.
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2cd675a97ab/tests/AL01/Dataset/BC001_Alignment.xml#L9
 
 ### Alignment parameters for horizontal segments
 
