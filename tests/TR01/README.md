@@ -1,4 +1,4 @@
-# AL01 - Multiple alignments of railway line
+# TR01 - Multiple alignments of railway line
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
