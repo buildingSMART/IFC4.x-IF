@@ -23,7 +23,7 @@ The project defines default units:
 - *degree* as `PLANEANGLEUNIT`
 - *kilogram* as `MASSUNIT`
 - *second* as `TIMEUNIT`
-- *EUR* as monetary unit
+- *CHF* as monetary unit
 
 The coordinate reference system is defined as:
 
@@ -37,13 +37,13 @@ The project's context's point of origin is defined relative to the CRS's point o
 - Northing: 1253000.0
 - Elevation: 450.0
 
-There is one `IfcBuildingElementProxy`:
+There are three `IfcBuildingElementProxy`:
 
-- its id is `'3RhbhoXQ53yRzPOejOTUcp'`
-- its name is *Punkte:Referenzpunkt:11547115*
-- its tag is 11547115
-- its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
-- its position is at (relative to project's origin):
+1. its id is `'3RhbhoXQ53yRzPOejOTUcp'`
+  - its name is *Punkte:Referenzpunkt:11547115*
+  - its tag is 11547115
+  - its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
+  - its position is at (relative to project's origin):
     - Easting: 700.000970772933
     - Northing: 1570.0
     - Elevation: 0.0
@@ -51,6 +51,24 @@ There is one `IfcBuildingElementProxy`:
 ![Reference point 11547115 in the context of whole model.](./referencePointFromAfar.png)
 
 ![Reference point 11547115 up close with the north direction marked.](./referencePointUpClose.png)
+
+2. its id is `'3RhbhoXQ53yRzPOejOTUgT'`
+  - its name is *Punkte:Referenzpunkt:11547333*
+  - its tag is 11547333
+  - its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
+  - its position is at (relative to project's origin):
+    - Easting: 2005.00097121531
+    - Northing: 1765.0
+    - Elevation: 0.0
+
+3. its id is `'3XMP46M8P65ugGKLEpO4FP'`
+  - its name is *Punkte:Referenzpunkt:12053356*
+  - its tag is 12053356
+  - its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
+  - its position is at (relative to project's origin):
+    - Easting: 195.00097114034
+    - Northing: 2100.0
+    - Elevation: 0.0
 
 
 ## Geographic Coordinate System properties

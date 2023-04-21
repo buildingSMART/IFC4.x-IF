@@ -78,11 +78,13 @@ Link to IDS file: `[ABCD123.ids]()` :construction:
 
 ### Expected geometry
 
-There should be one pyramid turned upside down:
+There should be three pyramids turned upside down:
 
-- of the product with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'`,
-- with its apex at position `(700.000970772933, 1570., 0.)` relative to project base point, and
-- and base width of 5 decimeters and height of 1.5 meters (map measurements).
+- with base width of 5 decimeters and height of 1.5 meters (map measurements).
+
+1. product with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'` with its apex at position `(700.000970772933, 1570., 0.)` relative to project base point;
+2. product with `GlobalId='3RhbhoXQ53yRzPOejOTUgT'` with its apex at position `(2005.00097121531, 1765., 0.)` relative to project base point; and
+3. product with `GlobalId='3XMP46M8P65ugGKLEpO4FP'` with its apex at position `(195.00097114034, 2100., 0.)` relative to project base point.
 
 
 ### Control parameters
@@ -90,9 +92,10 @@ There should be one pyramid turned upside down:
 The following steps should be performed in order to corroborate that the software is working as expected.
 
 After importing the reference file (`BC001_PS01_reference.ifc`):
-- project units set to meters for length and degrees for angles
-- coordinate reference system set to LV95 and LN02 as stated above
-- the apex of the pyramid shall have global coordinates `(2689700.000970772933, 1254570., 450.)` (up to a certain delta)
+
+- project units set to meters for length and degrees for angles;
+- coordinate reference system set to LV95 and LN02 as stated above; and
+- the apex of the pyramid with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'` shall have global coordinates `(2689700.000970772933, 1254570., 450.)` (up to a delta of `1e-6`).
 
 
 ## Link to requirements

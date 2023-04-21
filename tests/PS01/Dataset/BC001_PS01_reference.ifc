@@ -46,9 +46,9 @@ DATA;
 #29 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
 #30 = IFCDIRECTION((0.,1.));
 
-/* ------- IfcSite is the top most element in the spatial structure ---------------------------- */
-#61 = IFCSITE('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT., $, $, $, $, $);
-/* ------- The IfcSite's placement is the top-most placement ----------------------------------- */
+/* ------- IfcFacility is the top most element in the spatial structure ------------------------ */
+#61 = IFCFACILITY('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT., $, $, $, $, $);
+/* ------- The IfcFacility's placement is the top-most placement ------------------------------- */
 #62 = IFCLOCALPLACEMENT($, #29);
 /* ------- Project/Spatial structure ----------------------------------------------------------- */
 #63 = IFCRELAGGREGATES('3Hu7f6BmT14B_XS9yS78JZ', $, $, $, #16, (#61));
@@ -58,20 +58,35 @@ DATA;
 /* ------- IfcMapConversionScaled provides data about the global-to-local transformation ------- */
 /* #3274754 = IFCCARTESIANPOINT((2689000., 1253000., 450.)); --> used by IfcMapConversionScaled  */
 #82 = IFCMAPCONVERSIONSCALED(#28, #81, 2689000., 1253000., 450., 1., 0., $, 1., 1., 1.);
-/* ------- If interpreted correctly, the base point should be the pyramid's top ---------------- */
-/* ------- of the product with GlobalId='3RhbhoXQ53yRzPOejOTUcp' ------------------------------- */
+/* ------- If interpreted correctly, the base point should be close to the pyramids ------------ */
 
-/* ------- Object with geometry denoting project base point ------------------------------------ */
+/* ------- Three objects with geometry denoting three reference points ------------------------- */
 #3274450 = IFCBUILDINGELEMENTPROXY('3RhbhoXQ53yRzPOejOTUcp', $, 'Punkte:Referenzpunkt:11547115', $, 'Punkte:Referenzpunkt', #3274968, #3274457, '11547115', $);
 
-/* ------- Object's placement as relative to the IfcSite's placement --------------------------- */
+#3274494 = IFCBUILDINGELEMENTPROXY('3RhbhoXQ53yRzPOejOTUgT', $, 'Punkte:Referenzpunkt:11547333', $, 'Punkte:Referenzpunkt', #3274971, #3274495, '11547333', $);
+
+#3274516 = IFCBUILDINGELEMENTPROXY('3XMP46M8P65ugGKLEpO4FP', $, 'Punkte:Referenzpunkt:12053356', $, 'Punkte:Referenzpunkt', #3274978, #3274517, '12053356', $);
+
+/* ------- Objects' placement as relative to the IfcFacility's placement ----------------------- */
 #3274968 = IFCLOCALPLACEMENT(#62, #3274969);
 #3274969 = IFCAXIS2PLACEMENT3D(#3274970, #4, #2);
 #3274970 = IFCCARTESIANPOINT((700.000970772933, 1570., 0.));
 
-/* ------- Object's geometry defined with a mapped item ---------------------------------------- */
+#3274971 = IFCLOCALPLACEMENT(#62, #3274972);
+#3274972 = IFCAXIS2PLACEMENT3D(#3274973, #4, #2);
+#3274973 = IFCCARTESIANPOINT((2005.00097121531, 1765., 0.));
+
+#3274978 = IFCLOCALPLACEMENT(#62, #3274979);
+#3274979 = IFCAXIS2PLACEMENT3D(#3274980, #4, #2);
+#3274980 = IFCCARTESIANPOINT((195.00097114034, 2100., 0.));
+
+/* ------- Objects' geometry defined with a mapped item ---------------------------------------- */
 #3274457 = IFCPRODUCTDEFINITIONSHAPE($, $, (#3274458));
 #3274458 = IFCSHAPEREPRESENTATION(#28, 'Body', 'MappedRepresentation', (#3274459));
+#3274495 = IFCPRODUCTDEFINITIONSHAPE($, $, (#3274496));
+#3274496 = IFCSHAPEREPRESENTATION(#28, 'Body', 'MappedRepresentation', (#3274459));
+#3274517 = IFCPRODUCTDEFINITIONSHAPE($, $, (#3274518));
+#3274518 = IFCSHAPEREPRESENTATION(#28, 'Body', 'MappedRepresentation', (#3274459));
 #3274459 = IFCMAPPEDITEM(#3274460, #3274491);
 #3274460 = IFCREPRESENTATIONMAP(#3274461, #3274462);
 #3274461 = IFCAXIS2PLACEMENT3D(#5, $, $);
