@@ -75,10 +75,7 @@ Link to IDS file: `[ABCD123.ids]()` :construction:
 
 ### Expected geometry
 
-There should be a triagluated irregular network (TIN) defined:
-
-- as the geometry of the element wih `GlobalId = '2iFdMSmBP3L00000082LrB'`
-- with 230215 faces
+There should be four triangulated irregular networks (TINs) defined as described in the [Dataset description](Dataset/README.md).
 
 
 
