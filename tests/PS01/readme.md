@@ -57,15 +57,19 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 #### IFC standard (schema and specification)
 
-> TODO *remains to be determined*
-
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
-- All following rules:
-  - ??
 
-> TODO *remains to be determined*
+> TODO *remains to be determined, which service to use*
+
+- All following rules:
+  - RI-01
+  - RI-03
+  - RI-04
+  - RI-77
+  - RI-87
+
 
 #### Test case-specific checks
 
