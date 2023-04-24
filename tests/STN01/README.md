@@ -74,7 +74,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 #### Test case-specific checks
 
-Link to IDS file: [STN01.ids]() :construction:
+Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
 
 - (RI-18) Each IfcProduct (and subtypes) must have the attribute `Name` not null and not empty
 - (RI-4) An IfcProject must have the attribute `Description` not null and not empty
