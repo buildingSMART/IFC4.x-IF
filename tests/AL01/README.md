@@ -100,6 +100,11 @@ Link to IDS file: STN01.ids 🚧
 - (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
 - (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
 - (TBD) Each IfcAlignment must be aggregated directly under IfcProject.
+- (TBD) Each alignment must nest a list of stationing. The list of stationing is defined following this principle:
+  - Each alignment shall have a start stationing of 0
+  - There should be 1 stationing every 100 meters
+  - There should be 1 stationing in each intersection between alignment horizontal segments
+  - There should be 1 stationing in each intersection between alignments
 
 
 ### Informal criteria
@@ -107,6 +112,7 @@ The following steps should be performed in order to corroborate that the softwar
 
 - All alignments shall be visualized in 3D.
 - It is recommended that each layout of alignments can be visualized in 2D.
+- Stationing along alignments shall be visualized in horizontal 2D layout and 3D.
 - Each alignment must be continuous with certain delta. This also applies to tangent continuity and curvature continuity, in these two cases gaps that exceed the delta will be checked case by case.
 
 
