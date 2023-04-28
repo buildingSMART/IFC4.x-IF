@@ -37,7 +37,6 @@ This dataset has 11 alignments, which in total are around 18 km long.
 |---------------------------|--------------------------------------------------------------------|
 | [BC001_Alignment.xml](./BC001_Alignment.xml)    |    Data containing track alignments in LandXML format                                   |
 | [BC001_Alignment.dwg](./BC001_Alignment.dwg)     |    Data containing track alignments in DWG format                                 |
-| BC001_Alignment(Reference).ifc    |    Data containing track alignments in IFC 4.3                                  |
 
 
 ## Alignment
