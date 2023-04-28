@@ -87,3 +87,5 @@ In principle, the stationing values are defined as follows:
   - There should be 1 stationing in each intersection between alignment horizontal segments, made as an IfcReferent.STATION.
   - There should be 1 stationing in each intersection between alignments,made as an IfcReferent.STATION.
 
+<img src="./Alignment_stationing.PNG"/>
+
