@@ -65,17 +65,25 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 Link to IDS file: `[ABCD123.ids]()` :construction:
 
-- There must be 1 instance of `IfcTriangulatedIrregularNetwork` in the dataset
+1. Either:
+- There must be 4 instances of `IfcGeographicElement` in the dataset
+- There must be 4 instances of `IfcTriangulatedIrregularNetwork` in the dataset (as representations of the elements above)
+
+2. Or:
+- There must be 1 instances of `IfcGeographicElement` in the dataset
+- There must be 1 instances of `IfcTriangulatedIrregularNetwork` in the dataset (as representation of the element above)
+
+The provided reference file follows option 1.
 
 
 ### Informal criteria
 
-> TODO *remains to be determined*
+None. See Expected geometry below.
 
 
 ### Expected geometry
 
-There should be four triangulated irregular networks (TINs) defined as described in the [Dataset description](Dataset/README.md).
+There should be one or four triangulated irregular networks (TINs) defined as described in the [Dataset description](Dataset/README.md).
 
 
 
@@ -85,7 +93,8 @@ The following steps should be performed in order to corroborate that the softwar
 
 After importing the reference file (`BC001_TE01_reference.ifc`):
 
-- 
+- the three reference bodies from PS01 should lie outside, but in proximity of the terrain
+- the min/max values of terrain provided in Expected geometry above should be equal
 
 
 ## Link to requirements
