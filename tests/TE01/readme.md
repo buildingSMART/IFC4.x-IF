@@ -72,6 +72,9 @@ Link to IDS file: `[ABCD123.ids]()` :construction:
 2. Or:
 - There must be 1 instances of `IfcGeographicElement` in the dataset
 - There must be 1 instances of `IfcTriangulatedIrregularNetwork` in the dataset (as representation of the element above)
+    - a union of the 4 elements above
+
+The `IfcGeographicElement` instances shall be aggregated in `IfcSite`.
 
 The provided reference file follows option 1.
 
