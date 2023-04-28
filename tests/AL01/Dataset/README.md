@@ -79,4 +79,11 @@ The cant profile is defined by "Cant" in LandXML. Unlike in IFC, cant is defined
 
 https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2cd675a97ab/tests/AL01/Dataset/BC001_Alignment.xml#L513-L514
 
+## Stationing
+There is no sufficient information about required stationing along alignments in the LandXML file. They are only described in the file BC001_Alignment.dwg.
+In principle, the stationing values are defined as follows:
+  - Each alignment shall have a start stationing of 0
+  - There should be 1 stationing every 100 meters, made as an IfcReferent.REFERENCEMARKER.
+  - There should be 1 stationing in each intersection between alignment horizontal segments, made as an IfcReferent.STATION.
+  - There should be 1 stationing in each intersection between alignments,made as an IfcReferent.STATION.
 
