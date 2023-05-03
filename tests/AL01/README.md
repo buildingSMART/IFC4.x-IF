@@ -33,7 +33,7 @@ The dependency between them are shown in the following diagram:
 
 To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes from prerequisites tests.
 
-This particular Test aims to test the implementation of alignment in IFC 4.3. It is based on the PS01, which defines the overall context of the project (geometric representation context and projection to a map coordinate system), and TR01, which defines a terrain model as existing environment. This test will test the creation of alignment geometry and its visualization. The alignments created in this Test will be used as the linear positioning based for subsequent Tests. As the shared data required by all the subsequent tests, the alignments created in this Test will also be key for the final model federation (MF01).
+This particular Test aims to test the implementation of alignment in IFC 4.3. It is based on the PS01, which defines the overall context of the project (geometric representation context and projection to a map coordinate system), and TE01, which defines a terrain model as existing environment. This test will test the creation of alignment geometry and its visualization. The alignments created in this Test will be used as the linear positioning based for subsequent Tests. As the shared data required by all the subsequent tests, the alignments created in this Test will also be key for the final model federation (MF01).
 
 <details>
 	<summary>Main IFC concept involved in this test</summary> 

@@ -49,16 +49,22 @@ https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2
 This defines an alignment object, which has name "A50034A" and start station of 0.000000. It should be created as an IfcAlignment with Name set to "A50034A" and start station (using IfcReferent) set to 0..
 ### Alignment parameters for horizontal segments
 
-The horizontal profile is described in LandXML using "CoordGeom". Three kinds of segments are used: "Curve", which is an CIRCULARARC in IFC, "Line", which is LINE in IFC, and "Spiral", which in this case is CLOTHOID in IFC. For examples:
+The horizontal profile is described in LandXML using "CoordGeom". Three kinds of segments are used:
 
-(https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2cd675a97ab/tests/AL01/Dataset/BC001_Alignment.xml#L41-L54)
+- "Curve", which corresponds to `CIRCULARARC` in IFC, 
+- "Line", which corresponds to `LINE` in IFC, and 
+- "Spiral", which in this case corresponds to CLOTHOID in IFC. 
+
+For example:
+
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2cd675a97ab/tests/AL01/Dataset/BC001_Alignment.xml#L41-L54
 
 This defines one LINE segment, one CLOTHOID segment and one CIRCULARARC with geometric parameters and coordinates.
 
 **IMPORTANT**:
 
-When using IFC to exchange information, the file must respect IFC convention [marked as ii) in the figure below.
-This implies a right-hand cartesian coordinate systems; and angles are measured from x-axis, counter clock-wise.
+When using IFC to exchange information, the file must respect IFC convention (marked as ii) in the figure below.
+This implies a right-hand cartesian coordinate system; and angles are measured from x-axis, counter clock-wise.
 
 <p align="center">
     <img src="SurveyToIFCangleConvention.png" height="500"/>
@@ -66,7 +72,7 @@ This implies a right-hand cartesian coordinate systems; and angles are measured 
 
 ### Alignment parameters for vertical segments
 
-The vertical profile is described in LandXML as "Profile". An fundamental difference with IFC is that vertical layout is described using PVI, which is the point of intersection of the two adjacent grade lines. They must be converted to a segment-based representation in IFC.
+The vertical profile is described in LandXML as "Profile". A fundamental difference with IFC is that vertical layout is described using PVI, which is the point of vertical intersection of the two adjacent grade lines. They must be converted to a segment-based representation in IFC.
 
 https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/f6e0ec9875f7e0daf6565bd7e3c8a2cd675a97ab/tests/AL01/Dataset/BC001_Alignment.xml#L663-L665
 
