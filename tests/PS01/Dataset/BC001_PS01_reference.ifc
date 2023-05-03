@@ -47,7 +47,7 @@ DATA;
 #30 = IFCDIRECTION((0.,1.));
 
 /* ------- IfcFacility is the top most element in the spatial structure ------------------------ */
-#61 = IFCFACILITY('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT., $, $, $, $, $);
+#61 = IFCFACILITY('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT.);
 /* ------- The IfcFacility's placement is the top-most placement ------------------------------- */
 #62 = IFCLOCALPLACEMENT($, #29);
 /* ------- Project/Spatial structure ----------------------------------------------------------- */
