@@ -196,7 +196,7 @@ Two signals are placed along the alignment. They have the same shape. They are p
 
 <p align="center">
     <img src="Signals_on_alignment.svg" height="500"/> <br>
-    Signals_on_alignment
+    Signals on alignment
 </p>
 
 ### Signals shape
@@ -205,7 +205,7 @@ The origin of the coordinates system of the signal is placed at the center of th
 
 <p align="center">
     <img src="Signal_shape.jpg" height="500"/> <br>
-    Signal_shape
+    Signal shape
 </p>
 
 ### Signals position parameters
