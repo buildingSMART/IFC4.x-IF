@@ -9,6 +9,7 @@
   - [Content](#content)
   - [Overview](#overview)
   - [Model Dataset](#model-dataset)
+  - [Geographic Coordinate System properties](#geographic-coordinate-system-properties)
   - [Line layout](#line-layout)
   - [Alignment](#alignment)
     - [Alignment parameters for horizontal segments](#alignment-parameters-for-horizontal-segments)
@@ -22,25 +23,26 @@
     - [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)
     - [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)
     - [Stationing values of signals](#stationing-values-of-signals)
-  - [Geographic Coordinate System properties](#geographic-coordinate-system-properties)
-
 
 ## Overview
 
-<img src="./LineLayout.svg" width="500" />
+<p align="center">
+    <img src="./LineLayout.svg" width="500" /> <br>
+    Overview    
+</p>
 
 | Info                         |                                           |
 |------------------------------|-------------------------------------------|
 | Number of alignment(s)       | 1                                         |
 | Vertical Measurement         | Lower Rail                                |
-| Properties of segments       | no                                        |
+| Properties of segments       | No                                        |
 | Horizontal layout            | Line, Circular Arc, Clothoid              |
 | Vertical layout              | Constant Gradient, Circular Arc           |
 | Cant layout                  | Constant Cant, Linear Transition          |
 | Stationing pace              | 50 m                                      |
 | Broken chainage              | No                                        |
 | Number of signals            | 2                                         |
-| IFC reference file available | **WIP**                                   |
+| IFC reference file available | No                                        |
 
 ## Model Dataset
 This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
@@ -48,7 +50,8 @@ It represents one alignment with cant on which two signals are placed.
 
 | Filename                                                                              | Description                                                                                       |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [LineLayout](./LineLayout.svg)                                                        | Schematic [line layout](#Line-layout) of the test case                                            |
+| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                    | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
+| [LineLayout](./LineLayout.svg)                                                        | Schematic [line layout](#Line-layout) of the test case                                             |
 | [Alignment_horizontal](./Alignment_horizontal.csv)                                    | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
 | [Alignment_vertical](./Alignment_vertical.csv)                                        | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
 | [Alignment_cant](./Alignment_cant.csv)                                                | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                 |
@@ -61,14 +64,61 @@ It represents one alignment with cant on which two signals are placed.
 | [Signal_3D](./Signal_3D.dxf)                                                          | 3D CAD model of the signal (dxf file)                                                             | 
 | [Signals_positions](./Signals_positions.csv)                                          | [Signals positions parameters](#signals-position-parameters)                                      |
 | [Stationing_values_signals](Stationing_values_signals.csv)                            | [Stationing values of the signals](#stationing-values-of-signals)                                 |
-| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                    | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
+
+## Geographic Coordinate System properties
+
+| Coordinate System |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:3065                             |
+| Description       | IGM95 / UTM zone 33N                  |
+| Projection        | Transverse Mercator                   |
+| EPSG Code         | 3065                                  |
+| Source            | EPSG                                  |
+| Units             | Meter                                 |
+| Central Meridian  | 15°00’00.0000”E                       |
+| Origin Latitude   | 00°00’00.0000”N                       |
+| Scale Reduction   | 0.99960000                            |
+| False Easting     | 500000.0000                           |
+| False Northing    | 0.0000                                |
+| Quadrant          | Positive X and Y                      |
+| Minimum Longitude | 12°00’00.0000”E                       |
+| Maximum Longitude | 18°31’48.0000”E                       |
+| Minimum Latitude  | 36°36’00.0000”N                       |
+| Maximum Latitude  | 47°05’24.0000”N                       |
+
+| Datum             |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:6670                             |
+| Description       | Istituto Geografico Militare 1995     |
+| Source            | EPSG V6.12 operation EPSG:1098        |
+| Conversion Method | Three Parameter Transformation        |
+| Delta X           | 0.0000                                |
+| Delta Y           | 0.0000                                |
+| Delta Z           | 0.0000                                |
+
+| Ellipsoid         |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:7030                             |
+| Description       | WGS 84                                |
+| Equatorial Radius | 6378137.0000                          |
+| Polar Radius      | 6356752.3142                          |
+| Eccentricity      | 0.0818                                |
+| Source            | EPSG Version 6                        |
+
+| Vertical Datum    |                                       |
+|-------------------|---------------------------------------|
+| Name              | EPSG:5214                             |
+| Description       | Genoa height                          |
+
 
 ## Line layout
 
 The line for the test is made of one alignment (*IfcAlignment*):
 
-
-<img src="./LineLayout.svg" height="600"/>
+<p align="center">
+    <img src="./LineLayout.svg" height="600"/> <br>
+    Line layout
+</p>
 
 ## Alignment
 
@@ -95,17 +145,14 @@ The horizontal profile is described using a CSV file and is made of the followin
 
 **NOTE**:
 - All distances are in meters
-- All angles are in radian (see note below)
 - All the coordinates are defined using the UTM Coordinate System (EPSG:3065)
 - Positive values of *Radius of Curvature* imply a CCW direction whereas negative CW.
+- All angles indicated in the Start Direction are in radian and follow the IFC convention (in blue in the following picture). This implies a right-hand cartesian coordinate systems; angles are measured from x-axis, counter clock-wise.
 
-**IMPORTANT**:
-
-When using IFC to exchange information, the file must respect IFC convention [marked as ii) in the figure below.
-This implies a right-hand cartesian coordinate systems; and angles are measured from x-axis, counter clock-wise.
 
 <p align="center">
-    <img src="SurveyToIFCangleConvention.png" height="500"/>
+    <img src="SurveyToIFCangleConvention.png" height="500"/> <br>
+    Survey to IFC angle convention
 </p>
 
 ### Alignment parameters for vertical segments
@@ -148,7 +195,8 @@ The cant profile is made of the following 9 segments. The column headers match t
 Two signals are placed along the alignment. They have the same shape. They are placed on the left and right side of the alignment and they face two opposite directions.
 
 <p align="center">
-    <img src="Signals_on_alignment.svg" height="500"/>
+    <img src="Signals_on_alignment.svg" height="500"/> <br>
+    Signals_on_alignment
 </p>
 
 ### Signals shape
@@ -156,28 +204,31 @@ Two signals are placed along the alignment. They have the same shape. They are p
 The origin of the coordinates system of the signal is placed at the center of the red light (which is the lowest one) on the surface of the light panel.
 
 <p align="center">
-    <img src="Signal_shape.jpg" height="500"/>
+    <img src="Signal_shape.jpg" height="500"/> <br>
+    Signal_shape
 </p>
 
 ### Signals position parameters
 
 | # | Type of element | Distance Along | Offset Horizontal | Offset Vertical | Rotation         | Name               |
 |---|-----------------|----------------|-------------------|-----------------|------------------|--------------------|
-| 1 | SIGNAL          | 353.1000       | -3.0000           | 2.5000          | 0                | Route Indicator_01 |
-| 2 | SIGNAL          | 853.1000       | 3.0000            | 2.5000          | 3.14159265358979 | Route Indicator_02 |
+| 1 | SIGNAL          | 353.1000       | 3.0000           | 2.5000          | 0                | Route Indicator_01 |
+| 2 | SIGNAL          | 853.1000       | -3.0000            | 2.5000          | 3.14159265358979 | Route Indicator_02 |
 
 **NOTE**:
 - All distances are in meters, all angles are in radian.
-- The horizontal offset is negative when an element is placed at the left of the alignment, positive when is placed at the right.
+- The horizontal offset is positive when an element is placed at the left of the alignment, negative when is placed at the right.
 - The vertical offset represents the distance between the signal origin and its vertical projection on the rail level (without cant). 
 - The rotation is based on the line perpendicular to the alignment, is always positive and follows a CCW direction.
 
  <p align="center">
-    <img src="Route_indicator_placement.png" height="500"/>
+    <img src="Route_indicator_placement.png" height="500"/> <br>
+    Route indicator placement: 2D views
 </p> 
 
  <p align="center">
-    <img src="Route_indicator_placement_3D.png" height="500"/>
+    <img src="Route_indicator_placement_3D.png" height="500"/> <br>
+    Route indicator placement: 3D view
 </p> 
 
 ## Stationing
@@ -253,47 +304,3 @@ The values are the following. In the table the type of segment and the segment l
 **NOTE**:
 - All distances are in meters
 
-## Geographic Coordinate System properties
-
-| Coordinate System |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG:3065                             |
-| Description       | IGM95 / UTM zone 33N                  |
-| Projection        | Transverse Mercator                   |
-| EPSG Code         | 3065                                  |
-| Source            | EPSG                                  |
-| Units             | Meter                                 |
-| Central Meridian  | 15°00’00.0000”E                       |
-| Origin Latitude   | 00°00’00.0000”N                       |
-| Scale Reduction   | 0.99960000                            |
-| False Easting     | 500000.0000                           |
-| False Northing    | 0.0000                                |
-| Quadrant          | Positive X and Y                      |
-| Minimum Longitude | 12°00’00.0000”E                       |
-| Maximum Longitude | 18°31’48.0000”E                       |
-| Minimum Latitude  | 36°36’00.0000”N                       |
-| Maximum Latitude  | 47°05’24.0000”N                       |
-
-| Datum             |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG:6670                             |
-| Description       | Istituto Geografico Militare 1995     |
-| Source            | EPSG V6.12 operation EPSG:1098        |
-| Conversion Method | Three Parameter Transformation        |
-| Delta X           | 0.0000                                |
-| Delta Y           | 0.0000                                |
-| Delta Z           | 0.0000                                |
-
-| Ellipsoid         |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG:7030                             |
-| Description       | WGS 84                                |
-| Equatorial Radius | 6378137.0000                          |
-| Polar Radius      | 6356752.3142                          |
-| Eccentricity      | 0.0818                                |
-| Source            | EPSG Version 6                        |
-
-| Vertical Datum    |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG:5214                             |
-| Description       | Genoa height                          |

@@ -53,7 +53,6 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 | Signals_positions.csv                     | Signals positions parameters                                                       |
 | Stationing_values_signals.csv             | Stationing values of the signals                                                   |
 | Geographic_Coordinate_System.pdf          | Geographic Coordinate System properties                                            |
-| Ifc file  **WIP**                         | **Reference IFC file**. Contains the alignment curve with stationing and 2 signals |
 
 
 ## Validation criteria
@@ -107,7 +106,7 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
 <br/>
 
 <p align="center">
-    <img src="./Dataset/Route_indicator_01_top.jpg" height="335"/>
+    <img src="./Dataset/Route_indicator_01_top.jpg" height="400"/>
 </p>
 
  <p align="center">
@@ -116,7 +115,7 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
 <br/>
 
   <p align="center">
-    <img src="./Dataset/Route_indicator_02_top.jpg" height="335"/>
+    <img src="./Dataset/Route_indicator_02_top.jpg" height="490"/>
 </p>
 
  <p align="center">
@@ -125,7 +124,7 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
  <br/>
 
 ### Expected geometry
->:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
+
 
 <p align="center">
     <img src="./Dataset/Expected_geometry.jpg" height="450"/>
@@ -133,7 +132,6 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
 
 
 ### Control parameters
->:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
 
 1. The total 2D length of the track alignment (horizontal projection) is 1029.3721 meters
 2. The total 3D length of the track alignment is 1029.3861 meters
@@ -143,4 +141,4 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
 
 ## Link to requirements
 
-[BC-002 Requirements.xlsx](./Dataset/BC-002.xlsx) (to be replaced with HTML page)
+[BC-002 Requirements.xlsx](./Dataset/BC-002.xlsx)
