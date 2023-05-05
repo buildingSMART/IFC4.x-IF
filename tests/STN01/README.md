@@ -127,7 +127,8 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
 
 
 <p align="center">
-    <img src="./Dataset/Expected_geometry.jpg" height="450"/>
+    <img src="./Dataset/Expected_geometry.jpg" height="450"/> <br>
+    Expected geometry
 </p>
 
 
