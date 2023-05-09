@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS ids_ap1.xsd">
+    <ids:info>
+        <ids:title>Type of IfcReferent Entries</ids:title>
+    </ids:info>
+    
+    <ids:specifications>
+        <ids:specification name="RI-18" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="IFCPRODUCT" />
+                            <xs:enumeration value="IFCSIGNAL" />
+                            <xs:enumeration value="IFCALIGNMENTSEGMENT" />
+                        </xs:restriction>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>              
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                </ids:attribute>             
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="RI-04" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCPROJECT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Description</ids:simpleValue>
+                    </ids:name>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="Alignmentcheck" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>Track alignment</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+
+
+
+        <ids:specification name="Alignmentcheck2" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>.USERDEFINED.</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="Alignmentcheck3" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>ObjectType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>Railway track alignment</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+
+
+
+        <ids:specification name="Alignmentcheck Horizontal" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTHORIZONTAL</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>H1</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        
+        
+        <ids:specification name="Alignmentcheck Vertical" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTVERTICAL</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>V1</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        
+        <ids:specification name="Alignmentcheck Cant" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTCANT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>C1</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        
+        <ids:specification name="Signalnames" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCSIGNAL</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="Route Indicator_01"/> 
+                            <xs:enumeration value="Route Indicator_02"/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+
+
+        <ids:specification name="Alignmentsegm horizontal" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTHORIZONTALSEGMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value=".LINE."/> 
+                            <xs:enumeration value=".CIRCULARARC."/> 
+                            <xs:enumeration value=".CLOTHOID."/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+
+
+
+        <ids:specification name="Alignmentsegm vertical" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTVERTICALSEGMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value=".CONSTANTGRADIENT."/> 
+                            <xs:enumeration value=".CIRCULARARC."/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+
+
+
+        <ids:specification name="Alignmentsegm cant" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTCANTSEGMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value=".CONSTANTCANT."/> 
+                            <xs:enumeration value=".LINEARTRANSITION."/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+
+
+    </ids:specifications>
+</ids:ids>
