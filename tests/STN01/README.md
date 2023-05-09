@@ -73,7 +73,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 #### Test case-specific checks
 
-Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
+Covered by this IDS file: [STN01.ids](./Dataset/STN01.ids)
 
 - (RI-18) Each IfcProduct (and subtypes) must have the attribute `Name` not null and not empty
 - (RI-4) An IfcProject must have the attribute `Description` not null and not empty
@@ -86,7 +86,9 @@ Link to IDS file: [STN01.ids](./Dataset/STN01.ids)
   - (or one step closer to IFC) The PredefinedType of IfcAlignmentHorizontalSegment must be `LINE` or `CIRCULARARC` or `CLOTHOID`
 - (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
 - (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
-- (RI-19) An IfcSignal shall have 'Body' geometry.
+
+Not covered by the IDS file (must be checked otherwise)
+- (RI-19) An IfcSignal shall have 'Body' geometry
   
 ### Informal criteria
 
