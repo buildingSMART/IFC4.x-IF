@@ -235,7 +235,7 @@ The origin of the coordinates system of the signal is placed at the center of th
 
 ### Stationing values according to national conventions
 
-The Italian national convention imposes to indicate at the beginning of the alignment the stationing value at the nearest value to a multiple of 50 meters, and then every 50 meters. In Figure 1, these values are indicated on the right side of the alignment. The values are the following: 
+The Italian national convention imposes to indicate at the beginning of the alignment the stationing value at the nearest value to a multiple of 50 meters, and then every 50 meters. In the [Line layout](#line-layout), these values are indicated on the right side of the alignment. The values are the following: 
 
 | #  | Type of element | Mileage |
 |----|-----------------|---------|
@@ -266,7 +266,7 @@ The Italian national convention imposes to indicate at the beginning of the alig
     
 ### Stationing values of the horizontal segments
 
-Railway designers are used to indicate the stationing values of the horizontal segments. In Figure 1. these values are indicated on the left side of the alignment.
+Railway designers are used to indicate the stationing values of the horizontal segments. In the [Line layout](#line-layout) these values are indicated on the left side of the alignment.
 The values are the following. In the table the type of segment and the segment length both refer to the horizontal segment only. 
 
 | # | Type of segment | From (mileage) | To (mileage) | Segment Length |
