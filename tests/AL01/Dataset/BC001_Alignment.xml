@@ -503,11 +503,6 @@
                     <PI>1253161.285036 2692254.060858</PI>
                     <End>1253147.355411 2692313.559244</End>
                 </Spiral>
-                <Spiral length="82.488820" radiusEnd="2600.000000" radiusStart="2600.000000" rot="ccw" spiType="clothoid" constant="0.000000" dirEnd="4.5141308569" dirStart="4.4824043877" theta="0.0317264692" totalY="1.308430" totalX="-82.474982" staStart="13946.345000" tanLong="41.247870" tanShort="41.247870">
-                    <Start>1253147.355411 2692313.559244</Start>
-                    <PI>1253137.952443 2692353.721054</PI>
-                    <End>1253130.2287 2692394.24366</End>
-                </Spiral>
             </CoordGeom>
             <Cant name="A50034A" gauge="1.435000" rotationPoint="center">
                 <CantStation station="0.000000" appliedCant="79.000000" speed="80.000000" transitionType="clothoid" curvature="cw"/>

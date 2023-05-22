@@ -17,12 +17,12 @@ The series of tests that belong to this Business Cases are listed as follows:
 | Test code | Test name     | 
 |-----------|-----------------|
 | PS01      | Project setup with georeferencing |
+| TE01      | Terrain as existing condition model|
 | **AL01**  | **Multiple alignments of railway line** |
 | LG01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
 | BD01      | Building and terrain as existing condition model |
 | BD02      | Building positioned along alignment |
-| DR01      | Drainage system for railway line |
 | MF01      | Model federation|
 
 

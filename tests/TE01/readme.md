@@ -19,7 +19,6 @@ The series of tests that belong to this Business Cases are listed as follows:
 | TR01      | Track panels positioned along alignments |
 | BU01      | Building(s) as existing condition model |
 | BU02      | Building positioned along alignment |
-| DR01      | Drainage system for railway line |
 | MF01      | Model federation|
 
 
