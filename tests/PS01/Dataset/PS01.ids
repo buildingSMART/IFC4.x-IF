@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS ids_ap1.xsd">
+    <ids:info>
+        <ids:title>BC001 PS01</ids:title>
+        <ids:author>stefan@the-hard-code.com</ids:author>
+        <ids:date>2023-05-24</ids:date>
+        <ids:version>1.0</ids:version>
+        <ids:copyright>aIFC4Rail</ids:copyright>
+    </ids:info>
+    
+    <ids:specifications>
+        
+        <ids:specification name="RI-04" ifcVersion="IFC4X3" >
+            <ids:description>
+                An IfcProject shall have attributes Name and Description.
+                The Name must be 'BC001: Test plan 1'.
+                The Description must be non-empty.  
+            </ids:description>
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCPROJECT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>       
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <ids:simpleValue>BC001: Test plan 1</ids:simpleValue>
+                    </ids:value>
+                </ids:attribute>                                 
+                <ids:attribute minOccurs="1">
+                    <ids:name>
+                        <ids:simpleValue>Description</ids:simpleValue>
+                    </ids:name>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+
+    </ids:specifications>
+</ids:ids>

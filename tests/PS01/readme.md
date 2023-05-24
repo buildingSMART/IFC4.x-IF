@@ -64,16 +64,19 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 #### Test case-specific checks
 
-Link to IDS file: `[ABCD123.ids]()` :construction:
+[IDS file PS01.ids](./Dataset/PS01.ids):
+
+- (RI-04) An `IfcProject` shall have attributes `Name` and `Description`.
+    - The `Name` must be `BC001: Test plan 1`.
+    - The `Description` must be non-empty.
+
+Not covered by the IDS file (must be checked otherwise):
 
 - (RI-01) An `IfcProject` shall define relevant measurement units.
     - There must be at least these 2 instances of `IfcNamedUnit` assigned as default units:
         - one `.LENGTHUNIT.` and
         - one `.PLANEANGLEUNIT.`.
 - (RI-03) An `IfcGeometricRepresentationContext` shall be associated with the `IfcProject`. The project origin should be `(0,0,0)`.
-- (RI-04) An `IfcProject` shall have attributes `Name` and `Description`.
-    - The `Name` must be `BC001: Test plan 1`.
-    - The `Description` must be non-empty.
 - (RI-77) `IfcAnnotation.USERDEFINED` with `ObjectType='Annotation point'` shall have `'Point'` geometry and use `IfcCartesianPoint`.
 - (RI-87) The model shall containts an IfcProjectedCRS that defines the map coordinate system and an IfcMapConversion or `IfcRigidOperation` that defines the mapping between `IfcProjectedCRS` and `IfcGeometricRepresentationContext`. 
     - Georeferencing of the project shall be assigned as
