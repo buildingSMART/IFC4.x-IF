@@ -24,7 +24,7 @@
                 </ids:entity>
             </ids:applicability>
             <ids:requirements>       
-                <ids:attribute minOccurs="1">
+                <ids:attribute minOccurs="1" maxOccurs="unbouded">
                     <ids:name>
                         <ids:simpleValue>Name</ids:simpleValue>
                     </ids:name>
@@ -32,7 +32,7 @@
                         <ids:simpleValue>BC001: Test plan 1</ids:simpleValue>
                     </ids:value>
                 </ids:attribute>                                 
-                <ids:attribute minOccurs="1">
+                <ids:attribute minOccurs="1" maxOccurs="unbouded">
                     <ids:name>
                         <ids:simpleValue>Description</ids:simpleValue>
                     </ids:name>

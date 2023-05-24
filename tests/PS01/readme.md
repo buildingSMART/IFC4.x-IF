@@ -24,13 +24,16 @@ The series of tests that belong to this Business Case are listed as follows:
 
 ## IFC concepts involved in this test
 
-- [Project Global Positioning Mapped](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/project-global-positioning-mapped.htm)
-- [Project Units](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/project-units.htm)
-- [Project Representation Context](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/project-representation-context.htm)
-- [Spatial Decomposition](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/spatial-decomposition.htm)
-- [Spatial Containment](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/spatial-containment.htm)
-- [Mapped Geometry](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/mapped-geometry.htm)
-- [Body Brep Geometry](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/body-brep-geometry.htm)
+- [Project Global Positioning Mapped](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html)
+- [Project Units](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Units/content.html)
+- [Project Representation Context](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Representation_Context/content.html)
+- [Spatial Decomposition](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Aggregation/Spatial_Decomposition/content.html)
+- [Spatial Containment](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Connectivity/Spatial_Structure/Spatial_Containment/content.html)
+- [Mapped Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Mapped_Geometry/content.html)
+- [Body Brep Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Body_Geometry/Body_Brep_Geometry/content.html)
+- [Type Body Brep Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Type_Shape/Product_Type_Geometric_Representation/Type_Body_Geometry/Type_Body_Brep_Geometry/content.html)
+- [Annotation Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Annotation_Geometry/content.html)
+
 
 ## Prerequisites
 
@@ -116,3 +119,8 @@ After importing the reference file (`BC001_PS01_reference.ifc`):
 - project units set to meters for length and degrees for angles;
 - coordinate reference system set to LV95 and LN02 as stated above; and
 - the apex of the pyramid with `GlobalId='3RhbhoXQ53yRzPOejOTUcp'` shall have global coordinates `(2689700.000970772933, 1254570., 450.)` (up to a delta of `1e-6`).
+
+
+## Link to requirements
+
+:zap:
