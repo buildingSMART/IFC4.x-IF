@@ -57,27 +57,33 @@ docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/
 </details>
 
 
+## Prerequisites
+
+The test plan builds upon the [TE01 test plan](../TE01/Readme.md).
+
+
 ## Test dataset (input)
 
 The dataset is made of a LandXML file that has multiple alignments for a section of railway line. The coordinates are defined based on the LV95 ([EPSG 2056](https://epsg.io/2056)) and the vertical datum is LN02 ([EPSG:5728](https://epsg.io/5728)). It has in total 11 alignments and the railway section is about 18 kilometers long. 
-An IFC 4.3 reference file is also provided.
-
 
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
 | [BC001_Alignment.xml](Dateset/BC001_Alignment.xml)    |    Data containing track alignments in LandXML format                                   |
 | [BC001_Alignment.dwg](Dateset/BC001_Alignment.dwg)     |    Data containing track alignments in DWG format                                 |
-| BC001_Alignment(Reference).ifc    |    Data containing track alignments in IFC 4.3                                  |
 
 In addition, the outcome of the Test PS01 and TE01 shall be used as inputs of this Test.
+
 ## Validation criteria
-⚡ For this test case to be considered passed, all criteria listed in this section, and the ones of prerequisites tests shall be verified. ⚡
+
+:zap: For this test case to be considered passed, **all criteria listed in this section**, and **the ones of prerequisites tests** shall be verified. :zap:
 
 ### Formal rules
-Formal Rules are those contained in the Gerkin documentation provided within the bSI validation system. In particular, the following list of rules will apply
+
+Formal Rules are those contained in the Gerkin documentation provided within the bSI validation system. In particular, the following list of rules will apply.
 
 #### IFC standard (schema and specification)
+
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
@@ -89,25 +95,40 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 #### Test case-specific checks
 
-Link to IDS file: STN01.ids 🚧
+[IDS file AL01.ids](./Dataset/AL01.ids):
 
-- (RI-18) Each IfcProduct must have a Name.
-- Each IfcAlignment shall have a Name which is the same with the one in the LandXML file.
-- There must be 11 instance(s) of IfcAlignment(s).
-- (RI-21) Each IfcAlignment must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The IfcOwnerHistory can be shared by multiple IfcAlignment(s) if they have the same information.
-- (RI-15, RI-7) Each IfcAlignment must have a start station.
+- Each `IfcAlignment` shall have a Name which is the same with the one in the LandXML file:
+    - A50034A
+    - A50068A
+    - A50113A
+    - A50114A
+    - A50115A
+    - A50116A
+    - A50117A
+    - A50118A
+    - A50119A
+    - A50120A
+    - A50121A
 - (RI-8) The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
 - (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
 - (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
-- (TBD) Each IfcAlignment must be aggregated directly under IfcProject.
+- (RI-18) Each `IfcProduct` must have a Name.
+- (RI-90) Each `IfcAlignment` must be aggregated directly under `IfcProject`.
+
+Not covered by the IDS file (must be checked otherwise):
+
+- There must be 11 instance(s) of `IfcAlignment`s.
+- (RI-21) Each `IfcAlignment` must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The IfcOwnerHistory can be shared by multiple `IfcAlignment`s if they have the same information.
+- (RI-15, RI-7) Each `IfcAlignment` must have a start station using `IfcReferent`.
 - (TBD) Each alignment must nest a list of stationing. The list of stationing is defined following this principle:
   - Each alignment shall have a start stationing of 0
   - There should be 1 stationing every 100 meters
-  - There should be 1 stationing in each intersection between alignment horizontal segments
+  - There should be 1 stationing in each connecting point between alignment horizontal segments
   - There should be 1 stationing in each intersection between alignments
 
 
 ### Informal criteria
+
 The following steps should be performed in order to corroborate that the software is working as expected:
 
 - All alignments shall be visualized in 3D.
@@ -118,63 +139,71 @@ The following steps should be performed in order to corroborate that the softwar
 
 
 ### Expected geometry
->:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
 
 ![Alt text](Dataset/Alignments_visualization.PNG "Visualization of alignments")
 
 ### Control parameters
->:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
 
 #### Alignment A50034A
 
 1. The total 2D length of the track alignment (horizontal projection) is 14028.83382 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2692394.24366, 1253130.2287, 486.8928999941538
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 44.9087 meters
+
 #### Alignment A50068A
 
 1. The total 2D length of the track alignment (horizontal projection) is 17765.13832 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2694286.68889, 1253836.50579, 509.00070006408737
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 78.3896 meters
+
 #### Alignment A50113A
 
 1. The total 2D length of the track alignment (horizontal projection) is 132.29663 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2689278.250446, 1254930.109624, 454.2618
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.6008 meters
+
 #### Alignment A50114A
 
 1. The total 2D length of the track alignment (horizontal projection) is 1017.00989 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2690215.50869, 1254732.84324, 455.0388999976963
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.8225 meters
+
 #### Alignment A50115A
 
 1. The total 2D length of the track alignment (horizontal projection) is 26.55641 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2689293.715556, 1254915.311747, 455.05101099999956
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.075489 meters
+
 #### Alignment A50116A
 
 1. The total 2D length of the track alignment (horizontal projection) is 512.88321 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2689793.439365, 1254827.196477, 454.6697619996874
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.319362 meters
+
 #### Alignment A50117A
 
 1. The total 2D length of the track alignment (horizontal projection) is 26.53194 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2689346.21648, 1254917.526915, 454.5141450035179
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.188355 meters
+
 #### Alignment A50118A
 
 1. The total 2D length of the track alignment (horizontal projection) is 194.64759 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2690164.880789, 1254742.7813, 454.9500000000008
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.0 meters
+
 #### Alignment A50119A
 
 1. The total 2D length of the track alignment (horizontal projection) is 70.4041 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2689641.465098, 1254857.79618, 454.8
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.0 meters
+
 #### Alignment A50120A
 
 1. The total 2D length of the track alignment (horizontal projection) is 26.55731 meters
 2. The ending point of the track alignment has coordinate (x, y, z) 2690145.462087, 1254740.786184, 454.875779
 3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.074579 meters
+
 #### Alignment A50121A
 
 1. The total 2D length of the track alignment (horizontal projection) is 166.86464 meters
@@ -183,6 +212,6 @@ The following steps should be performed in order to corroborate that the softwar
 
 
 ### Link to requirements
->:information_source: *list requirements covered by this test, or refer to external documentation*
 
-...
+:zap:
+
