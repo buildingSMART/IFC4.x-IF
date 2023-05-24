@@ -23,7 +23,7 @@ DATA;
 #5 = IFCCARTESIANPOINT((0., 0., 0.));
 
 /* ------- IfcProject is the top most element in the project structure ------------------------- */
-#16 = IFCPROJECT('2DAvEupIz0HQr73cMaawtZ', $, 'BC001 PS01', 'Reference example for BC001 PS01 exchange', $, $, $, (#28), #17);
+#16 = IFCPROJECT('2DAvEupIz0HQr73cMaawtZ', $, 'BC001: Test plan 1', 'Reference example for BC001 PS01 Test plan', $, $, $, (#28), #17);
 
 /* ------- IfcUnitAssignment defines the global units for measures and values ------------------ */
 /* ------- when the units are not otherwise defined -------------------------------------------- */
@@ -61,6 +61,13 @@ DATA;
 #82 = IFCMAPCONVERSIONSCALED(#28, #81, 2689000., 1253000., 450., 1., 0., $, 1., 1., 1.);
 /* ------- If interpreted correctly, the base point should be close to the pyramids ------------ */
 
+/* ------- Three annotations with geometry denoting three reference points --------------------- */
+#7000001 = IFCANNOTATION('2RhbhoXQ53yAzPOejOTUcp', $, 'Punkte:Referenzpunkt:11547115', $, 'Annotation point', #7001001, #7002001, .USERDEFINED.);
+
+#7000002 = IFCANNOTATION('2RhbhoXQ53yBzPOejOTUcp', $, 'Punkte:Referenzpunkt:11547333', $, 'Annotation point', #7001002, #7002002, .USERDEFINED.);
+
+#7000003 = IFCANNOTATION('2RhbhoXQ53yCzPOejOTUcp', $, 'Punkte:Referenzpunkt:12053356', $, 'Annotation point', #7001003, #7002003, .USERDEFINED.);
+
 /* ------- Three objects with geometry denoting three reference points ------------------------- */
 #3274450 = IFCBUILDINGELEMENTPROXY('3RhbhoXQ53yRzPOejOTUcp', $, 'Punkte:Referenzpunkt:11547115', $, 'Punkte:Referenzpunkt', #3274968, #3274457, '11547115', $);
 
@@ -72,6 +79,15 @@ DATA;
 #123457 = IFCRELDEFINESBYTYPE('3Hu7f6BmT14B_XS9yS78JY', $, $, $, (#3274450, #3274494, #3274516), #123456);
 
 /* ------- Objects' placement as relative to the IfcFacility's placement ----------------------- */
+#7001001 = IFCLOCALPLACEMENT(#62, #7001101);
+#7001101 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
+
+#7001002 = IFCLOCALPLACEMENT(#62, #7001102);
+#7001102 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
+
+#7001003 = IFCLOCALPLACEMENT(#62, #7001103);
+#7001103 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
+
 #3274968 = IFCLOCALPLACEMENT(#62, #3274969);
 #3274969 = IFCAXIS2PLACEMENT3D(#3274970, #4, #2);
 #3274970 = IFCCARTESIANPOINT((700.000970772933, 1570., 0.));
@@ -84,7 +100,17 @@ DATA;
 #3274979 = IFCAXIS2PLACEMENT3D(#3274980, #4, #2);
 #3274980 = IFCCARTESIANPOINT((195.00097114034, 2100., 0.));
 
-/* ------- Objects' geometry defined with a mapped item ---------------------------------------- */
+/* ------- Annotations' geometry defined with the insertion points of proxys ------------------- */
+#7002001 = IFCPRODUCTDEFINITIONSHAPE($, $, (#7002101));
+#7002101 = IFCSHAPEREPRESENTATION(#28, 'Annotation', 'Point', (#3274970));
+
+#7002002 = IFCPRODUCTDEFINITIONSHAPE($, $, (#7002102));
+#7002102 = IFCSHAPEREPRESENTATION(#28, 'Annotation', 'Point', (#3274973));
+
+#7002003 = IFCPRODUCTDEFINITIONSHAPE($, $, (#7002103));
+#7002103 = IFCSHAPEREPRESENTATION(#28, 'Annotation', 'Point', (#3274980));
+
+/* ------- Proxys' geometry defined with a mapped item ----------------------------------------- */
 #3274457 = IFCPRODUCTDEFINITIONSHAPE($, $, (#3274458));
 #3274458 = IFCSHAPEREPRESENTATION(#28, 'Body', 'MappedRepresentation', (#3274459));
 #3274495 = IFCPRODUCTDEFINITIONSHAPE($, $, (#3274496));
