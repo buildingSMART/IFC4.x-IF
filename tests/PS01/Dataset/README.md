@@ -15,6 +15,9 @@
 
 This dataset is an example of what the project setup model could contain.
 
+
+### Units
+
 The project defines default units:
 
 - *metre* as `LENGTHUNIT`
@@ -24,6 +27,9 @@ The project defines default units:
 - *kilogram* as `MASSUNIT`
 - *second* as `TIMEUNIT`
 - *CHF* as monetary unit
+
+
+### Georeferencing
 
 The coordinate reference system is defined as:
 
@@ -36,6 +42,35 @@ The project's context's point of origin is defined relative to the CRS's point o
 - Easting: 2689000.0
 - Northing: 1253000.0
 - Elevation: 450.0
+
+
+### Annotations
+
+There are three `IfcAnnotation`:
+
+1. its id is `'2RhbhoXQ53yAzPOejOTUcp'`
+  - its name is *Punkte:Referenzpunkt:11547115*
+  - its geometry is a cartesian point with coordinates:
+    - Easting: 700.000970772933
+    - Northing: 1570.0
+    - Elevation: 0.0
+
+2. its id is `'2RhbhoXQ53yBzPOejOTUcp'`
+  - its name is *Punkte:Referenzpunkt:11547333*
+  - its geometry is a cartesian point with coordinates:
+    - Easting: 2005.00097121531
+    - Northing: 1765.0
+    - Elevation: 0.0
+
+3. its id is `'2RhbhoXQ53yCzPOejOTUcp'`
+  - its name is *Punkte:Referenzpunkt:12053356*
+  - its geometry is a cartesian point with coordinates:
+    - Easting: 195.00097114034
+    - Northing: 2100.0
+    - Elevation: 0.0
+
+
+### Proxys
 
 There are three `IfcBuildingElementProxy`:
 

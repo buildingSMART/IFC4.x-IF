@@ -8,12 +8,12 @@
 ## Intent
 
 This Test belongs to a series of Tests that share a dataset from the same project as a business case. 
-The series of tests that belong to this Business Cases are listed as follows:
+The series of tests that belong to this Business Case are listed as follows:
 
 | Test code | Test name     | 
 |-----------|-----------------|
 | PS01      | Project setup with georeferencing |
-| **TE01**      | **Terrain as existing condition model** |
+| **TE01**  | **Terrain as existing condition model** |
 | AL01      | Multiple alignments of railway line |
 | LD01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
@@ -22,15 +22,15 @@ The series of tests that belong to this Business Cases are listed as follows:
 | MF01      | Model federation|
 
 
-<details><summary>IFC concepts involved in this test</summary> 
+## IFC concepts involved in this test
 
-- [Body Tessellation Geometry](https://bsi-infraroom.github.io/IFC-Documentation-Tunnel/4_4_0_0/general/HTML/link/body-tessellation-geometry.htm)
+- All listed in [PS01](https://github.com/buildingSMART/IFC4.x-IF/tree/main/tests/PS01#ifc-concepts-involved-in-this-test)
+- [Surface Tessellation Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Surface_Geometry/Surface_Tessellation_Geometry/content.html)
 
-</details>
 
 ## Prerequisites
 
-The dataset builds upon the dataset from PS01 - see [PS01](../PS01/Readme.md) for more details.
+The test plan builds upon the [PS01 test plan](../PS01/Readme.md).
 
 
 ## Test dataset (input)
@@ -50,19 +50,18 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 
 #### IFC standard (schema and specification)
 
-> TODO *remains to be determined*
-
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
-- All following rules:
-  - ??
 
-> TODO *remains to be determined*
 
 #### Test case-specific checks
 
-Link to IDS file: `[ABCD123.ids]()` :construction:
+[IDS file TE01.ids](./Dataset/TE01.ids):
+
+- The `IfcGeographicElement` instances shall be contained in `IfcSite`.
+
+Not covered by the IDS file (must be checked otherwise):
 
 1. Either:
 - There must be 4 instances of `IfcGeographicElement` in the dataset
@@ -73,19 +72,17 @@ Link to IDS file: `[ABCD123.ids]()` :construction:
 - There must be 1 instances of `IfcTriangulatedIrregularNetwork` in the dataset (as representation of the element above)
     - a union of the 4 elements above
 
-The `IfcGeographicElement` instances shall be aggregated in `IfcSite`.
-
 The provided reference file follows option 1.
 
 
 ### Informal criteria
 
-None. See Expected geometry below.
+- The three reference pyramids from PS01 should lie outside, but in proximity of the terrain.
 
 
 ### Expected geometry
 
-There should be one or four triangulated irregular networks (TINs) defined as described in the [Dataset description](Dataset/README.md).
+There should be one or four triangulated irregular networks (TINs) defined as described in the [Dataset description](./Dataset/README.md).
 
 
 
@@ -95,12 +92,9 @@ The following steps should be performed in order to corroborate that the softwar
 
 After importing the reference file (`BC001_TE01_reference.ifc`):
 
-- the three reference bodies from PS01 should lie outside, but in proximity of the terrain
-- the min/max values of terrain provided in Expected geometry above should be equal
+- The min/max values of terrain provided in Expected geometry above should be equal to those provided in [Expected Geometry](#expected-geometry).
 
 
 ## Link to requirements
 
-> TODO *remains to be determined*
-
-:zap: ??
+:zap:
