@@ -52,7 +52,7 @@ DATA;
 #62 = IFCLOCALPLACEMENT($, #29);
 /* ------- Project/Spatial structure ----------------------------------------------------------- */
 #63 = IFCRELAGGREGATES('3Hu7f6BmT14B_XS9yS78JZ', $, $, $, #16, (#61));
-#64 = IFCRELCONTAINEDINSPATIALSTRUCTURE('3Hu7f6BmT14B_XS9yS78JX', $, $, $, (#3274450, #3274494, #3274516), #61);
+#64 = IFCRELCONTAINEDINSPATIALSTRUCTURE('3Hu7f6BmT14B_XS9yS78JX', $, $, $, (#3274450, #3274494, #3274516, #7000001, #7000002, #7000003), #61);
 
 /* ------- IfcProjectedCRS provides information about the underlying CRS ----------------------- */
 #81 = IFCPROJECTEDCRS('EPSG:2056,EPSG:5728', 'CH1903+ / LV95 + LN02 height', 'EPSG:4150', 'EPSG:5728', 'Hotine Oblique Mercator Azimuth Center', $, #18);
