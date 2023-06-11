@@ -45,7 +45,6 @@ The concept templates that are focused by this series of tests are listed as fol
 - [Element Decomposition](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Placement/Product_Local_Placement/content.html)
 - [Revision Control](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Revision_Control/content.html)
 - [Software Identity](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Software_Identity/content.html)
-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Clearance_Geometry/content.html)
 
 </details>
 <details>
@@ -67,18 +66,15 @@ Optionally, these concepts templates should be involved in this test
 
 ## Test dataset (input)
 
-The dataset is made of a LandXML file that has multiple alignments for a section of railway line. The coordinates are defined based on the LV95 ([EPSG 2056](https://epsg.io/2056)) and the vertical datum is LN02 ([EPSG:5728](https://epsg.io/5728)). It has in total 11 alignments and the railway section is about 18 kilometers long. 
-An IFC 4.3 reference file is also provided.
+The dataset is made of an IFC 2x3 file.
 
 
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| [BC001_Alignment.xml](Dateset/BC001_Alignment.xml)    |    Data containing track alignments in LandXML format                                   |
-| [BC001_Alignment.dwg](Dateset/BC001_Alignment.dwg)     |    Data containing track alignments in DWG format                                 |
-| BC001_Alignment(Reference).ifc    |    Data containing track alignments in IFC 4.3                                  |
+| [BC001_Track.ifczip](Dateset/BC001_Track.ifczip)    |    Data containing track panels in IFC 2x3 format                           |
 
-In addition, the outcome of the Test PS01 and TE01 shall be used as inputs of this Test.
+In addition, the outcome of the Test AL01 shall be used as inputs of this Test.
 ## Validation criteria
 ⚡ For this test case to be considered passed, all criteria listed in this section, and the ones of prerequisites tests shall be verified. ⚡
 
