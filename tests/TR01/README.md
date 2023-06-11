@@ -216,7 +216,7 @@ The following steps should be performed in order to corroborate that the softwar
 | Allgemeines Modell Baugruppe:Weiche 18:40478440 | IfcElementAssembly.TURNOUTPANEL |              |              |
 
 ### Link to requirements
->:information_source: *list requirements covered by this test, or refer to external documentation*
+
 [BC-001_Requirements.xlsx](https://app.box.com/s/2sotgbbzx2mpry7oj9fud9b3xlv6p1i4)
 
 
