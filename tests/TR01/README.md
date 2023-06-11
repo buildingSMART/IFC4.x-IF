@@ -106,16 +106,16 @@ The following steps should be performed in order to corroborate that the softwar
 - All track panels shall be visualized in 3D.
 - The hierarchy of the model shall be:
  - `IfcProject`
-  - `IfcAlignment`
-  - `IfcSite.Name='DORF-BSD'`
-  - `IfcRailway.Name='RL'`
-   - `IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'`
-    - `IfcElementAssembly.TRACKPANEL`
-     - `IfcTrackElement.SLEEPER`
-     - `IfcRail.RAIL`
-    - `IfcElementAssembly.TURNOUTPANEL`
-     - `IfcTrackElement.SLEEPER`
-     - `IfcRail.RAIL`
+   - `IfcAlignment`
+   - `IfcSite.Name='DORF-BSD'`
+   - `IfcRailway.Name='RL'`
+     - `IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'`
+       - `IfcElementAssembly.TRACKPANEL`
+         - `IfcTrackElement.SLEEPER`
+         - `IfcRail.RAIL`
+       - `IfcElementAssembly.TURNOUTPANEL`
+         - `IfcTrackElement.SLEEPER`
+         - `IfcRail.RAIL`
 
 
 
