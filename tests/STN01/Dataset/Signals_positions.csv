@@ -1,3 +1,3 @@
 ﻿#,Type of element,Distance Along,Offset Horizontal,Offset Vertical,Rotation,Name
-1,SIGNAL,353.1,-3,2.5,0,Route Indicator_01
-2,SIGNAL,853.1,3,2.5,3.14159265358979,Route Indicator_02
+1,SIGNAL,353.1,+3,2.5,0,Route Indicator_01
+2,SIGNAL,853.1,-3,2.5,3.14159265358979,Route Indicator_02

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS ids_ap1.xsd">
+    <ids:info>
+        <ids:title>BC001 TE01</ids:title>
+        <ids:author>stefan@the-hard-code.com</ids:author>
+        <ids:date>2023-05-24</ids:date>
+        <ids:version>1.0</ids:version>
+        <ids:copyright>aIFC4Rail</ids:copyright>
+    </ids:info>
+    
+    <ids:specifications>
+        
+        <ids:specification name="Spatial containment for terrain" ifcVersion="IFC4X3" >
+            <ids:description>
+                The IfcGeographicElement instances shall be contained in IfcSite.  
+            </ids:description>
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCGEOGRAPHICELEMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>       
+                <ids:partof relation="IfcRelContainedInSpatialStructure" minOccurs="1" maxOccurs="unbouded">
+                    <entity>
+                        <ids:name>
+                            <ids:simpleValue>IFCSITE</ids:simpleValue>
+                        </ids:name>
+                    </entity>
+                </ids:partof>
+            </ids:requirements>
+        </ids:specification>
+
+    </ids:specifications>
+</ids:ids>

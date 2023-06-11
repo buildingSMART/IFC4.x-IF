@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS ids_ap1.xsd">
+    <ids:info>
+        <ids:title>BC001 AL01</ids:title>
+        <ids:author>stefan@the-hard-code.com</ids:author>
+        <ids:date>2023-05-24</ids:date>
+        <ids:version>1.0</ids:version>
+        <ids:copyright>aIFC4Rail</ids:copyright>
+    </ids:info>
+    
+    <ids:specifications>
+        <ids:specification name="RI-18" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="IFCPRODUCT" />
+                        </xs:restriction>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>              
+                <ids:attribute minOccurs="1" maxOccurs="unbounded">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                </ids:attribute>             
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="Alignment name" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1" maxOccurs="unbounded">
+                    <ids:name>
+                        <ids:simpleValue>Name</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="A50034A" />
+                            <xs:enumeration value="A50068A" />
+                            <xs:enumeration value="A50113A" />
+                            <xs:enumeration value="A50114A" />
+                            <xs:enumeration value="A50115A" />
+                            <xs:enumeration value="A50116A" />
+                            <xs:enumeration value="A50117A" />
+                            <xs:enumeration value="A50118A" />
+                            <xs:enumeration value="A50119A" />
+                            <xs:enumeration value="A50120A" />
+                            <xs:enumeration value="A50121A" />
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="Alignmentsegm horizontal" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTHORIZONTALSEGMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1" maxOccurs="unbounded">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value=".LINE."/> 
+                            <xs:enumeration value=".CIRCULARARC."/> 
+                            <xs:enumeration value=".CLOTHOID."/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="Alignmentsegm vertical" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTVERTICALSEGMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1" maxOccurs="unbounded">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value=".CONSTANTGRADIENT."/> 
+                            <xs:enumeration value=".CIRCULARARC."/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+        
+        <ids:specification name="Alignmentsegm cant" ifcVersion="IFC4X3" >
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENTCANTSEGMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>                          
+                <ids:attribute minOccurs="1" maxOccurs="unbounded">
+                    <ids:name>
+                        <ids:simpleValue>PredefinedType</ids:simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value=".CONSTANTCANT."/> 
+                            <xs:enumeration value=".LINEARTRANSITION."/> 
+                        </xs:restriction>
+                    </ids:value>
+                </ids:attribute>
+            </ids:requirements>
+        </ids:specification>
+
+        <ids:specification name="RI-90" ifcVersion="IFC4X3" >
+            <ids:description>
+                Each IfcAlignment must be aggregated directly under IfcProject.
+            </ids:description>
+            <ids:applicability>
+                <ids:entity> 
+                    <ids:name>
+                        <ids:simpleValue>IFCALIGNMENT</ids:simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <ids:requirements>       
+                <ids:partof relation="IfcRelAggregates" minOccurs="1" maxOccurs="unbouded">
+                    <entity>
+                        <ids:name>
+                            <ids:simpleValue>IFCPROJECT</ids:simpleValue>
+                        </ids:name>
+                    </entity>
+                </ids:partof>
+            </ids:requirements>
+        </ids:specification>
+
+
+    </ids:specifications>
+</ids:ids>
