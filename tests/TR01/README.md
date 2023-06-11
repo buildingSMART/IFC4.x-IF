@@ -86,36 +86,36 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
 - All following rules:
-  - EC001 - Each 'IfcElement' that is decomposed by components shall not have body representation.
-  - EP001 - A product that is positioned based on an IfcPositioningElement shall be placed against the placement of the IfcPositioningElement.
-  - EP003 - A compoent of an element shall not be directly positioned (IfcRelPositions) based on an IfcPositioningElement or be directly contained (IfcRelContainedInSpatialStructure) in an IfcSpatialStructureElement.
+  - EC001 - Each 'IfcElement' that is decomposed by other `IfcElement` shall not have body representation.
+  - EP001 - An `IfcProduct` that is positioned based on an `IfcPositioningElement` shall be placed relative to the `ObjectPlacement` of the `IfcPositioningElement`.
+  - EP003 - An `IfcElement` that composes another `IfcElement` shall not have `IfcRelPositions` relationship to an `IfcPositioningElement` or beirectly contained (IfcRelContainedInSpatialStructure) in an IfcSpatialStructureElement.
 
 #### Test case-specific checks
 
 Link to IDS file: STN01.ids 🚧
 
-- (RI-18) Each track panel (IfcElementAssembly.TRACKPANEL) and turnout panel (IfcElementAssembly.TURNOUTPANEL) must have a Name.
-- (RI-19) Each sleeper (IfcTrackElement.SLEEPER) and rail (IfcRail.RAIL) shall have 'Body' representation.
-- (RI-60, RI-61) It is recommended that all 'Body' representations shall have extruded or swept solid geometry. It is acceptable to have tessellated geometry. All sleepers (IfcTrackElement.SLEEPER) shall have mapped geometry.
-- (RI-21) Each track panel (IfcElementAssembly.TRACKPANEL) and turnout panel (IfcElementAssembly.TURNOUTPANEL) must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The IfcOwnerHistory can be shared by multiple IfcElementAssembly if they have the same information, but the IfcOwnerHistory used by IfcElementAssembly shall be different with the ones used by IfcAlignment and IfcProject.
-- (RI-15, RI-7) Each track panel (IfcElementAssembly.TRACKPANEL) and turnout panel (IfcElementAssembly.TURNOUTPANEL) must be decomposed by rails (IfcRail.RAIL) and sleepers (IfcTrackElement.SLEEPER).
+- (RI-18) Each `IfcElementAssembly.TRACKPANEL` or `IfcElementAssembly.TURNOUTPANEL` must have a `Name`.
+- (RI-19) Each `IfcTrackElement.SLEEPER` and `IfcRail.RAIL` shall have 'Body' representation.
+- (RI-60, RI-61) It is recommended that all 'Body' representations shall have extruded or swept solid geometry. It is acceptable to have tessellated geometry. All `IfcTrackElement.SLEEPER` shall have mapped geometry.
+- (RI-21) Each `IfcElementAssembly.TRACKPANEL` and `IfcElementAssembly.TURNOUTPANEL` must have `OwnerHistory` assigned, which has `OwningUser`, `OwningApplication`, `ChangeAction`, `CreationDate` and `State`. The `IfcOwnerHistory` can be shared by multiple `IfcElementAssembly` if they have the same information, but the `IfcOwnerHistory` used by `IfcElementAssembly` shall be different with the ones used by `IfcAlignment` and `IfcProject`.
+- (RI-15, RI-7) Each `IfcElementAssembly.TRACKPANEL` or `IfcElementAssembly.TURNOUTPANEL` must be decomposed by `IfcRail.RAIL` and `IfcTrackElement.SLEEPER`.
 
 ### Informal criteria
 The following steps should be performed in order to corroborate that the software is working as expected:
 
 - All track panels shall be visualized in 3D.
 - The hierarchy of the model shall be:
- - IfcProject
-  - IfcAlignment
-  - IfcSite.Name='DORF-BSD'
-  - IfcRailway.Name='RL'
-   - IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'
-    - IfcElementAssembly.TRACKPANEL
-     - IfcTrackElement.SLEEPER
-     - IfcRail.RAIL
-    - IfcElementAssembly.TURNOUTPANEL
-     - IfcTrackElement.SLEEPER
-     - IfcRail.RAIL
+ - `IfcProject`
+  - `IfcAlignment`
+  - `IfcSite.Name='DORF-BSD'`
+  - `IfcRailway.Name='RL'`
+   - `IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'`
+    - `IfcElementAssembly.TRACKPANEL`
+     - `IfcTrackElement.SLEEPER`
+     - `IfcRail.RAIL`
+    - `IfcElementAssembly.TURNOUTPANEL`
+     - `IfcTrackElement.SLEEPER`
+     - `IfcRail.RAIL`
 
 
 
