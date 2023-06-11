@@ -50,7 +50,7 @@ The concept templates that are focused by this series of tests are listed as fol
 <details>
 	<summary>Recommended IFC concepts involved in this test</summary> 
 
-Optionally, these concepts templates should be involved in this test
+Optionally, these concepts templates should be applied in this Test.
 
 - [Body AdvancedSwept Directrix Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Body_Geometry/Body_AdvancedSweptSolid_Geometry/Body_AdvancedSwept_Directrix_Geometry/content.html)
 - [Object Typing](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Definition/Object_Typing/content.html)
@@ -66,7 +66,7 @@ Optionally, these concepts templates should be involved in this test
 
 ## Test dataset (input)
 
-The dataset is made of an IFC 2x3 file.
+The dataset is made of an IFC 2x3 file. It contains a section of railway line that have tracks consist of track panels and turnout panels, which are instantiated as IfcElementAssembly. Each track panel and turnout panel consists of rails and sleepers. Rails and sleepers are all instantiated as IfcBuildingElementProxy, which have the body representation of Brep or SweptSolid.
 
 
 
@@ -86,25 +86,20 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
 - All following rules:
-  - ALB002 - Alignment layout 
-  - ALB003 - Alignment directions
-  - TBD000 - Alignment shape representation 
-  - TBD000 - Stationing along alignment
+  - EC001 - Each element that is decomposed by components shall not have body representation.
+  - EP001 - A product that is positioned based on an IfcPositioningElement shall be placed against the placement of the IfcPositioningElement.
+  - EP002 - A component of an element shall be placed against the placement of the element. 
+  - EP003 - A compoent of an element shall not be directly positioned (IfcRelPositions) based on an IfcPositioningElement or be directly contained (IfcRelContainedInSpatialStructure) in an IfcSpatialStructureElement.
 
 #### Test case-specific checks
 
 Link to IDS file: STN01.ids 🚧
 
-- (RI-18) Each IfcProduct must have a Name.
-- Each IfcAlignment shall have a Name which is the same with the one in the LandXML file.
-- There must be 11 instance(s) of IfcAlignment(s).
-- (RI-21) Each IfcAlignment must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The IfcOwnerHistory can be shared by multiple IfcAlignment(s) if they have the same information.
-- (RI-15, RI-7) Each IfcAlignment must have a start station.
-- (RI-8) The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
-- (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
-- (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
-- (TBD) Each IfcAlignment must be aggregated directly under IfcProject.
-
+- (RI-18) Each track panel (IfcElementAssembly.TRACKPANEL) and turnout panel (IfcElementAssembly.TURNOUTPANEL) must have a Name.
+- (RI-19) Each sleeper (IfcTrackElement.SLEEPER) and rail (IfcRail.RAIL) shall have 'Body' representation.
+- (RI-60, RI-61) It is recommended that all 'Body' representations shall have extruded or swept solid geometry. It is acceptable to have tessellated geometry. All sleepers (IfcTrackElement.SLEEPER) shall have mapped geometry.
+- (RI-21) Each track panel (IfcElementAssembly.TRACKPANEL) and turnout panel (IfcElementAssembly.TURNOUTPANEL) must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The IfcOwnerHistory can be shared by multiple IfcElementAssembly if they have the same information, but the IfcOwnerHistory used by IfcElementAssembly shall be different with the ones used by IfcAlignment and IfcProject.
+- (RI-15, RI-7) Each track panel (IfcElementAssembly.TRACKPANEL) and turnout panel (IfcElementAssembly.TURNOUTPANEL) must be decomposed by rails (IfcRail.RAIL) and sleepers (IfcTrackElement.SLEEPER).
 
 ### Informal criteria
 The following steps should be performed in order to corroborate that the software is working as expected:
@@ -123,7 +118,7 @@ The following steps should be performed in order to corroborate that the softwar
 ### Control parameters
 >:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
 
-| Alignment        | 2D Length | 3D Length | ending point | vertical height difference |
+| Track Panel        | Alignment | StartDistAlong | ending point | vertical height difference |
 |------------------|-----------|-----------|--------------|----------------------------|
 |   A50034A        |           |           |              |                            |
 |   A50068A        |           |           |              |                            |
@@ -139,5 +134,7 @@ The following steps should be performed in order to corroborate that the softwar
 
 ### Link to requirements
 >:information_source: *list requirements covered by this test, or refer to external documentation*
+
+
 
 ...
