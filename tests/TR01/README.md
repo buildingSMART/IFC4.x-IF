@@ -88,7 +88,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 - All following rules:
   - EC001 - Each 'IfcElement' that is decomposed by other `IfcElement` shall not have body representation.
   - EP001 - An `IfcProduct` that is positioned based on an `IfcPositioningElement` shall be placed relative to the `ObjectPlacement` of the `IfcPositioningElement`.
-  - EP003 - An `IfcElement` that composes another `IfcElement` shall not have `IfcRelPositions` relationship to an `IfcPositioningElement` or beirectly contained (IfcRelContainedInSpatialStructure) in an IfcSpatialStructureElement.
+  - EP003 - An `IfcElement` that composes another `IfcElement` shall not have `IfcRelPositions` relationship to an `IfcPositioningElement` or have `IfcRelContainedInSpatialStructure` relationship to an IfcSpatialStructureElement.
 
 #### Test case-specific checks
 
