@@ -86,9 +86,8 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
 - All following rules:
-  - EC001 - Each element that is decomposed by components shall not have body representation.
+  - EC001 - Each 'IfcElement' that is decomposed by components shall not have body representation.
   - EP001 - A product that is positioned based on an IfcPositioningElement shall be placed against the placement of the IfcPositioningElement.
-  - EP002 - A component of an element shall be placed against the placement of the element. 
   - EP003 - A compoent of an element shall not be directly positioned (IfcRelPositions) based on an IfcPositioningElement or be directly contained (IfcRelContainedInSpatialStructure) in an IfcSpatialStructureElement.
 
 #### Test case-specific checks
@@ -104,16 +103,28 @@ Link to IDS file: STN01.ids 🚧
 ### Informal criteria
 The following steps should be performed in order to corroborate that the software is working as expected:
 
-- All alignments shall be visualized in 3D.
-- It is recommended that each layout of alignments can be visualized in 2D.
-- Each alignment must be continuous with certain delta. This also applies to tangent continuity and curvature continuity, in these two cases gaps that exceed the delta will be checked case by case.
+- All track panels shall be visualized in 3D.
+- The hierarchy of the model shall be:
+ - IfcProject
+  - IfcAlignment
+  - IfcSite.Name='DORF-BSD'
+  - IfcRailway.Name='RL'
+   - IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'
+    - IfcElementAssembly.TRACKPANEL
+     - IfcTrackElement.SLEEPER
+     - IfcRail.RAIL
+    - IfcElementAssembly.TURNOUTPANEL
+     - IfcTrackElement.SLEEPER
+     - IfcRail.RAIL
+
+
 
 
 
 ### Expected geometry
 >:information_source: *add image of the expected geometry. Upload the jpeg/png file in the Dataset folder of this test*
 
-![Alt text](Dataset/Alignments_visualization.PNG "Visualization of alignments")
+![Alt text](Dataset/Visualization.PNG "Visualization of track panels")
 
 ### Control parameters
 >:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
