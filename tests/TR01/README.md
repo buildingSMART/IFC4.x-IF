@@ -129,19 +129,91 @@ The following steps should be performed in order to corroborate that the softwar
 ### Control parameters
 >:information_source: *add parameters/data that can be use to support the validation of import into a receiving application. Example: total length of one alignment, coordinates for end point of the alignment.*
 
-| Track Panel        | Alignment | StartDistAlong | ending point | vertical height difference |
-|------------------|-----------|-----------|--------------|----------------------------|
-|   A50034A        |           |           |              |                            |
-|   A50068A        |           |           |              |                            |
-|   A50113A        |           |           |              |                            |
-|   A50114A        |           |           |              |                            |
-|   A50115A        |           |           |              |                            |
-|   A50116A        |           |           |              |                            |
-|   A50117A        |           |           |              |                            |
-|   A50118A        |           |           |              |                            |
-|   A50119A        |           |           |              |                            |
-|   A50120A        |           |           |              |                            |
-|   A50121A        |           |           |              |                            |
+| Track Panel        | Type | Alignment | StartDistAlong |
+|------------------|-----------|-----------|--------------|
+| Allgemeines Modell Baugruppe:Gleisrost_2:40004919 | IfcElementAssembly.TRACKPANEL   |              |              |  
+| Allgemeines Modell Baugruppe:Gleisrost_002:40119142 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_003:40126858 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Weiche_13:40192369 | IfcElementAssembly.TURNOUTPANEL |              |              |    
+| Allgemeines Modell Baugruppe:Weiche_14:40195002 | IfcElementAssembly.TURNOUTPANEL |              |              |    
+| Allgemeines Modell Baugruppe:Weiche_15:40196791 | IfcElementAssembly.TURNOUTPANEL |              |              |    
+| Allgemeines Modell Baugruppe:Weiche_17:40199109 | IfcElementAssembly.TURNOUTPANEL |              |              |    
+| Allgemeines Modell Baugruppe:Weiche_16:40200465 | IfcElementAssembly.TURNOUTPANEL |              |              |    
+| Allgemeines Modell Baugruppe:Gleisrost_001:40256392 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_010:40257923 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_011:40258190 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_012:40258457 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_013:40258724 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_014:40262086 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_015:40262387 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_016:40262642 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_017:40262897 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_018:40263208 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_019:40263463 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_020:40263721 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_021:40264005 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_022:40264408 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_023:40264690 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_024:40264972 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_025:40265227 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_026:40265538 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_027:40265820 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_028:40266075 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_029:40266386 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_030:40266640 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_031:40268538 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_032:40268784 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_033:40269143 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_034:40269389 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_035:40269636 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_036:40269946 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_037:40270274 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_038:40270528 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_039:40270774 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_040:40271021 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_041:40271331 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_042:40271632 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_043:40271912 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_044:40272240 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_045:40272520 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_046:40272766 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_047:40273040 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_048:40273320 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_049:40273620 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_050:40274116 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_051:40275972 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_052:40276318 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_053:40276573 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_054:40276911 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_055:40277181 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_056:40277487 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_057:40277742 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_058:40277997 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_059:40278307 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_060:40278554 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_061:40278865 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_062:40279120 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_063:40279375 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_064:40279629 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_065:40279903 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_066:40280157 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_084:40473697 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_085:40476692 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_086:40476715 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_087:40476734 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_088:40476746 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_089:40476769 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_090:40476797 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_091:40476876 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_092:40476901 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_093:40476925 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_094:40476948 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_095:40476972 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_096:40476994 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_097:40477016 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_098:40477040 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Gleisrost_099:40477060 | IfcElementAssembly.TRACKPANEL   |              |              |
+| Allgemeines Modell Baugruppe:Weiche 18:40478440 | IfcElementAssembly.TURNOUTPANEL |              |              |
 
 ### Link to requirements
 >:information_source: *list requirements covered by this test, or refer to external documentation*
