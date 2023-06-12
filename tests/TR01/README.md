@@ -72,7 +72,7 @@ The dataset is made of an IFC 2x3 file. It contains a section of railway line th
 
 | Filename (format)         | Description                                                        |
 |---------------------------|--------------------------------------------------------------------|
-| [BC001_Track.ifczip](Dateset/BC001_Track.ifczip)    |    Data containing track panels in IFC 2x3 format                           |
+| [BC001_Track.ifczip](https://app.box.com/s/vroc2d7zqoooi9idnx2x8zj0tsuv8xrq)    |    Data containing track panels in IFC 2x3 format                           |
 
 In addition, the outcome of the Test AL01 shall be used as inputs of this Test.
 ## Validation criteria
