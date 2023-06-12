@@ -86,7 +86,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
 - All following rules:
-  - ED001 - Each 'IfcElement' that is decomposed by other `IfcElement` shall not have body representation.
+  - ED001 - Each `IfcElement` that is decomposed by other `IfcElement` shall not have body representation.
   - EP001 - An `IfcProduct` that is positioned based on an `IfcPositioningElement` shall be placed relative to the `ObjectPlacement` of the `IfcPositioningElement`.
   - EP002 - An `IfcElement` that composes another `IfcElement` shall not have `IfcRelPositions` relationship to an `IfcPositioningElement` or have `IfcRelContainedInSpatialStructure` relationship to an IfcSpatialStructureElement.
 
