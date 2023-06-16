@@ -1,8 +1,8 @@
-# Project Setup 01 - BC001-PS01
+# Project Setup 01 - BC003-PS01
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-|BC001-PS01 | Joao Correa     | MINnD               | Export/Import  |
+|BC003-PS01 | Joao Correa     | MINnD               | Export/Import  |
 
 
 ## Intent
