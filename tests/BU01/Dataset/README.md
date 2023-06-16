@@ -12,7 +12,7 @@ This dataset is an example of what a terrain model with the surrounding building
 Additionally to the content of [TE01](../../TE01/Dataset/readme.md),
  there are 47 `IfcBuilding`s.
 
-Each has a property set named `'SBB-CFF-FFS'` attached with two properties:
+Each has a property set named `'SBB-CFF-FFS'` attached with these properties:
 1. named `'Status'` with value `'Bestand'`,
 1. named `'ObjectTypeName'` with value `'Gebäude (CD)'` and
 1. named `'ObjectTypeID'` with value `'tbd'`.
