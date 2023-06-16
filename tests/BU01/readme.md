@@ -1,4 +1,4 @@
-# Terrain 01 - BC001-BU01
+# Building 01 - BC001-BU01
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
