@@ -80,7 +80,7 @@ There should be three pyramids turned upside down:
 
 1. product with `GlobalId='0SGxbfZ753H9JxUygRKEif'` with its apex at position `(1892028.44995586, 3126573.34741202, 3.58214714)` ;
 2. product with `GlobalId='1QGIfOv2vCmP6wCdfw661z'` with its apex at position `(1891963.00866927, 3126717.20273397, 3.95935497)` ; and
-3. product with `GlobalId='0gElLyvUP7pu3MBs30OjlL'` with its apex at position `(1892026.93786196, 3126788.73823184, 3.64980163)` relative to project base point.
+3. product with `GlobalId='0gElLyvUP7pu3MBs30OjlL'` with its apex at position `(1892026.93786196, 3126788.73823184, 3.64980163)`.
 
 
 ### Control parameters
