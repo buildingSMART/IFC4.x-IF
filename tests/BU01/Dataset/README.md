@@ -21,4 +21,6 @@ Each has a property set named `'SBB-CFF-FFS'` attached with two properties:
 
 !["Skewed view of the buildings."](./skewedview.png)
 
+!["Skewed view of the buildings, different perspective."](./skewedview2.png)
+
 !["Bottom view of the buildings with terrain visible."](./bottomview.png)
