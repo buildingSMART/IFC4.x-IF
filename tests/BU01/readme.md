@@ -24,13 +24,13 @@ The series of tests that belong to this Business Case are listed as follows:
 
 ## IFC concepts involved in this test
 
-- All listed in [TE01](https://github.com/buildingSMART/IFC4.x-IF/tree/main/tests/PS01#ifc-concepts-involved-in-this-test)
+- All listed in [TE01](https://github.com/buildingSMART/IFC4.x-IF/tree/main/tests/TE01#ifc-concepts-involved-in-this-test)
 - [Body Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Body_Geometry/content.html)
 
 
 ## Prerequisites
 
-The test plan builds upon the [TE01 test plan](../PS01/Readme.md).
+The test plan builds upon the [TE01 test plan](../TE01/Readme.md).
 
 
 ## Test dataset (input)
