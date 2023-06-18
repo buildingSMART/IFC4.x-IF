@@ -21,8 +21,8 @@ The series of tests that belong to this Business Cases are listed as follows:
 | AL01  | Multiple alignments of railway line |
 | LG01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
-| BD01      | Building and terrain as existing condition model |
-| BD02      | Building positioned along alignment |
+| BU01      | Building and terrain as existing condition model |
+| BU02      | Building positioned along alignment |
 | **MF01**      | **Model federation** |
 
 
