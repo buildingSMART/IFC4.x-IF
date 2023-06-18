@@ -88,34 +88,25 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 [IDS file MF01.ids](./Dataset/MF01.ids):
 
-- Each `IfcAlignment` shall have a Name which is the same with the one in the LandXML file:
-    - A50034A
-    - A50068A
-    - A50113A
-    - A50114A
-    - A50115A
-    - A50116A
-    - A50117A
-    - A50118A
-    - A50119A
-    - A50120A
-    - A50121A
-- (RI-8) The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
-- (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
-- (RI-13) The cant layout must include only the following types of segments: Constant Cant, Linear Transition
-- (RI-18) Each `IfcProduct` must have a Name.
-- (RI-90) Each `IfcAlignment` must be aggregated directly under `IfcProject`.
-
 Not covered by the IDS file (must be checked otherwise):
 
 - There must be 11 instance(s) of `IfcAlignment`s.
-- (RI-21) Each `IfcAlignment` must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The IfcOwnerHistory can be shared by multiple `IfcAlignment`s if they have the same information.
-- (RI-15, RI-7) Each `IfcAlignment` must have a start station using `IfcReferent`.
-- (TBD) Each alignment must nest a list of stationing. The list of stationing is defined following this principle:
-  - Each alignment shall have a start stationing of 0
-  - There should be 1 stationing every 100 meters
-  - There should be 1 stationing in each connecting point between alignment horizontal segments
-  - There should be 1 stationing in each intersection between alignments
+- The spatial structure of the file shall be as follows:
+  - `IfcProject`
+    - `IfcAlignment`
+    - `IfcSite.Name='DORF-BSD'`
+      - `IfcGeographicElement`
+      - `IfcBuilding.ObjectPlacement[Type]='IfcLocalPlacement'`
+    - `IfcRailway.Name='RL'`
+      - `IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'`
+        - `IfcElementAssembly.TRACKPANEL`
+          - `IfcTrackElement.SLEEPER`
+          - `IfcRail.RAIL`
+        - `IfcElementAssembly.TURNOUTPANEL`
+          - `IfcTrackElement.SLEEPER`
+          - `IfcRail.RAIL`
+    - `IfcBuilding.ObjectPlacement[Type]='IfcLinearPlacement'`
+   
 
 
 ### Informal criteria
