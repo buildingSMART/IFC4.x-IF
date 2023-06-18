@@ -113,84 +113,15 @@ Not covered by the IDS file (must be checked otherwise):
 
 The following steps should be performed in order to corroborate that the software is working as expected:
 
-- All alignments shall be visualized in 3D.
-- It is recommended that each layout of alignments can be visualized in 2D.
-- Stationing along alignments shall be visualized in horizontal 2D layout and 3D.
-- Each alignment must be continuous with certain delta. This also applies to tangent continuity and curvature continuity, in these two cases gaps that exceed the delta will be checked case by case.
-
+- Models shall be coordinated correctly, regarding positions and geometry.
 
 
 ### Expected geometry
 
-![Alt text](Dataset/Alignments_visualization.PNG "Visualization of alignments")
+![Alt text](Dataset/Visualization.PNG "Visualization of federated model")
 
 ### Control parameters
 
-#### Alignment A50034A
-
-1. The total 2D length of the track alignment (horizontal projection) is 14028.83382 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2692394.24366, 1253130.2287, 486.8928999941538
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 44.9087 meters
-
-#### Alignment A50068A
-
-1. The total 2D length of the track alignment (horizontal projection) is 17765.13832 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2694286.68889, 1253836.50579, 509.00070006408737
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 78.3896 meters
-
-#### Alignment A50113A
-
-1. The total 2D length of the track alignment (horizontal projection) is 132.29663 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2689278.250446, 1254930.109624, 454.2618
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.6008 meters
-
-#### Alignment A50114A
-
-1. The total 2D length of the track alignment (horizontal projection) is 1017.00989 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2690215.50869, 1254732.84324, 455.0388999976963
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.8225 meters
-
-#### Alignment A50115A
-
-1. The total 2D length of the track alignment (horizontal projection) is 26.55641 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2689293.715556, 1254915.311747, 455.05101099999956
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.075489 meters
-
-#### Alignment A50116A
-
-1. The total 2D length of the track alignment (horizontal projection) is 512.88321 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2689793.439365, 1254827.196477, 454.6697619996874
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.319362 meters
-
-#### Alignment A50117A
-
-1. The total 2D length of the track alignment (horizontal projection) is 26.53194 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2689346.21648, 1254917.526915, 454.5141450035179
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.188355 meters
-
-#### Alignment A50118A
-
-1. The total 2D length of the track alignment (horizontal projection) is 194.64759 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2690164.880789, 1254742.7813, 454.9500000000008
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.0 meters
-
-#### Alignment A50119A
-
-1. The total 2D length of the track alignment (horizontal projection) is 70.4041 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2689641.465098, 1254857.79618, 454.8
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.0 meters
-
-#### Alignment A50120A
-
-1. The total 2D length of the track alignment (horizontal projection) is 26.55731 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2690145.462087, 1254740.786184, 454.875779
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 0.074579 meters
-
-#### Alignment A50121A
-
-1. The total 2D length of the track alignment (horizontal projection) is 166.86464 meters
-2. The ending point of the track alignment has coordinate (x, y, z) 2690225.321299, 1254730.917071, 455.1016999950506
-3. The vertical height difference between starting and ending points of the track alignment 3D curve is 1.8908 meters
 
 
 ### Link to requirements
