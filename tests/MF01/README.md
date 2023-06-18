@@ -1,8 +1,8 @@
-# AL01 - Multiple alignments of railway line
+# MF01 - Model Federation
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| MF01      | Mercedes Santos, Chi Zhang             | SBB                 | Export, Import         |
+| MF01      | Chi Zhang       | SBB                 | Export, Import |
 
 
 
@@ -18,12 +18,12 @@ The series of tests that belong to this Business Cases are listed as follows:
 |-----------|-----------------|
 | PS01      | Project setup with georeferencing |
 | TE01      | Terrain as existing condition model|
-| **AL01**  | **Multiple alignments of railway line** |
+| AL01  | Multiple alignments of railway line |
 | LG01      | Loading gauge|
 | TR01      | Track panels positioned along alignments |
 | BD01      | Building and terrain as existing condition model |
 | BD02      | Building positioned along alignment |
-| MF01      | Model federation|
+| **MF01**      | **Model federation** |
 
 
 With this series of tests, we are attempting to build a step-by-step process to realize a business case.
@@ -31,35 +31,38 @@ The dependency between them are shown in the following diagram:
 
 ![Alt text](Dataset/Test_case_dependency.PNG "Dependency between tests")
 
-To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes from prerequisites tests.
+To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes or reference files from prerequisites tests.
 
-This particular Test aims to test the implementation of alignment in IFC 4.3. It is based on the PS01, which defines the overall context of the project (geometric representation context and projection to a map coordinate system), and TE01, which defines a terrain model as existing environment. This test will test the creation of alignment geometry and its visualization. The alignments created in this Test will be used as the linear positioning based for subsequent Tests. As the shared data required by all the subsequent tests, the alignments created in this Test will also be key for the final model federation (MF01).
+This particular Test is the final step of this series. It aims to test the model federtion that integrates multiple models from different domains. It is at least based on the TR01, which defines model of track panels, and BU02, which contains buildings. This Test will test a few topics:
+- whether the federated model has the proper spatial structure
+- whether certain elements from different models are merged based on GlobalID
+- whether models can be coordinated correctly based on the project context and georeferencing
+- and etc.
 
 <details>
-	<summary>Main IFC concept involved in this test</summary> 
+	<summary>Main IFC concepts involved in this test</summary> 
 
 The concept templates that are focused by this series of tests are listed as follows. Specific concept templates that are focused by this test are in Bold.
 
 - [Project Global Positioning](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html)
-- [Alignment Layout](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Nesting/Alignment_Layout/content.html)
-- [Alignment Geometry](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Alignment_Geometry/content.html)
 - [Product Local Placement](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Placement/Product_Local_Placement/content.html)
+- [Product Linear Placement](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Placement/Product_Linear_Placement/content.html)
+- [Spatial Structure](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Connectivity/Spatial_Structure/content.html)
 - [Revision Control](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Revision_Control/content.html)
 - [Software Identity](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Attributes/Software_Identity/content.html)
-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Geometric_Representation/Clearance_Geometry/content.html)
-- [Object Nesting](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Object_Composition/Nesting/Object_Nesting/content.html)
+
 
 </details>
 <details>
 	<summary>Main software features involved in this series of tests</summary> 
 
-- Alignment visualization
+- Model Federation
 </details>
 
 
 ## Prerequisites
 
-The test plan builds upon the [TE01 test plan](../TE01/Readme.md).
+The test plan builds upon the [TR01 test plan](../TR01/Readme.md) and [BU02 test plan](../BU02/Readme.md)
 
 
 ## Test dataset (input)
