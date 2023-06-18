@@ -42,7 +42,7 @@ This particular Test is the final step of this series. It aims to test the model
 <details>
 	<summary>Main IFC concepts involved in this test</summary> 
 
-The concept templates that are focused by this series of tests are listed as follows. Specific concept templates that are focused by this test are in Bold.
+The concept templates that are focused by this Test are listed as follows. 
 
 - [Project Global Positioning](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Project_Context/Project_Global_Positioning/content.html)
 - [Product Local Placement](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/concepts/Product_Shape/Product_Placement/Product_Local_Placement/content.html)
@@ -67,15 +67,7 @@ The test plan builds upon the [TR01 test plan](../TR01/Readme.md) and [BU02 test
 
 ## Test dataset (input)
 
-The dataset is made of a LandXML file that has multiple alignments for a section of railway line. The coordinates are defined based on the LV95 ([EPSG 2056](https://epsg.io/2056)) and the vertical datum is LN02 ([EPSG:5728](https://epsg.io/5728)). It has in total 11 alignments and the railway section is about 18 kilometers long. 
-
-
-| Filename (format)         | Description                                                        |
-|---------------------------|--------------------------------------------------------------------|
-| [BC001_Alignment.xml](Dateset/BC001_Alignment.xml)    |    Data containing track alignments in LandXML format                                   |
-| [BC001_Alignment.dwg](Dateset/BC001_Alignment.dwg)     |    Data containing track alignments in DWG format                                 |
-
-In addition, the outcome of the Test PS01 and TE01 shall be used as inputs of this Test.
+This Test is based on outcomes or reference files from previous Tests. No other datasets are provided.
 
 ## Validation criteria
 
@@ -90,15 +82,11 @@ Formal Rules are those contained in the Gerkin documentation provided within the
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
-- All following rules:
-  - ALB002 - Alignment layout 
-  - ALB003 - Alignment directions
-  - TBD000 - Alignment shape representation 
-  - TBD000 - Stationing along alignment
+- All rules that defined in previous Tests
 
 #### Test case-specific checks
 
-[IDS file AL01.ids](./Dataset/AL01.ids):
+[IDS file MF01.ids](./Dataset/MF01.ids):
 
 - Each `IfcAlignment` shall have a Name which is the same with the one in the LandXML file:
     - A50034A
