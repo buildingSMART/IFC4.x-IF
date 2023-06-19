@@ -85,9 +85,9 @@ Not covered by the IDS file (must be checked otherwise):
 
 ### Expected geometry
 
-<img src=".Dataset/BC003_RR01_expected_geometry_wide.png"/>
+![Alt text](Dataset/BC003_RR01_expected_geometry_wide.png "Expected Geometry - Wide View")
 
-<img src=".Dataset/BC003_RR01_expected_geometry_close.png"/>
+![Alt text](Dataset/BC003_RR01_expected_geometry_close.png "Expected Geometry - Close View")
 
 
 ### Control parameters
@@ -100,8 +100,7 @@ After importing the reference file ([BC003_RR01_Reference](./Dataset/BC003_RR01_
 	- `SAN1_XG-B02`: 0+005.100 (`5.100m` from alignment’s start station)
 	- `SAN1_XG-3eme_Voie`: 0+015.140 (`15.140m` from alignment’s start station)
 
-<img src=".Dataset/BC003_RR01_track_model.png"/>
-
+![Alt text](Dataset/BC003_RR01_track_model.png "Track model")
 
 ## Link to requirements
 
