@@ -2,7 +2,7 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-|BC003-AL01 | Joao Correa     | MINnD               | Import         |
+|BC003-AL01 | Joao Correa     | MINnD               | Import/Export  |
 
 
 ## Intent

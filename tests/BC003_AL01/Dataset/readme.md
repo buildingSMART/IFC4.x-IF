@@ -42,102 +42,47 @@ The dataset is made of a LandXML file that has multiple alignments for a section
 |  BC003_AL01_reference.ifc  | Data containing track alignments in IFC 4.3. Please, note that this IFC file was created using the existing capabilities of Civil 3D, which means that the file is not 100% compliant with the test requirements.  |
 
 
-### Alignment
+## Alignment
+
 The **Alignment** is described through its **horizontal** and **vertical** layouts. They are all described in the LandXML file. In LandXML, each alignment is made as an instance of "Alignment". For example:
 
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/BC003/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L10
+
+This defines an alignment object, which has name `SAN1_COM`, a total lenght of `40.179` and start station of `0.000000`. It should be created as an `IfcAlignment` with Name set to `SAN1_COM` and start station (using `IfcReferent`) set to `0`.
 
 
-### Units
+### Alignment parameters for horizontal segments
 
-The project defines default units:
+The horizontal profile is described in LandXML using "CoordGeom". Three kinds of segments are used:
+- "Curve", which corresponds to `CIRCULARARC` in IFC,
+- "Line", which corresponds to `LINE` in IFC, and
+- "Spiral", which in this case corresponds to `CLOTHOID` in IFC.
+For example:
 
-- *metre* as `LENGTHUNIT`
-- *square metre* as `AREAUNIT`
-- *cubic metre* as `VOLUMEUNIT`
-- *radian* as `PLANEANGLEUNIT`
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/BC003/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L61-L76
 
+This defines one `LINE` segment, one `CLOTHOID` segment and one `CIRCULARARC` segment with geometric parameters and coordinates.
 
-### Georeferencing
+**IMPORTANT:**
+When using IFC to exchange information, the file must respect IFC convention (marked as ii) in the figure below. This implies a right-hand cartesian coordinate system; and angles are measured from x-axis, counter clock-wise.
 
-The coordinate reference system is defined as:
+![Alt text](Dataset/SurveyToIfcAngleConversion.png "Survey to IFC angle conversion")
 
-- geodetic datum: EPSG:4171 ([EPSG:4171](https://epsg.io/4171)) 
-- projected CRS: EPSG:3944 ([EPSG:3944](https://epsg.io/3944)) 
-- vertical datum: EPSG:5720 ([EPSG:5720](https://epsg.io/5720))
+### Alignment parameters for vertical segments
 
-The project's context's point of origin is defined relative to the CRS's point of origin with an offset:
+The vertical profile is described in LandXML as "Profile". A fundamental difference with IFC is that vertical layout is described using PVI, which is the point of vertical intersection of the two adjacent grade lines. They must be converted to a segment-based representation in IFC.
 
-- Easting: 1892000.000
-- Northing: 3126700.000
-- Elevation: 0.000
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/BC003/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L189-L191
 
+For example, this section of data defines two adjacent grade lines by three points and parabolic curve between them.
 
-### Proxys
+### Stationing
 
-There are three `IfcBuildingElementProxy`:
+There is no sufficient information about required stationing along alignments in the LandXML file. They are only described in the file [BC003_AL01_alignments.dwg](./Dataset/BC003_AL01_alignments.dwg). In principle, the stationing values are defined as follows:
+•	There should be 1 stationing every 10 meters, made as an `IfcReferent.REFERENCEMARKER`.
+•	There should be 1 stationing at both start and end point of the alignments, made as an `IfcReferent.STATION`.
+•	There should be 1 stationing at each start and end point of the horizontal curves, made as an `IfcReferent.STATION`.
 
-1. its id is `'0SGxbfZ753H9JxUygRKEif'`
-  - its name is *Reference Point*
-  - its tag is 714D
-  - its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
-  - the global position of its apex is:
-    - Easting: 1892028.44995586
-    - Northing: 3126717.20273397
-    - Elevation: 3.95935497
+[Alt text](Dataset/Example_Stationing.png "Stationing representation")
 
-2. its id is `'1QGIfOv2vCmP6wCdfw661z'`
-  - its name is *Reference Point*
-  - its tag is 7184
-  - its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
-  - its position is at (relative to project's origin):
-    - Easting: 1891963.00866927
-    - Northing: 3126717.20273397
-    - Elevation: 3.95935497
-
-3. its id is `'0gElLyvUP7pu3MBs30OjlL'`
-  - its name is *Reference Point*
-  - its tag is 7151
-  - its geometry is a pyramid turned upside down, with base length 0.5, and height 1.5
-  - its position is at (relative to project's origin):
-    - Easting: 1892026.93786196
-    - Northing: 3126788.73823184
-    - Elevation: 3.64980163
-
-
-## Geographic Coordinate System properties
-
-| Coordinate System |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG:3944                             |
-| Description       | RGF 1993 CC44 - France – mainland onshore between 43ºN and 45ºN    |
-| EPSG Code         | EPSG:3944                             |
-| Source            | EPSG                                  |
-| Projection        | Lambert Conformal Conic               |
-| Units             | Meter                                 |
-| Origin Latitude   | 44.0°                                 |
-| Origin Longitude  | 43.25°                                |
-| False Easting     | 1700000.0                             |
-| False Northing    | 3200000.0                             |
-| Quadrant          | Positive X and Y                      |
-| Minimum Longitude | 2883307.63                            |
-| Maximum Longitude | 4113035.68                            |
-| Minimum Latitude  | 623631.35                             |
-| Maximum Latitude  | 2319381.0                             |
-
-| Geodetic Datum    |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG:4171                             |
-| Description       | D RGF 1993                            |
-
-| Ellipsoid         |                                       |
-|-------------------|---------------------------------------|
-| Name              | GRS 1980                              |
-| Description       |                                       |
-| Equatorial Radius | 6378137.0                             |
-| Inverse flattening| 298.257222101                         |
-
-| Vertical Datum    |                                       |
-|-------------------|---------------------------------------|
-| Name              | EPSG :5720                            |
-| Description       |                                       |
 
