@@ -68,6 +68,7 @@ When using IFC to exchange information, the file must respect IFC convention (ma
 
 ![Alt text](Dataset/SurveyToIfcAngleConversion.png "Survey to IFC angle conversion")
 
+
 ### Alignment parameters for vertical segments
 
 The vertical profile is described in LandXML as "Profile". A fundamental difference with IFC is that vertical layout is described using PVI, which is the point of vertical intersection of the two adjacent grade lines. They must be converted to a segment-based representation in IFC.

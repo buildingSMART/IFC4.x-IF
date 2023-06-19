@@ -88,7 +88,7 @@ The following steps should be performed in order to corroborate that the softwar
 
 ### Expected geometry
 
-![Alt text](Dataset/BC003_AL01_Alignments_Image.PNG "Visualization of alignments")
+![Alt text](Dataset/BC003_AL01_Alignments_Image.png "Visualization of alignments")
 
 
 ### Control parameters
