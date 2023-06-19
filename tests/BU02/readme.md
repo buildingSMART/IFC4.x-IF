@@ -55,7 +55,8 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
-    - https://github.com/buildingSMART/ifc-gherkin-rules/pull/65
+- Following rules:
+    - [SPS002 - Correct spatial breakdown](https://github.com/buildingSMART/ifc-gherkin-rules/pull/65) 🚧
 
 
 #### Test case-specific checks
