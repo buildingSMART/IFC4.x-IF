@@ -46,7 +46,7 @@ The dataset is made of a LandXML file that has multiple alignments for a section
 
 The **Alignment** is described through its **horizontal** and **vertical** layouts. They are all described in the LandXML file. In LandXML, each alignment is made as an instance of "Alignment". For example:
 
-https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/BC003/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L10
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/244119caa178226fa9d5ff31dd4774e0aafb1c13/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L10
 
 This defines an alignment object, which has name `SAN1_COM`, a total lenght of `40.179` and start station of `0.000000`. It should be created as an `IfcAlignment` with Name set to `SAN1_COM` and start station (using `IfcReferent`) set to `0`.
 
@@ -59,21 +59,23 @@ The horizontal profile is described in LandXML using "CoordGeom". Three kinds of
 - "Spiral", which in this case corresponds to `CLOTHOID` in IFC.
 For example:
 
-https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/BC003/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L61-L76
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/244119caa178226fa9d5ff31dd4774e0aafb1c13/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L61-L76
 
 This defines one `LINE` segment, one `CLOTHOID` segment and one `CIRCULARARC` segment with geometric parameters and coordinates.
 
 **IMPORTANT:**
 When using IFC to exchange information, the file must respect IFC convention (marked as ii) in the figure below. This implies a right-hand cartesian coordinate system; and angles are measured from x-axis, counter clock-wise.
 
-![Alt text](Dataset/SurveyToIfcAngleConversion.png "Survey to IFC angle conversion")
+<p align="center">
+    <img src="SurveyToIFCangleConvention.png" height="500"/>
+</p>
 
 
 ### Alignment parameters for vertical segments
 
 The vertical profile is described in LandXML as "Profile". A fundamental difference with IFC is that vertical layout is described using PVI, which is the point of vertical intersection of the two adjacent grade lines. They must be converted to a segment-based representation in IFC.
 
-https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/BC003/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L189-L191
+https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/244119caa178226fa9d5ff31dd4774e0aafb1c13/tests/BC003_AL01/Dataset/BC003_AL01_alignments.xml#L189-L191
 
 For example, this section of data defines two adjacent grade lines by three points and parabolic curve between them.
 
@@ -84,6 +86,5 @@ There is no sufficient information about required stationing along alignments in
 •	There should be 1 stationing at both start and end point of the alignments, made as an `IfcReferent.STATION`.
 •	There should be 1 stationing at each start and end point of the horizontal curves, made as an `IfcReferent.STATION`.
 
-[Alt text](Dataset/Example_Stationing.png "Stationing representation")
-
+<img src="./Example_Stationing.png"/>
 
