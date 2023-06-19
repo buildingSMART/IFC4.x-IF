@@ -2,7 +2,7 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-|BC003-AL01 | Joao Correa     | MINnD               | Import/Export  |
+|BC003-RR01 | Joao Correa     | MINnD               | Import/Export  |
 
 
 ## Intent
@@ -85,9 +85,9 @@ Not covered by the IDS file (must be checked otherwise):
 
 ### Expected geometry
 
-<img src="./BC003_RR01_expected_geometry_wide.png"/>
+<img src=".Dataset/BC003_RR01_expected_geometry_wide.png"/>
 
-<img src="./BC003_RR01_expected_geometry_close.png"/>
+<img src=".Dataset/BC003_RR01_expected_geometry_close.png"/>
 
 
 ### Control parameters
@@ -100,7 +100,7 @@ After importing the reference file ([BC003_RR01_Reference](./Dataset/BC003_RR01_
 	- `SAN1_XG-B02`: 0+005.100 (`5.100m` from alignment’s start station)
 	- `SAN1_XG-3eme_Voie`: 0+015.140 (`15.140m` from alignment’s start station)
 
-<img src="./BC003_RR01_track_model.png"/>
+<img src=".Dataset/BC003_RR01_track_model.png"/>
 
 
 ## Link to requirements
