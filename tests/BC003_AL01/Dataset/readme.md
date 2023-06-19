@@ -66,7 +66,7 @@ This defines one `LINE` segment, one `CLOTHOID` segment and one `CIRCULARARC` se
 **IMPORTANT:**
 When using IFC to exchange information, the file must respect IFC convention (marked as ii) in the figure below. This implies a right-hand cartesian coordinate system; and angles are measured from x-axis, counter clock-wise.
 
-<img src="./SurveyToIFCangleConvention.png"/>
+<img src="./Survey_conversion.png"/>
 
 ### Alignment parameters for vertical segments
 
