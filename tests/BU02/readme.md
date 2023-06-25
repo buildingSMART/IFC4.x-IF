@@ -32,7 +32,7 @@ The series of tests that belong to this Business Case are listed as follows:
 
 ## Prerequisites
 
-The test plan builds upon the [TE01 test plan](../TE01/Readme.md).
+The test plan builds upon the [AL01 test plan](../AL01/Readme.md).
 
 
 ## Test dataset (input)
