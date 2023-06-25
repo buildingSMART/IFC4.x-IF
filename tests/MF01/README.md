@@ -31,9 +31,9 @@ The dependency between them are shown in the following diagram:
 
 ![Alt text](Dataset/Test_case_dependency.PNG "Dependency between tests")
 
-To perform a certain test in this series, developers can start from the very beginning (AKA. PS01) to build all the prerequisites independently, or based on outcomes or reference files from prerequisites tests.
+To perform a certain test in this series, developers can start from the very beginning (AKA. [PS01](../PS01)) to build all the prerequisites independently, or based on outcomes or reference files from prerequisites tests.
 
-This particular Test is the final step of this series. It aims to test the model federtion that integrates multiple models from different domains. It is at least based on the TR01, which defines model of track panels, and BU02, which contains buildings. This Test will test a few topics:
+This particular Test is the final step of this series. It aims to test the model federtion that integrates multiple models from different domains. This Test will test a few topics:
 - whether the federated model has the proper spatial structure
 - whether certain elements from different models are merged based on GlobalID
 - whether models can be coordinated correctly based on the project context and georeferencing
@@ -62,7 +62,7 @@ The concept templates that are focused by this Test are listed as follows.
 
 ## Prerequisites
 
-The test plan builds upon the [TR01 test plan](../TR01/Readme.md) and [BU02 test plan](../BU02/Readme.md)
+The test plan builds upon the [TR01](../TR01), [BU01](../BU01), [BU02](../BU02)
 
 
 ## Test dataset (input)
