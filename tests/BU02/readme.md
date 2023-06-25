@@ -75,7 +75,7 @@ Not covered by the IDS file (must be checked otherwise):
 
 - Both buildings should lie centrally inside the terrain, "parallel" to the elevated track bed.
 
-!["Perspective view"](./Dataset/skewedview.PNG)
+!["Perspective view"](./Dataset/skewedview.png)
 
 
 ### Expected geometry
