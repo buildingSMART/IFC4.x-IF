@@ -12,5 +12,5 @@
 
 ## Overview
 
-This Test shall take the datasets from PR01, TE01, BU01, AL01, TR01 and BU02. There is no additional datasets for this Test.
+This Test shall take the datasets from [PS01](tests/PS01), [TE01](tests/TE01), [BU01](tests/BU01), [AL01](tests/AL01), [TR01](tests/TR01) and [BU02](tests/BU02). There is no additional datasets for this Test.
 <img src="./Visualization.PNG"/>
