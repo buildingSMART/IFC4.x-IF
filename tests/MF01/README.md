@@ -97,6 +97,7 @@ Not covered by the IDS file (must be checked otherwise):
     - `IfcSite.Name='DORF-BSD'`
       - `IfcGeographicElement`
       - `IfcBuilding.ObjectPlacement[Type]='IfcLocalPlacement'`
+      - `IfcBuilding.ObjectPlacement[Type]='IfcLinearPlacement'`
     - `IfcRailway.Name='RL'`
       - `IfcRailwayPart.TRACKSTRUCTUREPART.Name='TRCK'`
         - `IfcElementAssembly.TRACKPANEL`
@@ -105,7 +106,7 @@ Not covered by the IDS file (must be checked otherwise):
         - `IfcElementAssembly.TURNOUTPANEL`
           - `IfcTrackElement.SLEEPER`
           - `IfcRail.RAIL`
-    - `IfcBuilding.ObjectPlacement[Type]='IfcLinearPlacement'`
+    
    
 
 
