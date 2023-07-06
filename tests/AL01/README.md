@@ -2,7 +2,7 @@
 
 | Test code | Test author     | Test dataset source | Test direction |
 |-----------|-----------------|---------------------|----------------|
-| MF01      | Mercedes Santos, Chi Zhang             | SBB                 | Export, Import         |
+| AL01      | Mercedes Santos, Chi Zhang             | SBB                 | Export, Import         |
 
 
 
