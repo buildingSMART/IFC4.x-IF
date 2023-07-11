@@ -80,11 +80,14 @@ Not covered by the IDS file (must be checked otherwise):
         - one `.LENGTHUNIT.` and
         - one `.PLANEANGLEUNIT.`.
 - (RI-03) An `IfcGeometricRepresentationContext` shall be associated with the `IfcProject`. The project origin should be `(0,0,0)`.
+- (RI-64) The placement of `IfcAnnotation` shall be relative to the `IfcFacility` in which it is contained.
+- (RI-65) The placement of `IfcFacility` shall be absolute within the `IfcGeometricRepresentationContext`.
 - (RI-77) `IfcAnnotation.USERDEFINED` with `ObjectType='Annotation point'` shall have `'Point'` geometry and use `IfcCartesianPoint`.
-- (RI-87) The model shall containts an IfcProjectedCRS that defines the map coordinate system and an IfcMapConversion or `IfcRigidOperation` that defines the mapping between `IfcProjectedCRS` and `IfcGeometricRepresentationContext`. 
+- (RI-87) The model shall containts an `IfcProjectedCRS` that defines the map coordinate system and an `IfcMapConversion` or `IfcRigidOperation` that defines the mapping between `IfcProjectedCRS` and `IfcGeometricRepresentationContext`. 
     - Georeferencing of the project shall be assigned as
         - LV95 ([EPSG:2056](https://epsg.io/2056)) and 
         - LN02 ([EPSG:5728](https://epsg.io/5728)).
+- (RI-91) There shall be one `IfcFacility` in the dataset.
 
 
 ### Informal criteria
