@@ -63,6 +63,9 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 Not covered by the IDS file (must be checked otherwise):
 
+- (RI-60, RI-68) `IfcGeographicElement.TERRAIN` shall have tessellated `Surface` geometry.
+- (RI-64) `IfcGeographicElement` shall be placed locally within `IfcSite` they are contained within.
+
 1. Either:
 - There must be 4 instances of `IfcGeographicElement` in the dataset
 - There must be 4 instances of `IfcTriangulatedIrregularNetwork` in the dataset (as representations of the elements above)
