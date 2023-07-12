@@ -32,7 +32,7 @@ The series of tests that belong to this Business Case are listed as follows:
 
 ## Prerequisites
 
-The test plan builds upon the [TE01 test plan](../TE01/Readme.md).
+The test plan builds upon the [AL01 test plan](../AL01/Readme.md).
 
 
 ## Test dataset (input)
@@ -76,7 +76,7 @@ Not covered by the IDS file (must be checked otherwise):
 
 - Both buildings should lie centrally inside the terrain, "parallel" to the elevated track bed.
 
-!["Perspective view"](./Dataset/skewedview.PNG)
+!["Perspective view"](./Dataset/skewedview.png)
 
 
 ### Expected geometry
