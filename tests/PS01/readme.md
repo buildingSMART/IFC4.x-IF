@@ -13,13 +13,14 @@ The series of tests that belong to this Business Case are listed as follows:
 | Test code | Test name     | 
 |-----------|-----------------|
 | **PS01**  | **Project setup with georeferencing** |
-| TE01      | Terrain as existing condition model |
 | AL01      | Multiple alignments of railway line |
-| LD01      | Loading gauge|
-| TR01      | Track panels positioned along alignments |
-| BU01      | Building(s) as existing condition model |
-| BU02      | Building positioned along alignment |
-| MF01      | Model federation|
+| RR01      | Railway track elements validation |
+| ALX1      | Stationing tests on equipment (punctual)|
+| ALX2      | Stationing tests on nodes (punctual) |
+| ALX3      | Alignment reference check on linear elements |
+| NE01      | Network integrity/continuity check on linear elements |
+| ALX4      | Stationing tests on cable joints (punctual) |
+| NE02      | Cable routing |
 
 
 ## IFC concepts involved in this test

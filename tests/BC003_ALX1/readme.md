@@ -22,6 +22,10 @@ The series of tests that belong to this Business Case are listed as follows:
 | ALX4      | Stationing tests on cable joints (punctual) |
 | NE02      | Cable routing |
 
+## IFC concepts involved in this test
+
+The following diagram represents the entities involved in this test.
+![Alt text](ALX01-diagram.png "ALX01 - involved entities")
 
 ## Prerequisites
 
@@ -74,20 +78,25 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 
 Not covered by the IDS file (must be checked otherwise):
-- Traffic lights are placed in the model using coordinates (XYZ). Once placed, **railway alignment station** is used to **locate** then for works and maintenance purposes. So, traffic lights shall **correlate their XYZ placement and a station in the railway alignment**. The table below presents for each traffic light, its referenced alignment, the referenced station and its placement coordinates of the base center point:
+
+1. Traffic lights are placed in the model using coordinates (XYZ). Once placed, **railway alignment station** is used to **locate** them for works and maintenance purposes. So, the authoring software shall **correlate their XYZ placement and a station in the railway alignment**. The table below represents for each traffic light, its referenced alignment, the referenced station and its placement coordinates of the base center point:
 
 | Name              | Ref. Alignment    |  Station   |  Coord. XYZ (top center point)  |
 |-------------------|-------------------|------------|----------------------------------------|
 | Traffic_Light01   | SAN1_XD-B02       | 0+052.0866 | 1891995.6561, 3126679.5487, 4.1500 |
 | Traffic_Light02   | SAN1_XG-3eme_Voie | 0+052.0002 | 1891982.5663, 3126673.6030, 4.1400 |
-
-
+2. Signal geometries are mapped (`IfcMappedItem`) to the `IfcSignalType` gometry.
+1. Signals are represented as 3D solids with a cylindrical shape (extruded along the Z axis, using `IfcSweptDiskSolid`);
+1. Linear composition: `IfcAlignment` instances shall be aggregated in `IfcProject`. 
 
 ### Informal criteria
 
 - Railway alignments presented in BC003_ALX1_Reference [BC003_ALX1_Reference](./Dataset/BC003_ALX1_Reference.ids) file shall be coincident with the ones presented in  [BC003_AL01_Reference](https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/3ac4acd3e4e8aeca250a98d59297a125319743a4/tests/BC003_AL01/Dataset/BC003_AL01_Reference.ifc) file ;
-- Signals are represented as 3D solids with a cylindrical shape;
 
+### Open questions
+
+- Shall every `IfcElement` instance be accessible through the Spatial Decomposition Tree?
+- `IfcSignal` instances are contained in the SpatialStructure, hence located according to its `IfcLocalPlacement`. This could contradict their own position through the `IfcLinearPlacement`?
 
 ### Expected geometry
 
