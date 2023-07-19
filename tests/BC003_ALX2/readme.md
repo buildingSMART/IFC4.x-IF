@@ -67,7 +67,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 | SAN1_COM          | 0V9ARKCu5F1O8wEweo6hYa | 40.179       |
 | SAN1_XG-3eme_Voie | 06Ng1eKsn2MRkFhhU_YPPI | 104.421      |
 
-- Cabling infrastructure alignments must have the Name, GUID and Lenght according to the table below:
+- Cabling infrastructure alignments must have the Name, GUID and Length according to the table below:
 
 | Name              | GUID                   |  Length (m)  |
 |-------------------|------------------------|--------------|
