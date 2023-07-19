@@ -22,6 +22,10 @@ The series of tests that belong to this Business Case are listed as follows:
 | ALX4      | Stationing tests on cable joints (punctual) |
 | NE02      | Cable routing |
 
+## IFC concepts involved in this test
+
+The following diagram represents the entities involved in this test.
+![Alt text](BC003-ALX2_diagram.png "ALX02 - involved entities")
 
 ## Prerequisites
 
@@ -108,11 +112,15 @@ When validated using the bSI Validation Service, the IFC must pass:
 | SAN1-PK155_G      | 1HYAamIkL25wQT3bwOCcoI | CHAMBRE-M1C   | 1.45x2.27x1.44   |
 | SAN1-PK-60_G      | 3d9251NuH44xk8yX6C83Nv | CHAMBRE-L5T   | 1.18x2.09x1.35   |
 
+- (RI-7) Stationing must be stored in the `IfcReferenr` associated `Pset_Stationing` property set.
+- (RI-61) The chambers geometry must be extruded from a rectangular 2D profile.
+- (RI-89) Each `IfcReferent` must link a `Pset_LinearReferencingMethod` property set with its `LRMType` set to `LRM_ABSOLUTE` and its `LRMName` set to `kilometre-point`.
+
 ### Informal criteria
 
 - Railway alignments presented in BC003_ALX2_Reference [BC003_ALX2_Reference](./Dataset/BC003_ALX2_Reference.ids) file shall be coincident with the ones presented in  [BC003_AL01_Reference](https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/3ac4acd3e4e8aeca250a98d59297a125319743a4/tests/BC003_AL01/Dataset/BC003_AL01_Reference.ifc) file ;
 - Alignments A1 to A7 have both start and end station inside inspection chamber objects;
-- Inspection chambers are represented as 3D solids with parallelepiped shape; 
+- Inspection chambers are represented as 3D solids with parallelepiped shape (extruded from a rectangular 2D profile); 
 
 
 ### Expected geometry
