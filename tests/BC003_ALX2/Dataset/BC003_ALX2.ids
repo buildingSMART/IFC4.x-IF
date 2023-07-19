@@ -464,8 +464,8 @@
         </ids:specification>
         <ids:specification ifcVersion="IFC4X3" name="IfcDistributionChamberElement - quantity"
             minOccurs="1" maxOccurs="unbounded" identifier="12"
-            description="•	There must be a total of 8 objects classed as IfcDistributionChamberElement.InspectionChamber;&#xA;"
-            instructions="Checking if all IfcDistributionElementChamber were correctly imported">
+            description="•	All IfcDistributionChamberElement must use PredefinedType 'InspectionChamber'"
+            instructions="Checking if all IfcDistributionElementChamber were correctly typed">
             <ids:applicability>
                 <ids:entity>
                     <ids:name>

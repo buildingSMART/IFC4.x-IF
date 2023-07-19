@@ -79,20 +79,9 @@ When validated using the bSI Validation Service, the IFC must pass:
 | A6                | 1yQOHkl1z2vujDdCcNmxGq | 39.725       |
 | A7                | 2R8oIgNy99GOFlhJEKM7Xv | 9.190        |
 
-- There must be 8 instances of `IfcDistributionChamberElement` with the predefined type `INSPECTIONCHAMBER`. The table below presents their Name, Description, GUID and dimensions:
+- All `IfcDistributionChamberElement` must use the predefined type `INSPECTIONCHAMBER`.
 
-| Name              | GUID                   |  Description  |  Dimensions (m)  |
-|-------------------|------------------------|---------------|------------------|
-| SAN1-PK51_D       | 3bS5p7pIjCSf7OHwcvGgFQ | CHAMBRE-L5T   | 1.18x2.09x1.35   |
-| SAN1-PK51_G       | 1GV1OuGwH7rAzQwKk1FNg5 | CHAMBRE-L5T   | 1.18x2.09x1.35   |
-| SAN1-PK100_D      | 3XKJ_0LOX7weceRTA7meQZ | CHAMBRE-L5T   | 1.18x2.09x1.35   |
-| SAN1-PK100_G      | 3$3Sls09P4iA1o5rF_UObb | CHAMBRE-L2T   | 0.63x1.41x1.28   |
-| SAN1-PK196_D      | 1ReXkBNeT5awrIRzMX8ZlJ | CHAMBRE-L2T   | 0.63x1.41x0.98   |
-| SAN1-PK196_G      | 3boZFKETn0JuwT4QmVlZFK | CHAMBRE-M1C   | 1.45x2.27x1.44   |
-| SAN1-PK155_G      | 1HYAamIkL25wQT3bwOCcoI | CHAMBRE-M1C   | 1.45x2.27x1.44   |
-| SAN1-PK-60_G      | 3d9251NuH44xk8yX6C83Nv | CHAMBRE-L5T   | 1.18x2.09x1.35   |
-
-Not covered by the IDS file (must be checked otherwise):
+#### Not covered by the IDS file (must be checked otherwise):
 - Inspection chambers are placed in the model using coordinates (XYZ). Once placed, **railway alignment station** is used to **locate** then for works and maintenance purposes. So, Inspection Chambers shall **correlate their XYZ placement and a station in the railway alignment**. In some cases, there isn’t a railway alignment near the inspection chamber, so the cabling infrastructure alignment shall be used as reference. The table below presents for each inspection chamber, its referenced alignment, the referenced station and its placement coordinates of the top center point:
 
 | Name              | Ref. Alignment    |  Station   |  Coord. XYZ (top center point)  |
@@ -106,6 +95,18 @@ Not covered by the IDS file (must be checked otherwise):
 | SAN1-PK155_G      | SAN1_XG-B02       | 0+161.1289 | 1891988.8846, 3126771.9465, 3.3900 |
 | SAN1-PK-60_G      | A1 | CHAMBRE-L5T  | 0+000      | 1892028.8320, 3126572.5160, 4.0000 |
 
+- There must be 8 instances of `IfcDistributionChamberElement`. The table below presents their Name, Description, GUID and dimensions:
+
+| Name              | GUID                   |  Description  |  Dimensions (m)  |
+|-------------------|------------------------|---------------|------------------|
+| SAN1-PK51_D       | 3bS5p7pIjCSf7OHwcvGgFQ | CHAMBRE-L5T   | 1.18x2.09x1.35   |
+| SAN1-PK51_G       | 1GV1OuGwH7rAzQwKk1FNg5 | CHAMBRE-L5T   | 1.18x2.09x1.35   |
+| SAN1-PK100_D      | 3XKJ_0LOX7weceRTA7meQZ | CHAMBRE-L5T   | 1.18x2.09x1.35   |
+| SAN1-PK100_G      | 3$3Sls09P4iA1o5rF_UObb | CHAMBRE-L2T   | 0.63x1.41x1.28   |
+| SAN1-PK196_D      | 1ReXkBNeT5awrIRzMX8ZlJ | CHAMBRE-L2T   | 0.63x1.41x0.98   |
+| SAN1-PK196_G      | 3boZFKETn0JuwT4QmVlZFK | CHAMBRE-M1C   | 1.45x2.27x1.44   |
+| SAN1-PK155_G      | 1HYAamIkL25wQT3bwOCcoI | CHAMBRE-M1C   | 1.45x2.27x1.44   |
+| SAN1-PK-60_G      | 3d9251NuH44xk8yX6C83Nv | CHAMBRE-L5T   | 1.18x2.09x1.35   |
 
 ### Informal criteria
 
