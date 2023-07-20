@@ -59,7 +59,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 - There must be 1 instance of `IfcProject` and must be named BC003: Test plan 1.
 
-Not covered by the IDS file (must be checked otherwise):
+#### Not covered by the IDS file (must be checked otherwise):
 
 - There must be at least 1 instance of `IfcSIUnit` assigning METRE as default units for length. It shall be applied to the whole project.
 - There must be at least these 1 instance of `IfcSIUnit` assigning RADIAN as default units for plane angle. It shall be applied to the whole project.  RADIAN plane angles can then be converted/presented using DEGREES units.
