@@ -68,13 +68,13 @@ When validated using the bSI Validation Service, the IFC must pass:
 | SAN1_COM          | 0V9ARKCu5F1O8wEweo6hYa | 40.179       |
 | SAN1_XG-3eme_Voie | 06Ng1eKsn2MRkFhhU_YPPI | 104.421      |
 
-Not covered by the IDS file but information can be extracted from it for external analysis:
+#### Not covered by the IDS file (information can be extracted from it for external analysis):
 - There must be a total of:
 	- 389 objects classed as `IfcBuiltElement`;
 	- 50 objects classed as `IfcRail` elements;
 	- And 50 objects classed as `IfcTrackElement`;
 
-Not covered by the IDS file (must be checked otherwise):
+#### Not covered by the IDS file (must be checked otherwise):
 - The modeled objects (`IfcBuiltElement`, `IfcRail`, `IfcTrackElement`) shall be contained by the `IfcAlignment` used to reference them; 
 
 
