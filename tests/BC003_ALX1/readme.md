@@ -62,7 +62,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 [IDS file BC003_ALX1.ids](./Dataset/BC003_ALX1.ids):
 
-- There must be 1 instance of `IfcProject` and must be named `BC003: Test plan 1` and the `GUID “3cyAkba2v5a9pVuthidcpX”`;
+- There `IfcProject` must be named `BC003: Test plan 1` and its GUID must be `“3cyAkba2v5a9pVuthidcpX”`;
 - Alignments must have the same Name, GUID and Length as those one found in the `BC003_AL01_Reference` file, which means:
 
 | Name              | GUID                   |  Length (m)  |
@@ -72,7 +72,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 | SAN1_COM          | 0V9ARKCu5F1O8wEweo6hYa | 40.179       |
 | SAN1_XG-3eme_Voie | 06Ng1eKsn2MRkFhhU_YPPI | 104.421      |
 
-- There must be 2 instances of `IfcSign`. The table below presents their Name and GUID:
+- The table below presents the `IfcSignal` Names and GUID:
 
 | Name              | GUID                   |
 |-------------------|------------------------|
@@ -80,8 +80,9 @@ When validated using the bSI Validation Service, the IFC must pass:
 | Traffic_Light02   | 1M7eCDuXL21QPVVhnAbym8 |
 
 
-Not covered by the IDS file (must be checked otherwise):
+#### Not covered by the IDS file (must be checked otherwise):
 
+1. There must be 2 instances of `IfcSignal`. 
 1. Traffic lights are placed in the model using coordinates (XYZ). Once placed, **railway alignment station** is used to **locate** them for works and maintenance purposes. So, the authoring software shall **correlate their XYZ placement and a station in the railway alignment**. The table below represents for each traffic light, its referenced alignment, the referenced station and its placement coordinates of the base center point:
 
 | Name              | Ref. Alignment    |  Station   |  Coord. XYZ (top center point)  |
