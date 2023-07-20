@@ -112,7 +112,8 @@ When validated using the bSI Validation Service, the IFC must pass:
 | SAN1-PK155_G      | 1HYAamIkL25wQT3bwOCcoI | CHAMBRE-M1C   | 1.45x2.27x1.44   |
 | SAN1-PK-60_G      | 3d9251NuH44xk8yX6C83Nv | CHAMBRE-L5T   | 1.18x2.09x1.35   |
 
-- (RI-7) Stationing must be stored in the `IfcReferenr` associated `Pset_Stationing` property set.
+- (RI-7) Stationing value must be stored in the `Pset_Stationing` property set related to the `IfcReferent`.
+- (RI-20) Equipment positioning using a `IfcReferent`.
 - (RI-61) The chambers geometry must be extruded from a rectangular 2D profile.
 - (RI-89) Each `IfcReferent` must link a `Pset_LinearReferencingMethod` property set with its `LRMType` set to `LRM_ABSOLUTE` and its `LRMName` set to `kilometre-point`.
 
