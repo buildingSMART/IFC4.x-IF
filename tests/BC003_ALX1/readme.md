@@ -89,10 +89,11 @@ When validated using the bSI Validation Service, the IFC must pass:
 |-------------------|-------------------|------------|----------------------------------------|
 | Traffic_Light01   | SAN1_XD-B02       | 0+052.0866 | 1891995.6561, 3126679.5487, 4.1500 |
 | Traffic_Light02   | SAN1_XG-3eme_Voie | 0+052.0002 | 1891982.5663, 3126673.6030, 4.1400 |
-2. Signal geometries are mapped (`IfcMappedItem`) to the `IfcSignalType` geometry;
-1. Signals are represented as 3D solids with a cylindrical shape (extruded along the Z axis, using `IfcSweptDiskSolid`);
-1. [ALB004](https://github.com/buildingSMART/ifc-gherkin-rules/pull/67) Each `IfcAlignment` must be aggregated directly under `IfcProject`;
-1. Signals are defined by their `IfcSignalType`, which are declared in the `IfcProject`.
+3. (RI-90) Each `IfcAlignment` must be aggregated directly under `IfcProject`;
+1. (RI-300) Signal geometries are mapped (`IfcMappedItem`) to the `IfcSignalType` geometry;
+1. (RI-301) Signals are represented as 3D solids with a cylindrical shape (extruded along the Z axis, using `IfcSweptDiskSolid`);
+1. (RI-302) Signals are defined by their `IfcSignalType`, which are declared in the `IfcProject`.
+
 ### Informal criteria
 
 - Railway alignments presented in BC003_ALX1_Reference [BC003_ALX1_Reference](./Dataset/BC003_ALX1_Reference.ids) file shall be coincident with the ones presented in  [BC003_AL01_Reference](https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/3ac4acd3e4e8aeca250a98d59297a125319743a4/tests/BC003_AL01/Dataset/BC003_AL01_Reference.ifc) file ;
