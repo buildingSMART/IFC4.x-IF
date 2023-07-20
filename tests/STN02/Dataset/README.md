@@ -31,39 +31,39 @@
     Overview    
 </p>
 
-| Info                         |                                           |
-|------------------------------|-------------------------------------------|
-| Number of alignment(s)       | 1                                         |
-| Vertical Measurement         | Lower Rail                                |
-| Properties of segments       | No                                        |
-| Horizontal layout            | Line, Circular Arc, Clothoid              |
-| Vertical layout              | Constant Gradient, Circular Arc           |
-| Cant layout                  | Constant Cant, Linear Transition          |
-| Stationing pace              | 50 m                                      |
-| Broken chainage              | No                                        |
-| Number of signals            | 2                                         |
-| IFC reference file available | No                                        |
+| Info                         |                                  |
+|------------------------------|----------------------------------|
+| Number of alignment(s)       | 1                                |
+| Vertical Measurement         | Lower Rail                       |
+| Properties of segments       | No                               |
+| Horizontal layout            | Line, Circular Arc, Clothoid     |
+| Vertical layout              | Constant Gradient, Circular Arc  |
+| Cant layout                  | Constant Cant, Linear Transition |
+| Stationing pace              | 50 m                             |
+| Broken chainage              | Yes                              |
+| Number of signals            | 4                                |
+| IFC reference file available | No                               |
 
 ## Model Dataset
 This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
-It represents one alignment with cant on which two signals are placed.
+It represents one alignment with chainage break and with cant on which four signals are placed.
 
-| Filename                                                                              | Description                                                                                       |
-|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                    | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
-| [LineLayout](./LineLayout.svg)                                                        | Schematic [line layout](#Line-layout) of the test case                                             |
-| [Alignment_horizontal](./Alignment_horizontal.csv)                                    | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
-| [Alignment_vertical](./Alignment_vertical.csv)                                        | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
-| [Alignment_cant](./Alignment_cant.csv)                                                | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                 |
-| [Alignment_exchange](./Alignment_exchange.xml)                                        | Alignment description in LandXML file format                                                      |
-| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf)      | 2D CAD model of the alignment with mileage referents (dxf file)                                   |
-| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)                          | 3D CAD model of the alignment with 2 signals (dxf file)                                           |
-| [Stationing_values](./Stationing_values.csv)                                          | [Stationing values according to national conventions](#stationing-values-according-to-national-conventions) |
-| [Stationing_values_horizontal_segments](./Stationing_values_horizontal_segments.csv)  | [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)     |
-| [Stationing_values_vertical_segments](./Stationing_values_vertical_segments.csv)      | [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)         |
-| [Signal_3D](./Signal_3D.dxf)                                                          | 3D CAD model of the signal (dxf file)                                                             | 
-| [Signals_positions](./Signals_positions.csv)                                          | [Signals positions parameters](#signals-position-parameters)                                      |
-| [Stationing_values_signals](Stationing_values_signals.csv)                            | [Stationing values of the signals](#stationing-values-of-signals)                                 |
+| Filename                                                                             | Description                                                                                       |
+|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                   | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
+| [LineLayout](./LineLayout.svg)                                                       | Schematic [line layout](#Line-layout) of the test case                                             |
+| [Alignment_horizontal](./Alignment_horizontal.csv)                                   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
+| [Alignment_vertical](./Alignment_vertical.csv)                                       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
+| [Alignment_cant](./Alignment_cant.csv)                                               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                 |
+| [Alignment_STN02.xml](./Alignment_STN02.xml)                                         | Alignment description in LandXML file format                                                      |
+| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf)     | 2D CAD model of the alignment with mileage referents (dxf file)                                   |
+| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)                         | 3D CAD model of the alignment with 2 signals (dxf file)                                           |
+| [Stationing_values](./Stationing_values.csv)                                         | [Stationing values according to national conventions](#stationing-values-according-to-national-conventions) |
+| [Stationing_values_horizontal_segments](./Stationing_values_horizontal_segments.csv) | [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)     |
+| [Stationing_values_vertical_segments](./Stationing_values_vertical_segments.csv)     | [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)         |
+| [Signal_3D](./Signal_3D.dxf)                                                         | 3D CAD model of the signal (dxf file)                                                             | 
+| [Signals_positions](./Signals_positions.csv)                                         | [Signals positions parameters](#signals-position-parameters)                                      |
+| [Stationing_values_signals](Stationing_values_signals.csv)                           | [Stationing values of the signals](#stationing-values-of-signals)                                 |
 
 ## Geographic Coordinate System properties
 
@@ -128,7 +128,7 @@ Each profile is described using a CSV file.
 
 ### Alignment parameters for horizontal segments
 
-The horizontal profile is described using a CSV file and is made of the following 9 horizontal segments. The column headers match the IFC attributes for `IfcAlignmentHorizontalSegment`. Refers to the standard's documentation for their description.
+The horizontal profile is described using a CSV file and is made of the following 14 horizontal segments. The column headers match the IFC attributes for `IfcAlignmentHorizontalSegment`. Refers to the standard's documentation for their description.
 
 | Entity                        | PredefinedType | Name | Start Point X | Start Point Y | Start Direction | Start Radius of Curvature | End Radius of Curvature | Segment Length |
 |-------------------------------|----------------|------|---------------|---------------|-----------------|---------------------------|-------------------------|----------------|
@@ -141,6 +141,11 @@ The horizontal profile is described using a CSV file and is made of the followin
 | IfcAlignmentHorizontalSegment | CIRCULARARC    | H7   | 452944.0007   | 4539702.8314  | 0.563388612     | -1000                     | -1000                   | 109.4317       |
 | IfcAlignmentHorizontalSegment | CLOTHOID       | H8   | 453039.5298   | 4539756.1001  | 0.453956871     | -1000                     | 0                       | 40             |
 | IfcAlignmentHorizontalSegment | LINE           | H9   | 453075.7086   | 4539773.1600  | 0.433956864     | 0                         | 0                       | 139.7711       |
+| IfcAlignmentHorizontalSegment | LINE           | H10  | 453202.5241   | 4539831.9290  | 0.433956864     | 0                         | 0                       | 50,5130        |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H11  | 453248.3550   | 4539853.1680  | 0.433956864     | 0                         | 600                     | 60,0000        |
+| IfcAlignmentHorizontalSegment | CIRCULARARC    | H12  | 453303.2003   | 4539877.4820  | 0.383956862     | 600                       | 600                     | 172,8224       |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H13  | 453470.4921   | 4539918.4100  | 0.095919515     | 600                       | 0                       | 60,0000        |
+| IfcAlignmentHorizontalSegment | LINE           | H14  | 453530.3680   | 4539922.1620  | 0.045919513     | 0                         | 0                       | 85,8871        |
 
 
 **NOTE**:
@@ -157,7 +162,7 @@ The horizontal profile is described using a CSV file and is made of the followin
 
 ### Alignment parameters for vertical segments
 
-The vertical profile is made of the following 5 vertical segments. The column headers match the IFC attributes for `IfcAlignmentVerticalSegment`. Refers to the standard's documentation for their description.
+The vertical profile is made of the following 10 vertical segments. The column headers match the IFC attributes for `IfcAlignmentVerticalSegment`. Refers to the standard's documentation for their description.
 
 | Entity                      | PredefinedType   | Name | Start Dist Along | Horizontal Length | Start Height | Start Gradient | End Gradient | RadiusOfCurvature |
 |-----------------------------|------------------|------|------------------|-------------------|--------------|----------------|--------------|-------------------|
@@ -166,6 +171,12 @@ The vertical profile is made of the following 5 vertical segments. The column he
 | IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V3   | 528.002          | 250.0037          | 4.75         | -0.01          | -0.01        |                   |
 | IfcAlignmentVerticalSegment | CIRCULARARC      | V4   | 778.0057         | 49.9975           | 2.25         | -0.01          | 0            | -5000             |
 | IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V5   | 828.0032         | 201.3689          | 2            | 0              | 0            |                   |
+| IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V6   | 1029.3721        | 177,2755          | 2            | 0              | 0            |                   |
+| IfcAlignmentVerticalSegment | CIRCULARARC      | V7   | 1206.6476        | 49,9975           | 2            | 0              | 0.01         | -5000             |
+| IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V8   | 1256.6451        | 160,0030          | 2.25         | 0.01           | 0.01         |                   |
+| IfcAlignmentVerticalSegment | CIRCULARARC      | V9   | 1416.6481        | 29,9985           | 3.85         | 0.01           | 0            | 3000              |
+| IfcAlignmentVerticalSegment | CONSTANTGRADIENT | V10  | 1446.6466        | 11,9480           | 4            | 0              | 0            |                   |
+
 
 **NOTE**:
 - All distances are in meters.
@@ -173,7 +184,7 @@ The vertical profile is made of the following 5 vertical segments. The column he
 
 ### Alignment parameters for cant segments
 
-The cant profile is made of the following 9 segments. The column headers match the IFC attributes for IfcAlignmentCantSegment. Refers to the standard's documentation for their description.
+The cant profile is made of the following 14 segments. The column headers match the IFC attributes for IfcAlignmentCantSegment. Refers to the standard's documentation for their description.
 
 | Entity                  | PredefinedType   | Name | Start Dist Along | Horizontal Length | Start Cant left | End Cant left | Start Cant right | End Cant right |
 |-------------------------|------------------|------|------------------|-------------------|-----------------|---------------|------------------|----------------|
@@ -186,13 +197,18 @@ The cant profile is made of the following 9 segments. The column headers match t
 | IfcAlignmentCantSegment | CONSTANTCANT     | C7   | 740.1693         | 109.4317          | 0.06            | 0.06          | 0                | 0              |
 | IfcAlignmentCantSegment | LINEARTRANSITION | C8   | 849.601          | 40                | 0.06            | 0             | 0                | 0              |
 | IfcAlignmentCantSegment | CONSTANTCANT     | C9   | 889.601          | 139.7711          | 0               | 0             | 0                | 0              |
+| IfcAlignmentCantSegment | CONSTANTCANT     | C10  | 1029.3721        | 50.5130           | 0               | 0             | 0                | 0              |
+| IfcAlignmentCantSegment | LINEARTRANSITION | C11  | 1079.8851        | 60.0000           | 0               | 0             | 0                | 0.05           |
+| IfcAlignmentCantSegment | CONSTANTCANT     | C12  | 1139.8851        | 172.8224          | 0               | 0             | 0.05             | 0.05           |
+| IfcAlignmentCantSegment | LINEARTRANSITION | C13  | 1312.7075        | 60.0000           | 0               | 0             | 0.05             | 0              |
+| IfcAlignmentCantSegment | CONSTANTCANT     | C14  | 1372.7075        | 85.8871           | 0               | 0             | 0                | 0              |
 
 **NOTE**:
 - All distances are in meters.
 
 ## Signals
 
-Two signals are placed along the alignment. They have the same shape. They are placed on the left and right side of the alignment and they face two opposite directions.
+Four signals are placed along the alignment. They have the same shape. They are placed on the left and right side of the alignment and they face two opposite directions.
 
 <p align="center">
     <img src="Signals_on_alignment.svg" height="500"/> <br>
@@ -212,8 +228,13 @@ The origin of the coordinates system of the signal is placed at the center of th
 
 | # | Type of element | Distance Along | Offset Horizontal | Offset Vertical | Rotation         | Name               |
 |---|-----------------|----------------|-------------------|-----------------|------------------|--------------------|
-| 1 | SIGNAL          | 353.1000       | 3.0000           | 2.5000          | 0                | Route Indicator_01 |
-| 2 | SIGNAL          | 853.1000       | -3.0000            | 2.5000          | 3.14159265358979 | Route Indicator_02 |
+| 1 | SIGNAL          | 353.1000       | 3.0000            | 2.5000          | 0                | Route Indicator_01 |
+| 2 | SIGNAL          | 853.1000       | -3.0000           | 2.5000          | 3.14159265358979 | Route Indicator_02 |
+| 3 | SIGNAL          | 956.2720713    | -3.0000           | 2.5000          | 0                | Route Indicator_03 |
+| 4 | SIGNAL          | 1266.272071    | 3.0000            | 2.5000          | 3.14159265358979 | Route Indicator_04 |
+
+
+
 
 **NOTE**:
 - All distances are in meters, all angles are in radian.
@@ -260,6 +281,18 @@ The Italian national convention imposes to indicate at the beginning of the alig
 | 19 | REFERENT        | 750     |
 | 20 | REFERENT        | 800     |
 | 21 | REFERENT        | 850     |
+| 22 | REFERENT        | 5350    |
+| 23 | REFERENT        | 5400    |
+| 24 | REFERENT        | 5450    |
+| 25 | REFERENT        | 5500    |
+| 26 | REFERENT        | 5550    |
+| 27 | REFERENT        | 5600    |
+| 28 | REFERENT        | 5650    |
+| 29 | REFERENT        | 5700    |
+| 30 | REFERENT        | 5750    |
+
+
+
 
 **NOTE**:
 - All distances are in meters
@@ -269,17 +302,23 @@ The Italian national convention imposes to indicate at the beginning of the alig
 Railway designers are used to indicate the stationing values of the horizontal segments. In the [Line layout](#line-layout) these values are indicated on the left side of the alignment.
 The values are the following. In the table the type of segment and the segment length both refer to the horizontal segment only. 
 
-| # | Type of segment | From (mileage) | To (mileage) | Segment Length |
-|---|-----------------|----------------|--------------|----------------|
-| 1 | LINE            | -153.1         | 234.6233     | 387.7233       |
-| 2 | CLOTHOID        | 234.6233       | 274.6233     | 40             |
-| 3 | CIRCULARARC     | 274.6233       | 468.0878     | 193.4645       |
-| 4 | CLOTHOID        | 468.0878       | 508.0878     | 40             |
-| 5 | LINE            | 508.0878       | 547.0693     | 38.9815        |
-| 6 | CLOTHOID        | 547.0693       | 587.0693     | 40             |
-| 7 | CIRCULARARC     | 587.0693       | 696.501      | 109.4317       |
-| 8 | CLOTHOID        | 696.501        | 736.501      | 40             |
-| 9 | LINE            | 736.501        | 876.2721     | 139.7711       |
+| #  | Type of segment | From (mileage) | To (mileage) | Segment Length |
+|----|-----------------|----------------|--------------|----------------|
+| 1  | LINE            | -153.1         | 234.6233     | 387.7233       |
+| 2  | CLOTHOID        | 234.6233       | 274.6233     | 40             |
+| 3  | CIRCULARARC     | 274.6233       | 468.0878     | 193.4645       |
+| 4  | CLOTHOID        | 468.0878       | 508.0878     | 40             |
+| 5  | LINE            | 508.0878       | 547.0693     | 38.9815        |
+| 6  | CLOTHOID        | 547.0693       | 587.0693     | 40             |
+| 7  | CIRCULARARC     | 587.0693       | 696.501      | 109.4317       |
+| 8  | CLOTHOID        | 696.501        | 736.501      | 40             |
+| 9  | LINE            | 736.501        | 876.2721     | 139.7711       |
+| 10 | LINE            | 5350.0         | 5400.5130    | 50.5130        |
+| 11 | CLOTHOID        | 5400.5130      | 5460.5130    | 60.0           |
+| 12 | CIRCULARARC     | 5460.5130      | 5633.3354    | 172.8224       |
+| 13 | CLOTHOID        | 5633.3354      | 5693.3354    | 60.0000        |
+| 14 | LINE            | 5693.3354      | 5779.2225    | 85.8871        |
+
 
 **NOTE**:
 - All distances are in meters
@@ -290,6 +329,9 @@ The values are the following. In the table the type of segment and the segment l
 |---|-----------------|----------------|--------------|----------------|
 | 1 | CIRCULARARC     | 324.9045       | 374.9020     | 49.9975        |
 | 2 | CIRCULARARC     | 624.9057       | 674.9032     | 49.9975        |
+| 3 | CIRCULARARC     | 5527.2755      | 5577.2730    | 49,9975        |
+| 4 | CIRCULARARC     | 5737.2760      | 5767.2745    | 29,9985        |
+
 
 **NOTE**:
 - All distances are in meters
@@ -300,6 +342,9 @@ The values are the following. In the table the type of segment and the segment l
 |---|-----------------|---------|--------------------|
 | 1 | SIGNAL          | 200     | Route Indicator_01 |
 | 2 | SIGNAL          | 700     | Route Indicator_02 |
+| 3 | SIGNAL          | 5+430.0 | Route Indicator_03 |
+| 4 | SIGNAL          | 5+740.0 | Route Indicator_04 |
+
 
 **NOTE**:
 - All distances are in meters

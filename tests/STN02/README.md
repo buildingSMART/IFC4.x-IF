@@ -37,22 +37,20 @@ All validation criteria (and usages) of prerequisites' tests shall be **verified
 
 This test case utilises the dataset collected in the Dataset folder and summarised in the table below. **For more details on each item see [Dataset description](Dataset/README.md).**
 
-| Filename (format)                         | Description                                                                        |
-| ----------------------------------------- | ---------------------------------------------------------------------------------- |
-| LineLayout.svg                            | Schematic line layout of the test case                                             |
-| Alignment_horizontal.csv                  | Alignment parameters for horizontal segments                                       |
-| Alignment_vertical.csv                    | Alignment parameters for vertical segments                                         |
-| Alignment_cant.csv                        | Alignment parameters for cant segments                                             |
-| Alignment_exchange.xml                    | Alignment description in LandXML file format                                       |
-| Alignment_2D_with_stationing_values.dxf   | 2D CAD model of the alignment with mileage referents (dxf file)                    |
-| Alignment_3D_with_signals.dxf             | 3D CAD model of the alignment with 2 signals (dxf file)                            |
-| Stationing_values.csv                     | Stationing values according to national conventions                                |
-| Stationing_values_horizontal_segments.csv | Stationing values of the horizontal segments                                       |
-| Stationing_values_vertical_segments.csv   | Stationing values of the vertical segments                                         |
-| Signal_3D.dxf                             | 3D CAD model of the signal (dxf file)                                              |
-| Signals_positions.csv                     | Signals positions parameters                                                       |
-| Stationing_values_signals.csv             | Stationing values of the signals                                                   |
-| Geographic_Coordinate_System.pdf          | Geographic Coordinate System properties                                            |
+| Filename (format)                         | Description                                                     |
+|-------------------------------------------|-----------------------------------------------------------------|
+| LineLayout.svg                            | Schematic line layout of the test case                          |
+| Alignment.xlsx                            | Alignment + chainage break parameters                           |                        |
+| Alignment_STN02.xml                       | Alignment description in LandXML file format                    |
+| Alignment_2D_with_stationing_values.dxf   | 2D CAD model of the alignment with mileage referents (dxf file) |
+| Alignment_3D_with_signals.dxf             | 3D CAD model of the alignment with 2 signals (dxf file)         |
+| Stationing_values.csv                     | Stationing values according to national conventions             |
+| Stationing_values_horizontal_segments.csv | Stationing values of the horizontal segments                    |
+| Stationing_values_vertical_segments.csv   | Stationing values of the vertical segments                      |
+| Signal_3D.dxf                             | 3D CAD model of the signal (dxf file)                           |
+| Signals_positions.csv                     | Signals positions parameters                                    |
+| Stationing_values_signals.csv             | Stationing values of the signals                                |
+| Geographic_Coordinate_System.pdf          | Geographic Coordinate System properties                         |
 
 
 ## Validation criteria
@@ -104,7 +102,7 @@ Not covered by the IDS file (must be checked otherwise)
 </p>
 
  <p align="center">
- Overall view of Route Indicator_01 and Route Indicator_02
+ Overall view of Route Indicator_01, Route Indicator_02, Route Indicator_03 and Route Indicator_04
  </p>
 <br/>
 
@@ -130,11 +128,29 @@ Not covered by the IDS file (must be checked otherwise)
  </p>
  <br/>
 
+  <p align="center">
+    <img src="./Dataset/Route_indicator_03_top.jpg" height="490"/>
+</p>
+
+ <p align="center">
+ Route Indicator_03 top view
+ </p>
+ <br/>
+
+  <p align="center">
+    <img src="./Dataset/Route_indicator_04_top.jpg" height="490"/>
+</p>
+
+ <p align="center">
+ Route Indicator_04 top view
+ </p>
+ <br/>
+
 ### Expected geometry
 
 
 <p align="center">
-    <img src="./Dataset/Expected_geometry.jpg" height="450"/> <br>
+    <img src="./Dataset/Expected_geometry.svg" height="450"/> <br>
     Expected geometry
 </p>
 
