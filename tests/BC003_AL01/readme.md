@@ -71,7 +71,6 @@ Not covered by IDS but information can be extracted from it for external analysi
 
 Not covered by IDS file (must be checked otherwise):
 - Each `IfcAlignment` must have OwnerHistory assigned, which has OwningUser, OwningApplication, ChangeAction, CreationDate and State. The `IfcOwnerHistory` can be shared by multiple `IfcAlignment`(s) if they have the same information.
-- [ALB004](https://github.com/buildingSMART/ifc-gherkin-rules/pull/67) Each `IfcAlignment` must be aggregated directly under `IfcProject`.
 - (TBD) Each child `IfcAlignment` must nest a list of stationing. The list of stationing is defined following this principle:
 	- There should be 1 stationing every 10 meters;
 	- There should be 1 stationing at both start and end point of the alignments;
