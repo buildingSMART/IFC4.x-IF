@@ -56,6 +56,7 @@ In addition, the outcome of the previous tests shall be used as input of this te
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
+- - [ALB004](https://github.com/buildingSMART/ifc-gherkin-rules/pull/67) Each `IfcAlignment` must be aggregated directly under `IfcProject`.
 
 
 #### Test case-specific checks
