@@ -188,6 +188,8 @@
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="Route Indicator_01"/> 
                             <xs:enumeration value="Route Indicator_02"/> 
+                            <xs:enumeration value="Route Indicator_03"/> 
+                            <xs:enumeration value="Route Indicator_04"/> 
                         </xs:restriction>
                     </ids:value>
                 </ids:attribute>

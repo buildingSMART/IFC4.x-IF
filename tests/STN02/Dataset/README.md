@@ -48,22 +48,25 @@
 This dataset is an example of what the file “F02: IFC with alignment and signal” model could contain.
 It represents one alignment with chainage break and with cant on which four signals are placed.
 
-| Filename                                                                             | Description                                                                                       |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [Geographic_Coordinate_System](./Geographic_Coordinate_System.pdf)                   | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)               |
-| [LineLayout](./LineLayout.svg)                                                       | Schematic [line layout](#Line-layout) of the test case                                             |
-| [Alignment_horizontal](./Alignment_horizontal.csv)                                   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)     |
-| [Alignment_vertical](./Alignment_vertical.csv)                                       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)         |
-| [Alignment_cant](./Alignment_cant.csv)                                               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                 |
-| [Alignment_STN02.xml](./Alignment_STN02.xml)                                         | Alignment description in LandXML file format                                                      |
-| [Alignment_2D_with_stationing_values](./Alignment_2D_with_stationing_values.dxf)     | 2D CAD model of the alignment with mileage referents (dxf file)                                   |
-| [Alignment_3D_with_signals](./Alignment_3D_with_signals.dxf)                         | 3D CAD model of the alignment with 2 signals (dxf file)                                           |
-| [Stationing_values](./Stationing_values.csv)                                         | [Stationing values according to national conventions](#stationing-values-according-to-national-conventions) |
-| [Stationing_values_horizontal_segments](./Stationing_values_horizontal_segments.csv) | [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)     |
-| [Stationing_values_vertical_segments](./Stationing_values_vertical_segments.csv)     | [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)         |
-| [Signal_3D](./Signal_3D.dxf)                                                         | 3D CAD model of the signal (dxf file)                                                             | 
-| [Signals_positions](./Signals_positions.csv)                                         | [Signals positions parameters](#signals-position-parameters)                                      |
-| [Stationing_values_signals](Stationing_values_signals.csv)                           | [Stationing values of the signals](#stationing-values-of-signals)                                 |
+
+| Filename                                                                                 | Description                                                                                                 |
+|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [Geographic_Coordinate_System.pdf](./Geographic_Coordinate_System.pdf)                   | [Geographic Coordinate System properties](#Geographic-Coordinate-System-properties)                         |
+| [LineLayout.svg](./LineLayout.svg)                                                       | Schematic [line layout](#Line-layout) of the test case                                                      |
+| [Alignment.xlsx](./Alignment.xlsx)                                                       | Alignment parameters for all segments                                                                       |
+| [Alignment_horizontal.csv](./Alignment_horizontal.csv)                                   | [Alignment parameters for horizontal segments](#Alignment-parameters-for-horizontal-segments)               |
+| [Alignment_vertical.csv](./Alignment_vertical.csv)                                       | [Alignment parameters for vertical segments](#Alignment-parameters-for-vertical-segments)                   |
+| [Alignment_cant.csv](./Alignment_cant.csv)                                               | [Alignment parameters for cant segments](#Alignment-parameters-for-cant-segments)                           |
+| [Alignment_STN02.xml](./Alignment_STN02.xml)                                             | Alignment description in LandXML file format                                                                |
+| [Alignment_2D_with_stationing_values.dxf](./Alignment_2D_with_stationing_values.dxf)     | 2D CAD model of the alignment with mileage referents (dxf file)                                             |
+| [Alignment_3D_with_signals.dxf](./Alignment_3D_with_signals.dxf)                         | 3D CAD model of the alignment with 2 signals (dxf file)                                                     |
+| [Stationing_values.csv](./Stationing_values.csv)                                         | [Stationing values according to national conventions](#stationing-values-according-to-national-conventions) |
+| [Stationing_values_horizontal_segments.csv](./Stationing_values_horizontal_segments.csv) | [Stationing values of the horizontal segments](#stationing-values-of-the-horizontal-segments)               |
+| [Stationing_values_vertical_segments.csv](./Stationing_values_vertical_segments.csv)     | [Stationing values of the vertical segments](#stationing-values-of-the-vertical-segments)                   |
+| [Signal_3D.dxf](./Signal_3D.dxf)                                                         | 3D CAD model of the signal (dxf file)                                                                       | 
+| [Signals_positions.csv](./Signals_positions.csv)                                         | [Signals positions parameters](#signals-position-parameters)                                                |
+| [Signals_stationing_values.csv](./Signals_stationing_values.csv)                         | [Stationing values of the signals](#stationing-values-of-signals)                                           |
+
 
 ## Geographic Coordinate System properties
 
@@ -141,11 +144,11 @@ The horizontal profile is described using a CSV file and is made of the followin
 | IfcAlignmentHorizontalSegment | CIRCULARARC    | H7   | 452944.0007   | 4539702.8314  | 0.563388612     | -1000                     | -1000                   | 109.4317       |
 | IfcAlignmentHorizontalSegment | CLOTHOID       | H8   | 453039.5298   | 4539756.1001  | 0.453956871     | -1000                     | 0                       | 40             |
 | IfcAlignmentHorizontalSegment | LINE           | H9   | 453075.7086   | 4539773.1600  | 0.433956864     | 0                         | 0                       | 139.7711       |
-| IfcAlignmentHorizontalSegment | LINE           | H10  | 453202.5241   | 4539831.9290  | 0.433956864     | 0                         | 0                       | 50,5130        |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H11  | 453248.3550   | 4539853.1680  | 0.433956864     | 0                         | 600                     | 60,0000        |
-| IfcAlignmentHorizontalSegment | CIRCULARARC    | H12  | 453303.2003   | 4539877.4820  | 0.383956862     | 600                       | 600                     | 172,8224       |
-| IfcAlignmentHorizontalSegment | CLOTHOID       | H13  | 453470.4921   | 4539918.4100  | 0.095919515     | 600                       | 0                       | 60,0000        |
-| IfcAlignmentHorizontalSegment | LINE           | H14  | 453530.3680   | 4539922.1620  | 0.045919513     | 0                         | 0                       | 85,8871        |
+| IfcAlignmentHorizontalSegment | LINE           | H10  | 453202.5241   | 4539831.9290  | 0.433956864     | 0                         | 0                       | 50.5130        |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H11  | 453248.3550   | 4539853.1680  | 0.433956864     | 0                         | 600                     | 60.0000        |
+| IfcAlignmentHorizontalSegment | CIRCULARARC    | H12  | 453303.2003   | 4539877.4820  | 0.383956862     | 600                       | 600                     | 172.8224       |
+| IfcAlignmentHorizontalSegment | CLOTHOID       | H13  | 453470.4921   | 4539918.4100  | 0.095919515     | 600                       | 0                       | 60.0000        |
+| IfcAlignmentHorizontalSegment | LINE           | H14  | 453530.3680   | 4539922.1620  | 0.045919513     | 0                         | 0                       | 85.8871        |
 
 
 **NOTE**:
@@ -230,8 +233,8 @@ The origin of the coordinates system of the signal is placed at the center of th
 |---|-----------------|----------------|-------------------|-----------------|------------------|--------------------|
 | 1 | SIGNAL          | 353.1000       | 3.0000            | 2.5000          | 0                | Route Indicator_01 |
 | 2 | SIGNAL          | 853.1000       | -3.0000           | 2.5000          | 3.14159265358979 | Route Indicator_02 |
-| 3 | SIGNAL          | 956.2720713    | -3.0000           | 2.5000          | 0                | Route Indicator_03 |
-| 4 | SIGNAL          | 1266.272071    | 3.0000            | 2.5000          | 3.14159265358979 | Route Indicator_04 |
+| 3 | SIGNAL          | 1109.3721      | 3.0000            | 2.5000          | 0                | Route Indicator_03 |
+| 4 | SIGNAL          | 1419.3721      | -3.0000           | 2.5000          | 3.14159265358979 | Route Indicator_04 |
 
 
 

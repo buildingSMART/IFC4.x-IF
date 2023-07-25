@@ -71,7 +71,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 #### Test case-specific checks
 
-Covered by this IDS file: [STN01.ids](./Dataset/STN01.ids)
+Covered by this IDS file: [STN02.ids](./Dataset/STN02.ids)
 
 - (RI-18) Each IfcProduct (and subtypes) must have the attribute `Name` not null and not empty
 - (RI-4) An IfcProject must have the attribute `Description` not null and not empty
@@ -79,7 +79,7 @@ Covered by this IDS file: [STN01.ids](./Dataset/STN01.ids)
 - There must be 1 instance(s) of IfcAlignmentHorizontal and must be named `H1`
 - There must be 1 instance(s) of IfcAlignmentVertical and must be named `V1`
 - There must be 1 instance(s) of IfcAlignmentCant and must be named `C1`
-- There must be 2 instance(s) of IfcSignal and must be named `Route Indicator_01`, `Route Indicator_02`
+- There must be 4 instance(s) of IfcSignal and must be named `Route Indicator_01`, `Route Indicator_02`, `Route Indicator_03`, `Route Indicator_04`
 - (RI-8) The horizontal layout must include only the following types of segments: Line, Circular Arc, Clothoid
   - (or one step closer to IFC) The PredefinedType of IfcAlignmentHorizontalSegment must be `LINE` or `CIRCULARARC` or `CLOTHOID`
 - (RI-11) The vertical layout must include only the following types of segments: Constant Gradient, Circular Arc
@@ -154,14 +154,13 @@ Not covered by the IDS file (must be checked otherwise)
     Expected geometry
 </p>
 
+### Control parameters
 
-### TOBEDONE Control parameters
-
-1. The total 2D length of the track alignment (horizontal projection) is 1029.3721 meters
-2. The total 3D length of the track alignment is 1029.3861 meters
-3. The ending point of the track alignment has coordinate (x, y, z) 453202.5241, 4539831.9287, 2.0000
-4. The ending point of the track alignment has mileage (pk)	0+876.2721
-5. The vertical height difference between starting and ending points of the track alignment 3D curve is -3.0000 meters
+1. The total 2D length of the track alignment (horizontal projection) is 1458.5946 meters
+2. The total 3D length of the track alignment is 1458.6178 meters
+3. The ending point of the track alignment has coordinate (x, y, z) 453616.1646, 4539926.1049, 4.0000
+4. The ending point of the track alignment has mileage (pk)	5+779.2225
+5. The vertical height difference between starting and ending points of the track alignment 3D curve is -1.0000 meters
 
 ## Link to requirements
 
