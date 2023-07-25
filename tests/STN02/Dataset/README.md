@@ -299,7 +299,22 @@ The Italian national convention imposes to indicate at the beginning of the alig
 
 **NOTE**:
 - All distances are in meters
-    
+
+
+### Stationing jumps
+
+| #  | DistAlong | Mileage     | X           | Y            | Z          |
+|----|-----------|-------------|-------------|--------------|------------|
+| 1  |    0.0    | -0+153.1000 | 452270.1883 | 4539403.9474 | 5.0        |
+| 2  | 1029.3721 |  5+350.0000 | 453202.5241 | 4539831.9287 | 2.0        |
+| 3  | 1458.5946 |  5+779.2225 | 453616.1646 | 4539926.1049 | 4.0        |
+
+
+**NOTE**:
+- All distances are in meters
+- Nr. 3 is not a jump, but the end of the alignment.
+
+
 ### Stationing values of the horizontal segments
 
 Railway designers are used to indicate the stationing values of the horizontal segments. In the [Line layout](#line-layout) these values are indicated on the left side of the alignment.

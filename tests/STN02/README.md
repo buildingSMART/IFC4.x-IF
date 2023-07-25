@@ -9,7 +9,7 @@
 ## Intent
 This test case addresses the **export** of the required IFC entities for the exchange of data related to **Stationing on alignment with broken chainage**.
 
-<details><summary>Main IFC concepts involved in this test</summary> 
+## Main IFC concepts involved in this test
 
 - Project Global Positioning
 - Alignment Layout
@@ -25,7 +25,7 @@ This test case addresses the **export** of the required IFC entities for the exc
 - Product Relative Positioning
 - Element Decomposition
 - Body Geometry
-</details>
+
 
 
 ## Prerequisites
