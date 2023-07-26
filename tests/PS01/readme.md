@@ -83,7 +83,7 @@ Not covered by the IDS file (must be checked otherwise):
 - (RI-64) The placement of `IfcAnnotation` shall be relative to the `IfcSite` in which it is contained.
 - (RI-65) The placement of `IfcSite` shall be absolute within the `IfcGeometricRepresentationContext`.
 - (RI-77) `IfcAnnotation.USERDEFINED` with `ObjectType='Annotation point'` shall have `'Point'` geometry and use `IfcCartesianPoint`.
-- (RI-87) The model shall containts an `IfcProjectedCRS` that defines the map coordinate system and an `IfcMapConversion` or `IfcRigidOperation` that defines the mapping between `IfcProjectedCRS` and `IfcGeometricRepresentationContext`. 
+- (RI-87) The model shall contain an `IfcProjectedCRS` that defines the map coordinate system and an `IfcMapConversion` or `IfcRigidOperation` that defines the mapping between `IfcProjectedCRS` and `IfcGeometricRepresentationContext`. 
     - Georeferencing of the project shall be assigned as
         - LV95 ([EPSG:2056](https://epsg.io/2056)) and 
         - LN02 ([EPSG:5728](https://epsg.io/5728)).
