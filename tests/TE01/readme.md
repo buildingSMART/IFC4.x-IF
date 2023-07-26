@@ -59,7 +59,7 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 [IDS file TE01.ids](./Dataset/TE01.ids):
 
-- The `IfcGeographicElement` instances shall be contained in `IfcSite`.
+- (RI-64) The `IfcGeographicElement` instances shall be contained in `IfcSite`.
 
 Not covered by the IDS file (must be checked otherwise):
 
