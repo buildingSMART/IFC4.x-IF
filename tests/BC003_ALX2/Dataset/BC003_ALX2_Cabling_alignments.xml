@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" date="2023-06-06" time="16:32:27" version="1.2" language="English" readOnly="false">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="milliBars" diameterUnit="millimeter" angularUnit="decimal degrees" directionUnit="decimal degrees"></Metric>
+	</Units>
+	<CoordinateSystem desc="RGF93 Lambert Zone 3 (New Zone/NZ 3)" epsgCode="3944" ogcWktCode="PROJCS[&quot;RGF93.CC44&quot;,GEOGCS[&quot;LL-RGF93&quot;,DATUM[&quot;RGF93&quot;,SPHEROID[&quot;GRS1980&quot;,6378137.000,298.25722210]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.017453292519943295]],PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;],PARAMETER[&quot;false_easting&quot;,1700000.000],PARAMETER[&quot;false_northing&quot;,3200000.000],PARAMETER[&quot;central_meridian&quot;,3.00000000000000],PARAMETER[&quot;latitude_of_origin&quot;,44.00000000000000],PARAMETER[&quot;standard_parallel_1&quot;,43.25000000000000],PARAMETER[&quot;standard_parallel_2&quot;,44.75000000000000],UNIT[&quot;Meter&quot;,1.00000000000000]]" horizontalDatum="RGF93" horizontalCoordinateSystemName="RGF93.CC44" fileLocation="AutoCAD Map Zone Name"></CoordinateSystem>
+	<Project name="C:\Users\j.alves-correa\OneDrive - EGIS Group\Documents\Professionnel\IFC4.3\97.Dataset Marseille - BC003 - Cabling\04.BC003_ALX1\BC003_ALX1_cabling_alignments.dwg"></Project>
+	<Application name="Autodesk Civil 3D" desc="Civil 3D" manufacturer="Autodesk, Inc." version="2023" manufacturerURL="www.autodesk.com/civil" timeStamp="2023-06-06T16:32:27"></Application>
+	<Alignments name="SA01">
+		<Alignment name="A1" length="108.360853736295" staStart="-0.000000000181" desc="">
+			<CoordGeom>
+				<Curve rot="ccw" chord="5.978426182245" crvType="arc" delta="13.734403038153" dirEnd="128.411856733634" dirStart="114.67745369548" external="0.18064720747" length="5.992763842627" midOrd="0.179351235476" radius="24.999999988884" tangent="3.01081281103">
+					<Start>3126573.347412016243 1892028.44995585829</Start>
+					<Center>3126562.909673598129 1892005.733142345678</Center>
+					<End>3126578.442422185093 1892025.32226485759</End>
+					<PI>3126576.083254943602 1892027.192912795814</PI>
+				</Curve>
+				<Curve rot="cw" chord="6.231441522625" crvType="arc" delta="14.318644186375" dirEnd="114.093212906224" dirStart="128.411857092599" external="0.196445760395" length="6.247686813463" midOrd="0.194914157917" radius="24.999998705994" tangent="3.140203567945">
+					<Start>3126578.442422185093 1892025.32226485759</Start>
+					<Center>3126593.975170097779 1892044.911386266816</Center>
+					<End>3126583.769612480886 1892022.08932393603</End>
+					<PI>3126580.902975469828 1892023.371225140058</PI>
+				</Curve>
+				<Line dir="114.093213284507" length="48.408254970889">
+					<Start>3126583.769612480886 1892022.08932393603</Start>
+					<End>3126627.960663128644 1892002.327993212268</End>
+				</Line>
+				<Curve rot="cw" chord="4.61370876834" crvType="arc" delta="10.588904560416" dirEnd="103.505763235695" dirStart="114.094667796111" external="0.107116061655" length="4.620281237452" midOrd="0.106659065694" radius="25.000000100021" tangent="2.316738430388">
+					<Start>3126627.960663128644 1892002.327993212268</Start>
+					<Center>3126638.166800823063 1892025.149797662394</Center>
+					<End>3126632.32822152786 1892000.841136720031</End>
+					<PI>3126630.075549176894 1892001.382195159094</PI>
+				</Curve>
+				<Curve rot="ccw" chord="4.613002780575" crvType="arc" delta="10.587676706236" dirEnd="114.093241386708" dirStart="103.505564680472" external="0.107087127863" length="4.61957271853" midOrd="0.106630361218" radius="24.999065165036" tangent="2.316381624115">
+					<Start>3126632.32822152786 1892000.841136720031</Start>
+					<Center>3126626.489944817498 1891976.53336462588</Center>
+					<End>3126636.695132685825 1891999.354569670744</End>
+					<PI>3126634.580548814032 1892000.300169416005</PI>
+				</Curve>
+				<Line dir="114.093213285207" length="29.234497710546">
+					<Start>3126636.695132685825 1891999.354569670744</Start>
+					<End>3126663.382795146666 1891987.420394845307</End>
+				</Line>
+				<Curve rot="ccw" chord="4.612023390654" crvType="arc" delta="10.585025487994" dirEnd="124.678238765185" dirStart="114.093213277191" external="0.107037314944" length="4.618588641269" midOrd="0.106580989226" radius="24.99999992933" tangent="2.315884867359">
+					<Start>3126663.382795146666 1891987.420394845307</Start>
+					<Center>3126653.17723688297 1891964.598331463756</Center>
+					<End>3126667.401417537592 1891985.157336331904</End>
+					<PI>3126665.496926001739 1891986.474998924881</PI>
+				</Curve>
+				<Curve rot="cw" chord="4.612639910822" crvType="arc" delta="10.586444578141" dirEnd="114.091794208928" dirStart="124.678238787068" external="0.107066118573" length="4.619207801519" midOrd="0.106609547749" radius="24.999999741878" tangent="2.316197104546">
+					<Start>3126667.401417537592 1891985.157336331904</Start>
+					<Center>3126681.625598093495 1892005.71634104033</Center>
+					<End>3126671.420605152845 1891982.894025071757</End>
+					<PI>3126669.306165844202 1891983.839496085653</PI>
+				</Curve>
+			</CoordGeom>
+			<Profile name="A1">
+				<ProfAlign name="PL1">
+					<PVI>0. 3.582147135511</PVI>
+					<PVI>1.000000000046 3.582147135511</PVI>
+					<PVI>1.999999999964 3.582147135511</PVI>
+					<PVI>2.996381921314 3.582147135511</PVI>
+					<PVI>2.99999999984 3.582147135511</PVI>
+					<PVI>3.999999999738 3.582147135511</PVI>
+					<PVI>4.999999999775 3.582147135511</PVI>
+					<PVI>5.992763842447 3.582147135511</PVI>
+					<PVI>5.999999999604 3.582147135511</PVI>
+					<PVI>7.000000000037 3.582147135511</PVI>
+					<PVI>7.999999999974 3.582147135511</PVI>
+					<PVI>9.000000000193 3.582147135511</PVI>
+					<PVI>9.116607248795 3.582147135511</PVI>
+					<PVI>10.000000000732 3.582147135511</PVI>
+					<PVI>11.000000000787 3.582147135511</PVI>
+					<PVI>12.000000001315 3.582147135511</PVI>
+					<PVI>12.24045065591 3.582147135511</PVI>
+					<PVI>25.000000001839 3.582147135511</PVI>
+					<PVI>50.000000001765 3.582147135511</PVI>
+					<PVI>60.648705626799 3.672919677077</PVI>
+					<PVI>61.000000001859 3.674420099949</PVI>
+					<PVI>62.000000001709 3.679524132836</PVI>
+					<PVI>62.958846245464 3.684791725794</PVI>
+					<PVI>63.000000001909 3.685018538572</PVI>
+					<PVI>64.000000001789 3.690554575521</PVI>
+					<PVI>65.000000001746 3.696150684271</PVI>
+					<PVI>65.268986864251 3.697668676414</PVI>
+					<PVI>66.000000001821 3.702001014342</PVI>
+					<PVI>67.000000001423 3.7078649956</PVI>
+					<PVI>67.578773223286 3.71123289547</PVI>
+					<PVI>68.000000001749 3.713674750291</PVI>
+					<PVI>69.00000000181 3.719449412504</PVI>
+					<PVI>69.888559582781 3.724566196442</PVI>
+					<PVI>75.000000001498 3.753737227795</PVI>
+					<PVI>99.123057293327 3.843372267568</PVI>
+					<PVI>100.000000001356 3.845469627623</PVI>
+					<PVI>101.000000001409 3.847873372758</PVI>
+					<PVI>101.432351613411 3.848919457317</PVI>
+					<PVI>102.000000001235 3.850298977911</PVI>
+					<PVI>103.00000000154 3.852167592594</PVI>
+					<PVI>103.741645934596 3.852593802768</PVI>
+					<PVI>104.000000001454 3.852544545056</PVI>
+					<PVI>105.000000001278 3.851491524327</PVI>
+					<PVI>106.000000001544 3.849071260665</PVI>
+					<PVI>106.061249836111 3.848883985261</PVI>
+					<PVI>107.000000001717 3.84535222556</PVI>
+					<PVI>108.000000001593 3.840633377656</PVI>
+					<PVI>108.360853736115 3.838905911441</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.00000000"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+		<Alignment name="A2" length="14.566530746039" staStart="0." desc="">
+			<CoordGeom>
+				<Line dir="24.029945391232" length="14.566530746039">
+					<Start>3126672.443627420347 1891982.941265135072</Start>
+					<End>3126678.375323371962 1891996.24535477371</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="A2">
+				<ProfAlign name="PL2">
+					<PVI>0. 4.2</PVI>
+					<PVI>14.576530747348 4.2</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.00000000"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+		<Alignment name="A3" length="47.349749727375" staStart="0.020000002608" desc="">
+			<CoordGeom>
+				<Curve rot="ccw" chord="5.368574100254" crvType="arc" delta="12.327630110567" dirEnd="126.419424413376" dirStart="114.091794302809" external="0.145366057689" length="5.378943374077" midOrd="0.144525692485" radius="25.000000065727" tangent="2.699895219133">
+					<Start>3126679.398413084447 1891996.292567669647</Start>
+					<Center>3126669.193419974297 1891973.470251422143</Center>
+					<End>3126684.03571320232 1891993.587565731257</End>
+					<PI>3126681.863127578981 1891995.190471188165</PI>
+				</Curve>
+				<Curve rot="cw" chord="5.426184841759" crvType="arc" delta="12.460440296667" dirEnd="113.958984135788" dirStart="126.419424432455" external="0.148530682957" length="5.436892741082" midOrd="0.147653440305" radius="25.000000025093" tangent="2.729211519671">
+					<Start>3126684.03571320232 1891993.587565731257</Start>
+					<Center>3126698.878006413113 1892013.704880002886</Center>
+					<End>3126688.725942239165 1891990.858970209956</End>
+					<PI>3126686.231889434159 1891991.967255428433</PI>
+				</Curve>
+				<Line dir="113.95898412406" length="2.842360874919">
+					<Start>3126688.725942239165 1891990.858970209956</Start>
+					<End>3126691.32339504268 1891989.704737011343</End>
+				</Line>
+				<Line dir="113.958640392144" length="22.728341679813">
+					<Start>3126691.32339504268 1891989.704737011343</Start>
+					<End>3126712.093436144292 1891980.475278297439</End>
+				</Line>
+				<Curve rot="cw" chord="5.38411101561" crvType="arc" delta="12.363622736532" dirEnd="101.595106137854" dirStart="113.958728874386" external="0.146218196344" length="5.394571194921" midOrd="0.145367966547" radius="24.999643578457" tangent="2.707800832316">
+					<Start>3126712.093436144292 1891980.475278297439</Start>
+					<Center>3126722.245253790636 1892003.320907584624</Center>
+					<End>3126717.220469155349 1891978.831446209922</End>
+					<PI>3126714.567927982658 1891979.375698609976</PI>
+				</Curve>
+				<Curve rot="ccw" chord="5.557134858285" crvType="arc" delta="12.762382456376" dirEnd="114.357577078379" dirStart="101.595194622003" external="0.155854149162" length="5.568639862564" midOrd="0.154888548246" radius="25.000000026942" tangent="2.795889479626">
+					<Start>3126717.220469155349 1891978.831446209922</Start>
+					<Center>3126712.195575055201 1891954.341643421212</Center>
+					<End>3126722.506325780414 1891977.116375490557</End>
+					<PI>3126719.959300431423 1891978.269484268501</PI>
+				</Curve>
+			</CoordGeom>
+			<Profile name="A3">
+				<ProfAlign name="PL3">
+					<PVI>0.020000002608 3.835641739624</PVI>
+					<PVI>0.999999999909 3.828089149531</PVI>
+					<PVI>2.000000000063 3.819102991356</PVI>
+					<PVI>2.69947168854 3.811989325272</PVI>
+					<PVI>3.000000000294 3.808729159448</PVI>
+					<PVI>4.000000000019 3.796955838582</PVI>
+					<PVI>5.00000000017 3.783645457196</PVI>
+					<PVI>5.398943376684 3.777963836845</PVI>
+					<PVI>6.000000000263 3.7688307327</PVI>
+					<PVI>7.000000000085 3.753819306116</PVI>
+					<PVI>8.000000000012 3.738992225373</PVI>
+					<PVI>8.117389747276 3.737261437248</PVI>
+					<PVI>9.000000000031 3.724299626287</PVI>
+					<PVI>10.000000000112 3.709693355018</PVI>
+					<PVI>10.835836117767 3.697516976506</PVI>
+					<PVI>13.678196992685 3.656414474255</PVI>
+					<PVI>24.99999999994 3.538077807257</PVI>
+					<PVI>36.406538672498 3.476031602479</PVI>
+					<PVI>37.000000000126 3.472780245736</PVI>
+					<PVI>38.000000000351 3.467291411092</PVI>
+					<PVI>39.000000000508 3.461774463427</PVI>
+					<PVI>39.103824270166 3.461199338494</PVI>
+					<PVI>40.000000000274 3.456211347726</PVI>
+					<PVI>41.000000000391 3.450583406062</PVI>
+					<PVI>41.801109867419 3.446014927104</PVI>
+					<PVI>41.999999999871 3.444943457581</PVI>
+					<PVI>43.000000000232 3.439608172058</PVI>
+					<PVI>43.999999999929 3.434351809162</PVI>
+					<PVI>44.595429799673 3.431247946246</PVI>
+					<PVI>45.000000000403 3.429146589935</PVI>
+					<PVI>46.000000000023 3.423970985334</PVI>
+					<PVI>47.000000000214 3.418808278323</PVI>
+					<PVI>47.369749729983 3.416899323425</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.00000000"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+		<Alignment name="A4" length="14.578784414872" staStart="0." desc="">
+			<CoordGeom>
+				<Line dir="24.073904168157" length="14.578784414872">
+					<Start>3126717.202733970247 1891963.008669271367</Start>
+					<End>3126723.149633861613 1891976.319391892524</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="A4">
+				<ProfAlign name="PL4">
+					<PVI>0. 3.959354965668</PVI>
+					<ParaCurve length="1.121666632893">3.529537268681 3.959354965668</ParaCurve>
+					<ParaCurve length="1.121666632893">7.48312413157 3.781970707094</ParaCurve>
+					<PVI>14.598784745671 3.781970707094</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.00000000"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+		<Alignment name="A5" length="58.981749834388" staStart="0." desc="">
+			<CoordGeom>
+				<Line dir="113.958639807928" length="2.93671408957">
+					<Start>3126724.154621958733 1891976.368565549841</Start>
+					<End>3126726.838305329904 1891975.176033283118</End>
+				</Line>
+				<Curve rot="ccw" chord="5.349895082254" crvType="arc" delta="12.285026904661" dirEnd="126.243666715102" dirStart="113.958639810441" external="0.144352909556" length="5.36015688447" midOrd="0.143524153881" radius="24.999079724573" tangent="2.69039356813">
+					<Start>3126726.838305329904 1891975.176033283118</Start>
+					<Center>3126716.686752164271 1891952.330903487047</Center>
+					<End>3126731.466720654629 1891972.492910294328</End>
+					<PI>3126729.296891443431 1891974.083526133094</PI>
+				</Curve>
+				<Curve rot="cw" chord="38.898636303679" crvType="arc" delta="102.150666101571" dirEnd="24.09277363215" dirStart="126.24343973372" external="14.79003288067" length="44.571636413923" midOrd="9.292548792911" radius="24.999999999708" tangent="30.955560350867">
+					<Start>3126731.466720654629 1891972.492910294328</Start>
+					<Center>3126746.247153354343 1891992.655717866495</Center>
+					<End>3126769.06929510925 1891982.450334693771</End>
+					<PI>3126756.432760920841 1891954.19144723611</PI>
+				</Curve>
+				<Line dir="24.092773635719" length="6.113242446425">
+					<Start>3126769.06929510925 1891982.450334693771</Start>
+					<End>3126771.564814373385 1891988.031026121462</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="A5">
+				<ProfAlign name="PL5">
+					<PVI>0. 3.406000000006</PVI>
+					<ParaCurve length="2.181623745148">4.616454538915 3.380797695846</ParaCurve>
+					<ParaCurve length="2.186380695481">6.800456759229 3.178287873208</ParaCurve>
+					<ParaCurve length="1.957955480215">27.233565083137 3.070626731055</ParaCurve>
+					<ParaCurve length="1.978803187538">29.201944417013 2.906095463429</ParaCurve>
+					<ParaCurve length="1.689839027734">41.861681571863 2.849948929246</ParaCurve>
+					<ParaCurve length="1.737025591334">43.575113881397 2.958166767281</ParaCurve>
+					<PVI>58.981749834493 2.860758158471</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.00000000"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+		<Alignment name="A6" length="39.724959032104" staStart="0." desc="">
+			<CoordGeom>
+				<Line dir="24.669708125344" length="39.724959032104">
+					<Start>3126772.328177033924 1891989.738122324692</Start>
+					<End>3126788.908846335951 1892025.837343584979</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="A6">
+				<ProfAlign name="PL6">
+					<PVI>0. 2.799415915459</PVI>
+					<CircCurve length="1.000005133842" radius="235.507722966204">13.027674142735 2.810326802965</CircCurve>
+					<ParaCurve length="1.894563060084">32.831026809338 2.911001637685</ParaCurve>
+					<ParaCurve length="1.874627249976">34.715621964368 3.063401779143</ParaCurve>
+					<PVI>39.724959032144 3.092862487957</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.00000000"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+		<Alignment name="A7" length="9.190333402933" staStart="0." desc="">
+			<CoordGeom>
+				<Line dir="294.08327266611" length="9.190333402933">
+					<Start>3126788.738231835887 1892026.93786195945</Start>
+					<End>3126780.347886175383 1892030.688105652109</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="A7">
+				<ProfAlign name="PL7">
+					<PVI>0. 3.64980163048</PVI>
+					<PVI>9.190333402933 3.64980163048</PVI>
+				</ProfAlign>
+			</Profile>
+			<Feature name="SpeedStation" code="0" source="Autodesk Civil 3D">
+				<Property label="station" value="0.39999999"></Property>
+				<Property label="speed" value="100.00000000"></Property>
+			</Feature>
+		</Alignment>
+	</Alignments>
+</LandXML>
