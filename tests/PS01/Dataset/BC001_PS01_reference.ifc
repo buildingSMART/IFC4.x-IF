@@ -46,9 +46,9 @@ DATA;
 #29 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
 #30 = IFCDIRECTION((0.,1.));
 
-/* ------- IfcFacility is the top most element in the spatial structure ------------------------ */
-#61 = IFCFACILITY('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT.);
-/* ------- The IfcFacility's placement is the top-most placement ------------------------------- */
+/* ------- IfcSite is the top most element in the spatial structure ---------------------------- */
+#61 = IFCSITE('27H$neCQf1NwtmczxBInPZ', $, 'Top element in project structure', $, $, #62, $, $, .ELEMENT.);
+/* ------- The IfcSite's placement is the top-most placement ----------------------------------- */
 #62 = IFCLOCALPLACEMENT($, #29);
 /* ------- Project/Spatial structure ----------------------------------------------------------- */
 #63 = IFCRELAGGREGATES('3Hu7f6BmT14B_XS9yS78JZ', $, $, $, #16, (#61));
@@ -78,7 +78,7 @@ DATA;
 #123456 = IFCBUILDINGELEMENTPROXYTYPE('3XMP46M8P65ugGKLEpO4FR', $, 'Punkte:Referenzpunkt:Type', $, 'IFCBUILDINGELEMENTPROXY', $, (#3274460), $, $, .NOTDEFINED.);
 #123457 = IFCRELDEFINESBYTYPE('3Hu7f6BmT14B_XS9yS78JY', $, $, $, (#3274450, #3274494, #3274516), #123456);
 
-/* ------- Objects' placement as relative to the IfcFacility's placement ----------------------- */
+/* ------- Objects' placement as relative to the IfcSite's placement --------------------------- */
 #7001001 = IFCLOCALPLACEMENT(#62, #7001101);
 #7001101 = IFCAXIS2PLACEMENT3D(#5, #4, #2);
 
