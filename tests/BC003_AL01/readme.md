@@ -22,6 +22,11 @@ The series of tests that belong to this Business Case are listed as follows:
 | ALX4      | Stationing tests on cable joints (punctual) |
 | NE02      | Cable routing |
 
+## IFC concepts involved in this test
+
+The following diagram represents the entities involved in this test.
+![AL01 - involved entities](./BC003_AL01_diagram.png)
+
 
 ## Prerequisites
 
@@ -120,5 +125,14 @@ After importing the reference file (`BC003_AL01_alignments.xml`):
 
 ## Link to requirements
 
-:zap:
+
+|ID (local)	| Name | Description | Requirements for Appointed Party |
+|-|-|-|-| 
+| RI 86 | Unique containment | "Each IfcElement shall be either: - contained in one and only one IfcSpatialStructureElement, or - contained in one and only one IfcLinearPositioningElement." | RA-75 |
+| RI 305 | Alignment organization | CableCarrier alignments shall be related to the track alignment with IfcRelPositions relationship | Cable carrier alignments shall be related to the track alignment |
+| RI 311 | Alignement extruded geometry placement | A IfcCableCarrierSement which geometry is a IfcSectionSolidHorizontal  shall be using the same IfcObjectPlacement as the IfcAlignment it is positioned along | NIL|
+| RI 312 | Offset alignment placement | An IfcAlignment which geometry is a IfcOffsetCurveByDistances shall use the same IfcLocalPlacement as the IfcAlignment is relates to | NIL|
+| RI 313 | Extruded CableCarrier positioning | A IfcSectionedSolidHorizontal geometry used for a IfcCableCarrierElement  positioned relatively from an IfcAlignment shall use its IfcLocalPlacement | NIL |
+| RI 314 | Project structure | The only "container" aggregated to the project shall be either IfcSite, IfcFacility, IfcAlignment. Other non-IfcProducts shall be connected to the project with IfcRelDeclares | NIL |
+| RI 315 | Elements referencing in Spatial structures | If IfcElements are positioned wrt IfcPositioning elements, then they must be also referenced (instead of aggregated) into a IfcSpatialStructure element | NIL |
 
