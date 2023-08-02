@@ -1,8 +1,8 @@
-# 5 Stationing tests on nodes - BC003-ALX2
+# 5 Stationing tests on nodes - BC003-ALX3b
 
 | Test code  | Test author     | Test dataset source | Test direction |
 |------------|-----------------|---------------------|----------------|
-|BC003-ALX3a | Joao Correa     | MINnD               | Import/Export  |
+|BC003-ALX3b | Joao Correa     | MINnD               | Import/Export  |
 
 
 ## Intent
@@ -27,7 +27,7 @@ The series of tests that belong to this Business Case are listed as follows:
 ## IFC concepts involved in this test
 
 The following test intends to address the use case where the cable infrastructure is made of pre-cast concrete elements, following its own aligment, related to the tracks:
-![ALX3b - cabling infrastructure, precast](./BC003_ALX3a_cabling_infrastructure_precast.jpg)
+![ALX3b - cabling infrastructure, precast](./BC003_ALX3b_cabling_infrastructure_precast.jpg)
 
 The following diagram represents the rationale used for this test: the cabling supporting structure follows the track alignment but on a separate alignment, represented by a polyline.
 ![ALX3b - rationale](./BC003-ALX3b_rationale.png)
@@ -37,7 +37,7 @@ The cabling supporting structure is represented by a swept volume using the foll
 
 
 The following diagram represents the entities involved in this test.
-![ALX3a - involved entities](./BC003_ALX3a_diagram.png)
+![ALX3b - involved entities](./BC003_ALX3b_diagram.png)
 
 ## Prerequisites
 
