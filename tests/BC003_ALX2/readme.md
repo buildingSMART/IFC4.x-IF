@@ -148,5 +148,9 @@ After importing the reference file ([BC003_ALX2_Reference](./Dataset/BC003_ALX2_
 
 ## Link to requirements
 
-:zap:
-
+|ID (local)	| Name | Description | Requirements for Appointed Party |
+|-|-|-|-| 
+| RI 86 | Unique containment | "Each IfcElement shall be either: - contained in one and only one IfcSpatialStructureElement, or - contained in one and only one IfcLinearPositioningElement." | RA-75 |
+|RI 304 | Stationing address | IfcReferents (typed POSITION or STATION) linked to IfcAlignments need a IfcRelPositions relationship | A Linear address shall be known from the alignment it relates to |
+|RI 312 | Offset alignment placement | An IfcAlignment which geometry is a IfcOffsetCurveByDistances shall use the same IfcLocalPlacement as the IfcAlignment is relates to | NIL |
+| RI 316 | ElementAssemblies stationing | IfcElementAssembly.SIGNAL shall be linked to IFcReferent.STATION by a IfcRelPositions relationship | A signal assembly should have its stationing defined |
