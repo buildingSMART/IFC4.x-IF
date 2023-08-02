@@ -1,4 +1,4 @@
-# 5 Stationing tests on nodes - BC003-ALX2
+# 5 Stationing tests on nodes - BC003-ALX3a
 
 | Test code  | Test author     | Test dataset source | Test direction |
 |------------|-----------------|---------------------|----------------|
