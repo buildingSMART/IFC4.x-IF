@@ -123,6 +123,17 @@ After importing the reference file ([BC003_ALX1_Reference](./Dataset/BC003_ALX1_
 
 ## Link to requirements
 
-:zap:
+|ID (local)	| Name | Description | Requirements for Appointed Party |
+|-|-|-|-| 
+| RI 84 | Assemblies |  | RA-75 | IfcElement that are aggregated in another IfcElement shall not be contained using IfcRelContainedInSpatialStructure. | NUL |
+|RI 85 | Component placement | Parts of IfcElementAssembly (or other assembled IfcElement) shall be placed relative to the parent's placement. | NIM |
+| RI 86 | Unique containment | "Each IfcElement shall be either: - contained in one and only one IfcSpatialStructureElement, or - contained in one and only one IfcLinearPositioningElement." | RA-75 |
+|RI 300 | Signals reused geometries | Signal parts geometries shall be mapped (IfcMappedItem) to their matching type geometry | Every signal sharing the same type shall reuse shared geometry defined for the  signal type|
+|RI 301 | Signals as assemblies| Signals shall be modeled as an IfcElementAssembly with aggregated post, foundation, mast and signal port| Signal posts shall use parametric/lighweight geometry and avoid heavy tessalated or BRep geometry |
+|RI 302 | Signals reused types| Signal parts shall be using IfcElementAssemblyType entities| Signals shall be defined by their type with their characteristics |
+|RI 304 | Stationing address | IfcReferents (typed POSITION or STATION) linked to IfcAlignments need a IfcRelPositions relationship | A Linear address shall be known from the alignment it relates to |
+|RI 306 | Trackside Signals geometries | Signal masts shall be modeled as IfcColumn with an extruded geometry along the Z axis of the profile (IfcExtrudedAreaSolid), using IfcSweptDiskSolid | A Signal shall be modeled  with a column / 3D solids with some extruded shape |
+| RI 314 | Project structure | The only "container" aggregated to the project shall be either IfcSite, IfcFacility, IfcAlignment. Other non-IfcProducts shall be connected to the project with IfcRelDeclares | NIL |
+| RI 316 | ElementAssemblies stationing | IfcElementAssembly.SIGNAL shall be linked to IFcReferent.STATION by a IfcRelPositions relationship | A signal assembly should have its stationing defined |
 
 
