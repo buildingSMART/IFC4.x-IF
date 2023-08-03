@@ -24,6 +24,9 @@ The series of tests that belong to this Business Case are listed as follows:
 
 ## IFC concepts involved in this test
 
+The following diagram represents the rationale used for this test.
+![Alt text](BC003-ALX2-rationale.png "ALX02 - rationale")
+
 The following diagram represents the entities involved in this test.
 ![Alt text](BC003-ALX2_diagram.png "ALX02 - involved entities")
 
