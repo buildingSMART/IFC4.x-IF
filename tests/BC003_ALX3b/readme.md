@@ -87,8 +87,15 @@ The following steps should be performed in order to corroborate that the softwar
 
 :hourglass:
 
+## Open questions
+
+The semantic link between the cabling infrastructure alignment and the track alignment is rather weak (ie. it is contained in the Railway spatial structure which is positioned on the track alignment). How would a software offer a proper UX for navigation between the two alignments? More relationships could be used to link the two alignments?
 
 ## Link to requirements
 
-:zap:
+|ID (local)	| Name | Description | Requirements for Appointed Party |
+|-|-|-|-| 
+| RI 5 | Alignment shape representation in IFC | "IfcAlignment shall use ‘Axis’ as representation identifier, ‘Curve3D’ as representation type, and can use IfcGradientCurve (if only horizontal and vertical layouts are available), IfcSegmentedReferenceCurve (if cant is available), IfcCompositeCurve (if only horizontal is available). For some cases when alignment segments are defined as point list, IfcIndexedPolycurve can also be used." | RA-3 |
+| RI 86 | Unique containment | "Each IfcElement shall be either: - contained in one and only one IfcSpatialStructureElement, or - contained in one and only one IfcLinearPositioningElement." | RA-75 |
+| RI 300 | Signals reused geometries | Signal parts geometries shall be mapped (IfcMappedItem) to their matching type geometry | Every signal sharing the same type shall reuse shared geometry defined for the  signal type | 
 
