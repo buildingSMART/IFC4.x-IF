@@ -93,5 +93,12 @@ The following steps should be performed in order to corroborate that the softwar
 
 ## Link to requirements
 
-:zap:
+|ID (local)	| Name | Description | Requirements for Appointed Party |
+|-|-|-|-| 
+| RI 86 | Unique containment | "Each IfcElement shall be either: - contained in one and only one IfcSpatialStructureElement, or - contained in one and only one IfcLinearPositioningElement." | RA-75 |
+| RI 311 | Alignement extruded geometry placement | A IfcCableCarrierSement which geometry is a IfcSectionSolidHorizontal  shall be using the same IfcObjectPlacement as the IfcAlignment it is positioned along | NIL|
+| RI 312 | Offset alignment placement | An IfcAlignment which geometry is a IfcOffsetCurveByDistances shall use the same IfcLocalPlacement as the IfcAlignment is relates to | NIL|
+| RI 313 | Extruded CableCarrier positioning | A IfcSectionedSolidHorizontal geometry used for a IfcCableCarrierElement  positioned relatively from an IfcAlignment shall use its IfcLocalPlacement | NIL |
+| RI 314 | Project structure | The only "container" aggregated to the project shall be either IfcSite, IfcFacility, IfcAlignment. Other non-IfcProducts shall be connected to the project with IfcRelDeclares | NIL |
+| RI 315 | Elements referencing in Spatial structures | If IfcElements are positioned wrt IfcPositioning elements, then they must be also referenced (instead of aggregated) into a IfcSpatialStructure element | NIL |
 
