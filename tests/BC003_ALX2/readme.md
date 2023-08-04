@@ -28,7 +28,12 @@ The following diagram represents the rationale used for this test.
 ![Alt text](BC003-ALX2-rationale.png "ALX02 - rationale")
 
 The following diagram represents the entities involved in this test.
-![Alt text](BC003-ALX2_diagram.png "ALX02 - involved entities")
+
+In the test plan ALX02a, the distribution chamber is located using projected coordinate, sharing the Coordinate Reference System with the alignment.
+![Alt text](BC003-ALX2a_diagram.png "ALX02a - involved entities")
+
+In the test plan ALX02b, the distribution chamber is located using a local Engineering Coordinate System, whereas the alignment uses projcted coordinates.
+![Alt text](BC003-ALX2b_diagram.png "ALX02b - involved entities")
 
 ## Prerequisites
 
@@ -157,3 +162,4 @@ After importing the reference file ([BC003_ALX2_Reference](./Dataset/BC003_ALX2_
 |RI 304 | Stationing address | IfcReferents (typed POSITION or STATION) linked to IfcAlignments need a IfcRelPositions relationship | A Linear address shall be known from the alignment it relates to |
 |RI 312 | Offset alignment placement | An IfcAlignment which geometry is a IfcOffsetCurveByDistances shall use the same IfcLocalPlacement as the IfcAlignment is relates to | NIL |
 | RI 316 | ElementAssemblies stationing | IfcElementAssembly.SIGNAL shall be linked to IFcReferent.STATION by a IfcRelPositions relationship | A signal assembly should have its stationing defined |
+|RI 317 | Local Engineering Coordinates | It shall be possible to have many IfcGeometricRepresentationContext entities with CoordinateDimension=3 that reference different IFcCoordinateOperation entities. See [open issue 317](https://github.com/buildingSMART/IFC4.3.x-development/issues/317)  which conflicts with  [IfcGeometricRepresentationContext](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcGeometricRepresentationContext.htm) and [GRF001](https://github.com/buildingSMART/ifc-gherkin-rules/blob/main/features/GRF001_Identical-coordinate-operations.feature) | Some railway facility should be positioned wrt an alignment but have its geometry placement defined in local engineering coordinates |
