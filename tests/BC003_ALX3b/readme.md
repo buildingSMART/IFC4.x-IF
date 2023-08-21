@@ -18,7 +18,7 @@ The series of tests that belong to this Business Case are listed as follows:
 | ALX1      | Stationing tests on equipment (punctual)|
 | ALX2      | Stationing tests on nodes (punctual) |
 | ALX3a     | Alignment reference check on linear elements (early design) |
-| ALX3b     | **Alignment reference check on linear elements (detailed design, precast)** |
+| **ALX3b**     | **Alignment reference check on linear elements (detailed design, precast)** |
 | ALX3c     | Alignment reference check on linear elements (detailed design, case-in-place) |
 | NE01      | Network integrity/continuity check on linear elements |
 | ALX4      | Stationing tests on cable joints (punctual) |
