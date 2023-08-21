@@ -59,9 +59,12 @@ When validated using the bSI Validation Service, the IFC must pass:
 
 [IDS file TE01.ids](./Dataset/TE01.ids):
 
-- The `IfcGeographicElement` instances shall be contained in `IfcSite`.
+- (RI-64) The `IfcGeographicElement` instances shall be contained in `IfcSite`.
 
 Not covered by the IDS file (must be checked otherwise):
+
+- (RI-60, RI-68) `IfcGeographicElement.TERRAIN` shall have tessellated `Surface` geometry.
+- (RI-64) `IfcGeographicElement` shall be placed locally within `IfcSite` they are contained within.
 
 1. Either:
 - There must be 4 instances of `IfcGeographicElement` in the dataset
