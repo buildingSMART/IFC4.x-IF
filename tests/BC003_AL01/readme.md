@@ -30,7 +30,7 @@ The following diagram represents the entities involved in this test.
 
 ## Prerequisites
 
-None.
+PS01 as indicated above.
 
 ## Test dataset (input)
 
