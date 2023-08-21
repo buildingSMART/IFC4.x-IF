@@ -1,0 +1,11 @@
+﻿Entity,PredefinedType,Name,Start Dist Along,Horizontal Length,Start Height,Start Gradient,End Gradient,RadiusOfCurvature
+IfcAlignmentVerticalSegment,CONSTANTGRADIENT,V1,0,478.0045,5,0,0,
+IfcAlignmentVerticalSegment,CIRCULARARC,V2,478.0045,49.9975,5,0,-0.01,5000
+IfcAlignmentVerticalSegment,CONSTANTGRADIENT,V3,528.002,250.0037,4.75,-0.01,-0.01,
+IfcAlignmentVerticalSegment,CIRCULARARC,V4,778.0057,49.9975,2.25,-0.01,0,-5000
+IfcAlignmentVerticalSegment,CONSTANTGRADIENT,V5,828.0032,201.3689,2,0,0,
+IfcAlignmentVerticalSegment,CONSTANTGRADIENT,V6,1029.3721,177.2755,2,0,0,
+IfcAlignmentVerticalSegment,CIRCULARARC,V7,1206.6476,49.9975,2,0,0.01,-5000
+IfcAlignmentVerticalSegment,CONSTANTGRADIENT,V8,1256.6451,160.0030,2.25,0.01,0.01,
+IfcAlignmentVerticalSegment,CIRCULARARC,V9,1416.6481,29.9985,"3.85",0.01,0,3000
+IfcAlignmentVerticalSegment,CONSTANTGRADIENT,V10,1446.6466,11.9480,4,0,0,

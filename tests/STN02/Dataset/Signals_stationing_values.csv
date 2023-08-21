@@ -1,0 +1,5 @@
+﻿#,Type of Element,Mileage,Name
+1,SIGNAL,200,Route Indicator_01
+2,SIGNAL,700,Route Indicator_02
+3,SIGNAL,5+430.0,Route Indicator_03
+4,SIGNAL,5+740.0,Route Indicator_04
