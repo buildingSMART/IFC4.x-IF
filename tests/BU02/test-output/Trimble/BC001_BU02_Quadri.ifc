@@ -8,7 +8,7 @@ DATA;
 #1 = IFCPOSTALADDRESS(.OFFICE., $, $, $, ('Leif Tronstads plass 4'), '', 'Sandvika', '', 'N-1337', 'Norway');
 #2 = IFCORGANIZATION($, 'Trimble Solutions Sandvika AS', '', $, $);
 #3 = IFCAPPLICATION(#2, '2024', 'Quadri for Windows', 'Quadri');
-#4 = IFCPERSON($, $, 'Marcin Pszczolka', $, $, $, $, $);
+#4 = IFCPERSON($, $, 'Marcin Piotr Pszczolka', $, $, $, $, $);
 #5 = IFCPERSONANDORGANIZATION(#4, #2, $);
 #6 = IFCOWNERHISTORY(#5, #3, $, .NOCHANGE., $, $, $, 1694518711);
 #7 = IFCSIUNIT(*, .LENGTHUNIT., $, .METRE.);
