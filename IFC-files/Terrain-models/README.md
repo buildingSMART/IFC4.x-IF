@@ -15,12 +15,12 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data                        | Exporting tool | Dassault  | Esri      | Sogelink  | Trimble   | Bentley   | Infotech  |
-|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| Validation data                        | Exporting tool | Dassault  | Esri      | Sogelink  | Trimble  | Bentley   | Infotech  |
+|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------: |:---------:|:---------:|
 | Screenshot(s)                          | [01](#01)      | [02](#02) | [03](#03) | [04](#04) | [05](#05) | [06](#06) | [07](#07) |
-| Total area of the terrain surface (m2) |                |           |           |           |           |           |           |
-| Total number of triangles              |                |           |           |           |           |           |           |
-| Bounding box dimensions LxWxH (m)      |                |           |           |           |           |           |           |
+| Total area of the terrain surface (m2) |                |           |           |           |1,578,901m2|           |           |
+| Total number of triangles              |                |           |           |           |   196614  |           |           |
+| Bounding box dimensions LxWxH (m)      |                |           |           |           |343 points |           |           |
 | Origin point of the bounding box       |                |           |           |           |           |           |           |
 
 #### Screenshots
@@ -38,7 +38,8 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 05
-...
+![image](https://github.com/JanErikHoel/IFC4.x-IF/assets/48426749/5105e02d-864f-454f-b6d4-0f9580689314)
+
 
 ##### 06
 ...
