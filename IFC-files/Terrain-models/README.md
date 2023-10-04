@@ -15,13 +15,13 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data                        | Exporting tool | Dassault  | Esri      | Sogelink  | Trimble  | Bentley   | Infotech  |
-|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------: |:---------:|:---------:|
-| Screenshot(s)                          | [01](#01)      | [02](#02) | [03](#03) | [04](#04) | [05](#05) | [06](#06) | [07](#07) |
-| Total area of the terrain surface (m2) |                |           |           |           |1,578,901m2|           |           |
-| Total number of triangles              |                |           |           |           |   196614  |           |           |
-| Bounding box dimensions LxWxH (m)      |                |           |           |           |343 points |           |           |
-| Origin point of the bounding box       |                |           |           |           |           |           |           |
+| Validation data                        | Exporting tool | Dassault  | Esri      | Sogelink  | Trimble    | Bentley   | Infotech  | Adtollo   |
+|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:----------:|:---------:|:---------:|:---------:|
+| Screenshot(s)                          | [01](#01)      | [02](#02) | [03](#03) | [04](#04) | [05](#05)  | [06](#06) | [07](#07) | [08](#08) |
+| Total area of the terrain surface (m2) |                |           |           |           |1,578,901m2 |           |           |           |
+| Total number of triangles              |                |           |           |           |   196614   |           |           |           |
+| Bounding box dimensions LxWxH (m)      |                |           |           |           |343 points  |           |           |           |
+| Origin point of the bounding box       |                |           |           |           |            |           |           |           |
 
 #### Screenshots
 
@@ -49,23 +49,23 @@ Start the file name by identifying the vendor authoring it.
 ##### 07
 ...
 
+##### 08
+...
+
 
 ### [Trimble_terrain-model.ifc](./TrimbleQuadri/Trimble_terrain-model.ifc)
 
 #### Validation Data
 
-| Validation data                        | Exporting tool | Dassault  | Esri      | Sogelink  | Acca      | Bentley   | Infotech  |
-|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Screenshot(s)                          | [08](#08)      | [09](#09) | [10](#10) | [11](#11) | [12](#12) | [13](#13) | [14](#14) |
-| Total area of the terrain surface (m2) |                |           |           |           |           |           |           |
-| Total number of triangles              |                |           |           |           |           |           |           |
-| Bounding box dimensions LxWxH (m)      |                |           |           |           |           |           |           |
-| Origin point of the bounding box       |                |           |           |           |           |           |           |
+| Validation data                        | Exporting tool | Dassault  | Esri      | Sogelink  | Acca      | Bentley   | Infotech  | Adtollo      |
+|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:------------:|
+| Screenshot(s)                          | [09](#09)      | [10](#10) | [11](#11) | [12](#12) | [13](#13) | [14](#14) | [15](#15) | [16](#16)    |
+| Total area of the terrain surface (m2) |                |           |           |           |           |           |           |1,578,901.9 m2|
+| Total number of triangles              |                |           |           |           |           |           |           |    1961614   |
+| Bounding box dimensions LxWxH (m)      |                |           |           |           |           |           |           |              |
+| Origin point of the bounding box       |                |           |           |           |           |           |           |              |
 
 #### Screenshots
-
-##### 08
-...
 
 ##### 09
 ...
@@ -84,3 +84,12 @@ Start the file name by identifying the vendor authoring it.
 
 ##### 14
 ...
+
+##### 15
+...
+
+##### 16
+[...]()
+<div>
+<img src="https://github.com/Samanii2/IFC4.x-IF/blob/main/docs/Adtollo_Trimble_Terrain_model_Import.jpg" width="500"/>
+</div>
