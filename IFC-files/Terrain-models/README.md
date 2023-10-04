@@ -61,7 +61,7 @@ Start the file name by identifying the vendor authoring it.
 |----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:--------------:|
 | Screenshot(s)                          |   [09](#09)    | [10](#10) | [11](#11) | [12](#12) | [13](#13) | [14](#14) | [15](#15) |   [16](#16)    |
 | Total area of the terrain surface (m2) |                |           |           |           |           |           |           | 1,578,901.9 m2 |
-| Total number of triangles              |                |           |           |           |           |           |           |    1961614     |
+| Total number of triangles              |                |           |           |           |           |           |           |    196614      |
 | Bounding box dimensions LxWxH (m)      |                |           |           |           |           |           |           |                |
 | Origin point of the bounding box       |                |           |           |           |           |           |           |                |
 
