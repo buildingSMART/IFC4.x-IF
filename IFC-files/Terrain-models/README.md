@@ -48,8 +48,9 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 08
-...
-
+<div>
+<img src="https://github.com/Samanii2/IFC4.x-IF/blob/patch-2/IFC-files/Terrain-models/Adtollo/ACCA_Terrain_model_Import_Adtollo.jpg" width="500"/>
+</div>
 
 ### [Trimble_terrain-model.ifc](./TrimbleQuadri/Trimble_terrain-model.ifc)
 
