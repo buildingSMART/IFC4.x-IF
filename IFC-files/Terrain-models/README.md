@@ -26,7 +26,7 @@ Start the file name by identifying the vendor authoring it.
 #### Screenshots
 
 ##### 01
-...
+[Link to model](https://service.usbim.com/link/651eae349242a358bea4321b)
 
 ##### 02
 ...
@@ -80,7 +80,7 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 13
-...
+[Link to model](https://service.usbim.com/link/651eb1cb9242a35443a43288)
 
 ##### 14
 ...
