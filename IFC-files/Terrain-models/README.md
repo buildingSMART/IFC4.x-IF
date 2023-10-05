@@ -21,7 +21,7 @@ Start the file name by identifying the vendor authoring it.
 | Total area of the terrain surface (m2) |                           |           |           |           | 1,578,901m2 |           |           | 249250 m2 |
 | Total number of triangles              |          927866           |           |           |           |   196614    |           |           |  927848   |
 | Bounding box dimensions LxWxH (m)      |   [1892.5, 9.81, 530.5]   |           |           |           | 343 points  |           |           | 279.5, 879.5, 9.81 |
-| Origin point of the bounding box       | (112.75, -2.18, -2100.25) |           |           |           |             |           |           | 1254738.75, 2689112.75, 447.82) |                       
+| Origin point of the bounding box       | (112.75, -2.18, -2100.25) |           |           |           |             |           |           | 1254738.75, 2689112.75, 447.82 |                       
 
 #### Screenshots
 
