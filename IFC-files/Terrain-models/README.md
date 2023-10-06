@@ -15,13 +15,13 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data                        |      Exporting tool       | Dassault  |   Esri    | Sogelink  |  Trimble  |  Bentley  | Infotech  |  Adtollo  |
-|----------------------------------------|:-------------------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Screenshot(s)                          |         [01](#01)         | [02](#02) | [03](#03) | [04](#04) | [05](#05) | [06](#06) | [07](#07) | [08](#08) |
-| Total area of the terrain surface (m2) |                           |           |           |           |           |           |           |           |
-| Total number of triangles              |          927866           |           |           |           |           |           |           |           |
-| Bounding box dimensions LxWxH (m)      |   [1892.5, 9.81, 530.5]   |           |           |           |           |           |           |           |
-| Origin point of the bounding box       | (112.75, -2.18, -2100.25) |           |           |           |           |           |           |           |
+| Validation data                        |      Exporting tool       | Dassault  |   Esri    | Sogelink  |  Trimble  |  Bentley  | Infotech  |            Adtollo             |
+|----------------------------------------|:-------------------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:------------------------------:|
+| Screenshot(s)                          |         [01](#01)         | [02](#02) | [03](#03) | [04](#04) | [05](#05) | [06](#06) | [07](#07) |           [08](#08)            |
+| Total area of the terrain surface (m2) |                           |           |           |           |           |           |           |           249250 m2            |
+| Total number of triangles              |          927866           |           |           |           |           |           |           |             927848             |
+| Bounding box dimensions LxWxH (m)      |   [1892.5, 9.81, 530.5]   |           |           |           |           |           |           |       279.5, 879.5, 9.81       |
+| Origin point of the bounding box       | (112.75, -2.18, -2100.25) |           |           |           |           |           |           | 1254738.75, 2689112.75, 447.82 |                      
 
 #### Screenshots
 
@@ -48,20 +48,21 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 08
-...
-
+<div>
+<img src="https://github.com/Samanii2/IFC4.x-IF/blob/patch-2/IFC-files/Terrain-models/Adtollo/ACCA_Terrain_model_Import_Adtollo.jpg" width="500"/>
+</div>
 
 ### [Trimble_terrain-model.ifc](./TrimbleQuadri/Trimble_terrain-model.ifc)
 
 #### Validation Data
 
-| Validation data                        | Exporting tool | Dassault  |   Esri    | Sogelink  |            Acca             |  Bentley  | Infotech  |    Adtollo     |
-|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------------------------:|:---------:|:---------:|:--------------:|
-| Screenshot(s)                          |   [09](#09)    | [10](#10) | [11](#11) | [12](#12) |          [13](#13)          | [14](#14) | [15](#15) |   [16](#16)    |
-| Total area of the terrain surface (m2) |  1,578,901 m2  |           |           |           |                             |           |           | 1,578,901.9 m2 |
-| Total number of triangles              |     196614     |           |           |           |           196614            |           |           |     196614     |
-| Bounding box dimensions LxWxH (m)      |   343 points   |           |           |           |   [1388.55, 51, 1123.15]    |           |           |                |
-| Origin point of the bounding box       |                |           |           |           | (98279.2, 21, -1.21331e+06) |           |           |                |
+| Validation data                        | Exporting tool | Dassault  |   Esri    | Sogelink  |            Acca             |  Bentley  | Infotech  |         Adtollo          |
+|----------------------------------------|:--------------:|:---------:|:---------:|:---------:|:---------------------------:|:---------:|:---------:|:------------------------:|
+| Screenshot(s)                          |   [09](#09)    | [10](#10) | [11](#11) | [12](#12) |          [13](#13)          | [14](#14) | [15](#15) |        [16](#16)         |
+| Total area of the terrain surface (m2) |  1,578,901 m2  |           |           |           |                             |           |           |      1,578,901.9 m2      |
+| Total number of triangles              |     196614     |           |           |           |           196614            |           |           |          196614          |
+| Bounding box dimensions LxWxH (m)      |   343 points   |           |           |           |   [1388.55, 51, 1123.15]    |           |           |   1123.15, 1388.55, 51   |
+| Origin point of the bounding box       |                |           |           |           | (98279.2, 21, -1.21331e+06) |           |           | 1212184.98, 98279.18, 21 |
 
 #### Screenshots
 
@@ -89,7 +90,6 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 16
-
 <div>
 <img src="./Adtollo/Adtollo_Trimble_Terrain_model_Import.jpg" width="500"/>
 </div>
