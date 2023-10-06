@@ -44,11 +44,11 @@ They are not a commitment to deliver any update, milestone, development or funct
 💬 [Slack channel](https://bsi-technicalservices.slack.com/archives/C042ZUVGBTP)
 
 
-## List of SDK supporting IFC4.3 (ADD1)
-Below is a list of SDK solutions supporting IFC 4.3 ADD1.
+## List of SDK supporting IFC4.3 (ADD2)
+Below is a list of SDK solutions supporting IFC 4.3 ADD2.
 > If you see a missing product, or information that needs updating, simply edit this file or open an issue in this repository.
 
-| Toolbox                 | Developer                 | Can parse IFC4.3 ADD1 | Can visualise IFC4.3 ADD1 geometry | License                       | Source code access                            | Language                                 | Contact             |
+| Toolbox                 | Developer                 | Can parse IFC4.3 ADD2 | Can visualise IFC4.3 ADD2 geometry | License                       | Source code access                            | Language                                 | Contact             |
 |-------------------------|---------------------------|:---------------------:|:----------------------------------:|:-----------------------------:|:---------------------------------------------:|:----------------------------------------:|---------------------|
 | GeometryGym Toolbox     | GeometryGym               | :heavy_check_mark:    | :x:                                | MIT                           | https://github.com/GeometryGym/GeometryGymIFC | C#                                       |                     |
 | CSTB STEP Toolbox       | CSTB (eveBIM)             | :heavy_check_mark:    | :x:                                |                               |                                               |                                          |                     |
