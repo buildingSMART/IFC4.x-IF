@@ -98,7 +98,7 @@ Start the file name by identifying the vendor authoring it.
 <img src="./Adtollo/Adtollo_Trimble_Terrain_model_Import.jpg" width="500"/>
 </div>
 
-### [Sogelink]
+### [Sogelink](./Sogelink)
 
 #### Validation Data
 
