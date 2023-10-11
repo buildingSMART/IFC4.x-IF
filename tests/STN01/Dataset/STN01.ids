@@ -79,7 +79,7 @@
                         <ids:simpleValue>PredefinedType</ids:simpleValue>
                     </ids:name>
                     <ids:value>
-                        <ids:simpleValue>.USERDEFINED.</ids:simpleValue>
+                        <ids:simpleValue>USERDEFINED</ids:simpleValue>
                     </ids:value>
                 </ids:attribute>
             </ids:requirements>
@@ -210,9 +210,9 @@
                     </ids:name>
                     <ids:value>
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value=".LINE."/> 
-                            <xs:enumeration value=".CIRCULARARC."/> 
-                            <xs:enumeration value=".CLOTHOID."/> 
+                            <xs:enumeration value="LINE"/> 
+                            <xs:enumeration value="CIRCULARARC"/> 
+                            <xs:enumeration value="CLOTHOID"/> 
                         </xs:restriction>
                     </ids:value>
                 </ids:attribute>
@@ -237,8 +237,8 @@
                     </ids:name>
                     <ids:value>
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value=".CONSTANTGRADIENT."/> 
-                            <xs:enumeration value=".CIRCULARARC."/> 
+                            <xs:enumeration value="CONSTANTGRADIENT"/> 
+                            <xs:enumeration value="CIRCULARARC"/> 
                         </xs:restriction>
                     </ids:value>
                 </ids:attribute>
@@ -263,8 +263,8 @@
                     </ids:name>
                     <ids:value>
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value=".CONSTANTCANT."/> 
-                            <xs:enumeration value=".LINEARTRANSITION."/> 
+                            <xs:enumeration value="CONSTANTCANT"/> 
+                            <xs:enumeration value="LINEARTRANSITION"/> 
                         </xs:restriction>
                     </ids:value>
                 </ids:attribute>
