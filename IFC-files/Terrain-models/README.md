@@ -102,13 +102,13 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data                        |      Exporting tool    |    3DS    |   Esri    |    ACCA   |  Trimble  |  Bentley  | Infotech  |  Adtollo  |
-|----------------------------------------|:----------------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Screenshot(s)                          |      [17](#17)         | [18](#18) | [19](#19) | [20](#20) | [21](#21) | [22](#22) | [23](#24) | [25](#25) |
-| Total area of the terrain surface (m2) |      107916.8 m2       |           |           |           |           |           |           |           |
-| Total number of triangles              |         2112           |    2132   |           |           |           |           |           |           |
-| (x,y,z) mini                           | ( 745.4, 4757.1, 72.7) |           |           |           |           |           |           |           |
-| (x,y,z) maxi                           | (1269.8, 5039.3, 93.4) |           |           |           |           |           |           |           |
+| Validation data                        |      Exporting tool    |    3DS    	|   Esri    |    ACCA   |  Trimble  |  Bentley  | Infotech  |  Adtollo  |
+|----------------------------------------|:----------------------:|:-----------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| Screenshot(s)                          |      [17](#17)         | [18](#18) 	| [19](#19) | [20](#20) | [21](#21) | [22](#22) | [23](#24) | [25](#25) |
+| Total area of the terrain surface (m2) |      107916.8 m2       | 107918.044  |           |           |           |           |           |           |
+| Total number of triangles              |         2112           |    2132   	|           |           |           |           |           |           |
+| (x,y,z) mini                           | ( 745.4, 4757.1, 72.7) |           	|           |           |           |           |           |           |
+| (x,y,z) maxi                           | (1269.8, 5039.3, 93.4) |           	|           |           |           |           |           |           |
 
 #### Screenshots
 
