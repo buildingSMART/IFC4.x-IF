@@ -32,7 +32,9 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 03
-...
+<div>
+<img src="./Esri/prototype-ACCA-geographic-elem-TIN.png" width="500"/>
+</div>
 
 ##### 04
 <div>
@@ -77,7 +79,9 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 11
-...
+<div>
+<img src="./Esri/prototype-Trimble-geotech-tri-face-set.png" width="500"/>
+</div>
 
 ##### 12
 <div>
@@ -121,7 +125,9 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 19
-...
+<div>
+<img src="./Esri/prototype-Sogelink-geographic-elem-TIN.png" width="500"/>
+</div>
 
 ##### 20
 ...
