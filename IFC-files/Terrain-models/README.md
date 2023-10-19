@@ -123,7 +123,7 @@ Start the file name by identifying the vendor authoring it.
 
 ##### 18
 <div>
-<img src="./3DS/3DS_Import_Sogelink_TerrainModel.png" width="500"/>
+<img src="./3DS/3DS_Import_Sogelink_TerrainModel.PNG" width="500"/>
 </div>
 
 ##### 19
@@ -144,4 +144,29 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 ##### 24
+...
+
+##### 25
+...
+
+### [3DS](./3DS/3DS_Terrain-model.ifc)
+
+#### Validation Data
+
+| Validation data                        |      Exporting tool    |   ....    |
+|----------------------------------------|:----------------------:|:---------:|
+| Screenshot(s)                          |      [26](#26)         | [27](#27) |
+| Total area of the terrain surface (m2) |                        |           |
+| Total number of triangles              |                        |           |
+| (x,y,z) mini                           |                        |           |
+| (x,y,z) maxi                           |                        |           |
+
+#### Screenshots
+
+##### 26
+<div>
+<img src="./3DS/3DS_terrain-model.PNG" width="500"/>
+</div>
+
+##### 27
 ...
