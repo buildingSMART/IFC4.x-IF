@@ -177,7 +177,7 @@ Start the file name by identifying the vendor authoring it.
 ...
 
 
-### [Bentley](./Bentely/Bentley_Terrain.ifc)
+### [Bentley](./Bentley/Bentley_Terrain.ifc)
 
 #### Validation Data
 
