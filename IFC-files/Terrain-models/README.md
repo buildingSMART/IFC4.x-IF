@@ -15,13 +15,16 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data                        |      Exporting tool       |    3DS  	 |   Esri    |        Sogelink                   |  Trimble  |  Bentley  | Infotech  |            Adtollo             |
-|----------------------------------------|:-------------------------:|:---------:|:---------:|:---------------------------------:|:---------:|:---------:|:---------:|:------------------------------:|
-| Screenshot(s)                          |         [01](#01)         | [02](#02) | [03](#03) |        [04](#04)                  | [05](#05) | [06](#06) | [07](#07) |           [08](#08)            |
-| Total area of the terrain surface (m2) |                           |           |           |                                   |           |           |           |           249250 m2            |
-| Total number of triangles              |          927866           |           |           |          927848                   |           |           |           |             927848             |
-| Bounding box dimensions LxWxH (m)      |   [1892.5, 9.81, 530.5]   |           |           |      879.5 x 279.5 x 9.8          |           |           |           |       279.5, 879.5, 9.81       |
-| Origin point of the bounding box       | (112.75, -2.18, -2100.25) |           |           | (2689112.75, 1254738.7500, 454.32)|           |           |           | 1254738.75, 2689112.75, 447.82 |                      
+| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min         | (x,y,z) max |
+|-----------------|-----------|----------------------|-----------------------|---------------------|-------------|
+| Exporting tool  | [01](#01) | tbd                  | 927866                | 530.5, 1892.5, 9.81 | update      |
+| 3DS             | [02](#02) |                      |                       |                     |             |
+| Esri            | [03](#03) |                      |                       |                     |             |
+| Sogelink        | [04](#04) | tbd                  | 927848                | 279.5, 879.5, 9.8   | update      |
+| Trimble         | [05](#05) |                      |                       |                     |             |
+| Bentley         | [06](#06) |                      |                       |                     |             |
+| Infotech        | [07](#07) |                      |                       |                     |             |
+| Adtollo         | [08](#08) | 249250               | 927848                | 279.5, 879.5, 9.81  | update      |
 
 #### Screenshots
 
@@ -44,7 +47,6 @@ Start the file name by identifying the vendor authoring it.
 ##### 05
 ...
 
-
 ##### 06
 ...
 
@@ -56,17 +58,21 @@ Start the file name by identifying the vendor authoring it.
 <img src="https://github.com/Samanii2/IFC4.x-IF/blob/patch-2/IFC-files/Terrain-models/Adtollo/ACCA_Terrain_model_Import_Adtollo.jpg" width="500"/>
 </div>
 
+
 ### [Trimble_terrain-model.ifc](./TrimbleQuadri/Trimble_terrain-model.ifc)
 
 #### Validation Data
 
-| Validation data                        | Exporting tool |    3DS    |   Esri    |           Sogelink         |            Acca             |  Bentley  | Infotech  |         Adtollo          |
-|----------------------------------------|:--------------:|:---------:|:---------:|:--------------------------:|:---------------------------:|:---------:|:---------:|:------------------------:|
-| Screenshot(s)                          |   [09](#09)    | [10](#10) | [11](#11) |             [12](#12)      |          [13](#13)          | [14](#14) | [15](#15) |        [16](#16)         |
-| Total area of the terrain surface (m2) |  1,578,901 m2  |           |           |            1578901.8       |                             |           |           |      1,578,901.9 m2      |
-| Total number of triangles              |     196614     |           |           |            196614          |           196614            |           |           |          196614          |
-| Bounding box dimensions LxWxH (m)      |   343 points   |           |           |   1388.5 x 1123.1 x 51     |   [1388.55, 51, 1123.15]    |           |           |   1123.15, 1388.55, 51   |
-| Origin point of the bounding box       |                |           |           | (98279.18, 1212184.98, 21) | (98279.2, 21, -1.21331e+06) |           |           | 1212184.98, 98279.18, 21 |
+| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min          | (x,y,z) max |
+|-----------------|-----------|----------------------|-----------------------|----------------------|-------------|
+| Exporting tool  | [09](#09) | 1578901              | 196614                | tbd                  | tbd         |
+| 3DS             | [10](#10) |                      |                       |                      |             |
+| Esri            | [11](#11) |                      |                       |                      |             |
+| Sogelink        | [12](#12) | 1578901.8            | 196614                | 1388.5, 1123.1, 51   | tbd         |
+| Acca            | [13](#13) | tbd                  | 196614                | 1388.55, 1123.15, 51 | tbd         |
+| Bentley         | [14](#14) |                      |                       |                      |             |
+| Infotech        | [15](#15) |                      |                       |                      |             |
+| Adtollo         | [16](#16) | 1578901.9            | 196614                | 1388.55, 1123.15, 51 | tbd         |
 
 #### Screenshots
 
@@ -106,13 +112,16 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data                        |      Exporting tool    |    3DS    	|   Esri    |    ACCA   |  Trimble  |  Bentley  | Infotech  |  Adtollo  |
-|----------------------------------------|:----------------------:|:-----------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Screenshot(s)                          |      [17](#17)         | [18](#18) 	| [19](#19) | [20](#20) | [21](#21) | [22](#22) | [23](#24) | [25](#25) |
-| Total area of the terrain surface (m2) |      107916.8 m2       | 107918.044  |           |           |           |           |           |           |
-| Total number of triangles              |         2112           |    2132   	|           |           |           |           |           |           |
-| (x,y,z) mini                           | ( 745.4, 4757.1, 72.7) |           	|           |           |           |           |           |           |
-| (x,y,z) maxi                           | (1269.8, 5039.3, 93.4) |           	|           |           |           |           |           |           |
+| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min         | (x,y,z) max          |
+|-----------------|-----------|----------------------|-----------------------|---------------------|----------------------|
+| Exporting tool  | [17](#17) | 107916.8             | 2112                  | 745.4, 4757.1, 72.7 | 1269.8, 5039.3, 93.4 |
+| 3DS             | [18](#18) | 107918.044           | 2132                  | tbd                 | tbd                  |
+| Esri            | [19](#19) |                      |                       |                     |                      |
+| ACCA            | [20](#20) |                      |                       |                     |                      |
+| Trimble         | [21](#21) |                      |                       |                     |                      |
+| Bentley         | [22](#22) |                      |                       |                     |                      |
+| Infotech        | [23](#23) |                      |                       |                     |                      |
+| Adtollo         | [24](#24) |                      |                       |                     |                      |
 
 #### Screenshots
 
@@ -146,20 +155,16 @@ Start the file name by identifying the vendor authoring it.
 ##### 24
 ...
 
-##### 25
-...
 
 ### [3DS](./3DS/3DS_Terrain-model.ifc)
 
 #### Validation Data
 
-| Validation data                        |      Exporting tool    |   ....    |
-|----------------------------------------|:----------------------:|:---------:|
-| Screenshot(s)                          |      [26](#26)         | [27](#27) |
-| Total area of the terrain surface (m2) |                        |           |
-| Total number of triangles              |                        |           |
-| (x,y,z) mini                           |                        |           |
-| (x,y,z) maxi                           |                        |           |
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
+|------------------|-----------|----------------------|-----------------------|-------------|-------------|
+| Exporting tool   | [26](#26) | tbd                  | tbd                   | tbd         | tbd         |
+| Importing tool 1 | [27](#27) |                      |                       |             |             |
+| Importing tool 2 | [27](#27) |                      |                       |             |             |
 
 #### Screenshots
 
