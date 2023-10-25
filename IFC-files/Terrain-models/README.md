@@ -164,7 +164,7 @@ Start the file name by identifying the vendor authoring it.
 |------------------|-----------|----------------------|-----------------------|-------------|-------------|
 | Exporting tool   | [26](#26) | tbd                  | tbd                   | tbd         | tbd         |
 | Importing tool 1 | [27](#27) |                      |                       |             |             |
-| Importing tool 2 | [27](#27) |                      |                       |             |             |
+| Importing tool 2 | ...       |                      |                       |             |             |
 
 #### Screenshots
 
@@ -174,4 +174,25 @@ Start the file name by identifying the vendor authoring it.
 </div>
 
 ##### 27
+...
+
+
+### [Bentley](./Bentely/Bentley_Terrain.ifc)
+
+#### Validation Data
+
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
+|------------------|-----------|----------------------|-----------------------|-------------|-------------|
+| Exporting tool   | [40](#40) | tbd                  | tbd                   | tbd         | tbd         |
+| Importing tool 1 | [41](#41) |                      |                       |             |             |
+| Importing tool 2 | ...       |                      |                       |             |             |
+
+#### Screenshots
+
+##### 40
+<div>
+<img src="./Bentley/Bentley_Terrain.png" width="500"/>
+</div>
+
+##### 41
 ...
