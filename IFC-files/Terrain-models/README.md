@@ -17,7 +17,7 @@ Start the file name by identifying the vendor authoring it.
 
 | Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min         | (x,y,z) max |
 |-----------------|-----------|----------------------|-----------------------|---------------------|-------------|
-| Exporting tool  | [01](#01) | tbd                  | 927866                | 530.5, 1892.5, 9.81 | update      |
+| Exporting tool  | [01](#01) | tbd                  | 927848                | 112.75, 2018.25, -2.18 | 992.25, 1738.75, 7.63      |
 | 3DS             | [02](#02) |                      |                       |                     |             |
 | Esri            | [03](#03) |                      |                       |                     |             |
 | Sogelink        | [04](#04) | tbd                  | 927848                | 279.5, 879.5, 9.8   | update      |
@@ -69,7 +69,7 @@ Start the file name by identifying the vendor authoring it.
 | 3DS             | [10](#10) |                      |                       |                      |             |
 | Esri            | [11](#11) |                      |                       |                      |             |
 | Sogelink        | [12](#12) | 1578901.8            | 196614                | 1388.5, 1123.1, 51   | tbd         |
-| Acca            | [13](#13) | tbd                  | 196614                | 1388.55, 1123.15, 51 | tbd         |
+| Acca            | [13](#13) | tbd                  | 196614                | 98279.2, 1.21331e+06, 21 | 99667.7, 1.21218e+06, 72         |
 | Bentley         | [14](#14) |                      |                       |                      |             |
 | Infotech        | [15](#15) |                      |                       |                      |             |
 | Adtollo         | [16](#16) | 1578901.9            | 196614                | 1388.55, 1123.15, 51 | tbd         |
@@ -117,7 +117,7 @@ Start the file name by identifying the vendor authoring it.
 | Exporting tool  | [17](#17) | 107916.8             | 2112                  | 745.4, 4757.1, 72.7 | 1269.8, 5039.3, 93.4 |
 | 3DS             | [18](#18) | 107918.044           | 2132                  | tbd                 | tbd                  |
 | Esri            | [19](#19) |                      |                       |                     |                      |
-| ACCA            | [20](#20) |                      |                       |                     |                      |
+| ACCA            | [20](#20) |                      | 2132                  | 745.453, 5039.32, 72.73 | 1269.88, 4757.13, 93.39 |
 | Trimble         | [21](#21) |                      |                       |                     |                      |
 | Bentley         | [22](#22) |                      |                       |                     |                      |
 | Infotech        | [23](#23) |                      |                       |                     |                      |
@@ -141,7 +141,7 @@ Start the file name by identifying the vendor authoring it.
 </div>
 
 ##### 20
-...
+[Link to model](https://service.usbim.com/link/653bb4ff8e575401308ac958)
 
 ##### 21
 ...
@@ -163,7 +163,7 @@ Start the file name by identifying the vendor authoring it.
 | Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
 |------------------|-----------|----------------------|-----------------------|-------------|-------------|
 | Exporting tool   | [26](#26) | tbd                  | tbd                   | tbd         | tbd         |
-| Importing tool 1 | [27](#27) |                      |                       |             |             |
+| ACCA             | [27](#27) |                      | 71702                 | -427.131, 276.018, 181.051 | 427.163, 276.02, 282.245 |
 | Importing tool 2 | ...       |                      |                       |             |             |
 
 #### Screenshots
@@ -174,7 +174,7 @@ Start the file name by identifying the vendor authoring it.
 </div>
 
 ##### 27
-...
+[Link to model](https://service.usbim.com/link/653bb58c8e575406628ac960)
 
 
 ### [Bentley](./Bentley/Bentley_Terrain.ifc)
@@ -184,7 +184,7 @@ Start the file name by identifying the vendor authoring it.
 | Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
 |------------------|-----------|----------------------|-----------------------|-------------|-------------|
 | Exporting tool   | [40](#40) | tbd                  | tbd                   | tbd         | tbd         |
-| Importing tool 1 | [41](#41) |                      |                       |             |             |
+| ACCA             | [41](#41) |                      | 12761                 | 492971, 149436, 366.799   | 493395, 148872, 384.064 |
 | Importing tool 2 | ...       |                      |                       |             |             |
 
 #### Screenshots
@@ -195,4 +195,4 @@ Start the file name by identifying the vendor authoring it.
 </div>
 
 ##### 41
-...
+[Link to model](https://service.usbim.com/link/653bb5ce8e575402688ac963)
