@@ -160,11 +160,12 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
-|------------------|-----------|----------------------|-----------------------|-------------|-------------|
-| Exporting tool   | [26](#26) | tbd                  | tbd                   | tbd         | tbd         |
-| ACCA             | [27](#27) |                      | 71702                 | -427.131, 276.018, 181.051 | 427.163, 276.02, 282.245 |
-| Importing tool 2 | ...       |                      |                       |             |             |
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles |       (x,y,z)<sub>min</sub>      |       (x,y,z)<sub>max</sub>      |
+|------------------|-----------|----------------------|-----------------------|----------------------------------|----------------------------------|
+| Exporting tool   | [26](#26) | 434446.451           | 72640                 | (-427.131,-276.020,181.051)      | (427.163,276.018,282.245)    	|
+| ACCA             | [27](#27) |                      | 71702                 | -427.131, 276.018, 181.051       | 427.163, 276.02, 282.245 		|
+| Importing tool 2 | ...       |                      |                       |             					 |             						|
+| Importing tool 3 | ...       |                      |                       |             					 |             						|
 
 #### Screenshots
 
