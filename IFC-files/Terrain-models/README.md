@@ -160,11 +160,12 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
-|------------------|-----------|----------------------|-----------------------|-------------|-------------|
-| Exporting tool   | [26](#26) | tbd                  | tbd                   | tbd         | tbd         |
-| ACCA             | [27](#27) |                      | 71702                 | -427.131, 276.018, 181.051 | 427.163, 276.02, 282.245 |
-| Importing tool 2 | ...       |                      |                       |             |             |
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles |       (x,y,z)<sub>min</sub>      |       (x,y,z)<sub>max</sub>      |
+|------------------|-----------|----------------------|-----------------------|----------------------------------|----------------------------------|
+| Exporting tool   | [26](#26) | 434446.451           | 72640                 | (-427.131,-276.020,181.051)      | (427.163,276.018,282.245)        |
+| ACCA             | [27](#27) |                      | 71702                 | -427.131, 276.018, 181.051       | 427.163, 276.02, 282.245         |
+| Importing tool 2 | ...       |                      |                       |                                  |                                  |
+| Importing tool 3 | ...       |                      |                       |                                  |                                  |
 
 #### Screenshots
 
@@ -181,11 +182,12 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min | (x,y,z) max |
-|------------------|-----------|----------------------|-----------------------|-------------|-------------|
-| Exporting tool   | [40](#40) | tbd                  | tbd                   | tbd         | tbd         |
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>     | (x,y,z)<sub>max</sub>   |
+|------------------|-----------|----------------------|-----------------------|---------------------------|-------------------------|
+| Exporting tool   | [40](#40) | tbd                  | tbd                   | tbd                       | tbd                     |
 | ACCA             | [41](#41) |                      | 12761                 | 492971, 149436, 366.799   | 493395, 148872, 384.064 |
-| Importing tool 2 | ...       |                      |                       |             |             |
+| 3DS              | [42](#42) | 144305.6             | 12761                 | (493000,148900,366.799)   | (493400,149400,384.064) |
+| Importing tool 3 | ...       |                      |                       |                           |                         |
 
 #### Screenshots
 
@@ -196,3 +198,7 @@ Start the file name by identifying the vendor authoring it.
 
 ##### 41
 [Link to model](https://service.usbim.com/link/653bb5ce8e575402688ac963)
+##### 42
+<div>
+<img src="./3DS/3DS_Import_Bentley_TerrainModel.PNG" width="500"/>
+</div>
