@@ -235,7 +235,7 @@ Start the file name by identifying the vendor authoring it.
 <img src="./12d/12d_Import_Bentley_Survey_Terrain.PNG" width="500"/>
 </div>
 
-### [12d Model](./12d/blah.ifc)
+### [12d Model](./12d/12d_Terrain_model.ifc)
 
 #### Validation Data
 | Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>     | (x,y,z)<sub>max</sub>   |
@@ -247,5 +247,5 @@ Start the file name by identifying the vendor authoring it.
 
 ##### 50
 <div>
-<img src="./12d/blah.PNG" width="500"/>
+<img src="./12d/12d_Terrain_model.PNG" width="500"/>
 </div>
