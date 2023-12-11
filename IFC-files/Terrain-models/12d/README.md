@@ -1,0 +1,1 @@
+This folder contains terrain models generated in 12d Model and screenshots of imported terrain models. 
