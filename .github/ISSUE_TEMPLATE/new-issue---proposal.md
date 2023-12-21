@@ -27,7 +27,8 @@ A clear and concise description of what you want to happen.
 
 **Rule required**
 *Need for a formal rule? Describe it*
-- ` ` normative check: every IFC file must pass this check
+- ` ` where rule: a constraint embedded in the IFC schema
+- ` ` other normative rule: a normative check of the IFC Validation Service. Every IFC file must pass this check
 - ` ` good practice check: just triggers a warning, but the IFC file is still valid
 - ` ` don't know
 
