@@ -18,7 +18,7 @@ A Test case is created following a provided template. It includes: test instruct
 
 ➡ [Go to the list of available tests](./tests/)
 
-➡ [Go to the list of rules](https://github.com/buildingSMART/ValidationService) :construction:
+➡ [Go to the list of rules](https://github.com/buildingSMART/ifc-gherkin-rules/tree/main/features)
 
 **Validation**
 
