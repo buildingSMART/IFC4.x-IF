@@ -1,5 +1,5 @@
-# IFC4.x-IF
-*IFC4.x Implementers Forum*
+# IFC-IF
+*IFC Implementers Forum*
 
 <div align="center">
 <img src="./docs/IFC4.x-IF_approach.png" width="500"/>
@@ -37,7 +37,7 @@ They are not a commitment to deliver any update, milestone, development or funct
 
 ## Resources
 
-🌐 [Official website](https://www.buildingsmart.org/resources/ifc-4x-if/) 
+🌐 [Official website](https://www.buildingsmart.org/resources/ifc-if/) 
 
 📂 [Public box folder](https://app.box.com/s/vfwibc0w9cby4skdry6t1vsh8yprktp0)
 
