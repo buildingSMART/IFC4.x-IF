@@ -1,5 +1,4 @@
-# IFC-IF
-*IFC Implementers Forum*
+# IFC Implementers Forum
 
 <div align="center">
 <img src="./docs/IFC4.x-IF_approach.png" width="500"/>
