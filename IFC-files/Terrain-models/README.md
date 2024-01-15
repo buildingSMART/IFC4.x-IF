@@ -10,30 +10,22 @@ Start the file name by identifying the vendor authoring it.
 
 ## Files
 
-
-### [ACCA_terrain-model.ifc](./ACCA/ACCA_terrain-model.ifc.zip)
+### [ACCA](./ACCA/ACCA_terrain-model.ifc.zip)
 
 #### Validation Data
 
-| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min         | (x,y,z) max |
-|-----------------|-----------|----------------------|-----------------------|---------------------|-------------|
-| Exporting tool  | [01](#01) | tbd                  | 927848                | 112.75, 2018.25, -2.18 | 992.25, 1738.75, 7.63      |
-| 3DS             | [02](#02) |                      |                       |                     |             |
-| Esri            | [03](#03) |                      |                       |                     |             |
-| Sogelink        | [04](#04) | tbd                  | 927848                | 279.5, 879.5, 9.8   | update      |
-| Trimble         | [05](#05) |                      |                       |                     |             |
-| Bentley         | [06](#06) |                      |                       |                     |             |
-| Infotech        | [07](#07) |                      |                       |                     |             |
-| Adtollo         | [08](#08) | 249250               | 927848                | 279.5, 879.5, 9.81  | update      |
-| 12d Model       | [09](#09) | 249250.171           | 931612                | 112.75,1738.75,-2.18 | 992.25,2018.25,7.63 |
+| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>  | (x,y,z)<sub>max</sub> |
+|-----------------|-----------|----------------------|-----------------------|------------------------|-----------------------|
+| Exporting tool  | [01](#01) | :x:                  | 927848                | 112.75, 2018.25, -2.18 | 992.25, 1738.75, 7.63 |
+| Esri            | [03](#03) | :x:                  | :x:                   | :x:                    | :x:                   |
+| Sogelink        | [04](#04) | :x:                  | 927848                | 279.5, 879.5, 9.8      | :x:                   |
+| Adtollo         | [08](#08) | 249250               | 927848                | 279.5, 879.5, 9.81     | :x:                   |
+| 12d Model       | [09](#09) | 249250.171           | 931612                | 112.75,1738.75,-2.18   | 992.25,2018.25,7.63   |
 
 #### Screenshots
 
 ##### 01
 [Link to model](https://service.usbim.com/link/651eae349242a358bea4321b)
-
-##### 02
-...
 
 ##### 03
 <div>
@@ -45,15 +37,6 @@ Start the file name by identifying the vendor authoring it.
 <img src="./Sogelink/Sogelink_Import_ACCA.png" width="500"/>
 </div>
 
-##### 05
-...
-
-##### 06
-...
-
-##### 07
-...
-
 ##### 08
 <div>
 <img src="https://github.com/Samanii2/IFC4.x-IF/blob/patch-2/IFC-files/Terrain-models/Adtollo/ACCA_Terrain_model_Import_Adtollo.jpg" width="500"/>
@@ -64,21 +47,18 @@ Start the file name by identifying the vendor authoring it.
 <img src="./12d/12d_Import_ACCA_Geländeoberfläche.PNG" width="500"/>
 </div>
 
-### [Trimble_terrain-model.ifc](./TrimbleQuadri/Trimble_terrain-model.ifc)
+### [Trimble](./TrimbleQuadri/Trimble_terrain-model.ifc)
 
 #### Validation Data
 
-| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min          | (x,y,z) max |
-|-----------------|-----------|----------------------|-----------------------|----------------------|-------------|
-| Exporting tool  | [10](#10) | 1578901              | 196614                | tbd                  | tbd         |
-| 3DS             | [11](#11) |                      |                       |                      |             |
-| Esri            | [12](#12) |                      |                       |                      |             |
-| Sogelink        | [13](#13) | 1578901.8            | 196614                | 1388.5, 1123.1, 51   | tbd         |
-| Acca            | [14](#14) | tbd                  | 196614                | 98279.2, 1.21331e+06, 21 | 99667.7, 1.21218e+06, 72         |
-| Bentley         | [15](#15) |                      |                       |                      |             |
-| Infotech        | [16](#16) |                      |                       |                      |             |
-| Adtollo         | [17](#17) | 1578901.9            | 196614                | 1388.55, 1123.15, 51 | tbd         |
-| 12d Model       | [18](#18) | 1578901.858          | 196960                | 98279.18,1212184.98,21 | 99667.73,1213308.13,72 |
+| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>    | (x,y,z)<sub>max</sub>    |
+|-----------------|-----------|----------------------|-----------------------|--------------------------|--------------------------|
+| Exporting tool  | [10](#10) | 1578901              | 196614                | :x:                      | :x:                      |
+| Esri            | [12](#12) | :x:                  | :x:                   | :x:                      | :x:                      |
+| Sogelink        | [13](#13) | 1578901.8            | 196614                | 1388.5, 1123.1, 51       | :x:                      |
+| Acca            | [14](#14) | :x:                  | 196614                | 98279.2, 1.21331e+06, 21 | 99667.7, 1.21218e+06, 72 |
+| Adtollo         | [17](#17) | 1578901.9            | 196614                | 1388.55, 1123.15, 51     | :x:                      |
+| 12d Model       | [18](#18) | 1578901.858          | 196960                | 98279.18,1212184.98,21   | 99667.73,1213308.13,72   |
 
 #### Screenshots
 
@@ -86,9 +66,6 @@ Start the file name by identifying the vendor authoring it.
 <div>
 <img src="https://github.com/JanErikHoel/IFC4.x-IF/assets/48426749/5105e02d-864f-454f-b6d4-0f9580689314" width="500"/>
 </div>
-
-##### 11
-...
 
 ##### 12
 <div>
@@ -102,12 +79,6 @@ Start the file name by identifying the vendor authoring it.
 
 ##### 14
 [Link to model](https://service.usbim.com/link/651eb1cb9242a35443a43288)
-
-##### 15
-...
-
-##### 16
-...
 
 ##### 17
 <div>
@@ -123,17 +94,13 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z) min         | (x,y,z) max          |
-|-----------------|-----------|----------------------|-----------------------|---------------------|----------------------|
-| Exporting tool  | [19](#19) | 107916.8             | 2112                  | 745.4, 4757.1, 72.7 | 1269.8, 5039.3, 93.4 |
-| 3DS             | [20](#20) | 107918.044           | 2132                  | tbd                 | tbd                  |
-| Esri            | [21](#21) |                      |                       |                     |                      |
-| ACCA            | [22](#22) |                      | 2132                  | 745.453, 5039.32, 72.73 | 1269.88, 4757.13, 93.39 |
-| Trimble         | [23](#23) |                      |                       |                     |                      |
-| Bentley         | [24](#24) |                      |                       |                     |                      |
-| Infotech        | [25](#25) |                      |                       |                     |                      |
-| Adtollo         | [26](#26) |                      |                       |                     |                      |
-| 12d Model       | [27](#27) | 107918.042           | 2176                  | 745.453,4757.126,72.73 | 1269.88,5039.32,93.39 |
+| Validation data | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>   | (x,y,z)<sub>max</sub>   |
+|-----------------|-----------|----------------------|-----------------------|-------------------------|-------------------------|
+| Exporting tool  | [19](#19) | 107916.8             | 2112                  | 745.4, 4757.1, 72.7     | 1269.8, 5039.3, 93.4    |
+| 3DS             | [20](#20) | 107918.044           | 2132                  | :x:                     | :x:                     |
+| Esri            | [21](#21) | :x:                  | :x:                   | :x:                     | :x:                     |
+| ACCA            | [22](#22) | :x:                  | 2132                  | 745.453, 5039.32, 72.73 | 1269.88, 4757.13, 93.39 |
+| 12d Model       | [27](#27) | 107918.042           | 2176                  | 745.453,4757.126,72.73  | 1269.88,5039.32,93.39   |
 
 #### Screenshots
 
@@ -155,18 +122,6 @@ Start the file name by identifying the vendor authoring it.
 ##### 22
 [Link to model](https://service.usbim.com/link/653bb4ff8e575401308ac958)
 
-##### 23
-...
-
-##### 24
-...
-
-##### 25
-...
-
-##### 26
-...
-
 ##### 27
 <div>
 <img src="./12d/12d_Import_Sogelink_TN.PNG" width="500"/>
@@ -176,13 +131,12 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles |       (x,y,z)<sub>min</sub>      |       (x,y,z)<sub>max</sub>      |
-|------------------|-----------|----------------------|-----------------------|----------------------------------|----------------------------------|
-| Exporting tool   | [28](#28) | 434446.451           | 72640                 | (-427.131,-276.020,181.051)      | (427.163,276.018,282.245)        |
-| ACCA             | [29](#29) |                      | 71702                 | -427.131, 276.018, 181.051       | 427.163, 276.02, 282.245         |
-| Esri             | [30](#30) |                      |                       |                                  |                                  |
-| 12d Model        | [31](#31) | 434544.107           | 72684                 | -427.131,-276.020,181.051        | 427.163,276.018,282.245          |
-| Importing tool 3 | ...       |                      |                       |                                  |                                  |
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>       | (x,y,z)<sub>max</sub>     |
+|------------------|-----------|----------------------|-----------------------|-----------------------------|---------------------------|
+| Exporting tool   | [28](#28) | 434446.451           | 72640                 | (-427.131,-276.020,181.051) | (427.163,276.018,282.245) |
+| ACCA             | [29](#29) | :x:                  | 71702                 | -427.131, 276.018, 181.051  | 427.163, 276.02, 282.245  |
+| Esri             | [30](#30) | :x:                  | :x:                   | :x:                         | :x:                       |
+| 12d Model        | [31](#31) | 434544.107           | 72684                 | -427.131,-276.020,181.051   | 427.163,276.018,282.245   |
 
 #### Screenshots
 
@@ -208,13 +162,13 @@ Start the file name by identifying the vendor authoring it.
 
 #### Validation Data
 
-| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>     | (x,y,z)<sub>max</sub>   |
-|------------------|-----------|----------------------|-----------------------|---------------------------|-------------------------|
-| Exporting tool   | [40](#40) | tbd                  | tbd                   | tbd                       | tbd                     |
-| ACCA             | [41](#41) |                      | 12761                 | 492971, 149436, 366.799   | 493395, 148872, 384.064 |
-| 3DS              | [42](#42) | 144305.6             | 12761                 | (493000,148900,366.799)   | (493400,149400,384.064) |
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>         | (x,y,z)<sub>max</sub>         |
+|------------------|-----------|----------------------|-----------------------|-------------------------------|-------------------------------|
+| Exporting tool   | [40](#40) | :x:                  | :x:                   | :x:                           | :x:                           |
+| ACCA             | [41](#41) | :x:                  | 12761                 | 492971, 149436, 366.799       | 493395, 148872, 384.064       |
+| 3DS              | [42](#42) | 144305.6             | 12761                 | (493000,148900,366.799)       | (493400,149400,384.064)       |
 | 12d Model        | [43](#43) | 144302.894           | 12864                 | 492970.934,148872.034,366.799 | 493394.822,149436.427,384.064 |
-| Importing tool 3 | ...       |                      |                       |                           |                         |
+| Esri             | [44](#44) | :x:                  | :x:                   | :x:                           | :x:                           |
 
 #### Screenshots
 
@@ -235,13 +189,17 @@ Start the file name by identifying the vendor authoring it.
 <img src="./12d/12d_Import_Bentley_Survey_Terrain.PNG" width="500"/>
 </div>
 
+##### 44
+<div>
+<img src="./Esri/prototype-Bentley-geographic-tri-faceset.png" width="500"/>
+</div>
+
 ### [12d Model](./12d/12d_Terrain_model.ifc)
 
 #### Validation Data
-| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>     | (x,y,z)<sub>max</sub>   |
-|------------------|-----------|----------------------|-----------------------|---------------------------|-------------------------|
+| Validation data  | Ref.      | Terrain surface (m2) | Total n. of triangles | (x,y,z)<sub>min</sub>      | (x,y,z)<sub>max</sub>      |
+|------------------|-----------|----------------------|-----------------------|----------------------------|----------------------------|
 | Exporting tool   | [50](#50) | 345748.069           | 4706                  | 42407.035,36815.278,51.837 | 43076.369,37563.532,78.003 |
-| Importing tool 3 | ...       |                      |                       |                           |                         |
 
 #### Screenshots
 
