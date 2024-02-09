@@ -1,1 +1,121 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS ids_09.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS"><!--edited with usBIM.IDSeditor (http://www.accasoftware.com)--><ids:info><ids:title>BC003_PS01</ids:title><ids:description>This file was produced for aIFC4Rail project.</ids:description><ids:author>joao.correa@egis-group.com</ids:author><ids:date>2023-05-31</ids:date><ids:purpose>to verify BC003 PS01 test requirements</ids:purpose></ids:info><ids:specifications><ids:specification ifcVersion="IFC4X3" name="IfcProject" minOccurs="1" maxOccurs="1" identifier="01" description="This test verifies the following requirement:&#xA;-There must be 1 instance of IfcProject and must be named BC003: Test plan 1" instructions="The IFCPROJECT's name must be set as &quot;BC003: Test plan 1&quot; to pass the test."><ids:applicability><ids:entity><ids:name><ids:simpleValue>IFCPROJECT</ids:simpleValue></ids:name></ids:entity></ids:applicability><ids:requirements><ids:attribute minOccurs="1" maxOccurs="1"><ids:name><ids:simpleValue>Name</ids:simpleValue></ids:name><ids:value><ids:simpleValue>BC003: Test plan 1</ids:simpleValue></ids:value></ids:attribute></ids:requirements></ids:specification><ids:specification ifcVersion="IFC4X3" name="IfcSIUnit - Length unit" minOccurs="1" maxOccurs="unbounded" identifier="02" description="This test verifies the following requirement:&#xA;•	There must be at least 1 instance of IfcSIUnit assigning Metre as default unit for length&#xA;" instructions="Project measure units must be set as metric."><ids:applicability><ids:entity><ids:name><ids:simpleValue>IFCSIUNIT</ids:simpleValue></ids:name></ids:entity><ids:attribute><ids:name><ids:simpleValue>UnitType</ids:simpleValue></ids:name><ids:value><ids:simpleValue>.LENGTHUNIT.</ids:simpleValue></ids:value></ids:attribute></ids:applicability><ids:requirements><ids:attribute minOccurs="1" maxOccurs="1"><ids:name><ids:simpleValue>Name</ids:simpleValue></ids:name><ids:value><ids:simpleValue>.METRE.</ids:simpleValue></ids:value></ids:attribute></ids:requirements></ids:specification><ids:specification ifcVersion="IFC4X3" name="IfcSIUnit - Angle unit" minOccurs="1" maxOccurs="unbounded" identifier="03" description="This test verifies the following requirement:&#xA;•	There must be at least 1 instance of IfcSIUnit assigning Radian as default unit for plane angle&#xA;&#xA;" instructions="Project measure units must be set as metric."><ids:applicability><ids:entity><ids:name><ids:simpleValue>IFCSIUNIT</ids:simpleValue></ids:name></ids:entity><ids:attribute><ids:name><ids:simpleValue>UnitType</ids:simpleValue></ids:name><ids:value><ids:simpleValue>.PLANEANGLEUNIT.</ids:simpleValue></ids:value></ids:attribute></ids:applicability><ids:requirements><ids:attribute minOccurs="1" maxOccurs="1"><ids:name><ids:simpleValue>Name</ids:simpleValue></ids:name><ids:value><ids:simpleValue>.RADIAN.</ids:simpleValue></ids:value></ids:attribute></ids:requirements></ids:specification><ids:specification ifcVersion="IFC4X3" name="Coordinate reference system" minOccurs="1" maxOccurs="unbounded" identifier="04" description="This test verifies the following requirement:&#xA;- Georeferencing of the project shall be assigned as RGF Lambert Zone 3 (EPSG:3944) &#xA;" instructions="Coordinate system must be set as RGF93 Lambert Zone 3 (EPSG:3944)"><ids:applicability><ids:entity><ids:name><ids:simpleValue>IFCPROJECTEDCRS</ids:simpleValue></ids:name></ids:entity></ids:applicability><ids:requirements><ids:attribute minOccurs="1" maxOccurs="1"><ids:name><ids:simpleValue>Name</ids:simpleValue></ids:name><ids:value><ids:simpleValue>EPSG:3944</ids:simpleValue></ids:value></ids:attribute><ids:attribute minOccurs="1" maxOccurs="1"><ids:name><ids:simpleValue>GeodeticDatum</ids:simpleValue></ids:name><ids:value><ids:simpleValue>RGF93</ids:simpleValue></ids:value></ids:attribute></ids:requirements></ids:specification></ids:specifications></ids:ids>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS ids_09.xsd">
+	<!--edited with usBIM.IDSeditor (http://www.accasoftware.com)-->
+	<ids:info>
+		<ids:title>BC003_PS01</ids:title>
+		<ids:description>This file was produced for aIFC4Rail project.</ids:description>
+		<ids:author>joao.correa@egis-group.com</ids:author>
+		<ids:date>2023-05-31</ids:date>
+		<ids:purpose>to verify BC003 PS01 test requirements</ids:purpose>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification description="This test verifies the following requirement:
+-There must be 1 instance of IfcProject and must be named BC003: Test plan 1" identifier="01" ifcVersion="IFC4X3" instructions="The IFCPROJECT's name must be set as &quot;BC003: Test plan 1&quot; to pass the test." maxOccurs="1" minOccurs="1" name="IfcProject">
+			<ids:applicability>
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCPROJECT</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute maxOccurs="1" minOccurs="1">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>BC003: Test plan 1</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification description="This test verifies the following requirement:
+• There must be at least 1 instance of IfcSIUnit assigning Metre as default unit for length
+" identifier="02" ifcVersion="IFC4X3" instructions="Project measure units must be set as metric." maxOccurs="unbounded" minOccurs="1" name="IfcSIUnit - Length unit">
+			<ids:applicability>
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSIUNIT</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:attribute>
+					<ids:name>
+						<ids:simpleValue>UnitType</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>.LENGTHUNIT.</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute maxOccurs="1" minOccurs="1">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>.METRE.</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification description="This test verifies the following requirement:
+• There must be at least 1 instance of IfcSIUnit assigning Radian as default unit for plane angle
+
+" identifier="03" ifcVersion="IFC4X3" instructions="Project measure units must be set as metric." maxOccurs="unbounded" minOccurs="1" name="IfcSIUnit - Angle unit">
+			<ids:applicability>
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSIUNIT</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:attribute>
+					<ids:name>
+						<ids:simpleValue>UnitType</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>.PLANEANGLEUNIT.</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute maxOccurs="1" minOccurs="1">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>.RADIAN.</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification description="This test verifies the following requirement:
+- Georeferencing of the project shall be assigned as RGF Lambert Zone 3 (EPSG:3944) 
+" identifier="04" ifcVersion="IFC4X3" instructions="Coordinate system must be set as RGF93 Lambert Zone 3 (EPSG:3944)" maxOccurs="unbounded" minOccurs="1" name="Coordinate reference system">
+			<ids:applicability>
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCPROJECTEDCRS</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute maxOccurs="1" minOccurs="1">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>EPSG:3944</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute maxOccurs="1" minOccurs="1">
+					<ids:name>
+						<ids:simpleValue>GeodeticDatum</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>RGF93</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>
