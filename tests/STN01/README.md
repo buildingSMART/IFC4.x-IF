@@ -66,9 +66,19 @@ This test case utilises the dataset collected in the Dataset folder and summaris
 When validated using the bSI Validation Service, the IFC must pass:
 - Syntax & Schema check
 - All following rules:
-  - ALB002 - Alignment layout (RI-6)
-  - ALB003 - Alignment directions
-  - TBD000 - Alignment shape representation (RI-5, RI-9, RI-10, RI-12, RI-14)
+  - ALA001 - Alignment overall agreement of business logic and geometry
+  - ALA002 - Alignment agreement on number of segments
+  - ALA003 - Alignment same segment types in business logic and geometry
+  - ALB003 - Alignment nesting
+  - ALB004 - Alignment in spatial structure relationships
+  - ALB015 - Alignment business logic zero length final segment
+  - ALS004 - Alignment segment shape representation
+  - ALS005 - Alignment shape representation
+  - ALS006 - Alignment horizontal shape representation
+  - ALS007 - Alignment vertical shape representation
+  - ALS008 - Alignment cant shape representation
+  - ALS010 - Alignment segment shape representation has the correct number of items
+  - ALS015 - Alignment representation zero length final segment
   - TBD000 - Stationing along alignment (RI-7)
 
 #### Test case-specific checks
