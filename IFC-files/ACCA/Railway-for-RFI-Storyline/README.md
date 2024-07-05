@@ -9,7 +9,7 @@ Among other IFC concepts, these files contain examples of the following topics i
 - Linear placement along alignment
 - Elements form the Track, Energy, Signalling and Telecommunication domains.
 
-**[Click here](https://service.usbim.com/link/IX0UDxPz5WzzUIjZIw6c6UrI)** to view the 50 km track model
+**[Click here](https://service.usbim.com/link/GpAvZZg48hqj1u13TRrkKLA5)** to view the 50 km track model
 
 
 <img src="./RFI_AWC_ACCA.png">
