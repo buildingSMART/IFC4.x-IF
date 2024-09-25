@@ -33,19 +33,19 @@ Below some examples of Valid and Invalid information for some of the header's fi
 
 **Valid**:
 
-**Only** for files having a `IFC2X3`schema identifier
-- `ViewDefinition [CoordinationView_V2.0]`
-- `ViewDefinition [SpaceBoundaryAddonView]`
-- `ViewDefinition [BasicFMHandoverView]`
-- `ViewDefinition [StructuralAnalysisView]`
+- **Only** for files having a `IFC2X3`schema identifier
+    - `ViewDefinition [CoordinationView_V2.0]`
+    - `ViewDefinition [SpaceBoundaryAddonView]`
+    - `ViewDefinition [BasicFMHandoverView]`
+    - `ViewDefinition [StructuralAnalysisView]`
 
-**Only** for files having a `IFC4`schema identifier
-- `ViewDefinition [ReferenceView_V1.2]`
-- `ViewDefinition [IFC4Precast]`
+- **Only** for files having a `IFC4`schema identifier
+    - `ViewDefinition [ReferenceView_V1.2]`
+    - `ViewDefinition [IFC4Precast]`
 
-**Only** for files having a `IFC4X3_ADD2`schema identifier
-- `ViewDefinition [ReferenceView]`
-- `ViewDefinition [Alignment-basedView]`
+- **Only** for files having a `IFC4X3_ADD2`schema identifier
+    - `ViewDefinition [ReferenceView]`
+    - `ViewDefinition [Alignment-basedView]`
 
 **Invalid**:
 - `ViewDefinition [ReferenceView]`, when coupled with a `IFC2X3`or `IFC4` schema identifiers
