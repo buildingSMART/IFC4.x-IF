@@ -28,6 +28,7 @@ The table below captures the structure of the header.
 ## Valid and Invalid information
 Below some examples of Valid and Invalid information for some of the header's fields listed above. Some of these are just examples, not a comprehensive set of Valid and Invalid entries.
 
+
 ### description
 
 **Valid**:
@@ -54,9 +55,6 @@ Below some examples of Valid and Invalid information for some of the header's fi
 - `ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView, SpaceBoundary2ndLevelAddOnView]'`, contains not official, final buildingSMART MVDs
 -  `ViewDefinition [Alignment-basedReferenceView]`, not official, buildingSMART MVD
 
-Refer to https://technical.buildingsmart.org/standards/ifc/mvd/mvd-database/ for a comprehensive list of final MVDs
-
-
 
 ### time_stamp
 
@@ -79,6 +77,7 @@ Refer to https://technical.buildingsmart.org/standards/ifc/mvd/mvd-database/ for
 **Invalid**:
 - :warning: There are no strictly Invalid entries here. However, **this field shall not be used to indicate the name of the software company developing the tool used for the IFC export**. This information shall be stored in the _originating_system_ filed, as specified below. 
 
+
 ### preprocessor_version
 
 **Valid** (examples):
@@ -94,12 +93,12 @@ Refer to https://technical.buildingsmart.org/standards/ifc/mvd/mvd-database/ for
 - `IFC Database Version: Work`, not meaningful
 - `Tekla Structures Next`, that is probably the _originating_system_, see next paragraph
 
+
 ### originating_system
 To be complete and meaningful, this field shall include at least this 3 information
 1. _Software Company Name_
 2. _Application Name_
 3. _Application Version_
-
 
 **Valid** (examples):
 - `Autodesk Revit 26.0.0.0 (ENU) - IFC 26.0.0.0`
