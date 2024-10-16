@@ -75,7 +75,7 @@ Below some examples of Valid and Invalid information for some of the header's fi
 - `Cool Engineering Firm`
 
 **Invalid**:
-- :warning: There are no strictly Invalid entries here. However, **this field shall not be used to indicate the name of the software company developing the tool used for the IFC export**. This information shall be stored in the _originating_system_ filed, as specified below. 
+- :warning: There are no strictly Invalid entries here. However, **this field shall not be used to indicate the name of the software company developing the tool used for the IFC export**. This information shall be stored in the _originating_system_ field, as specified below. 
 
 
 ### preprocessor_version
@@ -100,11 +100,23 @@ To be complete and meaningful, this field shall include at least this 3 informat
 2. _Application Name_
 3. _Application Version_
 
+Using **exactly the following syntax**:
+
+`Software Company Name` `-` `Application Name` `-` `Application Version`
+- The dashes must be preceded and followed by white spaces
+- _Software Company Name_ and _Application Name_ strings can contain white spaces or special characters other than the dash (e.g., `(`, `)`, `#`, `/`)
+- _Application Version_ must use only numbers and separators (i.e., `.`), not letters
+
 **Valid** (examples):
-- `Autodesk Revit 26.0.0.0 (ENU) - IFC 26.0.0.0`
+- `Autodesk - Revit 26 (ENU) - 26.0.0.0`
+- `Autodesk - Revit (ENU) - 26.0.0.0`
 
 **Invalid** (examples):
 - `$`, `''`, `Unknown` or anything similar. This field shall be meaningfully provided
+- `Autodesk-Revit- 26.0.0.0`, dashes are not preceded AND followed by white spaces
+- `Autodesk - Revit-26 - 26.0.0.0`, dashes are not allowed in _Software Company Name_ or _Application Name_
+- `Autodesk - Revit 26 (ENU) - v26.0.0.0`, letters are not allowed in _Application Version_
+
 - `Civil 3D 2023 IfcInfra Plugin v0.8.0.0`, missing _Software Company Name_
 - `Allplan 2022.0 12.10.2021 - 23:11:26`, missing _Software Company Name_
 - `Quadri <26.0.35.0>`, missing _Software Company Name_
