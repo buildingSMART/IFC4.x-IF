@@ -61,6 +61,8 @@ Below some examples of Valid and Invalid information for some of the header's fi
 **Valid**:
 - `2016-03-15T16:45:40`
 - `2022-11-21T05:33:05-05:00`
+- `2022-11-21T05:33:05.356`
+- `2022-11-21T05:33:05.356Z`
 
 **Invalid**:
 - `2016-03-15T016:45:40`, ISO 8601 specifies that the hour component in the time portion should be represented by a two-digit number ranging from `00` to `23`. Leading zeros are used if necessary. `016` is a three-digit number and not within the allowed range of `00` to `23`.
