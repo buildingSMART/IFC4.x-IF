@@ -20,7 +20,7 @@ The table below captures the structure of the header.
 | author               | user defined field to capture the author/creator of the IFC file | Evandro Alfieri                               |
 | organization         | user defined field to capture the organization of the author     | buildingSMART Int.                            |
 | preprocessor_version | name of the toolbox used to create the IFC file                  | MyToolboxName Version 1.0                     |
-| originating_system   | name of the application (including built number)                 | MyApplicationName Version 22                  |
+| originating_system   | name of the application (including build number)                 | Acme Inc. - TNT BIM 2025 - 25.1.0.0          |
 | authorization        | user defined field to capture the authorizer of the IFC file     | none                                          |
 | **FILE_SCHEMA**      |                                                                  |                                               |
 | schema_identifiers   | name of the IFC schema                                           | IFC4X3_ADD2                                   |
@@ -30,6 +30,9 @@ Below some examples of Valid and Invalid information for some of the header's fi
 
 
 ### description
+
+The description field is parsed according to the grammar in the following PDF: https://standards.buildingsmart.org/documents/Implementation/ImplementationGuide_IFCHeaderData_Version_1.0.2.pdf
+The MVD/ViewDefinitions must be a comma separated list and each individual string must be no longer than 256 characters.
 
 **Valid**:
 
@@ -74,29 +77,17 @@ Below some examples of Valid and Invalid information for some of the header's fi
 - `Cool Engineering Firm`
 
 **Invalid**:
-- :warning: There are no strictly invalid entries here. However, **this field shall not be used to indicate the name of the software company developing the tool used for the IFC export**. This information shall be stored in the _originating_system_ field, as specified below.
+- :warning: There are no strictly invalid entries here. However, **this field must not be used to indicate the name of the software company developing the tool used for the IFC export**. This information must be stored in the _originating_system_ field, as specified below.
 - `Unknown`
 - `''`
 
 
 ### preprocessor_version
-
-**Valid** (examples):
-- `ODA SDAI 24.11`
-- `Ifc Engine <1.0.1.1365>`
-- `GeometryGymIFCcore v0.2.14.0 by Geometry Gym Pty Ltd built 2023-02-27T22:50:56`
-- `BSProLib (Ver:2021.4.0.5)`
-- `ST-DEVELOPER v16.13`
-
-**Invalid** (examples):
-- `''`, `Unknown` or anything similar. This field shall be meaningfully provided
-- `ODA SDAI`, version not provided
-- `IFC Database Version: Work`, not meaningful
-- `Tekla Structures Next`, that is probably the _originating_system_, see next paragraph
+There are no constraints enforced for this field.
 
 
 ### originating_system
-To be complete and meaningful, this field shall include at least this 3 information
+To be complete and meaningful, this field must include at least this 3 information
 1. _Software Company Name_
 2. _Application Name_
 3. _Application Version_
@@ -106,17 +97,25 @@ Using **exactly the following syntax**:
 `Software Company Name` `-` `Application Name` `-` `Application Version`
 - The dashes must be preceded and followed by white spaces
 - _Software Company Name_ and _Application Name_ strings can contain white spaces or special characters other than the dash (e.g., `(`, `)`, `#`, `/`)
-- _Application Version_ must use only numbers and separators (i.e., `.`), not letters
+- _Application Version_ must be according to the [PEP440 standard](https://peps.python.org/pep-0440/); use only numbers and separators (i.e., `.`). Letters may only be used as part of a suffix. 
+  - This suffix can be used to indicate an `alpha`, `beta` or release candidate (`rc`) version.
+  - The suffix must use the following syntax: `Application Version-modifier` where the modifier is one of the following:
+    - `alpha`
+    - `beta`
+    - `rc`
 
 **Valid** (examples):
 - `Autodesk - Revit 26 (ENU) - 26.0.0.0`
 - `Autodesk - Revit (ENU) - 26.0.0.0`
+- `Autodesk - Revit (ENU) - 26.0.0.0-alpha`
+- `Autodesk - Revit (ENU) - 27.0.0.0-beta.2`
+- `Autodesk - Revit (ENU) - 27.0.0.0-rc1`
 
 **Invalid** (examples):
-- `$`, `''`, `Unknown` or anything similar. This field shall be meaningfully provided
+- `$`, `''`, `Unknown` or anything similar. This field must be meaningfully provided
 - `Autodesk-Revit- 26.0.0.0`, dashes are not preceded AND followed by white spaces
 - `Autodesk - Revit-26 - 26.0.0.0`, dashes are not allowed in _Software Company Name_ or _Application Name_
-- `Autodesk - Revit 26 (ENU) - v26.0.0.0`, letters are not allowed in _Application Version_
+- `Autodesk - Revit 26 (ENU) - v26.0.0.0`, letters are not allowed in _Application Version_ except as part of a special modifier suffix
 
 - `Civil 3D 2023 IfcInfra Plugin v0.8.0.0`, missing _Software Company Name_
 - `Allplan 2022.0 12.10.2021 - 23:11:26`, missing _Software Company Name_
@@ -140,7 +139,7 @@ HEADER;
 FILE_DESCRIPTION(('ViewDefinition [Alignment-basedView]'),'2;1');
 FILE_NAME('Header example.ifc', '2022-09-16T10:35:07', ('Evandro Alfieri'), ('buildingSMART Int.'), 'IFC Motor 1.0', 'Company - Application - 26.0.0.0', 'none');
 FILE_SCHEMA(('IFC4X3_ADD2'));
-ENDSEC;`
+ENDSEC;
 ```
 
 
