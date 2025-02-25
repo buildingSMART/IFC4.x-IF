@@ -88,6 +88,7 @@ There are no constraints enforced for this field.
 
 ### originating_system
 To be complete and meaningful, this field must include at least this 3 information
+
 1. _Software Company Name_
 2. _Application Name_
 3. _Application Version_
@@ -116,7 +117,6 @@ Using **exactly the following syntax**:
 - `Autodesk-Revit- 26.0.0.0`, dashes are not preceded AND followed by white spaces
 - `Autodesk - Revit-26 - 26.0.0.0`, dashes are not allowed in _Software Company Name_ or _Application Name_
 - `Autodesk - Revit 26 (ENU) - v26.0.0.0`, letters are not allowed in _Application Version_ except as part of a special modifier suffix
-
 - `Civil 3D 2023 IfcInfra Plugin v0.8.0.0`, missing _Software Company Name_
 - `Allplan 2022.0 12.10.2021 - 23:11:26`, missing _Software Company Name_
 - `Quadri <26.0.35.0>`, missing _Software Company Name_
