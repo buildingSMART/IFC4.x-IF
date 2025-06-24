@@ -137,10 +137,48 @@ The code snippet below is an example of file header, **extracted from the file [
 ```
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [Alignment-basedView]'),'2;1');
-FILE_NAME('Header example.ifc', '2022-09-16T10:35:07', ('Evandro Alfieri'), ('buildingSMART Int.'), 'IFC Motor 1.0', 'Company - Application - 26.0.0.0', 'none');
+FILE_NAME('Header example.ifc', '2022-09-16T10:35:07', ('Evandro Alfieri'), ('buildingSMART Int.'), 'MyToolboxName Version 1.0', 'Acme Inc. - TNT BIM 2025 - 25.1.0.0', 'none');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 ```
+
+## Access header information using IfcOpenShell
+
+```python
+import ifcopenshell
+f = ifcopenshell.open('Header example.ifc')
+f.header.file_description.description
+# → ('ViewDefinition[Alignment-basedReferenceView]',)
+
+f.header.file_description.implementation_level
+# → '2;1'
+
+f.header.file_name.name
+# → 'Header example.ifc'
+
+f.header.file_name.time_stamp
+# → '2022-09-16T10:35:07'
+
+f.header.file_name.author
+# → ('Evandro Alfieri',)
+
+f.header.file_name.organization
+# → ('buildingSMART Int.',)
+
+f.header.file_name.preprocessor_version
+# → 'MyToolboxName Version 1.0'
+
+f.header.file_name.originating_system
+# → 'Acme Inc. - TNT BIM 2025 - 25.1.0.0'
+
+f.header.file_name.authorization
+# → 'none'
+
+f.header.file_schema.schema_identifiers
+# → ('IFC4X3_ADD2',)
+```
+The subcategories nested in originating_system (version, application name and software company name) as well as in the description (e.g. mvd, options, comments) will soon be directly accessible. 
+https://github.com/IfcOpenShell/IfcOpenShell/pull/6154 
 
 
 *For further information, see the complete [IFC header policy](https://standards.buildingsmart.org/documents/Implementation/ImplementationGuide_IFCHeaderData_Version_1.0.2.pdf)*
