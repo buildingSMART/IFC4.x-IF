@@ -56,53 +56,52 @@ In addition, the outcome of the previous tests shall be used as input of this te
 When validated using the bSI Validation Service, the IFC must pass:
 
 - Syntax & Schema check
-- [ALB004](https://github.com/buildingSMART/ifc-gherkin-rules/pull/67) Each `IfcAlignment` must be aggregated directly under `IfcProject`.
 
 
 #### Test case-specific checks
 
 [IDS file BC003_ALX1.ids](./Dataset/BC003_ALX1.ids):
 
-- There `IfcProject` must be named `BC003: Test plan 1` and its GUID must be `“3cyAkba2v5a9pVuthidcpX”`;
-- Alignments must have the same Name, GUID and Length as those one found in the `BC003_AL01_Reference` file, which means:
+- The `IfcProject` must be named `BC003: Test plan 1`;
+- `IfcAlignment`s must have these Names and Lengths:
 
-| Name              | GUID                   |  Length (m)  |
-|-------------------|------------------------|--------------|
-| SAN1_XD-B02       | 0irVCt7iH69Qln9fpXqYVb | 1709.845     |
-| SAN1_XG-B02       | 202$CKGz56Q98WGfxCVA5m | 1693.042     |
-| SAN1_COM          | 0V9ARKCu5F1O8wEweo6hYa | 40.179       |
-| SAN1_XG-3eme_Voie | 06Ng1eKsn2MRkFhhU_YPPI | 104.421      |
+| Name              |  Length (m)  |
+|-------------------|--------------|
+| SAN1_XD-B02       | 1709.845     |
+| SAN1_XG-B02       | 1693.042     |
+| SAN1_COM          | 40.179       |
+| SAN1_XG-3eme_Voie | 104.421      |
 
-- The table below presents the `IfcSignal` Names and GUID:
+- There must be 2 `IfcSignal`s in the file with these Names:
 
-| Name              | GUID                   |
-|-------------------|------------------------|
-| Traffic_Light01   | 2$7XSmOBLE88hi1ZsN1xBc |
-| Traffic_Light02   | 1M7eCDuXL21QPVVhnAbym8 |
+| Name              |
+|-------------------|
+| Traffic_Light01   |
+| Traffic_Light02   |
 
 
 #### Not covered by the IDS file (must be checked otherwise):
 
-1. There must be 2 instances of `IfcSignal`. 
+1. There must be 2 instances of `IfcSign`. 
 1. Traffic lights are placed in the model using coordinates (XYZ). Once placed, **railway alignment station** is used to **locate** them for works and maintenance purposes. So, the authoring software shall **correlate their XYZ placement and a station in the railway alignment**. The table below represents for each traffic light, its referenced alignment, the referenced station and its placement coordinates of the base center point:
 
 | Name              | Ref. Alignment    |  Station   |  Coord. XYZ (top center point)  |
 |-------------------|-------------------|------------|----------------------------------------|
 | Traffic_Light01   | SAN1_XD-B02       | 0+052.0866 | 1891995.6561, 3126679.5487, 4.1500 |
 | Traffic_Light02   | SAN1_XG-3eme_Voie | 0+052.0002 | 1891982.5663, 3126673.6030, 4.1400 |
-3. (RI-90) Each `IfcAlignment` must be aggregated directly under `IfcProject`;
-1. (RI-300) Signal geometries are mapped (`IfcMappedItem`) to the `IfcSignalType` geometry;
+
+1. (RI-300) Signal geometries are mapped (`IfcMappedItem`) to the `IfcSignType` geometry;
 1. (RI-301) Signals are represented as 3D solids with a cylindrical shape (extruded along the Z axis, using `IfcSweptDiskSolid`);
-1. (RI-302) Signals are defined by their `IfcSignalType`, which are declared in the `IfcProject`.
+1. (RI-302) Signals are defined by their `IfcSignType`, which are declared in the `IfcProject`.
 
 ### Informal criteria
 
-- Railway alignments presented in BC003_ALX1_Reference [BC003_ALX1_Reference](./Dataset/BC003_ALX1_Reference.ids) file shall be coincident with the ones presented in  [BC003_AL01_Reference](https://github.com/bSI-RailwayRoom/IFC4.x-IF/blob/3ac4acd3e4e8aeca250a98d59297a125319743a4/tests/BC003_AL01/Dataset/BC003_AL01_Reference.ifc) file ;
+- Railway alignments presented in [BC003_ALX1_Reference](./Dataset/BC003_ALX1_Reference.ifc) file shall be coincident with the ones presented in  [BC003_AL01_Reference](../BC003_AL01/Dataset/BC003_AL01_Reference.ifc) file ;
 
 ### Open questions
 
 - Shall every `IfcElement` instance be accessible through the software Spatial Decomposition Tree?
-- `IfcSignal` instances are contained in the SpatialStructure, hence located according to its `IfcLocalPlacement`. This could contradict their own position through the `IfcLinearPlacement`?
+- `IfcSign` instances are contained in the SpatialStructure, hence located according to its `IfcLocalPlacement`. This could contradict their own position through the `IfcLinearPlacement`?
 
 ### Expected geometry
 
@@ -123,6 +122,17 @@ After importing the reference file ([BC003_ALX1_Reference](./Dataset/BC003_ALX1_
 
 ## Link to requirements
 
-:zap:
+|ID (local)	| Name | Description | Requirements for Appointed Party |
+|-|-|-|-| 
+| RI 84 | Assemblies |  | RA-75 | IfcElement that are aggregated in another IfcElement shall not be contained using IfcRelContainedInSpatialStructure. | NUL |
+|RI 85 | Component placement | Parts of IfcElementAssembly (or other assembled IfcElement) shall be placed relative to the parent's placement. | NIM |
+| RI 86 | Unique containment | "Each IfcElement shall be either: - contained in one and only one IfcSpatialStructureElement, or - contained in one and only one IfcLinearPositioningElement." | RA-75 |
+|RI 300 | Signals reused geometries | Signal parts geometries shall be mapped (IfcMappedItem) to their matching type geometry | Every signal sharing the same type shall reuse shared geometry defined for the  signal type|
+|RI 301 | Signals as assemblies| Signals shall be modeled as an IfcElementAssembly with aggregated post, foundation, mast and signal port| Signal posts shall use parametric/lighweight geometry and avoid heavy tessalated or BRep geometry |
+|RI 302 | Signals reused types| Signal parts shall be using IfcElementAssemblyType entities| Signals shall be defined by their type with their characteristics |
+|RI 304 | Stationing address | IfcReferents (typed POSITION or STATION) linked to IfcAlignments need a IfcRelPositions relationship | A Linear address shall be known from the alignment it relates to |
+|RI 306 | Trackside Signals geometries | Signal masts shall be modeled as IfcColumn with an extruded geometry along the Z axis of the profile (IfcExtrudedAreaSolid), using IfcSweptDiskSolid | A Signal shall be modeled  with a column / 3D solids with some extruded shape |
+| RI 314 | Project structure | The only "container" aggregated to the project shall be either IfcSite, IfcFacility, IfcAlignment. Other non-IfcProducts shall be connected to the project with IfcRelDeclares | NIL |
+| RI 316 | ElementAssemblies stationing | IfcElementAssembly.SIGNAL shall be linked to IFcReferent.STATION by a IfcRelPositions relationship | A signal assembly should have its stationing defined |
 
 
