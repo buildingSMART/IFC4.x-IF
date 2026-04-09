@@ -1,62 +1,62 @@
 # IFC Implementers Forum
 
-<div align="center">
-<img src="./docs/IFC4.x-IF_approach.png" width="500"/>
-</div>
+The IFC Implementers Forum is the part of the [buildingSMART Implementers Assembly](https://www.buildingsmart.org/implementers-assembly/) (formerly ISG) that focuses on IFC software implementation.
 
 ## Approach
-The Forum is part of a larger ecosystem, into which interacts with other buildingSMART initiatives and solutions.
 
-- Primary goal of the software vendors joining the forum is to find agreements on implementations. These agreements are captured in formal, computer-interpretable rules (also human-readable)
-- The same kind rules can be made by other bSI initiatives (i.e. Projects). All the rules are included in the bSI Validation Service
-- bSI Projects can create Test cases, to challenge the IFC standard on a specific scenario. These tests may reference some of the available rules
-- In this way, when a software vendor take a test and produce an IFC file, this can be automatically checked using the bSI Validation Service
+The forum operates through the following pipeline:
 
-**Test creation**
+* **Software implementers join the forum**, identify challenges, propose solutions and reach agreements on implementations.
+  * Depending on the nature of the issue, solutions may be in the form of improved documentation, formal rules for the [IFC Validation Service](https://validate.buildingsmart.org/), suggested improvements for future versions of IFC, or a combination of the above.
+* **Test cases and example IFC files** can be created and used by the forum, and are published in this repository
+  * Some of these files may be also used for Import verification by the [IFC Software Certification Program](https://www.buildingsmart.org/compliance/software-certification/)
 
-A Test case is created following a provided template. It includes: test instructions, test dataset, validation criteria, and optionally a reference IFC file.
+### Test creation
 
-➡ [Go to the list of available tests](./tests/)
+Test cases may be created following a provided template, which includes: test instructions, test dataset, validation criteria, and optionally a reference IFC file.
 
-➡ [Go to the list of rules](https://github.com/buildingSMART/ifc-gherkin-rules/tree/main/features)
+➡ [See available tests](./tests/)
 
-**Validation**
+### IFC file validation
 
-Validation depends on the type of test, and can be more or less automated. When done against an IFC file, the validation shall ensure that the file is syntactically, structurally, and semantically, correct. It can be done also against other test evidence - produced to demonstrate the fulfillment of validation criteria.
+Validation depends on the type of test, and can be more or less automated. When done against an IFC file, the validation shall first ensure that the IFC file complies to the IFC standard - and this is done using the buildingSMART [Validation Service](https://validate.buildingsmart.org/). After that, the validation can proceed using test-specific requirements captured in [IDS](https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/) files, and/or be done against other test evidence produced to demonstrate the fulfillment of validation criteria.
+
+➡ [See Validation Service rules](https://buildingsmart.github.io/ifc-gherkin-rules/branches/main/features/index.html#)
+
+
+## Repository Structure
+
+- [tests/](./tests/) — Test cases created by bSI Projects, each including instructions, datasets, validation criteria, and optionally a reference IFC file.
+- [IFC-files/](./IFC-files/) — IFC sample files used as reference datasets.
+- [docs/](./docs/) — Supporting documentation and diagrams.
+
+
+## Getting Started
+
+Whether you are a software vendor, a bSI project contributor, or a tool developer, here is how to get involved:
+
+- **Create a test:** Follow the template in [tests/](./tests/) to add a new test case.
+- **Add or update an SDK entry:** Edit [docs/sdk-support.md](./docs/sdk-support.md) or [open an issue](../../issues/new) if your tool is missing or outdated.
+- **Review existing rules:** Browse the [ifc-gherkin-rules repository](https://github.com/buildingSMART/ifc-gherkin-rules/tree/main/features).
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+
+## Resources
+
+[Official website](https://www.buildingsmart.org/resources/ifc-if/)
+
+[Public box folder](https://app.box.com/s/vfwibc0w9cby4skdry6t1vsh8yprktp0)
+
+[Slack channel](https://bsi-technicalservices.slack.com/archives/C042ZUVGBTP)
+
+[SDKs supporting IFC 4.3 ADD2](./docs/sdk-support.md)
 
 
 ## Safe Harbour Notice
 
 Certain statements made in the context of Implementers Forum meeting, its presentations and subsequent follow-up information, including Q&A materials, are forward-looking statements which may include roadmaps, project plans, release plans and development timescales that are estimates and projections.
 
-No assurance is given nor implied that bSI and/or any third-parties involved in the work will be able to meet such estimates or projections by the dates specified, or at all. 
+No assurance is given nor implied that bSI and/or any third-parties involved in the work will be able to meet such estimates or projections by the dates specified, or at all.
 
 They are not a commitment to deliver any update, milestone, development or functionality and should not be relied upon when making investment or purchasing decisions. buildingSMART International reserves the right to make changes to all such information at its sole discretion or subject to the agreement of third-parties where required.
-
-
-## Resources
-
-🌐 [Official website](https://www.buildingsmart.org/resources/ifc-if/) 
-
-📂 [Public box folder](https://app.box.com/s/vfwibc0w9cby4skdry6t1vsh8yprktp0)
-
-💬 [Slack channel](https://bsi-technicalservices.slack.com/archives/C042ZUVGBTP)
-
-
-## List of SDK supporting IFC4.3 (ADD2)
-Below is a list of SDK solutions supporting IFC 4.3 ADD2.
-> If you see a missing product, or information that needs updating, simply edit this file or open an issue in this repository.
-
-| Toolbox                 | Developer                 | Can parse IFC4.3 ADD2 | Can visualise IFC4.3 ADD2 geometry | License                       | Source code access                            | Language                                 | Contact             |
-|-------------------------|---------------------------|:---------------------:|:----------------------------------:|:-----------------------------:|:---------------------------------------------:|:----------------------------------------:|---------------------|
-| GeometryGym Toolbox     | GeometryGym               | :heavy_check_mark:    | :x:                                | MIT                           | https://github.com/GeometryGym/GeometryGymIFC | C#                                       |                     |
-| CSTB STEP Toolbox       | CSTB (eveBIM)             | :heavy_check_mark:    | :x:                                |                               |                                               |                                          |                     |
-| IFC Engine              | RDF                       | :heavy_check_mark:    | :heavy_check_mark:                 | commercial                    | :heavy_check_mark:                            | C++11                                    | peter.bonsma@rdf.bg |
-| THC.IFC.Reactor         | The Hard Code GmbH        | :heavy_check_mark:    | :x:                                | commercial                    |                                               | C#                                       | info@the-hard-code.com |
-| IfcOpenShell            | IfcOpenShell              | :heavy_check_mark:    | :x:                                | LGPL                          | https://github.com/IfcOpenShell/IfcOpenShell  | C++ (compile-time) and Python (run-time) |                     |
-| ODA IFC SDK             | Open Design Alliance      | :heavy_check_mark:    | :heavy_check_mark:                 | commercial                    |                                               | C++ 11                                   | iegorychev@opendesign.com |
-| TUM Open Infra Platform | TUM                       | :heavy_check_mark:    | some :construction:                | GPL v3                        | https://github.com/tumcms/Open-Infra-Platform | C++20                                    |                           |
-| web-IFC                 | IFC.js                    | :x:                   | :x:                                | Mozilla Public License V. 2.0 |                                               |                                          |                           |
-| XBIM Toolkit            | XBIM                      | :heavy_check_mark:    | :grey_question:                    |              CDDL             |         https://github.com/XbimTeam           | .NET, C#                                 | info@xbim.net             |
-| CrossCad/Ware SDK       | Datakit                   | :x:                   | :x:                                | Commercial                    |                                               | C++                                      | sdk@datakit.com           |
-| IFC++                   | IfcQuery                  | :heavy_check_mark:    | :heavy_check_mark:                 | MIT                           | https://github.com/ifcquery/ifcplusplus       | C++                                      | https://www.ifcquery.com  |
