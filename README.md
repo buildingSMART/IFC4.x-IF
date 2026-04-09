@@ -47,7 +47,7 @@ Whether you are a software vendor, a bSI project contributor, or a tool develope
 - **Add or update an SDK entry:** Edit [docs/sdk-support.md](./docs/sdk-support.md) or [open an issue](../../issues/new) if your tool is missing or outdated.
 - **Review existing rules:** Browse the [ifc-gherkin-rules repository](https://github.com/buildingSMART/ifc-gherkin-rules/tree/main/features).
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+See [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for detailed guidelines.
 
 
 ## Resources
