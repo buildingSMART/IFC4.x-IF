@@ -1,6 +1,14 @@
 # IFC Implementers Forum
 
-The IFC Implementers Forum is the part of the [buildingSMART Implementers Assembly](https://www.buildingsmart.org/implementers-assembly/) (formerly ISG) that focuses on IFC software implementation.
+The **IFC Implementers Forum** (abbreviated, IF) is a joint testing, implementation and collaboration effort between IFC software developers. Its objective is to accelerate and support the implementation of the IFC standard, and inform the community about its overall implementation progress and results.
+
+It is hosted and coordinated by **buildingSMART International**, and it is part of the larger [buildingSMART Implementers Assembly](https://www.buildingsmart.org/implementers-assembly/) (formerly ISG), which oversees and support implementation activities for all buildingSMART solutions & standards (e.g., IFC, BCF, IDS, bSDD, Validation & Software Certification services, etc.). The forum allows software developers to meet, discuss, test and progress IFC implementation for their products.
+
+Please read the [Safe Harbour Notice](#safe-harbour-notice) at the end of this page.
+
+**To join** the IFC Implementers Forum, send an email to evandro.alfieri@buildingsmart.org
+
+
 
 ## Approach
 
