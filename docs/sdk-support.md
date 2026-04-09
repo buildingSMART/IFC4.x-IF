@@ -1,8 +1,11 @@
 # List of SDKs supporting IFC 4.3 (ADD2)
 
 Below is a list of SDK solutions supporting IFC 4.3 ADD2.
+If you see a missing product, or information that needs updating, simply create a PR that edits this file.
 
-> If you see a missing product, or information that needs updating, simply edit this file or open an issue in this repository.
+_Last updated: Jul, 24 2024_
+
+
 
 | Toolbox                 | Developer                 | Can parse IFC4.3 ADD2 | Can visualise IFC4.3 ADD2 geometry | License                       | Source code access                            | Language                                 | Contact             |
 |-------------------------|---------------------------|:---------------------:|:----------------------------------:|:-----------------------------:|:---------------------------------------------:|:----------------------------------------:|---------------------|
@@ -18,4 +21,3 @@ Below is a list of SDK solutions supporting IFC 4.3 ADD2.
 | CrossCad/Ware SDK       | Datakit                   | :x:                   | :x:                                | Commercial                    |                                               | C++                                      | sdk@datakit.com           |
 | IFC++                   | IfcQuery                  | :heavy_check_mark:    | :heavy_check_mark:                 | MIT                           | https://github.com/ifcquery/ifcplusplus       | C++                                      | https://www.ifcquery.com  |
 
-_Last updated: 2026-04_
