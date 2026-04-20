@@ -13,7 +13,7 @@ Each test has a folder named as the test title, containing:
    - Verification checklist
 3. a success-records subfolder (optional)
 
-:round_pushpin: See a [README example for tests](./stationing-on-alignment-broken-chainage/README.md)
+:round_pushpin: See a [test folder and files example](./stationing-on-alignment-broken-chainage/)
 
 ### Success Records
 
