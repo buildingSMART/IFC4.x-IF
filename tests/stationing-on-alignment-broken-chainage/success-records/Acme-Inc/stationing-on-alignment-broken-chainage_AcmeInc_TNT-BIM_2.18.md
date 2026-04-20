@@ -3,9 +3,13 @@
 **Test**: stationing-on-alignment-broken-chainage
 
 **Software Company**: Acme Inc.
+
 **Application Name**: TNT BIM 2
+
 **Application Version Tested**	v.2.18
+
 **Test date**: April 15, 2026
+
 
 ## Verification checklist
 
