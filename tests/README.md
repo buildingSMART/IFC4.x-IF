@@ -13,7 +13,7 @@ Each test has a folder named as the test title, containing:
    - Verification checklist
 3. a success-records subfolder (optional)
 
-:round_pushpin: See the README template here: **TO BE ADDED**
+:round_pushpin: See a [README example for tests](./stationing-on-alignment-broken-chainage/README.md)
 
 ### Success Records
 
@@ -29,5 +29,5 @@ Naming convention
 Example
 `stationing-on-alignment-broken-chainage_AcmeInc_TNT-BIM_2.18.md`
 
-:round_pushpin: See an example [here](./stationing-on-alignment-broken-chainage/success-records/Acme-Inc/stationing-on-alignment-broken-chainage_AcmeInc_TNT-BIM_2.18.md)
+:round_pushpin: See a [Success Records example](./stationing-on-alignment-broken-chainage/success-records/Acme-Inc/stationing-on-alignment-broken-chainage_AcmeInc_TNT-BIM_2.18.md)
 
