@@ -17,16 +17,17 @@ Each test has a folder named as the test title, containing:
 
 ### Success Records
 
-Some test folders may contain a `success-records` subfolder. This includes one markdown file for each tool that wishes to share their results at importing the Reference IFC file.
+Some test folders may contain a `success-records` subfolder. This includes the test records from tools that wishes to share their results at importing the reference IFC file.
 
 **How to add records?**
 
-Submit a pull request to the `success-records` folder including one markdown file, with the naming convention below, showing how your tool performs against the items in the Verification checklist
+Submit a pull request to the `success-records` folder that adds one subfolder with the name of your company, containing one markdown file, with the naming convention below, showing how your tool performs against the items in the verification checklist.
 
 Naming convention
 `This-is-the-test-title_Company_Tool_ToolVersion.md`
 
 Example
-`rollercoaster-alignment-with-cant_Acme Inc_TNT BIM_2.18.md`
+`stationing-on-alignment-broken-chainage_AcmeInc_TNT-BIM_2.18.md`
 
-:round_pushpin: See an example here: **TO BE ADDED**
+:round_pushpin: See an example [here](./stationing-on-alignment-broken-chainage/success-records/Acme-Inc/stationing-on-alignment-broken-chainage_AcmeInc_TNT-BIM_2.18.md)
+
