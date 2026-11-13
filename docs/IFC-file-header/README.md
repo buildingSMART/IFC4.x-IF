@@ -32,7 +32,11 @@ Below some examples of Valid and Invalid information for some of the header's fi
 ### description
 
 The description field is parsed according to the grammar in the following PDF: https://standards.buildingsmart.org/documents/Implementation/ImplementationGuide_IFCHeaderData_Version_1.0.2.pdf
-The MVD/ViewDefinitions must be a comma separated list and each individual string must be no longer than 256 characters.
+The description may consist of multiple strings and each individual string must be no longer than 256 characters.
+
+A file declares **exactly one** base view definition (MVD). Add-on views (e.g. `SpaceBoundaryAddonView`) don't count towards that one. Two different base view definitions, or the same one declared twice, make the description invalid, however they are written: as separate strings or within one `ViewDefinition [...]`. Other keywords, such as `Comment [...]`, `Option [...]` and `ExchangeRequirement [...]`, are not affected.
+
+Examples in parentheses show the complete description list of `FILE_DESCRIPTION`.
 
 **Valid**:
 
@@ -50,6 +54,12 @@ The MVD/ViewDefinitions must be a comma separated list and each individual strin
     - `ViewDefinition [ReferenceView]`
     - `ViewDefinition [Alignment-basedView]`
 
+- One base view definition combined with an add-on view, e.g. for `IFC2X3`
+    - `('ViewDefinition [CoordinationView_V2.0]','ViewDefinition [SpaceBoundaryAddonView]')`
+
+- One base view definition combined with other keywords, e.g. for `IFC4X3_ADD2`
+    - `('ViewDefinition [ReferenceView]','Comment [exported for coordination]')`
+
 **Invalid**:
 - `ViewDefinition [ReferenceView]`, when coupled with a `IFC2X3`or `IFC4` schema identifiers
 - `ViewDefinition [ReferenceView_V1.2]`, when coupled with a `IFC2X3`or `IFC4X3_ADD2` schema identifiers
@@ -57,6 +67,11 @@ The MVD/ViewDefinitions must be a comma separated list and each individual strin
 - `ViewDefinition[ReferenceView]`, missing blank space
 - `ViewDefinition [CoordinationView_V2.0, QuantityTakeOffAddOnView, SpaceBoundary2ndLevelAddOnView]'`, contains not official, final buildingSMART MVDs
 -  `ViewDefinition [Alignment-basedReferenceView]`, not official, buildingSMART MVD
+- `('ViewDefinition [ReferenceView]','ViewDefinition [Alignment-basedView]')`, two base view definitions
+- `ViewDefinition [ReferenceView, Alignment-basedView]`, two base view definitions within one `ViewDefinition`
+- `('ViewDefinition [ReferenceView]','ViewDefinition [ReferenceView]')`, the same view definition declared twice
+- `('ViewDefinition [CoordinationView_V2.0]','ViewDefinition [StructuralAnalysisView]')`, when coupled with a `IFC2X3` schema identifier, two base view definitions
+- `('ViewDefinition [ReferenceView_V1.2]','ViewDefinition [IFC4Precast]')`, when coupled with a `IFC4` schema identifier, two base view definitions
 
 
 ### time_stamp
@@ -148,7 +163,7 @@ ENDSEC;
 import ifcopenshell
 f = ifcopenshell.open('Header example.ifc')
 f.header.file_description.description
-# → ('ViewDefinition[Alignment-basedReferenceView]',)
+# → ('ViewDefinition [Alignment-basedView]',)
 
 f.header.file_description.implementation_level
 # → '2;1'
